@@ -1,13 +1,12 @@
 # Michael Schumacher Worldtour Kart - System Requirements
 
 ## Overview
-**Michael Schumacher Worldtour Kart** is a kart racing video game featuring the world-famous Formula 1 driver **Michael Schumacher**. The game allows players to race in high-speed go-karts on various circuits inspired by real-world locations. Players can race as Michael Schumacher or other drivers in a variety of tracks around the globe, including special racing modes and power-ups.
+**Michael Schumacher Worldtour Kart** is a kart racing game featuring the renowned Formula 1 driver **Michael Schumacher**. In this game, players race in go-karts through various challenging and fun tracks inspired by real-world locations. The game offers a variety of modes including Grand Prix and multiplayer racing, and players can race as Michael Schumacher or select other drivers. The game also features fun power-ups and boosts, making it an exciting kart racing experience.
 
 ### Release Year: 2002
 
 ## Platforms
 - **PC** (Windows)
-- **Game Boy Advance**
 
 ## Genre
 - **Racing / Karting**
@@ -34,17 +33,17 @@
 - **Sound Card**: DirectX-compatible sound card
 
 ## Gameplay
-In **Michael Schumacher Worldtour Kart**, players can race through various exotic locations, each with its own unique challenges and obstacles. The game features multiple modes, including Grand Prix, Time Trials, and a multiplayer option for competitive racing. With Michael Schumacher as the lead character, the game also features a variety of power-ups and boosts, which can help players navigate the tight corners and sharp turns of the racing tracks.
+**Michael Schumacher Worldtour Kart** offers a thrilling racing experience through various exotic and exciting locations. Players can race as Michael Schumacher or choose from a variety of other characters in multiple racing modes, including **Grand Prix**, **Time Trials**, and **multiplayer mode** for competitive racing. The game features dynamic power-ups and obstacles, adding a layer of fun and strategy to the races.
 
-The game offers a fun and fast-paced karting experience with a variety of characters and customization options. Players can unlock new karts and tracks as they progress, racing to become the champion of the Worldtour.
+As players progress through the game, they can unlock new karts, drivers, and tracks, enhancing the racing experience. The game's arcade-style gameplay and cartoonish graphics make it a fast-paced, enjoyable title for fans of kart racing.
 
 ## Developer and Publisher
 - **Developer**: **TBA**
-- **Publisher**: **TBA** (likely a local Italian publisher or international distributor)
+- **Publisher**: **TBA**
 
 ## Additional Notes
-- The game features **multiplayer** support, allowing players to race against friends or AI competitors.
-- **Various Tracks**: Different locations around the world, inspired by real-world racing tracks.
-- **Michael Schumacher's Presence**: The game uses Schumacher's likeness and features him as one of the main drivers.
-- **Power-ups**: A fun, karting-style power-up system that can help you gain an advantage on the track.
+- **Multiplayer Support**: The game offers a multiplayer option for up to 4 players, adding replay value and competitive fun.
+- **Power-ups**: The kart racing gameplay includes various power-ups that can help players gain an edge in the race.
+- **Exotic Locations**: The tracks are based on real-world locations with unique twists and turns, challenging players' racing skills.
+- **Michael Schumacher**: As the game's namesake, Michael Schumacher's likeness and racing style are incorporated into the game, providing a more authentic karting experience.
 
