@@ -1,6 +1,13 @@
 # Adrenalin: Extreme Show - System Requirements
 
-## Minimum System Requirements
+## Publisher Information:
+- **Publisher**: 1C Company
+- **Developer**: Dagor Engineering
+- **Genre**: Racing / Action
+- **Release Year**: 2005
+- **Platforms**: PC (Windows)
+
+## Minimum System Requirements:
 - **Operating System**: Windows 98/ME/2000/XP
 - **Processor**: 1.2 GHz processor
 - **RAM**: 512 MB
@@ -10,7 +17,7 @@
 - **Sound**: DirectX-compatible sound card
 - **CD-ROM**: Required for installation
 
-## Recommended System Requirements
+## Recommended System Requirements:
 - **Operating System**: Windows XP/Vista
 - **Processor**: 1.8 GHz processor or higher
 - **RAM**: 1 GB
@@ -20,39 +27,42 @@
 - **Sound**: DirectX-compatible sound card
 - **CD-ROM**: Required for installation
 
-## Additional Information
-- **Release Year**: 2005
-- **Genre**: Racing / Action
-- **Developer**: Dagor Engineering
-- **Publisher**: 1C Company
-- **Platforms**: PC (Windows)
-- **Game Modes**: Single-player, LAN multiplayer
-- **Car Models**: 8 cars available, 15 tracks
-- **Graphics Engine**: Dagor Engine
-- **Game Features**: High-speed street racing with stylish, exaggerated characters and backgrounds. The game rewards players for skillful driving techniques such as drifting and perfect turns.
+## Game Overview:
+**Adrenalin: Extreme Show** is a high-speed street racing game that blends racing with dynamic, exaggerated visuals. The game rewards players for skillful driving, such as executing perfect turns and drifts. Set in a variety of locations with vibrant backdrops, it features over-the-top action and bold character designs. Players can unlock new tracks and cars as they progress through the career mode, each with their own set of challenges.
 
-## Disk 1 and Disk 2 File Information
+The game also features a unique focus on female drivers, which sets it apart from other racing titles of the time. The action is fast-paced, with a mix of single-player and multiplayer modes, allowing players to race against each other in LAN multiplayer mode.
+
+## Key Features:
+- High-speed street racing with exaggerated, stylish visuals
+- Skill-based rewards system that encourages precision driving techniques like drifting
+- 8 cars and 15 tracks to unlock and explore
+- Single-player and LAN multiplayer modes
+- Developed using the **Dagor Engine**, which delivers vibrant and detailed environments
+- A fun mix of arcade racing and realistic physics
+
+## Disk 1 and Disk 2 File Information:
 The following files are missing from the installation discs:
 - **Disk 1**: `data2.cab`
   - Download from [Telegram - Disk 1](https://t.me/MediaRepositoryLightYagami28/2)
 - **Disk 2**: `data3.cab`
   - Download from [Telegram - Disk 2](https://t.me/MediaRepositoryLightYagami28/3)
 
-**Note**: Please ensure that you download these files to complete the installation process. The files are required to run the game properly.
+**Note**: Please ensure that you download these files to complete the installation process. These files are crucial for the game to run correctly.
 
 ---
 
 **Explanation**:  
-The reason why the `data2.cab` and `data3.cab` files are not included in this repository is due to GitHub's file size limitations. GitHub restricts file uploads to a maximum size of 100 MB per file, and these particular files exceed that limit. As a result, they cannot be stored directly in the repository. To resolve this, the missing files are made available through the provided Telegram channels, which allows for their download and inclusion in the installation.
+The reason why the `data2.cab` and `data3.cab` files are not included in this repository is due to GitHub's file size limitations. GitHub restricts file uploads to a maximum size of 100 MB per file, and these specific files exceed that limit. Therefore, the missing files are made available via Telegram channels for convenient download and inclusion in your installation.
 
 ---
 
 ## Manual in PDF (Italian)
-You can also find the game manual in PDF format in the same directory, available exclusively in Italian. This manual provides additional instructions, tips, and details about the game, offering further insights into the gameplay and features. 
-
-Please note that the manual is only available in Italian at the moment.
+The official game manual is available in PDF format in the same directory, but it is currently available exclusively in **Italian**. It contains helpful instructions, gameplay tips, and additional details to assist you in mastering the game.
 
 ---
 
-**Game Overview**:  
-*Adrenalin: Extreme Show* is a street racing game that combines high-speed action with flashy visuals. Players engage in races where style and performance matter, unlocking new tracks and cars as they progress through the career mode. The game's unique focus on its female drivers and over-the-top racing action made it stand out in its time.
+## Additional Information:
+- **Game Modes**: Single-player, LAN multiplayer
+- **Graphics Engine**: Dagor Engine
+- **Car Models**: 8 cars, 15 tracks
+- **Sound**: Fully DirectX-compatible sound card required
