@@ -1,0 +1,892 @@
+Euro Rally Champion
+NON
+OUI
+NON
+OUI
+SANS FONCTION
+NAVIGATION
+MODIF. SÉLECTION
+SÉLECTION CARTE
+RETOUR À L'ALBUM
+BONUS
+MENU PRINCIPAL
+COURSE RAPIDE
+
+
+
+MULTIJOUEURS
+
+
+OPTIONS
+PROFIL DE JOUEUR
+COURSE RAPIDE SAUV.
+CHAMPIONNAT SAUVEGARDÉ
+
+CONTINUER COURSE
+LANCER NOUV. COURSE
+CONTINUER CHAMPIONNAT
+LANCER NOUV. CHAMPIONNAT
+TABLEAU DES SCORES
+SAUTER CETTE COURSE
+QUITTER CHAMPIONNAT
+SAUVEGARDER CHAMPIONNAT
+LANCER CHAMPIONNAT
+LANCER COURSE
+LANCER ESSAIS
+
+SUIV.
+DÉMO TEMPS
+ESSAIS
+QUALIFICATION
+COURSE
+PILOTE 
+CIRCUIT
+TOURS 
+10
+20
+QUART DISTANCE
+DEMI-DISTANCE
+DISTANCE COMPLÈTE
+ADVERSAIRES 
+NIV. COMPÉTENCE 
+FACILE
+NORMAL
+PRO
+PERSO.
+NIV. COMPÉTENCE PERSO.
+DÉGÂTS 
+NÉANT
+SIMPLES
+COMPLETS
+IA SEULEMENT
+CONSO. CARBU & PNEUS 
+POSITION SUR GRILLE 
+DÉBUT
+MILIEU
+FOND
+QUALIF.
+PÉNALITÉS 
+ASSISTANCES
+ASSIST. VITESSE 
+ANTIPATINAGE
+ABS 
+
+CHARGER JOUEUR
+CRÉER JOUEUR
+SUPPRIMER JOUEUR
+SAUV. JOUEUR
+AUCUN JOUEUR
+MODIFIER PILOTE
+MODIFIER ÉCURIE
+MODIF. NOM JOUEUR
+MODIF. NOM ÉCURIE
+DÉFINIR NOM JOUEUR
+DÉFINIR NOM ÉCURIE
+SEXE 
+MASCULIN
+FÉMININ
+CASQUE 
+LIVRÉE 
+Num. Voiture 
+CHÂSSIS 
+MOTEUR 
+PNEUS 
+ORGANISER
+REJOINDRE
+REGARDER
+LANCER SESSION
+DÉFINIR NOM HÔTE
+AUCUNE SESSION DISPONIBLE
+JOUEURS
+CONFIGURATION JOUEUR 1
+2 JOUEURS HORIZONTAL
+2 JOUEURS VERTICAL
+3 JOUEURS
+4 JOUEURS
+PAUSE
+RECOMMENCER COURSE
+REDIFFUSION
+DIFFICULTÉ
+ATELIER
+COMMANDES
+AUDIO
+AFFICHAGE
+OPTIONS DE JEU
+TYPE DE COMMANDE
+GAZ
+FREINS
+DIRECTION
+REGARD ARRIÈRE
+RAPPORT SUP.
+RAPPORT INF.
+RICHESSE +
+RICHESSE -
+RÉPART. MASSES +
+RÉPART. MASSES -
+CHANGEMENT DE CAMERA
+CAMÉRA -
+AUXILIAIRE +
+AUXILIAIRE -
+CHANGER AUXILIAIRE
+CHANGER CAMÉRA
+PAUSE
+VIBRATION
+VOLUME MUSIQUE 
+VOLUME EFFETS 
+VOLUME RADIO 
+COULEUR HUD 
+FORMAT ÉCRAN
+POSITION ÉCRAN
+Vert
+Bleu
+Orange
+Jaune
+Rouge
+4:3
+16:9
+PILOTE AUTO. 
+RÉGLAGE AUTO. IA 
+PANNES ALÉATOIRES 
+BOÎTE
+MANUELLE
+AUTOMATIQUE
+SAUVEGARDE AUTO
+CONTINUER
+RÉESSAYER
+EMPLOYER CES PARAMÈTRES
+CONFIRMER
+REJETER
+ANNULER
+RÉTABLIR
+COPIER AUTRES RÉGLAGES
+AJUSTER
+LANCER QUALIF.
+SAUTER QUALIF.
+RÉUSS
+DÉFILEMENT PAGE
+SUITE
+
+QUITTER
+QUITTER ESSAIS
+ÉCARTER CE TENTATIVE
+QUITTER QUALIF.
+QUITTER COURSE
+QUITTER CHAMPIONNAT
+
+QUITTER PARTIE
+REPRENDRE
+
+
+
+
+
+
+
+
+CHOIX D'EMPLACEMENT
+ÉCHEC SAUVEGARDE
+ÉCHEC CHARGEMENT
+ÉCHEC SUPPRESSION
+JOUEUR DÉJÀ EXISTANT
+RESSAISIR NOM
+ABANDONNER
+RÉESSAYER
+BLOCS LIBRES
+KB LIBRES
+PROFILS JOUEUR
+FORMATER?
+NON FORMATÉE
+VRAIMENT ?
+AUCUN EMPLACEMENT DE SAUVEGARDE TROUVÉ
+CARTE MÉMOIRE RETIRÉE
+DISQUE DUR
+CARTE MÉMOIRE 1A
+CARTE MÉMOIRE 1B
+CARTE MÉMOIRE 2A
+CARTE MÉMOIRE 2B
+CARTE MÉMOIRE 3A
+CARTE MÉMOIRE 3B
+CARTE MÉMOIRE 4A
+CARTE MÉMOIRE 4B
+CARTE MÉMOIRE CHANGÉE
+PAS D'ESPACE
+LIBÉRER DE L'ESPACE AVANT DE RÉESSAYER
+Participer à une course rapide ou s'entraîner sur un circuit au choix.
+
+
+Piloter contre tes amis.
+
+Régler les paramètres de jeu.
+Gérer les profils de joueur.
+Quitter la partie
+Lancer une course avec les paramètres actuels.
+Modifier les commandes de jeu
+Modifier les paramètres audio.
+Modifier les paramètres visuels.
+Modifier les options de jeu avancées.
+Une fois l'auto-sauvegarde désactivée, ce joueur ne sera plus sauvegardé.
+Sauvegarder automatiquement paramètres et progression.
+Pas de vibration.
+Vibration activée.
+Régler la position de l'écran.
+Écran normal.
+Écran large.
+Essais sur le circuit actuel.
+Prendre part à une course avec départ lancé.
+Observer une course de voitures IA.
+Prendre part à une course sans départ lancé.
+Course avec structure simplifiée et sans dégâts.
+Course avec règlement et dégâts simplifiés.
+Course avec dégâts, règlement.
+Personnaliser les paramètres de course.
+Pas de dégâts aux voitures.
+Voitures soumises à un modèle de dégâts simplifié.
+Dégâts aux voitures réalistes.
+Ta voiture est invulnérable, mais pas celles de tes adversaires.
+Pas d'usure des pneus ni de consommation de carburant.
+Usure des pneus et consommation de carburant.
+Sélection de diverses aides au pilotage.
+Voiture immunisée contre les pannes aléatoires.
+La voiture subit les effets du hasard.
+Départ automatique en début de grille.
+Départ automatique en milieu de grille.
+Départ automatique en fond de grille.
+La position sur la grille dépend de la qualification.
+Le joueur pilote sous drapeau jaune.
+L'ordinateur pilote sous drapeau jaune.
+Pas d'adaptation des pilotes IA à la compétence du joueur.
+Adaptation des pilotes IA à la compétence du joueur.
+Pas de règlement de course.
+Application des drapeaux noirs, jaunes et bleus.
+Voiture à boîte manuelle.
+Voiture à boîte automatique.
+Pas d'assistance à l'accélération.
+Assistance à l'accélération en course.
+Pas d'antipatinage.
+Antipatinage activé.
+Pas d'anti-blocage des freins.
+Système ABS activé.
+Essais libres sur le circuit actuel.
+Commencer la séance de qualification.
+Commencer la course
+Découvrir le classement actuel.
+Modifier des réglages de la voiture.
+Aller aux résultats sans participer à la course.
+Retour au menu principal.
+Sauvegarder la progression dans le championnat.
+
+Chargement d'un profil de joueur.
+Création d'un nouveau profil de joueur.
+Suppression d'un profil de joueur.
+Modification du profil de joueur.
+Sauvegarde des modifications de la partie et du profil de joueur.
+Modification du pilote.
+Modification de l'écurie.
+Validation de ces paramètres.
+
+
+
+
+
+
+
+
+Pour organiser une course multijoueurs.
+Pour rejoindre une course multijoueurs existante.
+Pour suivre en spectateur une course multijoueurs.
+Accél.
+Échange
+Accélération
+Vitesse
+Adhér.
+Autres réglages
+Pression
+Ressorts
+Amortisseurs
+Hauteur de caisse
+Rapports
+Carrossage
+Pincement
+Ailerons
+PREMIÈRE
+SECONDE
+TROISIÈME
+QUATRIÈME
+CINQUIÈME
+SIXIÈME
+AVANT
+ARRIÈRE
+AVANT G.
+AVANT D.
+ARR. G.
+ARR. D.
+A
+D
+AG
+AD
+DG
+DD
+Réglages qualif.
+Réglages course
+Vitesses à 10700 tr/min
+OPTIONS STANDS
+SAUV. COURSE
+ALLER AUX QUALIF.
+ALLER À L'ATELIER
+CHANGER PNEUS
+RÉPARER DÉGÂTS
+CHARGE CARBU.
+AILERON AV.
+TOURS
+Charger
+Éditeur rediff.
+Circuit
+Ciel
+Heure
+Nbre tours
+Nbre voit. IA
+SITE WEB 
+DÉVELOPPEMENT 
+LIGNE DROITE AVANT 
+LIGNE DROITE FOND 
+INCLINAISON 
+ASSISE 
+INAUGURATION 
+
+ÉCURIE 
+/
+POLES 
+1ÉRE POLE 
+VICTOIRES 
+1ÉRE VICTOIRE 
+MEIL. DÉPART 
+MEIL. ARRIVÉE 
+VILLE NATALE 
+RÉSIDENCE 
+NAISSANCE 
+Courses 
+Départs de course 
+Courses terminées 
+Meil. départ 
+Poles 
+Meil. arrivée 
+Victoires 
+Cartes récupérées 
+Distance en course 
+Circuit - %s
+Tour - %d sur %d
+Épreuve - %d sur %d
+Qualifié - %d sur %d
+Course actuelle - %s
+Course suivante - %s
+Pas de course sauvegardée
+Pas de championnat sauvegardé
+PILOTE AUTO.
+CONTRÔLE DU JOUEUR DANS %d
+Tour
+Encore %d tours
+Dernier tour
+Drapeau à damiers
+Positions en course
+Essais
+Qualification
+Chauffe
+Tour des stands
+Temps intermédiaires
+DÉVELOPPEMENT
+LIGNE DROITE AVANT
+LIGNE DROITE FOND
+INCLINAISON
+mile
+miles
+pieds
+degrés
+mph
+km/h
+Tour1
+Tour2
+Temps
+Dern.
+Meil.
+Dern. tour
+Meil. tour
+Voiture devant
+Voiture derrière
+Vitesse au tour
+Tirage au sort de qualif.
+Pilote
+Écurie
+Tour1
+Tour2
+Tent.
+
+
+
+Temp. piste 
+Humidité 
+Qualifiés pole day sur %d postulants
+Temps restant 
+Tentatives dispo.
+Réuss.
+Écarter
+Méca.
+Crash
+Pilote actuel
+"En suspens"
+Positions en course - Classement final
+
+COURSES
+Dé
+P
+V
+Md
+Ma
+Pts
+REVENUS
+En course
+Arrivé
+Disqualifié
+Panne carbu.
+Mécanique
+Moteur
+Crash
+Abandon
+RÉSUMÉ CHAMPIONNAT
+Circuit course
+Pole position
+Vt = Voitures au départ
+Vt
+Vainqueur course
+Va = Voitures arrivées
+Va
+Mdv = Marge de victoire
+Mdv = Marge de victoire
+P
+Q
+Pilote
+Écurie
+C/M/P
+Tour
+Rapide
+Situation
+Pts
+Rediff.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pilote
+Circuit
+Trophée
+FÉLICITATIONS !
+Tu viens de débloquer une carte %s.
+Découvre-la dans l'album.
+Départs
+Meil. départ
+Meil. arrivée
+Tours bouclés
+Courses en tête
+Tours en tête
+Classement championnat
+Revenus championnat
+Courses carrière
+Top 10 carrière
+Victoires carrière
+Développement
+Inclinaison
+Inauguration
+
+%s Champion
+Record du circuit
+Record du circuit (course)
+Tu as débloqué une nouvelle livrée de voiture.
+Tu as débloqué l'éditeur de livrée.
+Tu as débloqué la voiture fantôme.
+Tu as débloqué un nouveau clip.
+Tu as débloqué la capacité de créer ton pilote.
+Tu as débloqué la capacité de créer ton écurie.
+Tu as débloqué une voiture classique.
+Memory card (8MB)(for PlayStation®2) is not inserted in MEMORY CARD slot %d.
+Memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d is unformatted. Do you want to format?
+Memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d is being formatted. Do not remove the memory card (8MB)(for PlayStation®2) or the controller, or reset/switch off the PlayStaion®2 console.
+Saved data already exists on the memory card (8MB)(for PlayStation®2). Do you want to overwrite this data?.
+Data is being saved to memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d. Do not remove the memory card (8MB)(for PlayStation®2) or the controller, or reset/switch off the PlayStaion®2 console.
+Save data to the memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d?
+There is insufficient space in the memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d. To save data, at least %dKB of free space must be available.
+Quitter la sauvegarde ?
+(Oui/Non)
+Jouer en tant qu'invité?
+Joueur invité
+Sauvegarde de partie impossible.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DIRECTION GAUCHE
+DIRECTION DROITE
+GAZ / FREINS
+Objectif
+Réel
+Vitesse
+Écarter
+Demande aux stands
+TITULAIRE DU RECORD 
+RECORD DU TOUR 
+SOUS-TITRES 
+Performances IA 
+Vérifier la memory card (8MB) (pour PlayStation®2).
+Si vous choisissez de jouer en tant qu'invité.
+
+Joueur
+Désactiv. L'auto-sauvegarde?
+Une fois l'auto-sauvegarde désactivée, ce joueur ne sera plus sauvegardé.
+Une fois l'auto-sauvegarde désactivée, ce joueur ne sera plus sauvegardé.
+D'un drapeau noir.
+D'un accident.
+D'une sortie de piste.
+D'une collision avec une autre voiture.
+D'un nombre insuffisant de dépassements.
+Vous avez échoué à cette masterclass.
+Memory card (8MB) (pour PlayStation®2) inutilisable
+Memory card (8MB) (pour PlayStation®2)
+insérée
+dans la fente pour MEMORY CARD %s.
+dans la fente pour MEMORY CARD %s,
+Vérifier la memory card (8MB) (pour PlayStation®2)
+et réessayer.
+Pas de memory card (8MB) (pour PlayStation®2) insérée.
+dans l'une des fentes pour MEMORY CARD
+Espace insuffisant sur la memory card (8MB) (pour PlayStation®2)
+Une memory card (8MB) (pour PlayStation®2) ayant
+au moins 106KB d'espace libre est nécessaire pour sauvegarder ce jeu.
+Chargement des données à partir de la memory card (8MB) (pour PlayStation®2)
+Sauvegarder sur la
+memory card (8MB) (pour PlayStation®2)
+dans la fente pour MEMORY CARD %s ?
+Sauvegarde des données sur la memory card (8MB) (pour PlayStation®2)
+dans la fente pour MEMORY CARD %s n'est pas formatée.
+La memory card (8MB) (pour PlayStation®2) contient des données sauvegardées
+Les écraser ?
+Formater la memory card (8MB) (pour PlayStation®2) ?
+Formater la
+dans la fente pour MEMORY CARD %s est en cours de formatage.
+Avertissement ! Euro Rally Champion utilise l'auto-sauvegarde.
+Ne pas retirer la memory card (8MB) (pour PlayStation®2),
+ni appuyer sur reset ou éteindre la console.
+pendant que l'icone ci-dessus est affiché à l'écran.
+Chargement réussi
+Sauvegarde réussie
+Formatage réussi
+Échec du chargement !
+Échec de la sauvegarde !
+Échec du formatage !
+CHARGEMENT EN COURS...
+SAUVEGARDE EN COURS...
+FORMATAGE EN COURS...
+MODE 
+MONO
+STÉRÉO
+DTS
+Créé ;
+Si vous sauvegardez votre profil de joueur sur cette nouvelle carte, toutes les courses sauvegardées seront perdues.
+Les courses sauvegardées antérieurement ne figureront pas sur cette nouvelle sauvegarde.
+Les courses sauvegardées ne seront pas copiées vers le nouveau profil de joueur.
+Manette débranchée.
+MENU PAUSE
+MPH
+KPH
+R
+N
+VT
+ABS
+AP
+AV
+TOURS
+Ne pas retirer l'une memory card (8MB) (pour PlayStation®2),
+ni appuyer sur reset ou éteindre la console,
+Doubler
+Pas de
+insérée.
+Espace insuffisant sur la
+SUPPRESSION...
+Echec de la suppression !
+Suppression des données de la memory card (carte mémoire) (8MB) (for PlayStation®2)
+Suppression réussie
+Page
+Si vous commencez une nouvelle saison, la dernière sauvegarde sera écrasée.
+
+Si vous commencez une nouvelle course, la dernière sauvegarde sera écrasée.
+S'il vous plait attente. DTS activant.
+S'il vous plait attente. DTS inactiver.
+fente pour MEMORY CARD %s
+HANDICAP
+MAJUSCULE
+MINUSCULE
+CLAIR
+EFFACER
+ESPACE
+Veuillez reconnecter la manette. 
+Veuillez reconnecter la manette au port de manette %s. 
+Votre Xbox ne comporte pas assez de bloc(s) libre(s)
+pour créer de nouveaux profils joueur.
+Il faut libérer %d blocs
+pour pouvoir créer un nouveau profil joueur.
+secs
+Incapable pour charger %s.
+Appuyer sur START 
+LIBÉRER PLUS DE BLOCS 
+Vous avez explosé votre moteur
+Appuyer sur START 
+RÉGLAGES QUALIF. 
+RÉGLAGES COURSE
+PROFIL VIERGE?
+Utiliser l'historique et les réglages du 'Joueur invité' pour le nouveau profil.
+Ne pas utiliser l'historique et les réglages du 'Joueur invité' pour le nouveau profil.
+Joueur invité
+Sauvegarde de partie impossible
+SAUTER CETTE COURSE?
+QUITTER CHAMPIONNAT?
+QUITTER?
+QUITTER ESSAIS?
+ÉCARTER CE TENTATIVE?
+QUITTER QUALIF.?
+QUITTER COURSE?
+QUITTER CHAMPIONNAT?
+
+QUITTER PARTIE?
+RECOMMENCER COURSE?
+Vérification de la memory card (8MB) (pour PlayStation®2)
+dans la fente pour MEMORY CARD %s.
+Veuillez reconnecter la manette au port %s. 
+RÉSOLUTION
+DÉTAIL
+BAS
+MOYEN 
+HAUT
+Pressez ENTRÉE por continuer
+Pas assez d’espace libre pour créer de nouveau profil.
+Chaque nouveau profil requiert %d Ko.
+Vous devez libérer au moins %d Ko.
+COMMANDES
+TYPE DE COMMANDE
+Modifier les commandes de jeu
+Veuillez reconnecter la manette. 
+Veuillez reconnecter la manette au port de manette %s. 
+dummy
+dummy
+CONTINUER SANS SAUVEGARDER 
+Nombre maximum de sauvegardes atteint.
+Il faut supprimer des sauvegardes pour créer un nouveau profil.
+Les paramètres du joueur Invité vont être perdus.
+Il faut créer un nouveau profil pour les sauvegarder.
+Rôle d'Invité (sans sauvegarde)
+Veuillez reconnecter la manette. 
+Veuillez reconnecter la manette et appuyer sur START pour continuer.. 
+Veuillez reconnecter la manette au port %s et appuyer sur START pour continuer.. 
+Veuillez reconnecter la manette au port %s. 
+COMMANDES
+TYPE DE COMMANDE 
+Modifier les commandes de jeu
+dummy
+OPTIONS DU VOLANT
+Configurer les commandes du volant
+SENSIBILITÉ DIRECTION
+SENSIBILITÉ VITESSE
+AIDE
+CONTRE LA MONTRE
+Aide Contre la montre
+CHAMPIONNAT
+Aide Championnat
+DUEL
+Aide Duel
+DEPART
+QUITTER CONTRE LA MONTRE
+QUITTER CONTRE LA MONTRE ?
+DUR
+SOUPLE
+POS
+NEG
+BAS
+HAUT
+DEFAUT
+PERSO
+CONFIG
+CHANGER
+Course-AV
+Course-AR
+Ressorts-AV
+Ressorts-AR
+Amortisseurs-AV
+Amortisseurs-AR
+Rapports
+Carrossage
+Pincement
+RECORD PERSO
+REINIT. VOITURE
+FREIN A MAIN
+SORTIR
+LEVER
+VOITURE
+DRIVER
+VOITURE
+TEMPS
+DIFFERENCE
+POSITION
+POINTS
+ETAPE DE CHAMPIONNAT
+RESULTATS DE COURSE
+TABLEAU DE SAISON
+APRES ETAPE
+COURSE SUIVANTE
+CLASSEMENT FINAL
+EURO RALLY
+CHAMPION
+NOUV. CHAMPIONNAT
+CONTINUER CHAMPIONNAT
+COMMENCER CHAMPIONNAT
+MENU CHAMPIONNAT
+OPTIONS CHAMPIONNAT
+QUITTER CHAMPIONNAT
+TYPE DE VOITURE
+NOVICE
+DEBUTANT
+CONFIRME
+RESPECTE
+RECONNU
+ACCOMPLI
+EXPERT
+CHAMPION
+LEGEND
+CONFIRME LEGEND
+TAV
+4x4
+CLASSEMENT 4x4
+CLASSEMENT TAV
+CLASSEMENT GENERAL
+FELICITATIONS
+VOITURE AMELIOREE !

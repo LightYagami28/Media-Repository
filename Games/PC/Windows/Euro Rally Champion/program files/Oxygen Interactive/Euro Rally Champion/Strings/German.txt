@@ -1,0 +1,892 @@
+Euro Rally Champion
+NEIN
+JA
+AUS
+EIN
+KEINE FUNKTION
+NAVIGATION
+NEUE AUSWAHL
+KARTE WÄHLEN
+Zurück zum Album
+Bonus
+HAUPTMENÜ
+Schnelles Rennen
+
+
+
+Multiplayer
+
+
+OPTIONEN
+SPIELERPROFIL
+Schnelles Rennen gespeichert
+Serie gespeichert
+
+Rennen fortsetzen
+Neues Rennen starten
+Serie fortsetzen
+Neue Serie starten
+Tabellen der Serie
+Dieses Rennen überspringen
+Serie verlassen
+Serie speichern
+Serie starten
+Rennen starten
+Training starten
+
+Weiter
+Demo
+Training
+Qualifikation
+Rennen
+Fahrer
+STRECKE
+Runden
+10
+20
+Viertel Renndistanz
+Halbe Renndistanz
+Volle Renndistanz
+Gegner
+SCHWIERIGKEITSGRAD
+LEICHT
+NORMAL
+PROFI
+Individuell
+Individueller Schwierigkeitsgrad
+Schaden
+Keiner
+Gering
+Voll
+Nur KI Gegner
+Treibstoff und Reifenabnutzung
+Startposition
+Vorne
+Mitte
+Hinten
+Qualifizieren
+Strafen
+Fahrhilfen
+Gas-dosierungshilfe
+Traktionskontrolle
+Abs
+
+SPIELER LADEN
+SPIELER ERSTELLEN
+SPIELER LÖSCHEN
+SPIELER SPEICHERN
+Keine spieler
+Fahrer ändern
+Team ändern
+Fahrernamen ändern
+Teamnamen ändern
+Fahrernamen einstellen
+Teamnamen einstellen
+Geschlecht
+Männl.
+Weibl.
+Helm
+Design
+Wagennummer
+Chassis
+Motor
+Reifen
+Spielserver
+Teilnehmer
+Zusehen
+Partie starten
+Servernamen eingeben
+Keine partien vorhanden
+Spieler
+Spieler 1 Einstellung
+2 Spieler horizontal
+2 Spieler vertical
+3 Spieler
+4 Spieler
+PAUSE
+RENNEN NEU STARTEN
+WIEDERHOLUNG
+SCHWIERIGKEITSGRAD
+Garage
+STEUERUNG
+AUDIO
+DARSTELLUNG
+SPIELOPTIONEN
+STEUERUNGSEINSTELLUNG
+Gas
+Bremse
+Lenkung
+Nach hinten sehen
+Hochschalten
+Runterschalten
+Treibstoffmischung fett
+Treibstoffmischung mager
+Gewichtsverteilung auf
+Gewichtsverteilung ab
+Kamera wechseln
+Kamera runter
+Helfer rauf
+Helfer runter
+Helfer ändern
+Kamera ändern
+Pause
+VIBRATION
+ Musik Lautstärke
+Effekte Lautstärke
+Boxenfunk Lautstärke
+Anzeigenfarbe
+BILDSCHIRMFORMAT
+BILDSCHIRMPOSITION
+Grün
+Blau
+Orange
+Gelb
+Rot
+4:3
+16:9
+Achtung Autopilot
+Automatische KI-anpassung
+Zufalls-ausfälle
+SCHALTUNG
+MANUELL
+AUTOMATIK
+AUTOSPEICHERN
+WEITER
+Neuer Versuch
+DIESE EINSTELLUNGEN BENUTZEN
+BESTÄTIGEN
+ABLEHNEN
+ABBRECHEN
+ZURÜCKSETZEN
+Setup kopieren
+Einstellen
+Qualifikation starten
+Qualifikation überspringen
+Passe
+Seite scrollen
+Weiter
+Bump day
+VERLASSEN
+Training verlassen
+Fahrt beenden
+Qualifikation verlassen
+RENNEN VERLASSEN
+SERIE VERLASSEN
+Meisterklasse verlassen
+SPIEL VERLASSEN
+FORTSETZEN
+
+
+
+
+
+
+
+
+SPEICHERPLATZ AUSWÄHLEN
+SPEICHERN FEHLGESCHLAGEN
+LADEN FEHLGESCHLAGEN
+LÖSCHEN FEHLGESCHLAGEN
+SPIELER BEREITS VORHANDEN
+NAMEN NEU EINGEBEN
+ABBRECHEN
+NEUER VERSUCH
+BLÖCKE FREI
+KB FREI
+SPIELERPROFILE
+FORMATIEREN?
+UNFORMATIERT
+BIST DU SICHER?
+Keine speicherplätze gefunden
+Memory unit wurde entfernt
+Festplatte
+Memory unit 1a
+Memory unit 1b
+Memory unit 2a
+Memory unit 2b
+Memory unit 3a
+Memory unit 3b
+Memory unit 4a
+Memory unit 4b
+Memory unit wurde gewechselt
+Kein platz
+Bitte blöcke freimachen und erneut versuchen
+Fahre ein Schnelles Rennen oder eine Trainingsfahrt.
+
+
+Fahre Kopf an Kopf gegen deine Freunde.
+Eddie Cheever Jr. bringt dir bei, wie ein Profi zu fahren.
+Spieleinstellungen adjustieren.
+Spielerprofile ansehen.
+Spiel verlassen.
+Ein Rennen mit den aktuellen Einstellungen starten.
+Spielsteuerung ändern.
+Audio-Einstellungen ändern.
+Grafik-Einstellungen ändern.
+Fortgeschrittene Spieloptionen ändern.
+Dieser Spieler wird nicht mehr gespeichert.
+Automatisches Speichern von Einstellungen und Spielfortschritt.
+Keine Vibration.
+Vibration an.
+Bildschirmposition einstellen.
+Normale Darstellung.
+Breitbild-Darstellung.
+Aktuelle Strecke trainieren.
+Nimm an einem Rennen mit rollendem Start teil.
+Rennen nur mit KI-Fahrzeugen ansehen.
+Nimm an einem Rennen ohne rollenden Start teil.
+Ein Rennen ohne Fahrzeugschaden, Treibstoffverbrauch oder Reifenabrieb.
+Ein Rennen mit vereinfachten Schadens- und Rennregeln.
+Ein Rennen mit allen Schadensregeln, Rennregeln.
+Die Renneinstellungen anpassen.
+Autos nehmen keinen Schaden.
+Autos unterliegen einem vereinfachten Schadensmodell.
+Alle Autos nehmen realistischen Schaden.
+Dein Auto ist unverwundbar, nicht aber die Autos deiner Gegner.
+Autos verbrauchen keinen Treibstoff, und die Reifen nutzen sich nicht ab.
+Autos verbrauchen Treibstoff, und die Reifen nutzen sich ab.
+Wähle verschiedene Fahrhilfen, die dich beim Steuern des Wagens unterstützen.
+Das Auto erleidet keine zufälligen Ausfälle.
+Dein Auto kann zufällige Ausfälle erleiden.
+Du startest automatisch ganz vorne in der Startaufstellung.
+Du startest automatisch in der Mitte der Startaufstellung.
+Du startest automatisch im hinteren Bereich der Startaufstellung.
+Du musst dich für deine Position in der Startaufstellung qualifizieren.
+Du steuerst das Auto selbst, wenn die gelbe Flagge gezeigt wird.
+Der Computer fährt für dich, wenn die gelbe Flagge gezeigt wird.
+Die KI-Fahrer passen sich deinen Fertigkeiten nicht an.
+Die KI-Fahrer passen sich deinen Fertigkeiten an.
+Es gibt keine Rennregeln.
+Die schwarze, gelbe und blaue Rennflagge können gezeigt werden.
+Fahre mit manuellem Gangwechsel.
+Fahre mit automatischem Gangwechsel.
+Keine Dosierungshilfe beim Gasgeben.
+Dosierungshilfe beim Gasgeben während eines Rennens.
+Keine Traktionskontrolle verwenden.
+Traktionskontrolle ist eingeschaltet.
+ABS (Anti-Blockier-System) nicht verwenden.
+ABS (Anti-Blockier-System) ist eingeschaltet.
+Freies Training auf der aktuellen Strecke.
+Qualifikation starten.
+Aktuelles Rennen starten.
+Aktuellen Punktstand der Serie ansehen.
+Fahrzeug-Setup einstellen.
+Gleich zu den Ergebnissen, ohne am Rennen teilzunehmen.
+Zum Hauptmenü zurückkehren.
+Fortschritt in der Serie speichern.
+Sieh dir an, welche Sammelkarten du bereits hast.
+Spieler-Profil laden.
+Neues Spieler-Profil erstellen.
+Spieler-Profil löschen.
+Änderungen an deinem Spielerprofil vornehmen.
+Speichert Änderungen am Spiel und am Spielerprofil.
+Änderungen an deinem Fahrer vornehmen.
+Änderungen an deinem Team vornehmen.
+Diese Einstellungen akzeptieren.
+
+
+
+
+
+
+
+
+Wähle diese Option, um ein Multiplayer-Rennen einzurichten.
+Wähle diese Option, um an einem bestehenden Multiplayer-Spiel teilzunehmen.
+Nimm als Zuschauer an einem Multiplayer-Rennen teil.
+Beschl.
+Tauschen
+Beschleunigung
+Geschw.
+Grip
+Andere einstellungen
+Druck
+Federn
+Dämpfer
+Bodenhöhe
+Gänge
+Radsturz
+Vorspur
+Flügel
+Erster
+Zweiter
+Dritter
+Vierter
+Fünfter
+Sechster
+Vorne
+Hinten
+Vorne links
+Vorne rechts
+Hinten links
+Hinten rechts
+V
+H
+VL
+VR
+HL
+HR
+Qualifikation
+Rennen
+Geschwindigkeit bei 10700 U/min
+Boxenoptionen
+Rennen speichern
+Zur qulifikation
+Zur Garage
+Reifen wechseln
+Schaden reparieren
+Treibstoffmenge
+Flügel vorne
+Rd.
+Laden
+Wiederholungs-Editor
+Strecke
+Wetter
+Tageszeit
+Rundenzahl
+Anzahl KI-Fahrzeuge
+Website
+Streckenlänge
+Vordere gerade
+Hintere gerade
+Überhöhung
+Kapazität
+Eröffnet am
+
+Team
+/
+Pole-positionen
+Erste pole-position
+Siege
+Erster sieg
+Bester start
+Bestes endergebnis
+Heimatstadt
+Wohnort
+Geboren
+Rennen
+Rennen gestartet
+Rennen abgeschlossen
+Bester Start
+Pole-Positionen
+Bestes Endergebnis
+Siege
+Gesammelte Karten
+Rennmeilen bisher
+Strecke - %s
+Runde - %d von %d
+Event - %d von %d
+Qualifiziert - %d von %d
+Aktuelles Rennen - %s
+Nächstes Rennen - %s
+Kein gespeichertes Rennen
+Keine gespeicherte Serie
+AUTODRIVE
+SPIELER ÜBERNIMMT IN %d
+Runde
+Noch %d Runden
+Letzte Rd.
+Zielflagge
+Positionen im Rennen
+Training
+Qualifikation
+Warmup
+Boxenrunde
+Detaillierte Zeitmessung
+Streckenlänge
+Vordere gerade
+Hintere gerade
+Überhöhung
+Meile
+Meilen
+Fuß
+Grad
+mph
+km/h
+Runde1
+Runde1
+Zeit
+Letzte
+Beste
+Letzte Rd.
+Beste Rd.
+Wagen vorne
+Wagen hinten
+Rundengeschwindigkeiten
+Qualifikations-Ziehung
+Fahrer
+Team
+Runde1
+Runde2
+Ver.
+
+
+
+Bodentemp
+Luftfeuchte
+
+Verbleibende Zeit
+Freie versuche
+Passe
+Aufgeben
+Mech.
+Unfall
+Aktueller Fahrer
+
+Rennpositionen - Endwertung
+
+Rennen
+ST
+P
+S
+BS
+BE
+PKT
+GEWINNE
+im Rennen
+im Ziel
+Disqual.
+Sprit alle
+Mechanik
+Motor
+Unfall
+Abbruch
+Serien-übersicht
+Rennstrecke
+Pole-position
+Ws = Wagen am start
+Ws
+Rennsieger
+Wz = Wagen im ziel
+Wz
+Azz = abstand zum zweiten
+Azz
+P
+Q
+Fahrer
+Team
+C/M/R
+Rd.
+Schnell
+Status
+Pkt
+Wiederholung
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GRATULIERE!!
+
+
+Starts
+Bester Start
+Bestes Finish
+Runden
+Rennen geführt
+Runden geführt
+Tabelle der Serie
+Gewinne
+Rennen der Karriere
+Top 10 der Karriere
+Siege der Karriere
+Streckenlänge
+Überhöhung
+Eröffnet am
+
+%s Champion
+Streckenrekord (Qualifikation)
+Streckenrekord (Rennen)
+Sie haben ein neues Fahrzeugdesign freigeschaltet.
+Sie haben den Design-Editor freigeschaltet.
+Sie haben das Ghost-Auto freigeschaltet.
+Sie haben einen neuen Medien-Clip freigeschaltet.
+Sie haben die Option "Eigenen Fahrer erstellen" freigeschaltet.
+Sie haben die Option "Eigenes Team erstellen" freigeschaltet.
+Sie haben ein klassisches Fahrzeug freigeschaltet.
+Memory card (8MB)(for PlayStation®2) is not inserted in MEMORY CARD slot %d.
+Memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d is unformatted. Do you want to format?
+Memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d is being formatted. Do not remove the memory card (8MB)(for PlayStation®2) or the controller, or reset/switch off the PlayStaion®2 console.
+Saved data already exists on the memory card (8MB)(for PlayStation®2). Do you want to overwrite this data?.
+Data is being saved to memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d. Do not remove the memory card (8MB)(for PlayStation®2) or the controller, or reset/switch off the PlayStaion®2 console.
+Save data to the memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d?
+There is insufficient space in the memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d. To save data, at least %dKB of free space must be available.
+Exit save?
+(Yes/No)
+Als Gast spielen?
+Gast-Spieler kann
+keine Spielstände speichern.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NACH LINKS LENKEN
+NACH RECHTS LENKEN
+Gas / Bremse
+Ziel
+Aktuell
+Tempo
+Aufgeben
+Boxenmeldung
+REKORDHALTER
+RUNDENREKORD 
+UNTERTITEL
+KI-Leistung 
+Bitte überprüfen Sie die Memory Card (8MB) (für PlayStation®2).
+Wenn du als Gast spielst, kannst du das Spiel nicht speichern.
+
+Spieler
+AUTO-SPEICHERUNG ABSCHALTEN?
+Mit auto-Speicherung abgeschaltet, wird dieser Spieler nicht gespeichert.
+Mit auto-Speicherung abgeschaltet, wird dieser Spieler nicht gespeichert.
+weil dir die schwarze Flagge gezeigt wurde.
+weil du einen Unfall hattest.
+weil du von der Strecke abgekommen bist.
+ weil du ein anderes Auto gerammt hast.
+ weil du zu wenige Autos überholt hast.
+Du hast diese Meisterklasse nicht geschafft.
+Ungültige Memory Card (8MB) (für PlayStation®2)
+Memory Card (8MB) (für PlayStation®2)
+nicht vorhanden
+in MEMORY CARD Steckplatz %s.
+in MEMORY CARD Steckplatz %s,
+Bitte überprüfe die Memory Card (8MB) (für PlayStation®2)
+und versuche es bitte noch einmal.
+Keine Memory Card (8MB) (für PlayStation®2) vorhanden.
+in einem der MEMORY CARD Steckplätze
+Ungenügend Platz auf der Memory Card (8MB) (für PlayStation®2)
+Eine Memory Card (8MB) (für PlayStation®2) mit mindestens
+106KB freiem Speicherplatz wird benötigt, um dieses Spiel zu speichern.
+Daten werden von der Memory Card (8MB) (für PlayStation®2) gelesen
+Willst du wirklich auf die
+Memory Card (8MB) (für PlayStation®2) 
+in MEMORY CARD Steckplatz %s formatieren?
+Daten werden auf die Memory Card (8MB) (für PlayStation®2) gespeichert
+in MEMORY CARD Steckplatz %s ist nicht formatiert.
+Spielstände auf der Memory Card (8MB) (für PlayStation®2) vorhanden
+Möchstest du diese Daten überschreiben?
+Möchten Sie die Memory Card (8MB)  (für PlayStation®2) formatieren?
+Wirklich formatieren
+in MEMORY CARD Steckplatz %s wird formatiert.
+Achtung! Euro Rally Champion speichert automatisch.
+Memory Card (8MB) (für PlayStation®2) nicht entfernen,
+und die Konsole nicht zurückstellen oder abschalten.
+während das obige Ikon angezeigt wird.
+Laden erfolgreich
+Speichern erfolgreich
+Formatieren erfolgreich
+Laden gescheitert!
+Speichern gescheitert!
+Formatieren gescheitert!
+LADEN . . .
+SPEICHERN . . .
+FORMATIEREN . . .
+MODUS
+MONO
+STEREO
+DTS
+Seit
+Wenn du dein Spielerprofil auf diese neue Karte speicherst, gehen sämtliche zuvor gespeicherten Rennen verloren.
+Die zuvor gespeicherten Rennnen werden in diesem neuen Spielstand nicht vorhanden sein.
+Gespeicherte Rennen werden nicht in das neue Spielerprofil übernommen.
+Controller wurde entfernt.
+PAUSEMENÜ
+MPH
+KPH
+R
+N
+GR
+ABS
+TC
+SP
+RD.
+Memory Card (8MB) (für PlayStation®2) nicht entfernen,
+und die Konsole nicht zurückstellen oder abschalten,
+Uberholt
+Keine
+vorhanden.
+Ungenügend Platz auf der
+ES WIRD GELÖSCHT . . .
+Löschen gescheitert!
+Daten werden von Memory Card (8MB) (für PlayStation®2) gelöscht
+Löschen erfolgreich
+Seite
+Der Start einer neuen Saison überschreibt Ihr gespeichertes Spiel.
+Der Start eines neuen Spiels von Indy 500 überschreibt Ihr gespeichertes Spiel
+Der Start eines neuen Rennens überschreibt Ihr gespeichertes Spiel. 
+Bitte Warten. DTS wird aktiviert.
+Bitte Warten. DTS wird deaktiviert.
+MEMORY CARD Steckplatz %s
+Handicap
+GROßBUCHSTABEN
+KLEINBUCHSTABEN
+KLAR
+LÖSCHEN SIE
+PLATZ
+Bitte den Controller wieder anschließen.
+Bitte den Controller wieder an Controller-Anschluss %s anschließen. 
+Die Xbox hat nicht genügend freie Blöcke,
+um neue Spieler-Profile zu erstellen.
+Sie benötigen %d zusätzliche freie Blöcke,
+um ein neues Spieler-Profil zu erstellen.
+sek
+Unfähig, %s zu beladen.
+ST‡‡ART drücken
+FÜR MEHR FREIE BLÖCKE SORGEN 
+Du hast deinen Motor hochgehen lassen.
+ST‡‡ART drücken
+Qualifikation
+Rennen
+LEERES PROFIL?
+Verwende 'Gast-Spieler'-Verlauf und Einstellungen für neues Profil.  
+'Gast-Spieler'-Verlauf und Einstellungen nicht für neues Profil verwenden.
+Gast-Spieler
+Kann keine Spielstände speichern
+Dieses Rennen überspringen?
+Serie verlassen?
+VERLASSEN?
+Training verlassen?
+Fahrt beenden?
+Qualifikation verlassen?
+Rennen verlassen?
+Serie verlassen?
+Meisterklasse verlassen?
+SPIEL VERLASSEN?
+RENNEN NEU STARTEN?
+Memory Card (8MB) (für PlayStation®2)
+in MEMORY CARD Steckplatz %s wird überprüft.
+Bitte den Controller wieder an Anschluss %s anschließen. 
+AUFLÖSUNG
+DETAIL
+NIEDRIG
+MITTEL
+HOCH
+ENTER drücken um fortzufahren
+Ungenügend freier Speicherplatz zur Erstellung neuer Profile.
+Jedes neue Profil benötigt %d KB.
+Mindestens %d KB müssen frei gemacht werden.
+STEUERUNG
+STEUERUNGSEINSTELLUNG
+Spielsteuerung ändern.
+Bitte den Controller wieder anschließen.
+dummy
+Bitte den Controller wieder an
+Controller-Anschluss %s anschließen. 
+WEITER OHNE ZU SPEICHERN
+Maximale Anzahl von Spielständen erreicht.
+Um ein neues Profil zu erstellen, löschen Sie bitte einige Spielstände.
+Alle gegenwärtigen Gast-Spieler-Einstellungen gehen verloren!
+Erstellen Sie ein neues Profil, um die gegenwärtigen Gast-Spieler-Einstellungen zu speichern.
+GAST (kann nicht speichern)
+Bitte den Controller wieder anschließen.
+Bitte den Controller wieder anschließen und ST‡‡ART drücken, um zu spielen.
+Bitte den Controller wieder an Anschluss %s anschließen
+Bitte den Controller wieder an Anschluss %s anschließen. 
+STEUERUNG
+STEUERUNGSEINSTELLUNG
+Spielsteuerung ändern.
+und ST‡‡ART drücken, um zu spielen.
+LENKRAD-OPTIONEN
+Lenkrad-Steuerung konfigurieren
+RICHTUNGSEMPFINDLICHKEIT
+GESCHWINDIGKEITSEMPFINDLICHKEIT
+HILFE
+ZEITRENNEN
+Zeitrennen-Hilfe
+MEISTERSCHAFT
+Meisterschaft-Hilfe
+KOPF AN KOPF
+Kopf-an-kopf-Hilfe
+LOS!
+ZEITRENNEN BEENDEN
+ZEITRENNEN BEENDEN ?
+Hart
+Weich
+Innen
+Aussen
+Niedrig
+Hoch
+VORGABE
+EIGENES
+SETUP
+ANDERN
+FEDERWEG-V
+FEDERWEG-H
+FEDERN-V
+FEDERN-H
+DAMPFER-V
+DAMPFER-H
+GETRIEBE
+STURZ
+SPUR
+EIGENER REKORD
+Auto-Reset
+Handbremse
+ENDE
+HEBEN
+WAGEN
+FAHRER
+WAGEN
+ZEIT
+DIFFERENZ
+POSITION
+PUNKTE
+MEISTERSCHAFTS-STUFE
+RENNERGEBNIS
+SAISON-UPDATE
+STUFE ABSOLVIERT
+WEITER
+ENDSTAND
+EURO RALLY
+CHAMPION
+NEUE MEISTERSCHAFT
+MEISTERSCHAFT FORTSETZEN
+MEISTERSCHAFT STARTEN
+MEISTERSCHAFTSMENU
+MEISTERSCHAFTSOPTIONEN
+MEISTERSCHAFT BEENDEN
+AUTO-ART
+ANFANGER
+NEULING
+ERFAHREN
+ANERKANNT
+ETABLIERT
+AUSGEZEICHNET
+PROFI
+MEISTER
+LEGENDE
+NACHGEWIESENE LEGENDE
+VRA
+4WD
+4WD KLASSIFIZIERUNG
+VRA KLASSIFIZIERUNG
+GESAMTWERTUNG
+GLUCKWUNSCH!
+AUTO VERBESSERTE!

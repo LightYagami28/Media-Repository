@@ -1,0 +1,892 @@
+Euro Rally Champion
+NO
+SI
+SPENTO
+ACCESO
+NESSUNA FUNZIONE
+NAVIGA
+CAMBIA SELEZIONE
+Seleziona scheda
+Ritorna all’album
+Bonus
+MENU PRINCIPALE
+Gara veloce
+
+
+
+Più giocatore
+
+
+OPZIONI
+PROFILO GIOCATORE
+Salvata gara veloce
+Salvata serie
+
+Continua gara
+Inizia nuova gara
+Continua serie
+Inizia nuova serie
+Tabellone serie
+Esci dalla gara
+Lascia la serie
+Salva la serie
+Inizia serie
+Inizia gara
+Inizia a esercitarti
+
+Successivo
+Demo a tempo
+Prove
+Qualificazione
+Gara
+Pilota
+CIRCUITO
+Giri
+10
+20
+Un quarto di pista
+Metà pista
+Pista completa
+Avversari
+LIVELLO
+FACILE
+NORMALE
+PROFESSIONISTA
+Personalizzato
+Livello personalizzato
+Danni
+Nessuno
+Lievi
+Seri
+Solo alle auto avversarie
+Carburante e pneumatici
+Posizione nella griglia
+Frontale
+In mezzo
+Posteriore
+Classificarsi
+Penalità
+Sistemi di guida assistiti
+Velocità assistita
+Controllo trazione
+Abs
+
+CARICA GIOCATORE
+CREA GIOCATORE
+CANCELLA GIOCATORE
+SALVA GIOCATORE
+NESSUN GIOCATORE
+Modifica pilota
+Modifica squadra
+Modifica nome pilota
+Modifica nome squadra
+Imposta nome pilota
+Imposta nome squadra
+Sesso
+Maschio
+Femmina
+Casco
+Tuta
+Numero vettura
+Telaio
+Motore
+Pneumatici
+Ospita
+Unisciti
+Assisti
+Inizia sessione
+Imposta nome ospite
+Nessuna sessione disponibile
+Giocatori
+Impostazioni giocatore 1
+2 giocatori in orizzontale
+2 giocatori in verticale
+3 giocatori
+4 giocatori
+PAUSA
+RIPRENDI GARA
+REPLAY
+DIFFICOLTÀ
+Officina
+COMANDI
+AUDIO
+DISPLAY
+OPZIONI DI GIOCO 
+TIPO DI COMANDO
+Acceleratore
+Freno
+Sterzo
+Guarda dietro
+Aumenta marcia
+Scala
+Aumenta miscela carburante
+Diminuisci miscela carburante
+Aumenta stabilizzatore peso
+Diminuisci stabilizzatore peso
+Cambia camera
+Abbassa camera
+Alza ausiliare
+Abbassa ausiliare
+Cambia ausiliare
+Cambia camera
+Pausa
+VIBRAZIONE
+Volume musica
+Volume effetti
+Volume radio di bordo
+Colore hud
+DIMENSIONI SCHERMO
+POSIZIONE SCHERMO
+Verde
+Blu
+Arancione
+Giallo
+Rosso
+4:3
+16:9
+Guida auto. di emergenza
+Regolazione auto. avversari
+Avarie sporadiche
+TRASMISSIONE
+MANUALE
+AUTOMATICA
+SALVATAGGIO AUTOMATICO
+CONTINUA
+RIPROVA
+USA QUESTE IMPOSTAZIONI
+CONFERMA
+RIFIUTA
+CANCELLA
+RESETTA
+Copia altre impostazioni
+Regola
+Inizia qualificazione
+Esci qualificazione
+Passa
+Scorri pagina
+Vai a successivo
+Giorno delle esclusioni
+ABBANDONA
+Abbandona esercitazione
+Abbandona questa gara
+Abbandona qualificazione
+ABBANDONA GARA
+ABBANDONA SERIE
+Abbandona masterclass
+ABBANDONA GIOCO
+RIPRENDI
+
+
+
+
+
+
+
+
+SCEGLI LOCALITÀ 
+SALVATAGGIO FALLITO
+CARICAMENTO FALLITO
+CANCELLAZIONE FALLITA
+GIOCATORE GIÀ ESISTENTE
+REINSERISCI NOME
+SOSPENDI
+RIPROVA
+BLOCCHI LIBERI
+KB LIBERI
+PROFILI GIOCATORE
+FORMATTA?
+NON FORMATTATA
+SICURO?
+Impossibile trovare percorso salvataggio
+Memory unit rimossa
+Disco rigido
+Memory unit 1°
+Memory unit 1b
+Memory unit 2°
+Memory unit 2b
+Memory unit 3°
+Memory unit 3b
+Memory unit 4°
+Memory unit 4b
+Cambiata memory unit
+Spazio esaurito
+Libera spazio prima di riprovare
+Guida in una gara veloce sulla pista che preferisci.
+
+
+Guida testa a testa contro i tuoi amici.
+
+Regola le impostazioni di gioco.
+Gestisci i Profili Giocatore. 
+Esci dal gioco.
+Inizia una gara con le impostazioni correnti.
+Cambia i comandi di gioco.
+Cambia le impostazioni audio.
+Cambia le impostazioni video.
+Cambia le opzioni gioco avanzato.
+Una volta che il salvataggio automatico è disattivato, il giocatore non verrà più salvato
+Salva automaticamente impostazioni e progressi.
+Nessun feedback vibrazione.
+Feedback vibrazione on.
+Regola posizione schermo.
+Display normale.
+Display schermo panoramico.
+Esercitati sulla pista corrente.
+Partecipa a una gara con una fase di riscaldamento completa.
+Guarda una gara solo con vetture degli avversari.
+Partecipa a una gara senza fase di riscaldamento.
+Gara senza danni, rifornimento carburante o cambio pneumatici.
+Gara con danni lievi e regole di gara..
+Massima azione con danni seri, regole di gara.
+Personalizza le impostazioni della gara.
+Le vetture non subiranno danni.
+Le vetture subiranno danni lievi.
+Tutte le vetture subiranno danni seri.
+La tua vettura non risente dei danni ma quelle dei tuoi avversari sì.
+Le vetture non usano carburante e i pneumatici non si consumano.
+Le vetture usano carburante e i pneumatici si consumano.
+Seleziona vari aiuti per guidare la vettura.
+La vettura non è soggetta ad avarie sporadiche.
+La tua vettura è soggetta al destino. 
+Comincerai automaticamente ai primi posti della griglia di partenza.
+Comincerai automaticamente in mezzo alla griglia di partenza.
+Comincerai automaticamente agli ultimi posti della griglia di partenza.
+Devi qualificarti per la griglia di partenza nella gara.
+Guida la vettura quando sventola la bandiera gialla.
+Fai guidare la vettura al computer quando sventola la bandiera gialla.
+I piloti degli avversari non si adatteranno alle tua abilità. 
+I piloti degli avversari si adatteranno alle tua abilità. 
+Non esistono regole di gara.
+Sventoleranno le bandiere gialle e blu.
+Guida con il cambio manuale.
+Guida con il cambio automatico.
+Non fornisce assistenza accelerazione.
+Fornisce assistenza accelerazione durante una gara.
+Non usa il controllo di trazione.
+Il controllo di trazione è attivo.
+Non usa il sistema ABS.
+Il sistema ABS è attivo.
+Esercitati liberamente sulla pista corrente.
+Comincia la sessione di qualificazione. 
+Inizia la gara corrente.
+Visualizza i punti guadagnati sino ad ora nella serie.
+Regola le impostazioni della tua vettura.
+Vai direttamente ai risultati senza entrare in questa gara.
+Ritorna al menu principale.
+Salva i progressi della serie.
+
+Carica un profilo giocatore.
+Crea un nuovo profilo giocatore.
+Cancella un profilo giocatore.
+Cambia il tuo profilo giocatore.
+Salva i cambiamenti al gioco e al tuo profilo giocatore.
+Modifica il tuo pilota.
+Modifica il tuo squadra.
+Accetta queste impostazioni.
+
+
+
+
+
+
+
+
+Seleziona questa opzione per impostare una gara con più giocatori.
+Seleziona questa opzione per unirti a una gara in corso con più giocatori.
+Guarda una gara con più giocatori in azione.
+Accel.
+Scambio
+Accelerazione
+Velocità 
+Pista
+Altre impostazioni
+Pressione
+Molle
+Ammortizzatori
+Altezza da terra
+Marce
+Campanatura
+Convergenza
+Alettoni
+Primo
+Secondo
+Terzo
+Quarto
+Quinto
+Sesto
+Avanti
+Dietro
+Avanti sinistra
+Avanti destra
+Dietro sinistra
+Dietro destra
+A
+D
+As
+Ad
+Ds
+Dd
+Qualificazione
+ Gara
+Velocità a 10700 giri/min.
+Opzioni box
+Salva gara
+Vai alle qualificazioni
+Vai in officina
+Cambia pneumatici
+Ripara danno
+Rifornimento carburante
+Alettone anteriore
+Giri
+Carica
+Replay editor
+Circuito
+Cielo
+Ora del giorno
+N. giri
+N. vetture avversari
+SITO WEB
+LUNGHEZZA PIST‡‡A
+RETTILINEO DAVANTI
+RETTILINEO DIETRO
+SOPRAELEVAT‡‡A
+SEDUT‡‡A
+APERTO
+
+SQUADRA
+/
+POLE POSITION
+PRIMA POLE POSITION
+VITTORIE
+PRIMA VITTORIA
+Miglior partenza
+Miglior arrivo
+CITTÀ D’ORIGINE
+DOMICILIO
+NATO A
+Gare
+Gare iniziate
+Gare finite
+Miglior partenza
+Pole Position
+Miglior arrivo
+Vittorie
+Schede raccolte
+Miglia percorse
+Pista - %s
+Giro - %d di %d
+Evento - %d di %d
+Qualificato - %d di %d
+Gara corrente - %s
+Gara successiva - %s
+Nessuna gara salvata
+Nessuna serie salvata
+GUIDA AUTOMATICA
+COMANDO GIOCATORE IN %d
+Giro
+Ancora %d giri
+Ultimo giro
+Bandiera a scacchi
+Posizioni di gara
+Prove
+Qualificazione
+Riscal.
+Giro ai box
+differenza
+LUNGHEZZA PIST‡‡A
+RETTILINEO DAVANTI
+RETTILINEO DIETRO
+SOPRAELEVAT‡‡A
+miglio
+miglia
+piede
+gradi
+mph
+km/h
+Giro 1
+Giro 2
+Tempo
+Ultimo
+Migliore
+Ultimo giro
+Miglior giro
+Vettura davanti
+Vettura dietro
+Velocità giro
+Qualificazione
+Pilota
+Squadra
+Giro 1
+Giro 2
+Tent
+
+
+
+Temp. Pista
+Umidità
+Qualificati nel giorno delle qualificazioni tra %d partecipanti
+Tempo rimanente
+Tentativi disponibili
+Passa
+Prosegui
+Mecc.
+Sbattere
+Pilota corrente
+
+Posizioni di gara – Classifiche finali
+
+GARE
+PA
+P
+V
+MP
+MA
+PUN
+PUNTI GUADAGNATI
+In corsa
+Finito
+Squalificato
+Carburante
+Meccanico
+Motore
+Sbattere
+Ritirato
+Riepilogo serie
+Circuito di gara
+Pole position
+Vp = vetture alla partenza
+Vp
+Vincitore gara
+Va = vetture all’arrivo
+Va
+Mdv = margine di vittoria
+Mdv
+P
+Q
+Pilota
+Squadra
+T/M/P
+Giri
+Veloce
+Status
+Pt
+Replay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONGRATULAZIONI!!
+Hai appena sbloccato una carta da collezione %s.
+Vai all'album per visualizzarla.
+Partenze
+Miglior partenza
+Miglior arrivo
+Giri completati
+Gare in testa
+Giri in testa
+Classifica serie
+Punti guadagnati
+Gare carriera.
+Top 10 carriera
+Vittorie carriera
+Lunghezza pista
+Sopraelevata
+Aperto
+
+Campione %s 
+Record pista (qualificazione)
+Record pista (gara)
+Hai sbloccato una nuova carrozzeria.
+Hai sbloccato l’editor della carrozzeria. 
+Hai sbloccato la vettura dell’ospite.
+Hai sbloccato un nuovo spot commerciale.
+Hai sbloccato la possibilità di creare il tuo pilota.
+Hai sbloccato la possibilità di creare il tuo squadra.
+Hai sbloccato una vettura classica.
+Memory card (8MB)(for PlayStation®2) is not inserted in MEMORY CARD slot %d.
+Memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d is unformatted. Do you want to format?
+Memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d is being formatted. Do not remove the memory card (8MB)(for PlayStation®2) or the controller, or reset/switch off the PlayStaion®2 console.
+Saved data already exists on the memory card (8MB)(for PlayStation®2). Do you want to overwrite this data?.
+Data is being saved to memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d. Do not remove the memory card (8MB)(for PlayStation®2) or the controller, or reset/switch off the PlayStaion®2 console.
+Save data to the memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d?
+There is insufficient space in the memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d. To save data, at least %dKB of free space must be available.
+Abbandona salvataggio?
+(Sì/No)
+Vuoi giocare come Ospite? 
+Giocatore ospite
+impossibile salvare giochi.
+Benvenuto nel test esordiente.
+Completa quattro giri entro i limiti di tempo previsti per ciascuno come indicato nel display a più funzioni.
+I limiti di velocità aumentano ad ogni giro.
+Tra ciascun giro a tempo c’è un giro di riscaldamento per poter raggiungere la velocità desiderata.
+Questa volta non hai passato il test esordiente. Esercitati ancora un po’ e riprova.
+Congratulazioni hai superato il test esordiente!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+STERZA A SINISTRA
+STERZA A DESTRA
+Accellera/Frena
+Scopo
+Effettivo
+Velocità
+Abbandona
+Chiamata ai box
+DETENTORE DEL RECORD
+RECORD GIRO
+SOTTOTITOLI
+Performance degli avversari
+Controllare la memory card (8MB) (per PlayStation®2)
+Se scegli di giocare come ospite, non puoi salvare il gioco
+ALBUM DELLA COLLEZIONE
+Giocatore
+DISATTIVARE IL SALVAT‡‡AGGIO AUTOMATICO?  
+Una volta che il salvataggio automatico è disattivato, il giocatore non verrà più salvato
+Una volta che il salvataggio automatico è disattivato, il giocatore non verrà più salvato
+Hai ricevuto una penalizzazione
+Sei andato a sbattere con la tua macchina
+Sei andato fuoristrada
+Sei andato a sbattere contro un’altra macchina
+Hai superato abbastanza macchine
+Hai fallito questa Masterclass
+Memory card (8MB) (per PlayStation®2) non valida
+Memory card (8MB) (per PlayStation®2) 
+non è inserita
+nell’ingresso MEMORY CARD %s.
+nell’ingresso MEMORY CARD %s.
+Controllare la memory card (8MB) (per PlayStation®2)
+e riprovare
+Nessuna memory card (8MB) (per PlayStation®2) inserita
+in nessun ingresso MEMORY CARD
+Spazio non sufficiente sulla memory card (8MB) (per PlayStation®2) 
+È necessaria una memory card (8MB) (per PlayStation®2) con 
+almeno 106 KB di spazio libero per salvare questo gioco.
+Caricamento dati dalla memory card (8MB) (per PlayStation®2) in corso...
+Sicuro di voler salvare sulla
+memory card (8MB) (for PlayStation®2)
+nell’ingresso MEMORY CARD %s?
+Salvataggio dati nella memory card (8MB) (per PlayStation®2)
+nell’ingresso MEMORY CARD %s non formattata.
+I dati salvati esistono nella memory card (8MB) (per PlayStation®2)
+Sicuro di voler sovrascrivere questi dati?
+Formattare la memory card (8MB) (per PlayStation®2)?
+Sicuro di volere formattare la 
+formattazione in corso nell’ingresso memory card  %s 
+Attenzione! Euro Rally Champion utilizza il salvataggio automatico.
+Non rimuovere la memory card (8MB) (per PlayStation®2),
+né risettare o spegnere la console
+mentre l’icona qui sopra è visualizzata sullo schermo.
+Caricamento completato
+Salvataggio completato
+Formattazione completata
+Caricamento fallito!
+Salvataggio fallito!
+Formattazione fallita!
+CARICAMENTO…
+SALVAT‡‡AGGIO…
+FORMATT‡‡AZIONE…
+MODALITÀ
+MONO
+STEREO
+DTS
+Creato;
+Se salvi il tuo profilo giocatore in questa nuova card, tutte le gare precedenti andranno perse
+Nessuna delle precedenti gare salvate sarà presente nella nuova card
+Le gare salvate non saranno copiate nel nuovo profilo giocatore
+Controller rimosso
+MENU PAUSA
+MPH
+KPH
+I
+N
+ME
+ABS
+CT
+VE
+GIRI
+Non rimuovere la memory card (8MB) (per PlayStation®2),
+né risettare o spegnere la console,
+Sorpassa
+Nessuna
+inserita.
+Spazio non sufficiente sulla
+ELIMINAZIONE IN CORSO...
+Eliminazione fallita!
+Eliminazione dati dalla memory card (8MB) (per PlayStation®2)
+Eliminazione completata
+Pagina 
+Cominciando una nuova stagione sovrascriverai il gioco salvato.
+
+Cominciando una nuova gara sovrascriverai il gioco salvato.
+Per favore l'attesa. Che attivando DTS.
+Per favore l'attesa. Che desattivando DTS.
+ingresso MEMORY CARD %s
+Handicap
+LE MAIUSCOLE
+LE MINUSCOLE
+CHIARO
+CANCELLARE
+LO SPAZIO
+Ricollega il controller. 
+Ricollega il controller alla ingresso controller %s.
+Xbox non dispone di sufficienti blocchi liberi
+per creare nuovi profili.
+Liberare %d blocchi
+per creare un nuovo profilo.
+sec
+Incapace per caricare %s.
+Premi ST‡‡ART
+LIBERA DEI BLOCCHI
+Hai fuso il motore.
+Premi ST‡‡ART
+Qualificazione
+Gara
+Elimina i dati del "Giocatore Ospite"?
+Usa i dati e le impostazioni del "Giocatore Ospite" per il nuovo profilo. 
+Non usare i dati e le impostazioni del "Giocatore Ospite" per il nuovo profilo.
+Giocatore ospite
+Impossibile salvare giochi
+Esci dalla gara
+Lascia la serie
+ABBANDONA?
+Abbandona esercitazione?
+Abbandona questa gara?
+Abbandona qualificazione?
+Abbandona gara?
+Abbandona serie?
+Abbandona masterclass?
+Abbandona gioco?
+RIPRENDI GARA?
+Controllo memory card (8MB) (per PlayStation®2)
+nell’ingresso MEMORY CARD %s.
+Ricollega il controller alla porta %s.
+RISOLUZIONE
+QUALITÀ DETTAGLI
+BASSA
+MEDIA
+ALTA
+Premi INVIO per continuare
+Spazio insufficiente per creare nuovi profili.
+Ogni nuovo profilo richiede %d Kb.
+Liberare almeno %d Kb
+COMANDI
+TIPO DI COMANDO
+Cambia i comandi di gioco.
+Ricollega il controller. 
+Ricollega il controller alla ingresso controller %s.
+dummy
+dummy
+CONTINUA SENZA SALVARE
+È stato raggiunto il numero massimo di salvataggi.
+Eliminare dei salvataggi per creare un nuovo profilo.
+Tutte le impostazioni attuali del giocatore ospite saranno perse!
+Per salvare le impostazioni attuali creare un nuovo profilo.
+OSPITE (imposs. salvare)
+Ricollega il controller. 
+Ricollega il controller e premi ST‡‡ART per continuare. 
+Ricollega il controller alla porta %s e premi ST‡‡ART per continuare.
+Ricollega il controller alla porta %s.
+Comandi
+Tipo di comando
+Cambia i comandi di gioco.
+dummy
+OPZIONI DEL VOLANTE
+Configura i comandi del volante
+SENSIBILITÀ DIREZIONE
+SENSIBILITÀ VELOCITÀ
+AIUTO
+PROVE SUL TEMPO
+Guida alle prove sul tempo
+CAMPIONATO
+Guida al Campionato
+HEAD TO HEAD
+Guida all'Head to Head
+VAI
+ESCI DALLE PROVE SUL TEMPO
+USCIRE DALLE PROVE SUL TEMPO?
+Duro
+Morbido
+Dentro
+Fuori
+Basso
+Alto
+DIFETTO
+ABITUDINE
+IMPOSTAZIONE
+CAMBIAMENTO
+CORSA - A
+CORSA - P
+MOLLE - A
+MOLLE - P
+SCOSSE - A
+SCOSSE - P
+MARCE
+ARCO
+CONVERGENZA
+TEMPO MIGLIORE PERSONALE
+Azzera Auto
+Freno a Mano
+USCITA
+ELEVATORE
+AUTO
+PILOTA
+AUTO
+TEMPO
+DIFFERENZA
+POSIZIONE
+PUNTI
+FASE DEL CAMPIONATO
+RISULTATI DELLA GARA
+AGGIORNAMENTO DELLA STAGIONE
+DOPO LA GARA
+GARA SUCCESSIVA
+POSIZIONO FINALI
+EURO RALLY
+CHAMPION
+INIZIA NUOVO CAMPIONATO
+RITORNA AL CAMPIONATO
+INIZIA IL CAMPIONATO
+MENU DEL CAMPIONATO
+OPZIONI DEL CAMPIONATO
+ESCI DAL CAMPIONATO
+TIPO DELL'AUTOMOBILE
+PRINCIPIANTE
+PRINCIPIANTE AVANZATO
+COMPETENTE
+COMPETENTE AVANZATO
+INTERMEDIO
+INTERMEDIO AVANZATO
+ESPERTO
+CAMPIONE
+LEGGENDA
+LEGGENDA AVANZATO
+FWD
+4WD
+RANKING 4WD 
+RANKING FWD
+RANKING GENERALE
+CONGRATULAZIONI !
+AUTOMOBILE AGGIORNATO!

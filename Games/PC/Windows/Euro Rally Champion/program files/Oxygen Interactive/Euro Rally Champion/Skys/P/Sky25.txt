@@ -1,0 +1,12 @@
+Ambient_Colour 039 050 092
+Ambient_Brightness 0.85
+Sun_Colour 000 000 000
+Sun_Brightness 0.0
+Sun_Azimuth 0
+Sun_Elevation 55
+Fog_Colour 039 050 092
+Fog_Brightness 0.5
+Fog_Start 300
+Fog_End 2500
+
+End

@@ -1,0 +1,892 @@
+Euro Rally Champion
+NO
+YES
+OFF
+ON
+NO FUNCTION
+NAVIGATE
+CHANGE SELECTION
+SELECT CARD
+BACK TO ALBUM
+BONUS
+MAIN MENU
+QUICK RACE
+
+
+
+MULTIPLAYER
+
+
+OPTIONS
+PLAYER PROFILE
+SAVED QUICK RACE
+
+
+CONTINUE RACE
+ST‡‡ART NEW RACE
+CONTINUE 
+ST‡‡ART NEW
+
+
+LEAVE SERIES
+SAVE SERIES
+
+
+
+
+NEXT
+TIME DEMO
+TEST DRIVE
+QUALIFICATION
+RACE
+DRIVER
+STAGE
+
+
+
+
+
+
+OPPONENTS
+SKILL LEVEL
+EASY
+NORMAL
+PRO
+CUSTOM
+CUSTOM SKILL LEVEL
+DAMAGE
+NONE
+SIMPLE
+FULL
+AI CARS ONLY
+FUEL & TYRE WEAR
+GRID POSITION
+FRONT
+MIDDLE
+BACK
+QUALIFY
+PENALTIES
+ASSISTS
+SPEED ASSIST
+TRACTION CON‡‡TROL
+ABS
+
+LOAD PLAYER
+CREATE PLAYER
+DELETE PLAYER
+SAVE PLAYER
+NO PLAYERS
+EDIT DRIVER
+EDIT TEAM
+EDIT DRIVER NAME
+EDIT TEAM NAME
+SET DRIVER NAME
+SET TEAM NAME
+SEX
+MALE
+FEMALE
+HELMET
+LIVERY
+CAR NUMBER
+Chassis  
+ENGINE
+TYRES
+HOST
+JOIN
+SPECT‡‡ATE
+ST‡‡ART SESSION
+SET HOST NAME
+NO SESSIONS AV‡‡‡AILABLE
+PLAYERS
+PLAYER 1 SET UP
+2 PLAYERS HORIZONT‡‡AL
+2 PLAYERS VERTICAL
+3 PLAYERS
+4 PLAYERS
+PAUSE
+REST‡‡ART
+REPLAY
+DIFFICULTY
+GARAGE
+CONTROLS
+AUDIO
+DISPLAY
+GAME OPTIONS
+CONTROL TYPE
+THROTTLE
+BRAKE
+STEER
+LOOK BACK
+GEAR UP
+GEAR DOWN
+FUEL MIXTURE UP
+FUEL MIXTURE DOWN
+WEIGHT JACKER UP
+WEIGHT JACKER DOWN
+CHANGE CAMERA
+CAMERA DOWN
+AUXILIARY UP
+AUXILIARY DOWN
+CHANGE AUXILIARY
+CHANGE CAMERA
+PAUSE
+VIBRATION
+RACE MUSIC VOLUME
+EFFECTS VOLUME
+PIT RADIO VOLUME
+H.U.D. COLOUR
+SCREEN FORMAT
+SCREEN POSITION
+GREEN
+BLUE
+ORANGE
+YELLOW
+RED
+4:3
+16:9
+CAUTION AUTODRIVE
+AUTOMATIC AI ADJUST
+RANDOM FAILURES
+TRANSMISSION
+MANUAL
+AUTOMATIC
+AUTOSAVE
+CONTINUE
+TRY AGAIN
+USE THESE SETTINGS
+CONFIRM
+REJECT
+CANCEL
+RESET
+COPY FROM OTHER SET UP
+ADJUST
+ST‡‡ART QUALIFICATION
+SKIP QUALIFICATION
+PASS
+SCROLL PAGE
+GO NEXT
+BUMP DAY
+QUIT
+QUIT TEST DRIVE
+WAIVE THIS RUN
+QUIT QUALIFICATION
+QUIT RACE
+QUIT SERIES
+
+QUIT GAME
+RESUME
+
+
+
+
+
+
+
+
+CHOOSE LOCATION
+SAVE FAILED
+LOAD FAILED
+DELETE FAILED
+PLAYER ALREADY EXISTS
+RE-ENTER NAME
+ABORT
+RETRY
+BLOCKS FREE
+KB FREE
+PLAYER PROFILES
+FORMAT?
+UNFORMATTED
+ARE YOU SURE?
+NO SAVE LOCATIONS FOUND
+MEMORY UNIT REMOVED
+HARD DISC
+MEMORY UNIT 1A
+MEMORY UNIT 1B
+MEMORY UNIT 2A
+MEMORY UNIT 2B
+MEMORY UNIT 3A
+MEMORY UNIT 3B
+MEMORY UNIT 4A
+MEMORY UNIT 4B
+MEMORY UNIT CHANGED
+NO SPACE
+FREE SPACE BEFORE RETRYING
+Drive in a quick race or practise on a track of your choice.
+
+
+Drive head to head against your friends.
+
+Adjust the game settings.
+Manage Player Profiles and review your  Trading Card Album.
+Leave the game.
+Start a race with the current settings.
+Change your game controls.
+Change your audio set up.
+Change the visual settings.
+Change advanced game options.
+Once autosave is off this player will no longer be saved.
+Automatically save settings and progress.
+No vibration feedback.
+Vibration feedback on.
+Adjust the screen position.
+Normal display.
+Widescreen Display.
+Set up your car in the garage and practise on the current track
+
+Watch a race with just AI cars.
+
+A race with no damage, no fuel or tyre wear, and a simplified structure.
+A race with simplified damage and race rules, but no fuel or tyre wear.
+Full on racing action with full damage, race rules and fuel use and tyre wear.
+Customise the race settings.
+Cars will take no damage.
+Cars will be subject to a simplified damage model.
+All cars subject to realistic damage.
+Your car is invulnerable to damage but your opponents' cars aren't.
+Cars do not use fuel and tyres do not wear out.
+Cars use fuel and tyres wear out.
+Select various aids to help you drive the car.
+The car is not subject to random failures.
+Your car is subject to the vagaries of lady luck.
+You will automatically start at the front of the grid.
+You will automatically start in the middle of the grid.
+You will automatically start at the back of the grid.
+You must qualify for your grid position in the race.
+Drive the car yourself during yellow flag periods.
+Let the AI drive for you during yellow flag periods.
+The AI drivers will not tailor themselves to your skill.
+The AI drivers will tailor themselves to your skill.
+There are no race rules.
+Black yellow and blue flags will be shown.
+Drive with a manual gear change.
+Drive with an automatic gear change.
+Do not provide throttle assist.
+Provide throttle assistance during a race.
+Do not use traction control.
+Traction control is turned on.
+Do not use anti-lock brake system.
+Anti-lock brake system is on.
+Set -up your car and test drive the track.
+Begin the qualification session.
+Start the current race.
+View points standing for the series so far.
+Adjust the set up of your car.
+Go straight to the results without entering this race.
+Return to the main menu.
+Save your series progress
+See which trading cards you have collected.
+Load a player profile.
+Create a new player profile.
+Erase a player profile.
+Make changes to your player profile.
+Save changes to the game and your player profile.
+Make changes to your driver.
+Make changes to your team.
+Accept these settings.
+Learn the basics of car control.
+Understand the behaviour of your car.
+Learn how to get the most out of your car.
+Discover the best strategies for qualifying.
+Learn how to improve your finishing position.
+Learn how to use pit stops effectively.
+What happens during a yellow flag?
+Understand the ins and outs of the IndyCar™ Series.
+Select this option to set up a multiplayer race.
+Select this option to join an existing multiplayer race.
+Watch a multiplayer race in action.
+ACCEL.
+SWAP
+ACCELERATION
+SPEED
+GRIP
+OTHER SET UP
+PRESSURE
+SPRINGS
+DAMPERS
+RIDE HEIGHT
+GEARS
+CAMBER
+TOE IN
+WINGS
+FIRST
+SECOND
+THIRD
+FOURTH
+FIFTH
+SIXTH
+FRONT
+REAR
+FRONT LEFT
+FRONT RIGHT
+REAR LEFT
+REAR RIGHT
+F
+R
+FL
+FR
+RL
+RR
+Qualifying set up
+Racing set up
+Speeds at 10700 rpm
+PIT OPTIONS
+SAVE RACE
+GO TO QUALIFICATION
+GO TO GARAGE
+CHANGE TYRES
+REPAIR DAMAGE
+FUEL LOAD
+FRONT WING
+LAPS
+Load
+Replay Editor
+Circuit
+Sky
+Time of day
+No. Laps
+No. AI cars
+WEBSITE
+TRACK LENGTH
+FRONT STRAIGHT‡‡AWAY
+BACK STRAIGHT‡‡AWAY
+BANKING
+SEATING
+OPENED
+
+TEAM
+/
+POLES
+FIRST POLE
+WINS
+FIRST WIN
+BEST ST‡‡ART
+BEST FINISH
+HOMETOWN
+RESIDES
+BORN
+Races
+Races started
+Races completed
+Best start
+Poles
+Best finish
+Wins
+Cards collected
+Miles raced
+Track - %s
+Lap - %d of %d
+Event - %d of %d
+Qualified - %d of %d
+Current race - %s
+Next race - %s
+No saved race
+No saved series
+AUTODRIVE
+PLAYER CONTROL IN %d
+Lap
+%d laps to go
+Final lap
+Chequered flag
+Race Positions
+Test drive
+Qualification
+Out Lap
+Pit Lap
+Split times at the line
+TRACK LENGTH
+FRONT STRAIGHT‡‡AWAY
+BACK STRAIGHT‡‡AWAY
+BANKING
+mile
+miles
+feet
+degrees
+mph
+kph
+Lap1
+Lap2
+Time
+Last
+Best
+Last lap
+Best lap
+Car in front
+Car behind
+Lap speeds
+Qualification Draw
+DRIVER
+TEAM
+LAP1
+LAP2
+ATT
+
+
+
+TRACK TEMP
+HUMIDITY
+POLE DAY QUALIFIERS of %d ENTRANTS
+TIME REMAINING
+ATTEMPTS AV‡‡‡AILABLE
+PASS
+WAIVE
+MECH.
+CRASH
+Current Driver
+"On the Bubble''
+Race Positions - Final Standings
+
+RACES
+ST
+P
+W
+BS
+BF
+PTS
+EARNINGS
+Running
+Finished
+Disqualified
+Out of fuel.
+Mechanical
+Engine
+Crash
+Retired
+SERIES SUMMARY
+RACE CIRCUIT
+POLE POSITION
+SC = ST‡‡ARTING CARS
+SC
+RACE WINNER
+FC = FINISHING CARS
+FC
+MOV = MARGIN OF VICTORY
+MOV
+P
+Q
+Driver
+Team
+C/E/T
+Laps
+Fastest
+Status
+Pt
+Replay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BRONZE
+SILVER
+GOLD
+
+
+
+CONGRATULATIONS!!
+
+
+Starts
+Best start
+Best finish
+Laps complete
+Races led
+Laps led
+Series standing
+Series earnings
+Career races
+Career top 10
+Career victories
+Track length
+Banking
+Opened
+First IndyCar™ Series race
+%s Champion
+Qualification record
+Race record
+You have unlocked a new car livery.
+You have unlocked the livery editor.
+You have unlocked the ghost car.
+You have unlocked a new media clip.
+You have unlocked the ability to create your own driver.
+You have unlocked the ability to create your own team.
+You have unlocked a classic car.
+Memory card (8MB)(for PlayStation®2) is not inserted in MEMORY CARD slot %d.
+Memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d is unformatted. Do you want to format?
+Memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d is being formatted. Do not remove the memory card (8MB)(for PlayStation®2) or the controller, or reset/switch off the console.
+Saved data already exists on the memory card (8MB)(for PlayStation®2). Do you want to overwrite this data?.
+Data is being saved to memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d. Do not remove the memory card (8MB)(for PlayStation®2) or the controller, or reset/switch off the console.
+Save data to the memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d?
+There is insufficient space in the memory card (8MB)(for PlayStation®2) in MEMORY CARD slot %d. To save data, at least %dKB of free space must be available.
+Exit save?
+(Yes/No)
+Play as Guest player?
+Guest player
+cannot save games.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+STEER LEFT
+STEER RIGHT
+THROTTLE / BRAKE
+Target
+Actual
+Speed
+Waive
+Pit request
+RECORD HOLDER
+LAP RECORD 
+SUBTITLES
+AI Performance  
+Check memory card (8MB) (for PlayStation®2).
+If you choose to play as Guest player autosave will be disabled.
+
+Player
+TURN AUTOSAVE OFF?
+Once autosave is off this player will no longer be saved.
+Once autosave is off this player will no longer be saved.
+You received a black flag.
+You crashed your car.
+You left the track.
+You were involved in an accident.
+You didn't overtake enough cars.
+You have failed this masterclass.
+Invalid memory card (8MB) (for PlayStation®2)
+Memory card (8MB) (for PlayStation®2)
+is not inserted
+in MEMORY CARD slot %s.
+in MEMORY CARD slot %s,
+Check memory card (8MB) (for PlayStation®2)
+and please try again.
+No memory card (8MB) (for PlayStation®2) inserted.
+in any MEMORY CARD slot
+Insufficient space on memory card (8MB) (for PlayStation®2)
+A memory card (8MB) (for PlayStation®2) with
+at least 106KB of free space is needed to save this game.
+Loading data from memory card (8MB) (for PlayStation®2)
+Are you sure you want to save to
+memory card (8MB) (for PlayStation®2)
+in MEMORY CARD slot %s ?
+Saving data to memory card (8MB) (for PlayStation®2)
+in MEMORY CARD slot %s is unformatted.
+Saved data exists on the memory card (8MB) (for PlayStation®2)
+Do you want to overwrite this data?
+Format the memory card (8MB) (for PlayStation®2)?
+Are you sure you want to format the
+in MEMORY CARD slot %s is being formatted.
+Warning! Euro Rally Champion uses autosave.
+Do not remove the memory card (8MB) (for PlayStation®2),
+reset, or switch off the console.
+while the icon above is on screen.
+Load Successful
+Save Successful
+Format Successful
+Load failed!
+Save failed!
+Format failed!
+LOADING . . .
+SAVING . . .
+FORMATTING . . .
+MODE
+MONO
+STEREO
+DTS
+Created
+If you save your player profile to this new card, any old saved races will be lost.
+Any old saved races will not be present on this new save.
+Saved races will not be copied to the new player profile.
+Controller removed.
+PAUSE MENU
+MPH
+KPH
+R
+N
+GR
+ABS
+TC
+SP
+LAPS
+Do not remove any memory card (8MB) (for PlayStation®2),
+reset, or switch off the console,
+Overtakes
+No
+inserted.
+Insufficient space on
+DELETING . . .
+Delete failed!
+Deleting data from memory card (8MB) (for PlayStation®2)
+Delete successful
+Page
+Starting a new season will overwrite your saved game.
+
+Starting a new race will overwrite your saved game.
+Please wait. Activating DTS.
+Please wait. Deactivating DTS.
+MEMORY CARD slot %s
+Handicap
+UPPERCASE
+LOWERCASE
+CLEAR
+DELETE
+SPACE
+Please reconnect the controller. 
+Please reconnect the controller to controller port %s.
+Your Xbox doesn't have enough free blocks
+to create new player profiles.
+You need to free %d more blocks
+to create a new player profile.
+secs
+Unable to load %s.
+Press ST‡‡ART
+FREE MORE BLOCKS
+You blew up your engine.
+Press ST‡‡ART
+QUALIFYING SET UP
+RACING SET UP
+Discard 'Guest player' data?
+Use 'Guest player' history and settings for new profile.
+Do not use 'Guest player' history and settings for new profile. 
+Guest player
+Cannot save games
+
+
+QUIT?
+
+
+
+QUIT RACE?
+
+
+QUIT GAME?
+REST‡‡ART?
+Checking memory card (8MB) (for PlayStation®2)
+in MEMORY CARD slot %s.
+Please reconnect the controller to port %s.
+RESOLUTION
+DET‡‡AIL
+LOW
+MEDIUM
+HIGH
+Press ENTER to continue.
+Not enough free disc space to create new profiles.
+Each new profile requires %d Kb.
+You need to free at least %d Kb to create a new profile.
+CONTROLS
+CONTROL TYPE
+Change your game controls.
+Please reconnect the controller. 
+Please reconnect the controller to controller port %s.
+dummy
+dummy
+CONTINUE WITHOUT SAVING
+The maximum number of saves has been reached.
+Please delete some saves in order to create a new profile.
+All the current Guest player settings will be lost!
+To save the current Guest player settings, create a new profile.
+PLAY AS GUEST (cannot save)
+Please reconnect the controller. 
+Please reconnect the controller and press ST‡‡ART to continue. 
+Please reconnect the controller to port %s and press ST‡‡ART to continue.
+Please reconnect the controller to port %s.
+CONTROLS
+CONTROL TYPE
+Change your game controls.
+dummy
+STEERING WHEEL OPTIONS
+Configure steering wheel controllers.
+CENTRE SENSITIVITY
+SPEED SENSITIVITY
+ASSISTANCE
+TIME TRIAL
+Time Trial Help
+CHAMPIONSHIP
+Championship Help
+HEAD TO HEAD
+Head To Head Help
+GO
+QUIT TIME TRIAL
+QUIT TIME TRIAL?
+HARD
+SOFT
+IN
+OUT
+LOW
+HIGH
+DEFAULT
+CUSTOM
+SETUP
+SWITCH
+TRAVEL - F
+TRAVEL - R
+SPRINGS - F
+SPRINGS - R
+DAMPERS - F
+DAMPERS - R
+GEARS
+CAMBER
+TOE
+PERSONAL BEST
+RESET CAR
+HANDBRAKE
+EXIT
+LIFT
+CAR
+DRIVER
+CAR
+TIME
+DIFFERENCE
+POSITION
+POINTS
+CHAMPIONSHIP STAGE
+RACE RESULTS
+SEASON UPDATE
+AFTER STAGE
+NEXT RACE
+FINAL STANDINGS
+EURO RALLY
+CHAMPION
+START NEW CHAMPIONSHIP
+RESUME CHAMPIONSHIP
+START CHAMPIONSHP
+CHAMPIONSHIP MENU
+CHAMPIONSHIP OPTIONS
+QUIT CHAMPIONSHIP
+CAR TYPE
+ROOKIE
+UNPROVEN
+PROVEN
+RESPECTED
+ESTABLISHED
+ACCOMPLISHED
+EXPERT
+CHAMPION
+LEGEND
+GRAND LEGEND
+FWD
+4WD
+4WD RANKING
+FWD RANKING
+OVERALL RANKING
+CONGRATULATIONS
+CAR UPGRADED !

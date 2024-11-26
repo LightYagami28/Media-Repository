@@ -1,0 +1,892 @@
+Euro Rally Champion
+NO
+SÍ 
+DESACTIV.
+ACTIV.
+NINGUNA FUNCIÓN 
+NAVEGAR
+CAMBIAR LA SELECCIÓN 
+SELECCIONAR TARJETA
+VOLVER AL ALBUM
+Bonus
+MENÚ PRINCIPAL 
+CARRERA RÁPIDA
+
+
+
+Varios jugadores
+
+Masterclass
+OPCIONES
+PERFIL DEL JUGADOR
+Carrera rápida guardada
+Temporada guardada
+
+Continuar carrera
+Comenzar nueva carrera
+Continuar temporada
+Comenzar nueva temporada
+Puntuaciones de la temporada
+Saltar esta carrera
+Abandonar la temporada
+Guardar temporada
+Comenzar temporada
+Comenzar carrera
+Comenzar entrenamiento
+
+Siguiente
+Demo de tiempo
+Entrenamiento
+Clasificación
+Carrera
+Conductor
+PISTA
+Vueltas
+10
+20
+Un cuarto de recorrido
+Mitad de recorrido
+Recorrido completo
+Oponentes
+NIVEL DE DIFICULTAD
+FÁCIL 
+NORMAL 
+PROFESIONAL
+Personalizar
+Personalizar nivel de dificultad
+Daños
+Ninguno 
+Leve
+Grave
+Sólo coches ai
+Combustible & neumáticos 
+Posición de parrilla
+Delantera
+Media
+Trasera
+Clasificarse
+Penalizaciones
+Asistentes
+Asistente de velocidad
+Control de tracción
+ABS 
+
+CARGAR JUGADOR
+CREAR JUGADOR
+BORRAR JUGADOR
+GUARDAR JUGADOR
+NINGÚN JUGADOR 
+Editar piloto
+Editar equipo
+Editar nombre de piloto
+Editar nombre de equipo
+Configurar nombre de piloto
+Configurar nombre de equipo
+Género
+Masculino
+Femenino
+Casco
+Traje
+Número de automóvil
+Chasis
+Motor
+Neumáticos
+Anfitrión
+Invitado
+Espectador
+Comenzar sesión
+Configurar nombre del anfitrion
+Ninguna sesión disponible 
+Jugadores 
+Jugador 1 configurado
+2 jugadores en horizontal 
+2 jugadores en vertical 
+3 jugadores 
+4 jugadores 
+PAUSA 
+REINICIAR CARRERA
+REPETICIÓN 
+DIFICULTAD 
+Taller
+OPCIONES DEL CONTROL
+OPCIONES DEL CONTROL
+PANTALLA
+OPCIONES DEL NIVEL
+TIPO DE CONTROL
+Acelerador 
+Freno 
+Dirección
+Espejo retrovisor
+Aumentar marcha
+Reducir marcha
+Aumentar mezcla de Gasolina.
+Disminuir mezcla de Gasolina.
+Aumentar el Peso.
+Reducir el Peso.
+Cambio de Cámara
+Cámara abajo
+Auxiliar arriba
+Auxiliar abajo
+Cambiar auxiliar 
+Cambio de camara.
+Pausa 
+VIBRACIÓN
+Volumen de la musica 
+Volumen de los efectos 
+Volumen de  radio de boxes 
+Color del hud
+FORMATO DE LA PANTALLA
+POSICION DE LA PANTELLA
+Verde
+Azul
+Naranja
+Amarillo 
+Rojo
+4:3
+16:9
+P. auto. de neutralización
+Inteligencia artif. Auto.
+Fallos fortuitos
+TRANSMISIÓN
+MANUAL 
+AUTOMÁTICA
+AUTOGUARDAR
+CONTINUAR
+INTENTAR DE NUEVO 
+UTILICE ESTOS AJUSTES
+CONFIRMAR
+RECHAZAR
+CANCELAR
+REINICIAR
+Copiar otra configuración
+Ajustar
+Comenzar clasificación
+Saltar clasificación
+Pasar
+Pasar pagina
+Ir a siguiente
+
+ABANDONAR
+Abandonar entrenamiento
+Suspender esta carrera
+Abandonar clasifiación
+ABANDONAR CARRERA
+
+
+ABANBONAR JUEGO
+COMENZAR DE NUEVO
+
+
+
+
+
+
+
+
+ELEGIR POSICIÓN
+GUARDADO FALLIDO
+CARGADO FALLIDO
+ELIMINADO FALLIDO
+ESTE JUGADOR YA EXISTE 
+REINTRODUCIR NOMBRE
+INTERRUMPIR
+REINTENTAR
+BLOQUES LIBRES
+KB LIBRES
+PERFILES DEL JUGADOR
+¿FORMATEAR?
+SIN FORMATO 
+¿ESTÁS SEGURO? 
+Ninguna posición guardada
+Unidad de memoria extraida
+Disco de memoria 
+Unidad de memoria  1a 
+Unidad de memoria  1b 
+Unidad de memoria  2a 
+Unidad de memoria  2b 
+Unidad de memoria  3a 
+Unidad de memoria  3b 
+Unidad de memoria  4a 
+Unidad de memoria  4b 
+Unidad de memoria cambiada 
+No hay espacio 
+Liberar espacio antes de reintentar
+Conduce en una carrera rápida o practica en la circuito que tú elijas. 
+
+Participa en el mayor evento del mundo del motor.
+Conduce codo con codo contra tus amigos.
+Eddie Cheever Jr. te enseña a conducir como un profesional. 
+Ajustar configuraciones del juego. 
+Controla los Perfiles del Jugador.
+Dejar el juego.
+Comenzar una carrera con las configuración actuales
+Cambia los controles del juego.
+Cambia las configuraciones de audio.
+Cambia las configuraciones visuales.
+Cambia las opciones de juego avanzado.
+Una vez que autoguardar esté desactivado no se guardará este jugador
+Guarda automáticamente configuraciones y progreso.
+Vibración desactivada
+Vibración activada
+Ajusta la posición de la pantalla. 
+Visualización normal. 
+Visualización ancho de pantalla.
+Practica en la circuito actual.
+Participa en una carrera con salida lanzada completa.
+Mirar una carrera sólo con coches AI.
+Participa en una carrera sin salida lanzada.
+Una carrera sin averias.
+Carrera con averías simplificadas y reglas de carrera.
+Máxima acción de carrera con serias averías.
+Personalizar configuraciones de carrera. 
+Los automóviles no tendrán averías.
+Los automóviles estarán sujetos a un modelo de avería simplificada. 
+Todos los automóviles sujetos a avería realista. 
+Tu automóvil es invulnerable pero el de tus oponentes no. 
+Los automóviles no consumen combustible y los neumáticos no se desgastan. 
+Los automóviles consumen combustible y los neumáticos se desgastan.
+Selecciona varias ayudas para ayudarte a conducir el automóvil. 
+Tu automóvil no está sujeto a fallos fortuitos. 
+Tu automóvil está sujeto a los caprichos de la suerte.
+Comenzarás automáticamente al frente de la parilla. 
+Comenzarás automáticamente en la mitad de la parrilla. 
+Comenzarás automáticamente al final de la parrilla. 
+Debes clasificarte para obtener tu puesto en la parrilla de salida.
+Conduce tú mismo el automóvil durante los períodos de bandera amarilla. 
+Deja que el ordenador conduzca durante los períodos de bandera amarilla. 
+Los conductores AI no se ajustarán a tu habilidad. 
+Los conductores AI se ajustarán a tu habilidad. 
+No hay reglas de carrera.
+Se mostrarán banderas negras, amarillas y azules. 
+Conducir con cambio de marchas manual.
+Conducir con cambio de marchas automático.
+No proporcionar asistente de aceleración.
+Proporcionar ayuda de acelerador durante una carrera.
+No usar control de tracción. 
+Control de tracción activado.
+No usar sistema de frenos antibloqueo. 
+Sistema de frenos antibloqueo activado. 
+Entrenamiento libre en circuito actual
+Comenzar la sesión de clasificación
+Comenzar la carrera actual.
+Ver clasificación de puntos acumulados.
+Ajustar la configuración del automóvil. 
+Ir directo a los resultados sin entrar en esta carrera.
+Volver al menú principal. 
+Guardar tu evolución en las series.
+Ver qué tarjetas de negocio has acumulado. 
+Cargar perfil del jugador. 
+Crear nuevo perfil del jugador. 
+Borrar perfil del jugador. 
+Hacer cambios en perfil del jugador. 
+Guardar cambios en juego y perfil del jugador. 
+Hacer cambios en tu piloto.
+Hacer cambios en tu equipo
+Aceptar estas configuraciones.
+
+
+
+
+
+
+
+
+Elige esta opción para configurar una carrera de varios jugador. 
+Elige esta opción para unirte a una carrera de varios jugador existente. 
+Mirar una carrera de varios jugador en acción. 
+Aceler.
+Cambio
+Aceler.
+Veloc.
+Agarre
+Otra configuración
+Presión 
+Muelles
+Amortiguadores
+Altura del chasis
+Marchas
+Curvatura
+Convergencia
+Alerones
+Primero 
+Segundo 
+Tercero 
+Cuarto 
+Quinto
+Sexto 
+Delantero
+Trasero 
+Delantero izquierdo
+Delantero derecho
+Trasero izquierdo
+Trasero derecho
+D
+T
+DI
+DD
+TI
+TD
+Clasificación
+Carrera
+Velocidades a 10700 rpm 
+Opciones de boxes
+Guardar carrera
+Ir a clasificación
+Ir a taller
+Cambiar neumáticos
+Reparar avería
+Cargar combustible
+Alerón delantero
+Vueltas
+Cargar
+Editor de repetición 
+Circuito 
+Cielo 
+Tiempo del día 
+No. Vueltas
+No. automóviles AI 
+Página web 
+Longitud de circuito 
+Recta delantera 
+Recta trasera
+Peralte
+Distribución de asientos 
+Abierto 
+
+Equipo 
+/
+Poles
+Primera pole 
+Victorias 
+Primera victoria 
+Mejor salida
+Mejor clasificación
+Ciudad natal 
+Reside 
+Nacido 
+Carreras 
+Carreras empezadas 
+Carreras completadas
+Mejor salida
+Poles
+Mejor clasificación
+Victorias 
+Cards acumuladas
+Millas recorridas
+Circuito -%s 
+Vuelta -%d de %d 
+Evento -%d de %d 
+Clasificado - %d of %d
+Carrera actual - %s
+Próxima carrera - %s
+Ninguna carrera guardada
+Ninguna serie guardada
+AUTOCONDUCCIÓN
+CONTROL DE JUGADOR EN %d
+Vuelta
+Quedan %d vueltas
+Última vuelta
+Bandera a cuadros
+Posiciones de carrera
+Entrenamiento
+Clasificación
+Pre.
+Vuelta boxes
+Diferencia
+Longitud de circuito
+Recta delantera 
+Recta trasera
+Peralte
+milla 
+millas 
+pies 
+grados 
+mph 
+kph 
+Vuelta1 
+Vuelta2
+Tiempo 
+Último 
+Mejor
+Última
+Mejor
+Delante 
+Detrás
+Velocidades
+Sorteo de clasificación
+Piloto
+Equipo 
+Vuelta1
+Vuelta2
+Int
+
+
+
+Temp de circuito 
+Humedad 
+Clasificados en la pole day de %d aspirantes
+Tiempo restante 
+Intentos disponibles
+Pasar
+Susp.
+Averia.
+Choque
+Piloto actual
+"En la Burbuja '' 
+Posiciones de carrera - clasificación final
+
+Carreras 
+SA
+P
+V
+MS
+MF
+Pts 
+Ingresos
+Corriendo 
+Completa
+Descalificado
+Tanque vacío
+Mecánico 
+Motor
+Choque
+Retirado
+Resumen de las series
+Circuito de la carrera 
+Pole position
+AP = Automóviles Participantes
+AP
+Ganador
+AF =  Automóviles Finalistas
+AF
+MDV = Margen De Victoria 
+MDV 
+P 
+C
+Piloto
+Equipo
+C/M/N
+V.
+Mejor V.
+Estado
+Pt 
+Repetición
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Piloto
+Circuito
+Trofeo
+¡ENHORABUENA!
+Has abierto la tarjeta de %s.
+Visita el álbum para verlo. 
+Carreras
+Mejor posición de salida
+Mejor clasificación
+Vueltas completas
+Carreras lideradas
+Vueltas lideradas
+Classificación en las series
+Ingresos en las Series
+Carreras en su palmares
+Meta entre los 10 primeros.
+Victorias
+Longitud del circuito
+Peralte
+Abierto
+
+%s Campeón
+Récord de circuito (clasificación)
+Récord de circuito (carrera)
+Has abierto la opción de crear tu propio coche de carreras
+Has desbloqueado el editor de trajes
+Has desbloqueado al coche fantasma. 
+Has abierto una película documental.
+Has desbloqueado la opción de crear tu propio conductor.
+Has abierto la opción de crear tu propio equipo. 
+Has desbloqueado el automóvil clásico. 
+No hay memory card (8MB)(para PlayStation®2) en la ranura para MEMORY CARD %d. 
+La memory card (8MB)(para PlayStation®2) de la ranura para MEMORY CARD %d no tiene formato.¿Quieres formatearla? 
+La memory card (8MB)(para PlayStation®2) de la ranura para MEMORY CARD %d está siendo formateada. No extraigas la memory card (8MB)(para PlayStation®2) o el control, ni reinicies o apagues la consola. 
+Los datos guardados en la memory card (8MB)(para PlayStation®2) ya existen. ¿Queres sobrescribir estos datos?. 
+Los datos están siendo guardados en la memory card (8MB)(para PlayStation®2) de la ranura para MEMORY CARD %d. No extraigas la memory card (8MB)(para PlayStation®2) o el control, ni reinicies ni apagues la consola. 
+¿Guardar datos en la memory card (8MB)(para PlayStation®2) en la ranura para MEMORY CARD %d? 
+No hay espacio suficiente en la memory card (8MB)(para PlayStation®2) de la ranura para MEMORY CARD %d. Para guardar los datos, al menos %dKB de espacio libre debe estar disponible. 
+¿Guardar y salir?
+(Sí/No) 
+Juega como Invitado?
+Jugador invitado 
+no puedes guardar juegos. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gira a la izquierda
+Gira a la derecha
+Acelerador / freno
+Objetivo
+Actual
+Velocidad
+Abandonar
+Petición de boxes
+Poseedor del récord
+Récord de vuelta
+Subtítulos
+Rendimiento AI
+Comprueba que la memory card (8MB) (para PlayStation®2).
+Si eliges jugar como invitado no podrás guardar el juego.
+Album de coleccionistas
+Jugador
+¿Desactivar autoguardar?
+Una vez que autoguardar esté desactivado no se guardará este jugador
+Una vez que autoguardar esté desactivado no se guardará este jugador
+Recibiste una bandera negra.
+Estrellaste tu coche.
+Abandonaste la circuito.
+Chocaste con otro coche.
+No adelantaste suficientes coches.
+Has fallado en este masterclass.
+Memory card  (8MB) (para PlayStation®2) no válida.
+Memory card (8MB) (para PlayStation®2)
+No está insertada
+esta en ranura para MEMORY CARD %s.
+esta en ranura para MEMORY CARD %s,
+Comprueba que la memory card (8MB) (para PlayStation®2)
+y por favor inténtalo de nuevo.
+No hay una memory card (8MB) (para PlayStation®2) insertada
+en ninguna ranura para MEMORY CARD 
+Espacio insuficiente en la memory card (8MB) (para PlayStation®2)
+Se necesita una memory card (8MB) (para PlayStation®2) con
+al menos 106KB de espacio libre para guardar este juego.
+Cargando datos de la memory card (8MB) (para PlayStation®2)
+¿Estás seguro que quieres guardar en
+memory card (8MB) (para PlayStation®2)
+esta en ranura para MEMORY CARD %s?
+Guardando datos en la memory card (8MB) (para PlayStation®2)
+esta en ranura para MEMORY CARD %s está sin formatear.
+Los datos guardados existen en la memory card (8MB) (para PlayStation®2)
+¿Quieres sobreescribir estos datos?
+¿Formatear la memory card (8MB) (para PlayStation®2)?
+¿Estás seguro que quieres formatear la
+esta en ranura para MEMORY CARD %s está siendo formateada.
+¡Peligro! Euro Rally Champion utiliza autoguardado.
+No retires la memory card (8MB) (para PlayStation®2),
+reinicies o apagues la consola.
+mientras el icono de arriba permanece en la pantalla.
+Descarga con éxito
+Guardado con éxito
+Formateado con éxito
+¡Descarga fallida!
+¡Fallo al guardar!
+¡Formateado fallido!
+CARGANDO…
+GUARDANDO…
+FORMATEANDO…
+MODO
+MONO
+ESTÉREO
+DTS
+Creado;
+Si guardas tu perfil del jugador en esta nueva tarjeta, las carreras anteriores guardadas se perderán.
+Cualquier carrera anterior guardada no aparecerá en este nuevo guardado.
+Las carreras guardadas no se copiarán al nuevo perfil del jugador.
+Controlador retirado.
+MENÚ PAUSA
+MPH
+KPH
+R
+N
+GR
+ABS
+TC
+SP
+Vuelt.
+No retires la memory card (8MB) (para PlayStation®2),
+reinicies o apagues la consola,
+Adelanta
+No hay una
+insertada.
+Espacio insuficiente en la
+BORRANDO…
+¡Error al borrar!
+Borrando datos de la memory card (tarjeta de memoria) (8MB) (para PlayStation®2).
+Borrado con éxito.
+Página
+Si comienzas una nueva sesión sobrescribirás los datos guardados antes.
+Si comienzas una nueva carrera Indy 500 sobrescribirás los datos guardados antes.
+Si comienzas una nueva carrera sobrescribirás los datos guardados antes.
+Por favor espera. DTS que activa.
+Por favor espera. DTS que desactiva.
+ranura para MEMORY CARD %s
+Handicap
+MAYUSCULA
+MINUSCULO
+CLARO
+BORRE.
+EL ESPACIO
+Vuelve a conectar el control. 
+Vuelve a conectar el control al puerto de control %s. 
+Xbox no tiene suficientes bloques libres
+para crear nuevos perfiles de jugadores.
+Tienes que liberar %d bloques
+para crear un nuevo perfil.
+seg.
+Incapaz de cargar %s.
+Presiona ST‡‡ART
+LIBERAR MÁS BLOQUES 
+Has reventado el motor.
+Presiona ST‡‡ART
+Clasificación
+Carrera
+¿PERFIL NUEVO?
+Crea un nuevo perfil con los datos del "jugador invitado".
+Crea un nuevo perfil sin los datos del "jugador invitado"
+Jugador invitado 
+No puedes guardar juegos
+¿Saltar esta carrera?
+¿Abandonar la temporada?
+¿ABANDONAR?
+¿ABANDONAR ENTRENAMIENTO?
+¿SUSPENDER ESTA CARRERA?
+¿ABANDONAR CLASIFIACIÓN?
+¿ABANDONAR CARRERA?
+¿ABANDONAR SERIES?
+¿ABANDONAR MASTERCLASS?
+¿ABANBONAR JUEGO?
+¿REINICIAR CARRERA?
+Comprobando la memory card (8MB) (para PlayStation®2)
+esta en ranura para MEMORY CARD %s.
+Vuelve a conectar el control al puerto %s. 
+RESOLUCIÓN
+CALIDAD DE DETALLES
+BAJA
+MEDIA
+ALTA
+Pulsa INTRO para continuar
+No hay bastante espacio libre para crear un perfil nuevo.
+Se necesitan %d KB para cada perfil.
+Hay que liberar al menos %d KB.
+OPCIONES DEL MANDO
+TIPO DE MANDO
+Cambia los mando del juego.
+Vuelve a conectar el mando. 
+Vuelve a conectar el mando al puerto de mando %s. 
+
+
+CONTINUAR SIN GUARDAR
+Ya no se pueden guardar más partidas.
+Borra algunas partidas si quieres crear un perfil nuevo.
+¡Se perderán todos los datos del "jugador invitado"!
+Crea un nuevo perfil para guardar los datos del "jugador invitado".
+INVITADO (impos. guardar)
+Vuelve a conectar el controlador. 
+Vuelve a conectar el controlador y presiona ST‡‡ART para continuar. 
+Vuelve a conectar el controlador al puerto %s y presiona ST‡‡ART para continuar.
+Vuelve a conectar el controlador al puerto %s. 
+Opciones del Controlador
+Tipo de controlador 
+Cambia los controlador del juego.
+dummy
+OPCIONES DEL VOLANTE
+Configura los controles del volante
+SENSIBILIDAD DE LA DIRECCIÓN
+SENSIBILIDAD DE LA VELOCIDAD
+AYUDA
+CONTRARRELOJ
+Ayuda Contrarreloj
+CAMPEONATO
+Ayuda Campionato
+DUELO
+Ayuda Duelo
+¡YA!
+DEJAR CONTRARRELOJ
+¿DEJAR CONTRARRELOJ?
+DURA
+BLANDA
+MENOS
+MAS
+BAJO
+ALTO
+Por Defecto
+Costumbre
+AJUSTES
+CAMBIAR
+MOVIMIENTO-D
+MOVIMIENTO-A
+SUSPENSION-D
+SUSPENSION-T
+APAGADORES-D
+APAGADORES-T
+MARCHAS
+CAIDA
+INCLINACION
+MEJOR MARCA PERSONAL
+Reajustar Coche
+Freno de Mano
+SALIR
+ALZAR
+COCHE
+PILOTO
+COCHE
+TIEMPO
+DIFERENCIA
+POSICDION
+PUNTOS
+ESCENARIO DE CAMPEONATO
+RESULTADOS DE CARRERA
+ACTUALIZACION DE TEMPORADA
+TRAS ESCENARIO
+CARRERA SIGUIENTE
+CLASIFICACION FINAL
+EURO RALLY
+CHAMPION
+NUEVO CAMPEONATO
+REANUDAR CAMPEONATO
+COMENZAR CAMPEONATO
+MENU DE CAMPEONATO
+OPCIONES DE CAMPEONATO
+DEJAR CAMPEONATO
+TIPO DE COCHE
+NOVATO
+SIN PROBAR
+PROBADO
+RESPETADO
+CONSAGRADO
+CONUMADO
+EXPERTO
+CAMPEON
+LEGENDARIO
+GRAN LEGENDARIO
+DLT
+T4R
+CLASIFICACION DE T4R
+CLASIFICACION DE DTR
+RANKING GENERAL
+¡ENHORABUENA!
+CEL COCHE AUMENTO!

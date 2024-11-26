@@ -1,6 +1,6 @@
 # Media Repository
 
-Welcome to the **Media Repository**! This repository is designed to organize and share curated content across three major categories: **Games**, **Movies**, and **Music**.
+Welcome to the **Media Repository**! This repository is designed to organize and share curated content across three major categories: **Games**, **Movies**, and **Music**. It serves as a structured resource for enthusiasts and contributors alike, while providing a streamlined process for managing large files that exceed GitHub’s size limits.
 
 ## Repository Structure
 The repository is divided into the following directories:
@@ -30,6 +30,14 @@ Contains resources related to music, organized into categories based on genres a
 - `genres/`: Genres like rock, pop, classical, jazz, etc.
 - `soundtracks/`: Music from movies and games.
 
+## Handling Large Files
+Some files may exceed GitHub’s maximum size limit. To address this, the repository utilizes an external resource:
+
+- For any missing files referenced in `specification.md` documents, links will be provided to the corresponding resources hosted on Telegram.
+- These files can be accessed through our dedicated Telegram channel, which ensures efficient and secure distribution.
+
+**Telegram Channel:** [Media Repository Telegram Channel](https://t.me/MediaRepositoryLightYagami28)
+
 ## How to Contribute
 1. **Clone the repository**:
    ```bash
@@ -45,6 +53,7 @@ Contains resources related to music, organized into categories based on genres a
 ## License
 This repository is licensed under the MIT License. Refer to the `LICENSE` file for details.
 
-## Feedback
-If you have suggestions or encounter any issues, please open an issue or contact the repository maintainer.
+## Feedback and Support
+If you have suggestions, encounter issues, or need help accessing large files via Telegram, please open an issue or contact the repository maintainer.
 
+Thank you for contributing to and supporting the Media Repository!
