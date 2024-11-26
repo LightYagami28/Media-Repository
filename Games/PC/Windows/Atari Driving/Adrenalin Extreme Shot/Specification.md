@@ -47,5 +47,12 @@ The reason why the `data2.cab` and `data3.cab` files are not included in this re
 
 ---
 
+## Manual in PDF (Italian)
+You can also find the game manual in PDF format in the same directory, available exclusively in Italian. This manual provides additional instructions, tips, and details about the game, offering further insights into the gameplay and features. 
+
+Please note that the manual is only available in Italian at the moment.
+
+---
+
 **Game Overview**:  
 *Adrenalin: Extreme Show* is a street racing game that combines high-speed action with flashy visuals. Players engage in races where style and performance matter, unlocking new tracks and cars as they progress through the career mode. The game's unique focus on its female drivers and over-the-top racing action made it stand out in its time.
