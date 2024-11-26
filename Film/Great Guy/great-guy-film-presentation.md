@@ -32,5 +32,5 @@ In a world ruled by violence, a former fighter finds himself caught in a conflic
 
 The film *Il Pugno di Ferro* (Great Guy) will be available for download in MP4 format on our Telegram channel. You can access it through the links below:
 
-- 🇮🇹 [Download Italian Version here](insert-telegram-link-italian)
-- 🇬🇧 [Download English Version here](insert-telegram-link-english)
+- 🇮🇹 [Download Italian Version here](https://t.me/Mediarepositoryfilm/2)
+- 🇬🇧 [Download English Version here](https://t.me/Mediarepositoryfilm/3)
