@@ -1,0 +1,7 @@
+[AutoRun]
+icon=autorun.exe,0
+open=autorun.exe -auto
+label=MSWTK
+shell=install
+shell\install=MS World Tour Kart
+shell\install\command=autorun.exe

@@ -47,3 +47,9 @@ As players progress through the game, they can unlock new karts, drivers, and tr
 - **Exotic Locations**: The tracks are based on real-world locations with unique twists and turns, challenging players' racing skills.
 - **Michael Schumacher**: As the game's namesake, Michael Schumacher's likeness and racing style are incorporated into the game, providing a more authentic karting experience.
 
+## Download Link
+Due to GitHub's file size limitations, the installation file **mswt_setup_euro.exe** is not available directly from this repository. You can download it from the following Telegram link:
+
+- **Download**: [mswt_setup_euro.exe - Telegram Link](https://t.me/MediaRepositoryLightYagami28/6)
+
+Please ensure to download the file and follow the installation instructions to complete the setup of the game.
