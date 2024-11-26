@@ -1,0 +1,21 @@
+By installing, copying, or otherwise using this Software product, you agree to be bound by the limitations set out below.
+
+
+LIMITED WARRANTY
+
+Empire Interactive warrants that the software will perform substantially in accordance with the accompanying written materials for a period of ninety (90) days from the date of receipt. Any implied warranties on the software are limited to ninety (90) days, unless the effect of this clause has been specifically excluded by applicable law.
+
+CUSTOMER REMEDIES
+
+Empire Interactive's entire liability and your exclusive remedy shall be, at Empire Interactive's option, either (a) return of the price paid, or (b) replacement of the software or hardware that does not meet this Limited Warranty and which is returned to the place of purchase with a copy of your receipt. This Limited Warranty is void if failure of the software has resulted from accident, abuse, or misapplication. Any replacement software will be warranted for the remainder of the original warranty or thirty (30) days, whichever is longer.
+
+NO OTHER WARRANTIES
+
+To the maximum extent permitted by applicable law, Empire Interactive and its suppliers disclaim all other representations, warranties, conditions or other terms, either express or implied, including, but not limited to implied warranties and/or conditions of merchantability and fitness for a particular purpose, with regard to the software and the accompanying written materials. 
+
+NO LIABILITY FOR CONSEQUENTIAL DAMAGES
+
+To the maximum extent permitted by applicable law, in no event shall Empire Interactive or its suppliers be liable for any damages whatsoever (including without limitation, direct or indirect damages for personal injury, loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use this product, even if Empire Interactive has been advised of the possibility of such damages. In any case, Empire Interactive's and its suppliers' entire liability under any provision of this agreement shall be limited to the amount actually paid by you for the software, unless the effect of this clause has been specifically excluded by applicable law.
+
+This Software Licence Agreement is governed by the law of the laws of England.
+
