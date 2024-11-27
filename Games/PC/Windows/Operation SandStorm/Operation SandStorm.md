@@ -36,7 +36,7 @@
 ---
 
 **Game Manual**:
-Unfortunately, no game manual is included in this version of the game.
+The game manual is included as a `.doc` file named **Operation Sandstorm Manual.doc**, which is available in English. We invite anyone interested to contribute to translating it into their preferred language. Please reach out if you would like to collaborate on the translation.
 
 ---
 
