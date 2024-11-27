@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le Groupe de Forces Nord s'est effondré, laissant le XVIIIe corps face à quelques îlots de résistance épars. La BAOR poursuit son avance sur Minsk, alors que le gouvernement du Bélarus demande un cessez-le-feu. \n Les IIe et IIIe corps affrontent toujours une farouche résistance, mais les unités majeures de l'ennemi se retirent ou se rendent. \n Le Ve corps poursuit les unités russes et ukrainiennes restantes et fait mouvement sur Kiev.
+Sprite 0 = images\cin12.pcx, 0, 0, 0
+Sprite 1 = images\cir12.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du Ve CORPS
+Map = images\cs4.pcx
+Text = 1, 1, La situation est extrêmement fluide. La plupart des divisions faisant face au Ve corps n'existent plus en tant qu'unités opérationnelles. La seule exception est la 10e blindée de la garde. Les 1e et 3e de cavalerie forment une poche qui devrait pouvoir piéger la majeure partie du Groupe de Forces Centre, ou ce qu'il en reste. La 3e d'infanterie américaine est chargée de réduire cette poche.
+Sprite 0 = images\cavcir11.pcx, 0, 0, 0
+Sprite 1 = images\gercin12.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 236, 151, 0
+Time Out = 15
+GOTOBRIEFING = 1

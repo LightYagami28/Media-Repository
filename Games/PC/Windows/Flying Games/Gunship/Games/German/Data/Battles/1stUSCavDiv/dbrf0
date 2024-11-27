@@ -1,0 +1,22 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\Muc0.pcx
+Text = 1, 1, Die 1-5. Cavalry konnte sich geordnet zurückziehen. Die Speerspitze der 72. wurde abgestumpft. Sie muss nun etwas vorsichtiger vorgehen, wodurch wir Zeit zur Reorganisation haben. Ruhen Sie sich aus, für die nächsten Stunden sind keine Einsätze zu erwarten. 
+Sprite 0 = images\uahb.pcx, 23, 290, 0
+Sprite 1 = images\utnkb.pcx, 74, 207, 0
+Sprite 2 = images\rtnkb.pcx, 123, 53, 0
+Label 0 = 74, 233, 10, 10, 10, 1, Stone
+Label 1 = 75, 234, 99, 99, 208, 1, Stone 
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc0.pcx 
+Text = 1, 1, Sie haben Ihr Missionsziel nicht erreicht. Die Speerspitze der 72. Panzergarde konnte ein großes Loch in unsere Frontlinien reißen, durch das Verstärkung nachkommt. Das dürfte mit ziemlicher Sicherheit unangenehme Folgen haben. \n \n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen.
+Sprite 0 = images\uahb.pcx, 23, 290, 0
+Sprite 1 = images\utnkb.pcx, 74, 207, 0
+Sprite 2 = images\rtnkb.pcx, 123, 53, 0
+Label 0 = 74, 233, 10, 10, 10, 1, Stone
+Label 1 = 75, 234, 99, 99, 208, 1, Stone 
+Time Out = 15
+

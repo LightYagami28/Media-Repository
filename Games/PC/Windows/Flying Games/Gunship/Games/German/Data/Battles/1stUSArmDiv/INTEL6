@@ -1,0 +1,20 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, BAOR \n Die 82. Luftlandedivision kommt direkt aus den USA, um die 7. Armored zu verstärken. \n Die 1. Marinedivision landet nahe Kaliningrad. \n Die britische 3. Armored Division und die amerikanische 24. Infantry Division starten einen massiven Angriff, um die die 6. Panzerarmee einzukesseln. \n II. Korps \n Die 1., 5. und 10. Panzerdivision führen einen massiven Schlag gegen Chelm und Zamosc aus. \n V. Korps \n Die 1. Cavalry Division greift als Unterstützung des II. Korps an.
+Sprite 0 = images\cin4.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR-SEKTOR
+Map = images\cs1.pcx
+Text = 1, 1, Das Korps startet einen Zwei-Spitzen-Angriff. Im Norden treiben die amerikanische 24. Infantry Division und die 1. Marinedivision die 28. und 5. Belarusarmee zurück nach Kaliningrad. \n In der Mitte haben die britischen 1. und 3.  Armored Divisionen ihren Angriff begonnen. Die amerikanische 1. Armored und die 82. Luftlandedivision benutzen die 7. Brigade als Amboss, mit dem Ziel, mindestens drei Divisionen der 6. Panzerarmee einzukesseln.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 122, 226, 155, 155, 155, 1, Pisz
+Sprite 0 = images\ukcir7.pcx, 0, 0, 0
+Sprite 1 = images\ukcin7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 128, 227, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

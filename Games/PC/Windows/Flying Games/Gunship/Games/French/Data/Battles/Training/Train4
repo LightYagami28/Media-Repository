@@ -1,0 +1,104 @@
+TITLE: Raid d'entraînement
+BATTLEFIELD: UKRAINE 92250 85500 0 0 20 24
+RUNAI: RED
+SIDE: 0
+BLUE_ENEMIES: 30
+PLATOON: 142 98650 91850 270 0 98650 91850 2 401
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+
+PLATOON: 62 85800 79250 90 0 87800 79250 1 302
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 90050 78800
+ADDWAYPT: 92050 78750
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_ASSMBLY:
+ADDWAYPT: 93900 79250
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_BATTLEPOS:
+ADDWAYPT: 93200 81950
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 87500 85100
+ORDER_WPT_SETDELAYTIME: 120
+
+PLATOON: 103 91850 84050 90 0 91850 84050 2 1803
+PLATOON: 141 91750 80650 90 0 91750 80650 0 1804
+PLATOON: 141 95050 80750 90 0 95050 80750 2 1805
+PLATOON: 103 90500 83400 90 0 90500 83400 0 1806
+SUPPORT: 77 86500 84650 90 0 86500 84650 2 287
+BLUE_TARGET2:
+SUPPORT: 77 85750 86050 90 0 85750 86050 1 288
+BLUE_TARGET2:
+PLATOON: 78 87050 85800 90 0 87050 85800 2 2009
+BLUE_TARGET2:
+PLATOON: 105 89509 81272 0 0 89509 81272 2 1810
+BLUE_TARGET: 36
+PLATOON: 70 89920 81068 35 8 89920 81068 1 1811
+BLUE_TARGET: 36
+PLATOON: 120 89277 81720 135 2 89277 81720 2 1812
+BLUE_TARGET: 36
+PLATOON: 124 89586 81376 270 6 89586 81376 0 1813
+BLUE_TARGET: 36
+PLATOON: 125 89433 81068 90 6 89433 81068 0 1814
+BLUE_TARGET: 36
+
+[Title]
+TITLE = RAID D'ENTRAINEMENT
+
+
+[Briefing 0]
+Heading = 9, PLANIF. DE MISSION
+Map = images\Tmap4.pcx
+Text = 1, 1, La préparation de la mission vous appartient. Lorsque la mission aura commencé, affichez la carte en appuyant sur la touche N. Relevez vos points tournants jusqu'à vos objectifs de mission. Le choix des armements vous appartient également. Je me moque de savoir comment vous traiterez vos cibles dès lors que vous les détruisez toutes. Mais n'oubliez pas de choisir le meilleur éventail d'armements en fonction de la nature des cibles.
+Sprite 0 = images\uahb.pcx, 278, 277, 0
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, 1er OBJECTIF
+Map = images\Tmap4.pcx
+Text = 1, 1, Cette mission consistera à effectuer un raid simulé contre un aérodrome et une batterie d'artillerie. Toutes les armes tireront à munitions réelles, y compris celles de l'ennemi, alors soyez prudent. Les défenses de l'aérodrome sont affichées sur la carte qui se trouve sur la gauche. L'aérodrome est protégé par une batterie fixe de SA-6, un canon antiaérien fixe et trois bunkers. Employez les Hellfire ou les roquettes HE pour venir à bout des bunkers. Détruisez toutes les défenses de l'aérodrome, ainsi que les hélicos au sol.
+Sprite 0 = images\rsam6b.pcx, -12, -63, 0
+Sprite 1 = images\rinfp.pcx, 79, 74, 0
+Sprite 2 = images\uahb.pcx, 278, 277, 0
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, 2e OBJECTIF
+Map = images\Tmap4.pcx
+Text = 1, 1, La seconde cible est une batterie d'artillerie, composée de deux sections et d'une unité de commandement. Sa défense aérienne est limitée, mais faites également preuve de prudence en l'approchant. Elle est affichée sur la carte figurant sur la gauche.
+Sprite 0 = images\rspgp.pcx, 36, 134, 0
+Sprite 1 = images\rspgp.pcx, 21, 162, 0
+Sprite 2 = images\rhqb.pcx, 43, 156, 0
+Sprite 3 = images\uahb.pcx, 278, 277, 0
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, AVERTISSEMENT
+Map = images\Tmap4.pcx
+Text = 1, 1, Il existe également une patrouille de Havoc dans le secteur. Elle effectue une patrouille de routine aux abords de sa base aérienne. Je ne veux pas vous gâcher la surprise en vous dévoilant où elle se trouve. Le secteur compte également un certain nombre de véhicules cibles. Détruisez-en au moins 30 %. Bonne chasse.
+Sprite 0 = images\uahb.pcx, 278, 277, 0
+Sprite 1 = images\rtnkp.pcx, 143, 122, 0
+Sprite 2 = images\rifvp1.pcx, 148, 61, 0
+Sprite 3 = images\rifvp1.pcx, 207, 56, 0
+Sprite 4 = images\rtnkp.pcx, 116, 109, 0
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, METEO
+Map = images\Tmap4.pcx
+Text = 1, 1, Il s'agit d'une mission de nuit. Temps clair dans votre secteur. \n La clarté lunaire devrait améliorer la visibilité, et la porter à 3-4 km. \n Excellentes conditions thermiques permettant de voir à 8 km. \n Vents calmes.
+Movie = movies\clear.bik, 0, 0, 315, 315
+Time Out = 15
+
+Execute = 1

@@ -1,0 +1,31 @@
+[WIN]
+movie = movies\winfourw.bik
+Heading = 9, STATUS
+Map = images\mg0.pcx 
+Text = 1, 1, Durch die Vernichtung der Vorhut der 16. Panzergarde-Division haben Sie die 2. Armeegarde gezwungen, ihren Vormarsch zu verlangsamen. \n Rüsten Sie wieder nach und tanken Sie so schnell wie möglich, denn die Kampfgruppe "Stone" benötigt Luftunterstützung während ihres Rückzuges. 
+Sprite 0 = images\uahb.pcx, 10, 301, 0
+Sprite 1 = images\utnkb.pcx, 20, 270, 0
+Sprite 2 = images\rtnk16.pcx, 199, 45, 0
+Sprite 3 = images\rifv207.pcx, 97, 111, 0
+Sprite 4 = images\rifv207.pcx, 200, 198, 0
+Sprite 5 = images\rahb.pcx, 270, 85, 0
+Label 0 = 75, 288, 200, 200, 200, 1, Fluss Bug
+Label 1 = 265, 121, 200, 200, 200, 1, Shatsk
+Label 2 = 43, 271, 10, 10, 10, 1, Stone
+Label 3 = 42, 270, 99, 99, 208, 1, Stone
+Time Out = 15
+[Lose]
+Heading = 9, STATUS
+Map = images\mg0.pcx 
+Text = 1, 1, Sie sind bei der Durchführung Ihrer Mission gescheitert. Dies würde der 16. Panzergarde-Division ermöglichen, Sie anzugreifen und Ihre Division zu überwältigen. \n \n Wählen Sie "WIEDERHOLEN", um die Mission noch mal zu fliegen!
+Sprite 0 = images\uahb.pcx, 10, 301, 0
+Sprite 1 = images\utnkb.pcx, 20, 270, 0
+Sprite 2 = images\rtnk16.pcx, 188, 46, 0
+Sprite 3 = images\rifv207.pcx, 97, 111, 0
+Sprite 4 = images\rifv207.pcx, 200, 198, 0
+Sprite 5 = images\rahb.pcx, 270, 85, 0
+Label 0 = 75, 288, 200, 200, 200, 1, Fluss Bug
+Label 1 = 265, 121, 200, 200, 200, 1, Shatsk
+Label 2 = 43, 271, 10, 10, 10, 1, Stone
+Label 3 = 42, 270, 99, 99, 208, 1, Stone
+Time Out = 15

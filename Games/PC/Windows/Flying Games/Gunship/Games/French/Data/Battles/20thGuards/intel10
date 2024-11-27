@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, La BAOR s'est rendue au Groupe de Forces Nord. Le Groupe de Forces Centre est toujours aux prises avec le 2e corps. La contre-attaque du Groupe de Forces Sud a mis en déroute le 5e corps. Ce dernier se replie maintenant en Slovaquie.
+Sprite 0 = images\rcin9.pcx, 0, 0, 0
+Sprite 1 = images\rcir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR de la 20e de la GARDE
+Map = images\cs4.pcx
+Text = 1, 1, La 1e division de cavalerie se replie en direction de la Slovaquie, et nous nous attendons à une manoeuvre similaire à celle que nous avons tentée. La 3e d'infanterie américaine se replie également, tout comme la 5e d'infanterie allemande. 
+Sprite 0 = images\ruscin10.pcx, 0, 0, 0
+Sprite 1 = images\ruscir10.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 25, 239, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

@@ -1,0 +1,22 @@
+[WIN]
+Heading = 9, SITUATION
+Map = images\Muc0.pcx
+Text = 1, 1, Le 1-5e de cavalerie a réussi à se replier en bon ordre. Nous avons pu émousser le fer de lance du 72e. Il progressera dorénavant plus prudemment, ce qui nous laissera plus de temps pour nous regrouper. Allez vous reposer, nous ne prévoyons pas d'autre mission avant plusieurs heures. 
+Sprite 0 = images\uahb.pcx, 23, 290, 0
+Sprite 1 = images\utnkb.pcx, 74, 207, 0
+Sprite 2 = images\rtnkb.pcx, 123, 53, 0
+Label 0 = 74, 233, 10, 10, 10, 1, Stone
+Label 1 = 75, 234, 99, 99, 208, 1, Stone 
+Time Out = 15
+
+[Lose]
+Heading = 9, SITUATION
+Map = images\muc0.pcx 
+Text = 1, 1, Vous n'avez pas mené à bien votre mission. Vous avez laissé le fer de lance du 72e régiment de chars créer une large brèche dans notre ligne de front, dans laquelle déferlent les renforts ennemis. Cette première journée sera longue, et sera même probablement la dernière.  \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uahb.pcx, 23, 290, 0
+Sprite 1 = images\utnkb.pcx, 74, 207, 0
+Sprite 2 = images\rtnkb.pcx, 123, 53, 0
+Label 0 = 74, 233, 10, 10, 10, 1, Stone
+Label 1 = 75, 234, 99, 99, 208, 1, Stone 
+Time Out = 15
+

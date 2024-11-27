@@ -1,0 +1,174 @@
+TITLE: cav6
+BATTLEFIELD: CZECH 166500 104250 0 0 2 24
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+BLUE_ENEMIES: 80
+BLUE_FRIENDLIES: 30
+RED_FRIENDLIES: 80
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 0
+MACHINE: 0
+
+/* FRIENDLY HELO */
+PLATOON: 17 170550 110500 90 0 168250 108450 1 4
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_ADV_MED:
+ADDWAYPT: 164050 107100
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 164050 102750
+ORDER_WPT_SETDELAYTIME: 480
+/* FRINDLY GROUND */
+PLATOON: 1 173000 106600 90 0 170550 105650 1 20
+BLUE PROTECT:
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NW:
+ORDER_ADV_MED:
+ADDWAYPT: 168550 104500
+ORDER_ASMBLY_NORTH:
+ADDWAYPT: 167900 102800
+ORDER_ASMBLY_NW:
+ADDWAYPT: 164500 98600
+PLATOON: 10 171600 105100 90 0 168750 103200 1 20
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_FORM_WEDGE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NW:
+ORDER_ADV_FAST:
+ADDWAYPT: 167200 101000
+ADDWAYPT: 164650 96750
+PLATOON: 9 173200 104450 90 0 171300 103700 0 20
+BLUE PROTECT:
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NW:
+ORDER_ADV_MED:
+ADDWAYPT: 169400 102650
+ADDWAYPT: 168300 100000
+ORDER_ASMBLY_NORTH:
+ADDWAYPT: 166700 97600
+ORDER_ASMBLY_NW:
+PLATOON: 36 163800 97250 270 0 167700 101350 1 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_SE:
+ORDER_ADV_MED:
+ADDWAYPT: 172700 105500
+ORDER_TRVL_ASSAULT:
+/* ENEMY GROUND */
+PLATOON: 35 166100 97150 270 0 167350 98850 2 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 30
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_SE:
+ORDER_ADV_MED:
+ADDWAYPT: 168550 100800
+ADDWAYPT: 169350 102900
+ADDWAYPT: 173400 105600
+PLATOON: 35 163850 99050 270 0 165200 101100 0 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 30
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_SE:
+ORDER_ADV_MED:
+ADDWAYPT: 166900 101500
+ADDWAYPT: 167950 103350
+ADDWAYPT: 169250 104700
+ADDWAYPT: 173350 106350
+PLATOON: 43 165200 98300 270 0 167400 101400 1 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 30
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_SE:
+ORDER_ADV_MED:
+ADDWAYPT: 169800 103500
+ADDWAYPT: 173600 105600
+PLATOON: 58 166250 99700 270 0 168600 102300 0 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_FORM_EXTLINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_SE:
+ORDER_ADV_FAST:
+ADDWAYPT: 171250 104350
+ADDWAYPT: 173900 105250
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\muc6.pcx
+Text = 1, 1, Des unités de la 1e de cavalerie, indicatif Hawk, mènent une mission de reconnaissance armée afin de rétablir le contact avec l'ennemi dans votre secteur. Vous en assurerez le soutien aérien direct. \n\n INDICATIF : Specter \n\n OBJECTIFS : Appuyer le team Hawk.\n Rechercher et détruire les unités ennemies se trouvant entre les LP Foxtrot et Echo.\n Minimiser les pertes des unités amies.
+Line 0 = 200, 200, 200, 239, 283, 193, 242
+Line 1 = 200, 200, 200, 193, 242, 109, 215
+Line 2 = 200, 200, 200, 109, 215, 109, 128
+Line 3 = 0, 0, 200, 0, 15, 315, 15
+Line 4 = 0, 0, 200, 0, 154, 315, 154
+Label 0 = 70, 15, 0, 0, 200, 1, LP GOLF
+Label 1 = 245, 157, 0, 0, 200, 1, LP FOXTROT
+Sprite 0 = images\uahb.pcx, 231, 275, 0
+Sprite 1 = images\uwpbp.pcx, 185, 219, 0
+Sprite 2 = images\uwpbp.pcx, 101, 192, 0
+Sprite 3 = images\uwpbp.pcx, 101, 105, 0
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\muc6.pcx
+Text = 1, 1, Vous interviendrez dans un secteur compris entre les lignes de phase Alpha et Bravo. Vous ne devrez en aucun cas franchir ces lignes de phase. \n La situation est très fluide, et toute unité aérienne se trouvant hors de son secteur sera considérée comme hostile. \n \n DEFENSE AERIENNE : \n Les unités qui progressent risquent d'être accompagnées de moyens mobiles de défense aérienne. Le Rens. signale que quelques sites de SAM fixes pourraient être toujours actifs.
+Line 0 = 0, 0, 200, 30, 50, 30, 220
+Line 1 = 0, 0, 200, 30, 220, 92, 297
+Line 2 = 0, 0, 200, 285, 265, 285, 75
+Line 3 = 0, 0, 200, 285, 75, 244, 14
+Label 0 = 29, 269, 10, 10, 10, 1, LP ALPHA
+Label 1 = 259, 29, 10, 10, 10, 1, LP BRAVO
+Label 2 = 30, 270, 0, 0, 255, 1, LP ALPHA
+Label 3 = 260, 30, 0, 0, 255, 1, LP BRAVO
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, FORCES AMIES
+Map = images\muc6.pcx
+Text = 1, 1, Toutes les unités amies appartiennent à la 1e division de cavalerie. Un team de niveau escadron du 2-5e, indicatif Hawk, effectue une reco. au nord afin de rétablir le contact avec l'ennemi. 
+Sprite 0 = images\utnkb.pcx, 273, 171, 0
+Sprite 1 = images\uarrownw.pcx, 248, 149
+Label 0 = 273, 196, 0, 0, 200, 1, Stone
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, FORCES ENNEMIES
+Map = images\muc6.pcx
+Text = 1, 1, Nous ne savons rien du dispositif ennemi pour l'instant.
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, METEO
+Map = images\muc6.pcx
+Text = 1, 1, Temps couvert dans votre secteur d'opérations, avec plafond à 2.500 pieds. \n Le soleil devrait se lever pendant que vous vous trouverez sur votre zone de rassemblement avancée. \n Visibilité limitée à environ 1 km en raison du brouillard. \n Conditions thermiques médiocres, ne permettant de voir qu'à 2 km. \n Léger vent de sud-ouest, 3 à 5 noeuds.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+Time Out = 15
+
+

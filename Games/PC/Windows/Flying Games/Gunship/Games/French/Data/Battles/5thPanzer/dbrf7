@@ -1,0 +1,31 @@
+[WIN]
+movie = movies\winfourw.bik
+Heading = 9, SITUATION
+Map = images\MG7.pcx
+Text = 1, 1, Les Russes ne sont toujours pas en mesure de former une ligne de défense cohérente. En ce moment, ils se replient plus vite que nous ne pouvons avancer. Continuez à faire de l'aussi bon boulot. 
+Line 0 = 99, 99, 208, 297, 0, 297, 315
+Sprite 0 = images\uahb.pcx, 4, 66, 0
+Sprite 1 = images\uifvb.pcx, 37, 118, 0
+Sprite 2 = images\uarrowe.pcx, 61, 118, 0
+Sprite 3 = images\rifvb.pcx, 291, 28, 0
+Sprite 4 = images\rarrowsw.pcx, 267, 41, 0
+Label 0 =  89, 166, 200, 200, 200, 1, Yablonov
+Label 1 = 228, 291, 10, 10, 10, 1, LP FOXTROT
+Label 2 = 227, 290, 99, 99, 208, 1, LP FOXTROT
+Time Out = 10
+
+[Lose]
+movie = movies\winfivew.bik
+Heading = 9, SITUATION
+Map = images\mg7.pcx
+Text = 1, 1, Vous n'avez pas mené à bien votre mission. Les Russes ont établi une nouvelle ligne de défense. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Line 0 = 99, 99, 208, 297, 0, 297, 315
+Sprite 0 = images\uahb.pcx, 4, 66, 0
+Sprite 1 = images\uifvb.pcx, 37, 118, 0
+Sprite 2 = images\uarrowe.pcx, 61, 118, 0
+Sprite 3 = images\rifvb.pcx, 291, 28, 0
+Sprite 4 = images\rarrowsw.pcx, 267, 41, 0
+Label 0 =  89, 166, 200, 200, 200, 1, Yablonov
+Label 1 = 228, 291, 10, 10, 10, 1, LP FOXTROT
+Label 2 = 227, 290, 99, 99, 208, 1, LP FOXTROT
+Time Out = 15

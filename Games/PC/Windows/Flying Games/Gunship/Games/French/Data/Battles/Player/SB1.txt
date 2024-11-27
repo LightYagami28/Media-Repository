@@ -1,0 +1,209 @@
+TITLE: Brave Ecosse
+BATTLEFIELD: Czech 34000 144000 0 0 11 25
+LEVEL: 6
+OBJECTIVE: BLUE THREEKRADIUS 32700 141400 14
+OBJECTIVE: RED THREEKRADIUS 32700 141400 18
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 1
+PLATOON: 130 38000 139000 90 6 35800 139500 3 8
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_HELO_SEAD:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 30400 141400
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_HELO_SEAD:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 27000 139000
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+PLATOON: 108 40000 137000 90 7 40000 137000 3 12
+ORDER_ASMBLY_ASMBLY:
+ORDER_WPT_CURRENT:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 32700 141400
+ORDER_ASMBLY_LZ:
+ORDER_TRVL_BYPASS:
+ORDER_ADV_FAST:
+PLATOON: 62 28000 147000 45 7 29850 142150 3 7
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 480
+ADDWAYPT: 32950 141700
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 35100 141900
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 480
+ADDWAYPT: 33900 144750
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 540
+PLATOON: 80 39500 142200 90 6 39800 143600 3 14
+ORDER_MODE_WAYPT:
+ADDWAYPT: 36400 143500
+ADDWAYPT: 32700 141400
+PLATOON: 31 39500 146700 90 7 36500 144700 3 15
+ORDER_MODE_WAYPT:
+ADDWAYPT: 31900 144300
+PLATOON: 31 39500 139200 90 7 36200 140200 3 17
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_MODE_WAYPT:
+ADDWAYPT: 34500 142200
+ADDWAYPT: 29600 142100
+PLATOON: 32 39500 146300 90 7 36400 144600 3 18
+ORDER_MODE_WAYPT:
+ADDWAYPT: 32700 141500
+PLATOON: 116 38900 142200 90 7 36900 145300 3 21
+ORDER_MODE_WAYPT:
+ADDWAYPT: 34800 142200
+PLATOON: 51 35800 139500 270 7 35800 139500 2 19
+PLATOON: 37 34200 145200 315 7 34100 145200 2 19
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_NE:
+PLATOON: 37 35700 144200 225 7 35700 144200 2 19
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_NE:
+PLATOON: 37 33500 142300 180 7 34100 142900 2 19
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_SOUTH:
+PLATOON: 37 33200 144400 270 7 33200 144400 2 19
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_EAST:
+PLATOON: 56 32500 141500 270 8 32500 141500 2 22
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_EAST:
+PLATOON: 70 33700 141300 270 8 33700 141300 2 21
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_EAST:
+PLATOON: 56 27500 142400 270 8 27500 142400 2 22
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_EAST:
+SUPPORT: 74 28000 144000 270 8 28000 144000 2 29
+SUPPORT: 77 27000 139000 270 8 27000 139000 2 30
+PLATOON: 111 24000 147500 270 7 32700 141400 2 23
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 110 24500 147000 270 7 32700 141200 2 23
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 51 24500 147500 270 7 32700 141100 2 23
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 110 24500 148000 270 7 32700 141000 2 23
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 69 24500 144300 270 0 27000 142000 1 16
+ORDER_MODE_WAYPT:
+ORDER_ADV_MED:
+ADDWAYPT: 28100 141500
+ADDWAYPT: 32500 141500
+SUPPORT: 65 25000 151000 45 7 41000 147000 2 31
+SUPPORT: 82 40000 146700 90 7 40500 146700 3 28
+SUPPORT: 83 40500 145700 90 7 40500 145700 3 29
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\msb1.pcx
+Text = 1, 1, Vous assurerez la sécurité de l'assaut aérien sur l'objectif Anvil, et appuierez l'attaque terrestre du groupement tactique Lion.  \n \n INDICATIFS :\n Patrouille n°1 : Dragon \n Patrouille n°2 : Raider \n OBJECTIFS : \n Neutraliser les unités de défense aérienne susceptibles d'engager Raider. \n Attaquer et détruire toute unité ennemie se trouvant à moins de 2 km d'Anvil.  \n Appuyer l'attaque de Lion.\n Minimiser les pertes de toutes les unités amies impliquées.
+Sprite 0 = images\uwpbp.pcx, 186, 47, 0
+Sprite 1 = images\uwpbp.pcx, 78, 85, 0
+Sprite 2 = images\uwpbp.pcx, 10, 37, 0
+Sprite 3 = images\uobja.pcx, 117, 76, 0
+Sprite 4 = images\uahb.pcx, 230, 50, 0
+Line 0 = 200, 200, 200, 238, 58, 194, 68
+Line 1 = 200, 200, 200, 194, 68, 86, 106
+Line 2 = 200, 200, 200, 86, 106, 18, 58
+Time Out = 30
+
+[Blue_Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\msb1.pcx
+Text = 1, 1, Vous interviendrez dans un secteur compris entre les lignes de phase Alpha et Bravo. Vous ne franchirez en aucun cas ces lignes de phase. \n La situation est très fluide, et toute unité aérienne se trouvant hors de son secteur sera considérée comme hostile. \n \n DEFENSE AERIENNE : \n Les forces disposent ici d'importantes défenses aériennes. 
+Line 0 = 99, 99, 208, 0, 20, 315, 20
+Line 1 = 99, 99, 208, 0, 290, 315, 290
+Label 0 = 22, 20, 99, 99, 208, 1, LP ALPHA
+Label 1 = 22, 278, 99, 99, 208, 1, LP BRAVO
+Time Out = 30
+
+[Blue_Briefing 2]
+Heading = 9, FORCES AMIES
+Map = images\msb1.pcx
+Text = 1, 1, Les forces terrestres du secteur sont composées d'un team blindé de niveau escadron des Royal Scots Dragoon Guards, indicatif Lion, disposant d'un important soutien organique. 
+Sprite 0 = images\utnkb.pcx, 268, 122, 0
+Sprite 1 = images\uchb.pcx, 278, 18, 0 
+Label 0 = 268, 145, 99, 99, 208, 1, Lion
+Label 1 = 273, 41, 99, 99, 208, 1, Raider
+Time Out = 20
+
+[Blue_Briefing 3]
+Heading = 9, FORCES ENNEMIES
+Map = images\msb1.pcx
+Text = 1, 1, Des unités ennemies de la 16e DB de la garde mènent actuellement une attaque. Leur taille est au moins de niveau escadron. Elles disposent d'un important soutien d'artillerie et d'une excellente couverture sol-air (SAM et canons) pour un dispositif de cette taille. Aucun appui aérien n'a été pour l'instant aperçu.
+Sprite 0 = images\rsam6b.pcx, 31, -17, 0
+Sprite 1 = images\rtnkb.pcx,  148, 124, 0
+Sprite 2 = images\radv2b.pcx, -13, 85, 0
+Label 0 = 147, 106, 255, 0, 0, 1, SAM
+Label 1 = 148, 148, 255, 0, 0, 1, Chars
+Label 2 = 23, 130, 255, 0, 0, 1, ZSU
+Time Out = 20
+
+[Blue_Briefing 4]
+Heading = 9, METEO
+Map = images\msb1.pcx
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec couche nuageuse partielle à 2.500 pieds. \n Le soleil devrait se coucher pendant que vous quitterez le secteur cible. \n Visibilité limitée à 2 km. \n Conditions thermiques excellentes permettant de voir à plus de 6 km. \n Léger vent de nord-ouest, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\msb1.pcx
+Text = 1, 1, Vous assurerez un appui-feu direct et une couverture aérienne aux unités en défense dans votre secteur d'opérations.  \n \n INDICATIF :\n Patrouille n°1 : Reaper \n \n OBJECTIFS : \n Attaquer et détruire toutes les unités ennemies attaquant dans votre secteur. \n Minimiser les pertes de toutes les unités amies impliquées.
+Sprite 0 = images\rahp.pcx, 39, 206, 0
+Sprite 1 = images\rwpbp.pcx, 76, 99, 0
+Sprite 2 = images\rwpbp.pcx, 138, 90, 0
+Sprite 3 = images\rwpbp.pcx, 180, 94, 0
+Sprite 4 = images\rwpbp.pcx, 158, 151, 0
+Time Out = 30
+
+[Red_Briefing 1]
+Heading = 9, FORCES AMIES
+Map = images\msb1.pcx
+Text = 1, 1, Des unités de la 16e DB de la garde assurent la défense de ce secteur. Elles disposent d'un important soutien d'artillerie et d'une excellente couverture sol-air (SAM et canons) pour un dispositif de cette taille. Un escadron blindé supplémentaire arrive du sud-ouest afin de contre-attaquer les forces britanniques. 
+Sprite 0 = images\rsam6b.pcx, 31, -17, 0
+Sprite 1 = images\rtnkb.pcx,  148, 124, 0
+Sprite 2 = images\radv2b.pcx , -13, 85, 0
+Label 0 = 147, 106, 255, 0, 0, 1, SAM
+Label 1 = 148, 148, 255, 0, 0, 1, Chars
+Label 2 = 23, 130, 255, 0, 0, 1, ZSU
+Time Out = 20
+
+[Red_Briefing 2]
+Heading = 9, FORCES ENNEMIES
+Map = images\msb1.pcx
+Text = 1, 1, Attendez-vous à une attaque d'un escadron blindé des Royal Scots disposant d'un soutien organique important. 
+Sprite 0 = images\utnkb.pcx, 268, 122, 0
+Label 0 = 268, 145, 99, 99, 208, 1, Lion
+Time Out = 20
+
+[Red_Briefing 3]
+Heading = 9, METEO
+Map = images\msb1.pcx
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec couche nuageuse partielle à 2.500 pieds. \n Le soleil devrait se coucher pendant que vous quitterez le secteur cible. \n Visibilité limitée à 2 km. \n Conditions thermiques excellentes permettant de voir à plus de 6 km. \n Léger vent de nord-ouest, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+

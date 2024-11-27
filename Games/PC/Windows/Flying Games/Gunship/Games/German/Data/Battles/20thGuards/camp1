@@ -1,0 +1,183 @@
+TITLE:  rus1
+BATTLEFIELD: NPOLAND 108000 123000 0 0 17 27
+ENGAGEMENT: BLUE MISSION_BLUE_RAID 0 0 0
+ENGAGEMENT: RED MISSION_RED_DEFENSE 0 0 180
+RED_ENEMIES: 70
+BLUE_FRIENDLIES: 70
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 1
+MACHINE: 0
+PLATOON: 62 112500 116550 270 0 112250 117050 0 7
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 110650 116600
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ADDWAYPT: 108450 117700
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 106950 119100
+ORDER_WPT_SETDELAYTIME: 180
+ADDWAYPT: 104300 122850
+ORDER_WPT_SETDELAYTIME: 270
+ADDWAYPT: 106750 126600
+ORDER_WPT_SETDELAYTIME: 300
+ORDER_ASMBLY_PATROL:
+/* Friend. you know Friiieeend */
+PLATOON: 129 101100 122100 270 0 102250 123100 2 101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 105750 123700
+ORDER_ADV_MED:
+ADDWAYPT: 112400 122750
+PLATOON: 129 101050 126300 270 0 105700 127850 2 102
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+ADDWAYPT: 109150 128350
+ORDER_ADV_MED:
+ORDER_PRIORITY_ARMOR:
+ADDWAYPT: 114350 128300
+PLATOON: 129 101250 128900 270 0 107300 129050 0 103
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_ADV_MED:
+ADDWAYPT: 113100 127600
+/* SetupEnemyDefendPosition */
+PLATOON: 110 111500 127500 0 8 107500 127500 0 1917
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_NORTH:
+RED_PROTECT: 43
+PLATOON: 110 111500 127500 90 8 108500 127500 0 1918
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_WEST:
+RED_PROTECT: 43
+PLATOON: 117 111826 126933 45 8 107826 126933 0 1919
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_NW:
+RED_PROTECT: 43
+PLATOON: 111 111000 127850 0 8 107000 127850 0 1920
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_NORTH:
+RED_PROTECT: 43
+PLATOON: 110 112250 127000 0 8 112100 122950 0 1921
+RED_PROTECT: 43
+PLATOON: 110 112250 127500 0 8 111650 123750 0 1922
+RED_PROTECT: 43
+PLATOON: 117 112250 128000 0 8 112000 122300 0 1923
+RED_PROTECT: 43
+PLATOON: 111 112250 128500 0 8 112350 124350 0 1924
+RED_PROTECT: 43
+/* Enemy Regimental HQ */
+PLATOON: 66 106450 129641 0 8 106450 126441 3 2325
+RED_PROTECT2: 47
+PLATOON: 117 106450 124441 0 6 106450 124441 3 2326
+RED_PROTECT2: 47
+/* SetupEnemyConvoy */
+PLATOON: 122 112977 124721 270 6 112977 124721 1 1827
+PLATOON: 98 112906 124703 270 6 112906 124703 1 1828
+PLATOON: 69 112245 129320 0 1 112977 124721 0 1829
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_TRVL_BYPASS: 
+ORDER_FORM_STAGCOLUMN:
+ORDER_WPT_SETDELAYTIME: 300
+ORDER_ADV_MED: 
+ADDWAYPT: 112245 129320
+/* SetupEnemyAirfield */
+PLATOON: 105 112000 129641 0 8 112000 129641 2 2138
+PLATOON: 105 112000 129338 0 8 112000 129338 2 2139
+PLATOON: 124 112202 129407 270 6 112202 129407 2 2140
+
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\RUS1.PCX
+Text = 1, 1, Die Abfang-Radars haben zwischen den Phasenlinien Delta und Echo mehrere einfliegende Luftfahrzeuge aufgefasst, und Sie sollen sie abfangen. Ein gut geführter Luftangriff könnte unsere nächste Offensive stören. \n \n RUFZEICHEN: \n Flug #1: Reaper. \n \n ZIELE: \n Suchen und zerstören Sie alle feindlichen Helikopter, die ins Operationsgebiet einfliegen.
+Line 0 = 200, 200, 200, 261, 37, 261, 47
+Line 1 = 200, 200, 200, 261, 47, 224, 38
+Line 2 = 200, 200, 200, 224, 38, 180, 60
+Line 3 = 200, 200, 200, 180, 60, 150, 88
+Line 4 = 200, 200, 200, 150, 88, 97, 163
+Line 5 = 200, 200, 200, 97, 163, 146, 238
+Line 6 = 200, 0, 0, 15, 0, 15, 315
+Line 7 = 200, 0, 0, 300, 0, 300, 315
+Sprite 0 = images\rahb.pcx, 253, 29, 0
+Sprite 1 = images\rwpcp.pcx, 253, 24, 0
+Sprite 2 = images\rwpbp.pcx, 216, 15, 0
+Sprite 3 = images\rwpbp.pcx, 172, 37, 0
+Sprite 4 = images\rwpbp.pcx, 142, 65, 0
+Sprite 5 = images\rwpbp.pcx, 89, 140, 0
+Sprite 6 = images\rwppa.pcx, 138, 215, 0
+Label 0 = 16, 50, 10, 10, 10, 1, PL DELTA
+Label 1 = 17, 51, 200, 0, 0, 1, PL DELTA
+Label 2 = 245, 50, 10, 10, 10, 1, PL ECHO
+Label 3 = 246, 51, 200, 0, 0, 1, PL ECHO
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OPERATION
+Map = images\RUS1.PCX
+Text = 1, 1, Sie operieren in einem Sektor zwischen den Phasenlinien Alpha und Bravo. Alle SAM-Stellungen sind in voller Alarmbereitschaft. \n Alle Luftfahrzeuge, die PL Alpha oder Bravo überqueren, werden als feindlich betrachtet. \n LUFTABWEHR: Keine Boden-Luftabwehr vorhanden.
+Line 0 = 200, 0, 0, 15, 0, 15, 315
+Line 1 = 200, 0, 0, 300, 0, 300, 315
+Label 0 = 16, 50, 10, 10, 10, 1, PL DELTA
+Label 1 = 17, 51, 200, 0, 0, 1, PL DELTA
+Label 2 = 245, 50, 10, 10, 10, 1, PL ECHO
+Label 3 = 246, 51, 200, 0, 0, 1, PL ECHO
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, VERBÜNDETE STREITKRÄFTE
+Map = images\RUS1.PCX
+Text = 1, 1, Die 35. Motorschützen-Division hält die Front und agiert als eine deckungs-gebende Streitkraft. \n Die führenden Teile der 2. Tamanischen Panzergarde-Division bewegen sich aus Südost in das Gebiet. \n  
+Sprite 0 = images\rinfb.pcx, 80, 67, 0
+Sprite 1 = images\rinf2b.pcx, 183, 8, 0
+Sprite 2 = images\rtnkdiv.pcx, 200, 198, 0
+Label 0 = 111, 101, 10, 10, 10, 1, 35MSD
+Label 1 = 110, 100, 255, 0, 0, 1, 35MSD
+Label 2 = 234, 23, 10, 10, 10, 1, 35MSD
+Label 3 = 233, 22, 255, 0, 0, 1, 35MSD
+Label 4 = 223, 204, 10, 10, 10, 1, 2Taman
+Label 5 = 222, 203, 255, 0, 0, 1, 2Taman
+Label 6 = 157, 220, 10, 10, 10, 1, Annähernd
+Label 7 = 156, 219, 255, 0, 0, 1, Annähernd
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\RUS1.PCX
+Text = 1, 1, Keine gegnerischen Boden-Einheiten anwesend. Letzte bekannte Position von Helis ist angezeigt.
+Sprite 0 = images\uahb.pcx, -3, 219, 0
+Sprite 1 = images\uahb.pcx, 98, 257, 0
+Sprite 2 = images\uahb.pcx, 227, 272, 0
+Label 0 = 14, 219, 200, 200, 200, 1, Annähernd 
+Label 1 = 115, 257, 200, 200, 200, 1, Annähernd 
+Label 2 = 227, 290, 200, 200, 200, 1, Annähernd 
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, WETTER
+Map = images\RUS1.PCX
+Text = 1, 1, Der Wetterbericht in Ihrem Operations-Sektor meldet bedeckt, mit einer Wolkendecke bei 2.500 Fuß. \n In Ihrem Sammelgebiet herrscht nautisches Zwielicht. \n Die Sichtweite ist auf etwa 2 Kilometer beschränkt. \n Die thermischen Bedingungen sind gut, mit Bereichen bis 5 km. \n Leichter Wind kommt mit 3 bis 5 Knoten aus SW.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+Time Out = 10

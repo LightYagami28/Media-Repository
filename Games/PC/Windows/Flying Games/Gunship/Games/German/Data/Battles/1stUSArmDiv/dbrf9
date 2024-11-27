@@ -1,0 +1,25 @@
+[Win]
+Heading = 9, STATUS
+Map = images\mus9.pcx
+Text = 1, 1, Der Kontakt zum 13. Ukrainischen Armeekorps wurde wieder hergestellt. Halten Sie sich für neue Einsatzbefehle bereit. \n ZIELE: \n Leisten Sie für Team "Falcon" Luftunterstützung. \n Erreicht \n Greifen Sie alle feindlichen Einheiten zwischen den Phasenlinien Foxtrot und Echo an, und stören Sie diese. \n Erreicht \n Halten Sie Verluste auf eigener Seite minimal. \n Erreicht
+Sprite 0 = images\uahb.pcx, 14, 118, 0
+Sprite 1 = images\utnkb.pcx, 6, 139, 0
+Line 0 = 0, 0, 255, 267, 0, 267, 315
+Label 0 = 196, 250, 10, 10, 10, 1, PL ECHO 
+Label 1 = 197, 251, 0, 0, 255, 1, PL ECHO 
+Label 2 = 7, 162, 10, 10, 10, 1, Falcon
+Label 3 = 6, 161, 0, 0, 255, 1, Falcon 
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\mus9.pcx
+Text = 1, 1, Die 1. Armored konnte den Kontakt zum 13. Ukrainischen Armeekorps nicht wieder herstellen. Die 15. und 13. Motorisierten Schützen-Divisionen konnten die Flanke der 1. Armored angreifen und diese aufreiben. \n \n  Wählen Sie "WIEDERHOLEN", um die Mission noch mal zu fliegen!
+Sprite 0 = images\uahb.pcx, 14, 118, 0
+Sprite 1 = images\utnkb.pcx, 6, 139, 0
+Line 0 = 0, 0, 255, 267, 0, 267, 315
+Label 0 = 196, 250, 10, 10, 10, 1, PL ECHO 
+Label 1 = 197, 251, 0, 0, 255, 1, PL ECHO 
+Label 2 = 7, 162, 10, 10, 10, 1, Falcon
+Label 3 = 6, 161, 0, 0, 255, 1, Falcon 
+Time Out = 15

@@ -1,0 +1,18 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, UK 1st Armoured's 7th brigade has been surrounded, although over all BAOR seems to be stopping the Russian advance. \n Heavy fighting continues in II Corps area, 5th Panzer is still fighting in the Lublin sector, although US 1st Armored is taking a beating. \n The V Corps continues a battle of attrition throughout Slovakia.
+Sprite 0 = images\cin2.pcx, 0, 0, 0
+Sprite 1 = images\cir2.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, III Corps SECTOR
+Map = images\cs3.pcx
+Text = 1, 1, 1st Cavalry has started its first offensive against the Russians. The line will now hopefully stabilize long enough for continued offensives against the 3rd Shock Army. As it stands, 1st Cavalry is starting to move north to prevent being flanked by the 7th and 10th Guards leaving 3rd Infantry to deal with the 47th Guards Tank and the 27th Motor Rifle.
+Sprite 0 = images\cavcin2.pcx, 0, 0, 0
+Sprite 1 = images\cavcir2.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 115, 179, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

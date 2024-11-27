@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die 20. Garde bewegt sich nach Zentral-Polen. Die 2. Armeegarde erzielt schwache Gewinne gegen die 5. Panzer-Division. \n Die Nordgruppe beginnt, die Reste von BAOR einzukesseln. \n Die Südgruppe begann einen geordneten Rückzug in die Ukraine. \n Die Zentralgruppe bewegt sich langsam ins zentrale Polen.   
+Sprite 0 = images\rcin4.pcx, 0, 0, 0
+Sprite 1 = images\rcir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, 20. GARDE 
+Map = images\cs2.pcx
+Text = 1, 1, Die 20. Garde verfolgt die 1. Armored Division nach Zentral-Polen. Sie hofft, ihre Hauptstreitmacht innerhalb von 2 Tagen zu erreichen. Die 13. Ukrainische stemmt sich gegen die 1. Infantry Division und bindet sie an Ort und Stelle. Die 2. Garde ist nicht in der Lage, die 5. Panzer weiter zurückzudrängen.  
+Sprite 0 = images\ruscin4.pcx, 0, 0, 0
+Sprite 1 = images\ruscin4.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 37, 5, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

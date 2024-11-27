@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die Front verfestigt sich vor dem XVIII. Korps. BAOR, das II. und das III. Korps stoßen weiter nach Weißrussland und in die Ukraine vor. Im Süden hat die 1. Cavalry Division den Kontakt zur verstärkten 3. Sturm-Armee zurückgewonnen, während sich das 8. Ukrainische Armeekorps weiterhin hält.
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Sprite 1 = images\cir8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES V. KORPS
+Map = images\cs4.pcx
+Text = 1, 1,Die 1. Cavalry Divison setzt ihren Feldzug gegen die Flugplätze der 106. Luftlandegarde fort, die sich von Anfang an als Ärgernis erwiesen hatte. Die 3. Sturm-Armee ist in Stellung gegangen, um innerhalb der nächsten 24 Stunden mit einer neuen Offensive zu beginnen.
+Sprite 0 = images\gercir8.pcx, 0, 0, 0
+Sprite 1 = images\cavcin8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 107, 251, 0
+Time Out = 15
+GOTOBRIEFING = 1

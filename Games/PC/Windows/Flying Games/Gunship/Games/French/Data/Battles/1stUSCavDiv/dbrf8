@@ -1,0 +1,20 @@
+[WIN]
+Heading = 9, SITUATION
+Map = images\Muc8.pcx
+Text = 1, 1, Félicitations ! La 106e DA de la garde a perdu tellement de dents qu'elle est devenue inutilisable. Privée de ses deux aérodromes de l'avant, elle aura dorénavant beaucoup de difficultés à soutenir les unités ennemies de première ligne.
+Sprite 0 = images\uobjh.pcx, 223, 52, 0
+Sprite 1 = images\uahb.pcx, 1, 223, 0
+Sprite 2 = images\rsam6b.pcx, 218, 33, 0
+Sprite 3 = images\rifvb.pcx, 218, 33, 0
+Time Out = 15
+
+[Lose]
+Heading = 9, SITUATION
+Map = images\muc8.pcx 
+Text = 1, 1, Votre échec dans la capture de cet aérodrome laisse à la 106e un point de départ avancé pour ses attaques. Nous en sommes maintenant si proches que nous pouvons nous attendre à des raids de harcèlement incessants. Nous allons devoir de nouveau passer à la défensive. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uobjh.pcx, 223, 52, 0
+Sprite 1 = images\uahb.pcx, 1, 223, 0
+Sprite 2 = images\rsam6b.pcx, 218, 33, 0
+Sprite 3 = images\rifvb.pcx, 218, 33, 0
+Time Out = 15
+

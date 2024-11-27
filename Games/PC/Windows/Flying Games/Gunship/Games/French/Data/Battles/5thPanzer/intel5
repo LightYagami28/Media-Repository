@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Les forces russes se replient sur l'ensemble du front, sauf en Slovaquie. Le Rens. confirme qu'elles ont subi des pertes catastrophiques dans de nombreuses unités. On ignore combien de temps va durer cette situation.
+Sprite 0 = images\cin5.pcx, 0, 0, 0
+Sprite 1 = images\cir5.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du IIe CORPS
+Map = images\cs2.pcx
+Text = 1, 1, Le 13e corps ukrainien se replie en direction de Brest, avec la 1e DI américaine sur ses talons. \n La 1e Panzer monte en ligne entre la 1e d'infanterie et la 5e Panzer. \n Les 5e et 10e Panzer mènent une attaque coordonnée en vue d'éliminer les 72e et 41e divisions de la garde devant Zamosc, et utilisent des troupes aéromobiles pour boucher les trous.
+Sprite 0 = images\gercir5.pcx, 0, 0, 0
+Sprite 1 = images\gercin5.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 210, 247, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

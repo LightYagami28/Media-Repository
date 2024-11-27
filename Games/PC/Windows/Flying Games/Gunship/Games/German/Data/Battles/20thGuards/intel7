@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die 20. Garde bewegt sich in den Rücken der 5. Panzer-Division. Die 5. musste sich verteidigen. Die zentrale Streitkräfte-Gruppe drängt die gesamte Front zurück. Die Südgruppe fällt in eine Defensiv-Position in der Ukraine zurück und sortiert sich neu. Die Nordgruppe hat die britische Rheimarmee in eine Tasche getrieben und hat angeboten eine Kapitulation zu akzeptieren.
+Sprite 0 = images\rcin7.pcx, 0, 0, 0
+Sprite 1 = images\rcir7.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DER 20. GARDE 
+Map = images\cs2.pcx
+Text = 1, 1, Die 20. Garde hat die Nachschub- und Fluchtroute der 1. US Infanterie abgeschnitten. Die 2. Tamanische Garde und die 13. Motorschützen-Division bewegen sich, um die 5. Panzer-Division abzufangen, während die 2. Armeegarde in voller Stärke angreift. Die 10. Panzer ist zurückgefallen, um ihre Nordflanke gegen Angriffe zu schützen, und die 1. Ukrainische ist in der Hoffnung gefolgt, sie weiter in die Flucht zu treiben.
+Sprite 0 = images\ruscin7.pcx, 0, 0, 0
+Sprite 1 = images\ruscir7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 61, 109, 0
+Time Out = 15
+GOTOBRIEFING = 1

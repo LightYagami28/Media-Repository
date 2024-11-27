@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die Front festigt sich vor dem XVIII. Korps. BAOR und das II. und III. Korps dringen weiter nach Weißrussland und in die Ukraine vor. Im Süden konnte die 1. Cavalry Division wieder Kontakt mit der vertärkten 3. Sturmarmee herstellen, während sich das 8. Ukrainische Armeekorps weiterhin hält.
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Sprite 1 = images\cir8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs4.pcx
+Text = 1, 1, Die amerikanische 1. Armored startet eine Offensive gegen die 13. Ukrainische Division, die weiterhin versucht, sich nach Osten zurückzuziehen. \n Die 1. und 5. Panzerdivision setzen ihre offensiven Missionen nach Süden fort. \n Beide Divisionen dringen weiter vor, während sie versuchen, Kontakt mit dem Feind zu erhalten. Die Aufklärung meldet immer noch minimale Feindeinheiten vor den Korps.
+Sprite 0 = images\gercir8.pcx, 0, 0, 0
+Sprite 1 = images\gercin8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 158, 32, 0
+Time Out = 15
+GOTOBRIEFING = 1

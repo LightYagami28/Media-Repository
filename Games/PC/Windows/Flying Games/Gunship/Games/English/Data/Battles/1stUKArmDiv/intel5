@@ -1,0 +1,22 @@
+[Briefing 0]
+Heading = 9, SITUATION
+ Map = images\imap.pcx
+Text = 1, 1, 7th brigade, 1st Armoured (UK) is still surrounded, as BAOR holds east of the Vistula. \n Heavy fighting continues in II Corps area. The Assault on Lublin has begun, as most of II Corps struggles to prevent further breakthroughs. \n In Slovakia, the situation has become a large fluid running battle, with neither side gaining a clear advantage. \n Russian forces have taken tremendous casualties, and some units are rotating out of the battle.
+Sprite 0 = images\cin3.pcx, 0, 0, 0
+Sprite 1 = images\cir3.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR SECTOR
+Map = images\cs1.pcx
+Text = 1, 1, The Desert Rats continue to hold in the face of heavy attacks by 20th Guards Army, who are bringing all of their divisions into line. \n In the rest of the Corps area, the front has stabilized, in part due to the heavy Russian casualties suffered in their initial offensive. \n US 1st Armored has started a drive to break through to 7th Brigade, reaching Lomza and forcing 6th Tank Army to redeploy.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 166, 290, 155, 155, 155, 1, Lomza
+Label 3 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ukcin5.pcx, 0, 0, 0
+Sprite 1 = images\ukcir5.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 153, 202, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

@@ -1,0 +1,184 @@
+TITLE: cav3
+BATTLEFIELD: CZECH 118500 145500 0 0 0 24
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+OBJECTIVE: BLUE REAR_LINE 112000 137000 112000 153000 8
+BLUE_ENEMIES: 70
+BLUE_FRIENDLIES: 30
+RED_FRIENDLIES: 70
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 0
+
+PLATOON: 17 112050 151100 90 0 112950 150600 2 8
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 114100 150600
+ORDER_WPT_SETDELAYTIME: 210
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_PRIORITY_ARMOR:
+ADDWAYPT: 116250 148700
+ORDER_WPT_SETDELAYTIME: 210
+ADDWAYPT: 115000 148750
+ORDER_ASMBLY_CHKPT:
+ADDWAYPT: 113900 145000
+ORDER_WPT_SETDELAYTIME: 390
+ORDER_ASMBLY_BATTLEPOS:
+
+PLATOON: 9 116200 144650 90 0 116200 144650 0 21
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 420
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NE:
+ORDER_ADV_SLOW:
+ADDWAYPT: 116050 146050
+ORDER_ASMBLY_EAST:
+ORDER_ADV_FAST:
+ADDWAYPT: 111600 147750
+ORDER_FORM_WEDGE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+PLATOON: 9 120050 148250 90 0 120050 148250 1 21
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 420
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NE:
+ORDER_ADV_SLOW:
+ADDWAYPT: 119950 149500
+ORDER_FORM_STAGCOLUMN:
+ORDER_ASMBLY_SW:
+ORDER_ADV_FAST:
+ADDWAYPT: 117450 151200
+ADDWAYPT: 115300 152000
+ADDWAYPT: 113250 151150
+ADDWAYPT: 110650 151100
+PLATOON: 5 115850 146800 90 0 115850 146800 2 21
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 420
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NE:
+ORDER_ADV_SLOW:
+ADDWAYPT: 110650 148800
+ORDER_TRVL_ASSAULT:
+ORDER_ADV_FAST:
+PLATOON: 5 118500 147450 90 0 118500 147450 2 21
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 420
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NE:
+ORDER_ADV_SLOW:
+ADDWAYPT: 117200 147600
+ORDER_FORM_STAGCOLUMN:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_FAST:
+ADDWAYPT: 114900 148600
+ADDWAYPT: 110650 149450
+
+PLATOON: 35 122000 139050 270 2 115050 146050 1 19
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 35 123500 140550 270 2 115450 146650 2 19
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 35 125600 142900 270 2 115850 147250 1 19
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 45 122100 140300 270 2 115450 146050 0 19
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 45 125200 144100 270 2 115050 147050 2 19
+LOGIC: LOGIC_MECH_ASSAULT 
+PLATOON: 45 124400 142100 270 2 115850 147050 1 19
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 44 125800 141650 270 2 115350 147250 1 19
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 36 122750 138050 270 2 115050 146350 1 19
+LOGIC: LOGIC_TANK_ASSAULT
+
+SUPPORT: 87 108000 110000 270 6 108000 110000 1 30
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\muc3.pcx
+Text = 1, 1, Elements from the 3-8th Cavalry are fighting a delaying action to the west of Perechin against the 7th Guards Tank. You are to provide direct air support. \n CALLSIGN: \n Flight #1   Dragon \n OBJECTIVES: \n Attack to Attrit enemy forces approaching PL DELTA. \n Protect the delay force until they have pulled out. \n Minimize losses to friendly forces. 
+Line 0 = 200, 200, 200, 29, 270, 47, 260
+Line 1 = 200, 200, 200, 47, 260, 70, 260
+Line 2 = 200, 200, 200, 70, 260, 113, 222
+Line 3 = 200, 200, 200, 113, 222, 88, 223
+Line 4 = 200, 200, 200, 88, 223, 66, 148
+Line 5 = 99, 99, 208, 30, 14, 30, 300
+Sprite 0 = images\uahb.pcx, 21, 262, 0
+Sprite 1 = images\uwpcp.pcx, 39, 237, 0
+Sprite 2 = images\uwpbp.pcx, 62, 237, 0
+Sprite 3 = images\uwpbp.pcx, 105, 199, 0
+Sprite 4 = images\uwpcp.pcx, 80, 200, 0
+Sprite 5 = images\uwpbp.pcx, 58, 125, 0
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Label 1 = 33, 50, 10, 10, 10, 1, PL DELTA
+Label 2 = 32, 51, 99, 99, 208, 1, PL DELTA 
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\muc3.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n The situation is very fluid and any air unit outside its own area will be considered hostile. \n \n AIR DEFENSE: \n Attacking forces will have normal air defense..
+Line 0 = 99, 99, 208, 55, 293, 230, 293
+Line 1 = 99, 99, 208, 230, 293, 299, 252
+Line 2 = 99, 99, 208, 260, 22, 85, 22
+Line 3 = 99, 99, 208, 85, 22, 14, 66
+Label 0 = 207, 26, 10, 10, 10, 1, PL ALPHA 
+Label 1 = 206, 25, 99, 99, 208, 1, PL ALPHA
+Label 2 = 61, 296, 10, 10, 10, 1, PL BRAVO 
+Label 3 = 60, 295, 99, 99, 208, 1, PL BRAVO
+Label 4 = 89, 197, 200, 200, 200, 1, Perechin
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\muc3.pcx
+Text = 1, 1, Defending forces from the 3-8th Cavalry, callsign Forward, are attempting to stall the advance of the 3rd Shock Army. They are able to trade ground but not vehicles, as replacements are difficult to get. After a short engagement with the enemy the will retreat to the east. If this attack can be stalled, it will allow the 1st Cavalry to mount a counter offensive. 
+Sprite 0 = images\uifvp.pcx, 147, 187, 0
+Sprite 1 = images\uifvp.pcx, 94, 174, 0
+Sprite 2 = images\uifvp.pcx, 178, 203, 0
+Sprite 3 = images\uifvp.pcx, 101, 131, 0
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Label 1 = 178, 224, 0, 0, 200, 1, Forward
+Label 2 = 94, 194, 0, 0, 200, 1, Forward
+Label 3 = 147, 208, 0, 0, 200, 1, Forward
+Label 4 = 101, 152, 0, 0, 200, 1, Forward
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\muc3.pcx
+Text = 1, 1, Enemy forces are estimated at two companies in strength. They are the lead elements in a new assault from the 7th Guards Tank Division. The are fresh and ready for a fight. 
+Sprite 0 = images\rtnkb.pcx, 291, 90, 0
+Sprite 1 = images\rtnkb.pcx, 238, 33, 0
+Sprite 2 = images\rarrowsw.pcx, 213, 48, 0
+Sprite 3 = images\rarrowsw.pcx, 266, 107, 0
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Label 1 = 262, 38, 200, 0, 0, 1, 7GT
+Label 2 = 291, 114, 200, 0, 0, 1, 7GT
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, WEATHER
+Map = images\muc3.pcx
+Text = 1, 1, The weather in your sector of operations is clear. \n Sunrise is timed to occur at your forward Assembly Area. \n Visibility is limited to 1 to 2 kilometers due to an early morning mist. \n Thermal conditions are good, with ranges up to 5 kilometers. \n Winds are calm.
+Movie = movies\clear.bik, 0, 0, 315, 315
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Time Out = 15
+
+
+

@@ -1,0 +1,90 @@
+Rem ........................................ 
+Rem                        GUNSHIP! 
+Rem ......................................... 
+
+Rem Function Keys 
+
+Rem COckpit keys 
+
+Pilot = F1
+Gunner = F2
+ORT = F3
+External Control = F4
+
+Rem Weapon Selection 
+
+Cannon = F5
+Rockets = F6
+ATGM = F7
+AAM = F8
+
+Rem vehicle 
+
+ChaseView = F9
+PREV_Vehicle = F11
+NEXT_Vehicle = F12
+Control Vehicle = SHF F1
+Next_Flight = SHF F11
+Prev_Flight = SHF F12
+
+Rem View Controls  
+
+EyeView = i
+Thermal_o/f = t
+Lock_Target = l
+Next_Target = k
+Prev_Target = j
+Go_This_Way = g
+Zoom_in = z
+Zoom_out = x
+Lft_MFD_Zoom = c
+Rgt_MFD_Zoom = v
+Viewmodeon\off = SHF f
+
+Rem Target controls 
+
+Radar_PREV_TGT = ,
+Radar_NEXT_TGT = .
+Radar_Lock = /
+Laser_On/Off = SPC
+Gun_Lock = b
+Cycle_LFT_MFD = e
+Cycle_RGT_MFD = r
+Fire_Weapon = ENT
+Chaff/Flare = BSP
+Set_TRP = 7
+
+Rem pilot controls from gunners position 
+
+Down_25ft = -
+Up25ft = =
+MaxSpd = 0
+2/3Speed = 9
+1/3Speed = 8
+Stop/Hover = h
+Popup = p
+Displace/Cover = o
+Turn15gLFT = [
+Turn15gRGT = ]
+Slide50ftLFT = ;
+Slide_50ft_RGT = '
+Altitude_Hold = a
+
+Rem misc commands 
+
+Mapscreen = n
+MFD View = m
+Comm1 = 1
+Comm2 = 2
+Comm3 = 3
+Comm4 = 4
+Comm5 = 5
+Comm6 = 6
+Command Overlay = TAB
+Fireatwill = f
+hudcntdwn = d
+hudcntup = s
+thermalW/B = y
+Centerview = u
+Chatmode = \
+

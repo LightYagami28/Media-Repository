@@ -1,0 +1,24 @@
+[WIN]
+movie = movies\extraonew.bik 
+Heading = 9, SITUATION
+Map = images\Muc7.pcx
+Text = 1, 1, La 106e division aérienne de la garde est une épine dans notre flanc depuis le début de cette campagne. Il semble que nous commencions à leur rendre la monnaie de leur pièce. Bien joué ! Le Rens. a identifié l'aérodrome que cette unité utilise à titre secondaire. Soyez prêt, votre mission commencera demain matin. 
+Sprite 0 = images\uahb.pcx, 88, 276, 0
+Sprite 1 = images\uobja.pcx, 248, 39, 0
+Sprite 2 = images\rifvp1.pcx, 200, 67, 0
+Sprite 3 = images\rifvp1.pcx, 229, 120, 0
+Label 0 = 220, 103, 200, 200, 200, 1, Khel'Nitskiy
+Time Out = 15
+
+[Lose]
+movie = movies\losstwow.bik 
+Heading = 9, SITUATION
+Map = images\muc7.pcx 
+Text = 1, 1, On ne peut pas expédier hommes et équipements à la moulinette... La 106e a renforcé son aérodrome, ce qui rend sans espoir une nouvelle tentative. Vous avez échoué.\n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uahb.pcx, 88, 276, 0
+Sprite 1 = images\uobja.pcx, 248, 39, 0
+Sprite 2 = images\rifvp1.pcx, 200, 67, 0
+Sprite 3 = images\rifvp1.pcx, 229, 120, 0
+Label 0 = 220, 103, 200, 200, 200, 1, Khel'Nitskiy
+Time Out = 15
+

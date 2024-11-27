@@ -1,0 +1,21 @@
+[Briefing 0]
+Heading = 9, ORGANISATION DE L'OTAN
+Map = images\imap.pcx
+Text = 1, 1, Le XVIIIe corps américain commande désormais la 1e division de Marines et les 24e et 82e divisions. \n La BAOR comprend les 1e et 3e DB tandis que la 2e DB fait route depuis la Grande-Bretagne. \n Le IIIe corps US dirige les 1e DB et 1e DI. \n Le IIe corps allemand comprend les 1e, 5e et 10e divisions de Panzer. \n Le Ve corps US dirige la 1e division de cavalerie, la 3e DI, la 5e division alpine et la 10e division de montagne américaine récemment arrivée.
+Sprite 0 = images\cin6.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Sur l'ensemble du front polonais, l'OTAN a atteint la frontière russe. En Slovaquie, le 8e corps d'armée ukrainien a été isolé, mais les restes de la 3e armée de choc tentent de le dégager. \n De manière générale, les forces russes tentent d'échanger de l'espace contre du temps afin de se réorganiser et d'amener des troupes fraîches.
+Sprite 0 = images\cin6.pcx, 0, 0, 0
+Sprite 1 = images\cir6.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, SECTEUR du IIIe CORPS
+Map = images\cs3.pcx
+Text = 1, 1, La 1e de cavalerie a avancé aussi vite que possible afin de conserver le contact avec la 3e armée de choc. La 3e de choc ne cherche pas à s'arrêter pour combattre et regagne son territoire. La 3e d'infanterie US a été très malmenée lors de ses opérations de soutien du flanc de la 1e de cavalerie ; à court de logistique, elle stoppe sa progression pour panser ses plaies.
+Sprite 0 = images\cavcin6.pcx, 0, 0, 0
+Sprite 1 = images\cavcir6.pcx, 0, 0, 0
+Time Out = 15
+GOTOBRIEFING = 1

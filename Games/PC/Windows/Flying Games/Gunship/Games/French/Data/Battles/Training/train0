@@ -1,0 +1,60 @@
+TITLE: Pilotage élémentaire
+BATTLEFIELD: czech 118085 23622 0 0 5 24
+OBJECTIVE: BLUE ONEKRADIUS 118085 23622 14 
+SIDE: 0
+MACHINE: 1
+PLATOON: 142  118085 23622 90 2 118085 19500 3 501
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_HALT
+ORDER_ASMBLY_CHKPT
+ADDWAYPT: 118085 23622 
+ORDER_ASMBLY_ASSMBLY
+
+[Title]
+TITLE = PILOTAGE ELEMENTAIRE
+
+[Sounds]
+InGame = speech\T111.wav, speech\T112.wav, speech\t113.wav, speech\t114.wav, speech\t115.wav, speech\t116.wav, speech\t117.wav, speech\t118.wav, speech\t119.wav 
+
+[Briefing 0]
+Heading = 9, CYCLIQUE
+Map = images\back.pcx
+Text = 1, 1, Conseils de pilotage : \n En général, repousser le joystick ne fait pas piquer l'appareil. Si vous le repoussez en butée, vous ne commencerez à piquer que lorsque vous serez à puissance maximale. Vous allez également prendre de la vitesse. \n Tirer le joystick vers vous ne vous fera pas grimper. Une erreur fréquente consiste à tirer sur le joystick lorsque vous souhaitez grimper ; cela vous amènera en fait à voler à reculons ! 
+Sound = speech\T101.wav
+Movie = movies\train1.bik, 0, 0, 315, 315
+Time Out = 31
+
+[Briefing 1]
+Heading = 9, COLLECTIF
+Map = images\back.pcx
+Text = 1, 1, Le collectif ne réagit qu'après une ou deux secondes. Lorsque vous descendez, ajoutez un peu de collectif juste avant d'atteindre l'altitude souhaitée, puis centrez-le. \n \n [A] - Pilote automatique de maintien d'altitude. \n [)] et [=] - Ajustement de l'altitude établie. \n Retour au vol manuel en appuyant de nouveau sur [A]. \n \n [H] - Maintien du vol stationnaire. \n \n Ne peut être enclenché qu'à très faible vitesse. Retour au vol manuel en appuyant de nouveau sur [H], ou en effectuant une manoeuvre de grande amplitude au cyclique.
+Sound = speech\T102.wav
+Movie = movies\train2.bik, 0, 0, 315, 315
+Time Out = 21
+
+[Briefing 2]
+Heading = 9, ROTOR DE QUEUE
+Map = images\back.pcx
+Text = 1, 1, Conseils de pilotage : \n \n Le rotor de queue n'influe pas sur la trajectoire, mais seulement sur l'orientation de l'appareil. Pour modifier la trajectoire, vous devez ensuite repousser le manche. Vous commencerez alors à voler dans la direction vers laquelle pointe le nez de l'appareil. \n \n Utilisez le CYCLIQUE seul ou combiné au rotor de queue si vous souhaitez virer comme un avion.
+Sound = speech\T103.wav
+Movie = movies\train3.bik, 0, 0, 315, 315
+Time Out = 27
+
+[Briefing 3]
+Heading = 9, IHADSS
+Map = images\back.pcx
+Text = 1, 1, IHADSS est l'acronyme d'Integrated Helmet And Display Sight System. \n Il affiche des informations de pilotage et d'armement cruciales lorsque vous regardez à l'extérieur du cockpit. \n \n SELECTION DES POINTS TOURNANTS : \n Appuyez sur la touche de tabulation pour ouvrir le menu communications. Sélectionnez PATROUILLE n°1, puis Numéro de Point Tournant, et enfin le numéro du point tournant que vous souhaitez activer. Appuyez de nouveau sur la touche de tabulation pour quitter le menu communications.
+Sound = speech\T104.wav
+Movie = movies\train4.bik, 0, 0, 315, 315
+Time Out = 55
+
+[Briefing 4]
+Heading = 9, BRIEFING
+Map = images\tmap0.pcx
+Text = 1, 1, Cette mission vous permettra de vous familiariser avec le modèle de vol Simplifié. Elle débute sur la base. L'hélicoptère est sur la piste, prêt à prendre l'air. \n Vous pouvez piloter depuis l'intérieur du cockpit [F1], ou en mode poursuite [F4]. Appuyez sur la touche souhaitée après le lancement de la partie. \n Si vous vous perdez, vous pourrez revenir à la base en volant en direction du chevron situé sous l'indicateur de cap.
+Sound = speech\T105.wav
+Time Out = 25
+
+Execute = 1
+

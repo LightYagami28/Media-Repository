@@ -1,0 +1,23 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, La 7e brigade de la 1e DB britannique a été encerclée mais, globalement, la BAOR semble avoir stoppé la progression russe. \n D'intenses combats se poursuivent dans le secteur du IIe corps, la 5e Panzer continue à se battre dans la région de Lublin, mais la 1e DB américaine se fait laminer. \n Le Ve corps poursuit sa bataille d'attrition en Slovaquie.
+Sprite 0 = images\cin2.pcx, 0, 0, 0
+Sprite 1 = images\cir2.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du IIe CORPS
+Map = images\cs2.pcx
+Text = 1, 1, La 1e blindée se replie sur la ligne Siedlce-Lukow. La 3e brigade a été écrasée et dispersée. La 2e blindée s'est repliée en deçà de Biala Podlaska.\n La 2e armée de la garde repousse la 5e Panzer en direction de Lublin. La 13e brigade de Panzergrenadiers mène une contre-attaque. \n La 10e Panzer continue à se replier sous forte pression. 
+Label 0 = 104, 5, 200, 200, 200, 1, Siedlce
+Label 1 = 160, 63, 200, 200, 200, 1, Lukow
+Label 2 = 182, 181, 200, 200, 200, 1, Leczna
+Label 3 = 139, 215, 200, 200, 200, 1, Lublin
+Label 4 = 171, 61, 200, 200, 200, 1, Miedzyrzec Podlaski
+Label 5 = 190, 56, 200, 200, 200, 1, Biala Podlaska 
+Sprite 0 = images\gercin2.pcx, 0, 0, 0
+Sprite 1 = images\gercir2.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 140, 44, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

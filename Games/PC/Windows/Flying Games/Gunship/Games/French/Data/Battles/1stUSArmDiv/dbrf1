@@ -1,0 +1,37 @@
+[Win]
+movie = movies\lossfivew.bik
+Heading = 9, SITUATION
+Map = images\mus1.pcx
+Text = 1, 1, La 24e DFM a dû une nouvelle fois se replier devant Biala Podlaska. Nous avons dû nous-mêmes céder du terrain, mais nous tenons le choc. \n Restez en stand-by en attente de vos nouveaux ordres. /n /n OBJECTIFS : \n Protéger l'objectif Shield. Fournir un soutien aérien direct dans votre secteur. Attaquer toute unité ennemie franchissant la ligne de phase Golf. 
+Sprite 0 = images\uahb.pcx, 92, 161, 0
+Sprite 1 = images\uifvp.pcx, 78, 104, 0
+Sprite 2 = images\utnkp.pcx, 44, 159, 0
+Sprite 3 = images\utnkp.pcx, 105, 90, 0
+Sprite 4 = images\usam4b.pcx, 27, 82, 0
+Sprite 5 = images\rtnkb.pcx, 246, 58, 0
+Sprite 6 = images\rtnkb.pcx, 214, 269, 0
+Sprite 7 = images\rarrowsw.pcx, 228, 54, 0
+Sprite 8 = images\rarrownw.pcx, 189, 245, 0
+Line 4 = 0, 0, 255, 135, 0, 135, 315
+Label 0 = 89, 116, 200, 200, 200, 1, Biala Podlaska
+Label 1 = 140, 276, 0, 0, 255, 1, LP GOLF
+Time Out = 15
+
+[Lose]
+movie = movies\lossthreew.bik
+Heading  = 9, SITUATION
+Map = images\mus1.pcx
+Text = 1, 1, Vous n'avez pas mené à bien votre mission. La 24e DFM va prendre la ville, écraser le 1-35e et être en mesure de pénétrer sur les arrières de la 1e blindée. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uahb.pcx, 92, 161, 0
+Sprite 1 = images\uifvp.pcx, 78, 104, 0
+Sprite 2 = images\utnkp.pcx, 44, 159, 0
+Sprite 3 = images\utnkp.pcx, 105, 90, 0
+Sprite 4 = images\usam4b.pcx, 27, 82, 0
+Sprite 5 = images\rtnkb.pcx, 246, 58, 0
+Sprite 6 = images\rtnkb.pcx, 214, 269, 0
+Sprite 7 = images\rarrowsw.pcx, 228, 54, 0
+Sprite 8 = images\rarrownw.pcx, 189, 245, 0
+Line 4 = 0, 0, 255, 135, 0, 135, 315
+Label 0 =  89, 116, 200, 200, 200, 1, Biala Podlaska
+Label 1 = 140, 276, 0, 0, 255, 1, LP GOLF
+Time Out = 15

@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le Groupe de Forces Nord a entamé la procédure de reddition de la BAOR. Le Groupe de Forces Centre continue son attaque contre la 5e Panzer. Le Groupe de Forces Sud a été légèrement renforcé et ravitaillé, et commence sa contre-attaque.
+Sprite 0 = images\rcin9.pcx, 0, 0, 0
+Sprite 1 = images\rcir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR de la 20e de la GARDE
+Map = images\cs4.pcx
+Text = 1, 1, Nous avons été transférés afin d'appuyer la contre-attaque de la 3e armée de choc contre la 1e de cavalerie américaine. Au sud, le 8e ukrainien attaque la 5e d'infanterie allemande, tandis que la 32e DFM attaque la 3e DI américaine.
+Sprite 0 = images\ruscin9.pcx, 0, 0, 0
+Sprite 1 = images\ruscir9.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 74, 276
+Time Out = 15
+GOTOBRIEFING = 1

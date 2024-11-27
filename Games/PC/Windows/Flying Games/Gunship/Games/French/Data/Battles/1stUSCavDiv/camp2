@@ -1,0 +1,215 @@
+TITLE: cav2
+BATTLEFIELD: CZECH 125250 105000 0 0 21 24
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+OBJECTIVE: BLUE THREEKRADIUS 127500 108900 19
+OBJECTIVE: BLUE ONEKRADIUS 124000 104000 14
+BLUE_ENEMIES: 75
+BLUE_FRIENDLIES: 40
+RED_FRIENDLIES: 75
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 0
+
+/* friendly helo */
+PLATOON: 18 131550 112100 90 0 123150 111550 2 7
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_ADV_FAST:
+ADDWAYPT: 122450 109050
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ADDWAYPT: 120850 106700
+ORDER_WPT_SETDELAYTIME: 180
+ADDWAYPT: 119750 104450
+ORDER_WPT_SETDELAYTIME: 540
+ORDER_ASMBLY_PATROL:
+/* hasty attack */
+PLATOON: 1 130000 111300 90 0 127200 109700 2 18
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NW:
+ORDER_ADV_MED:
+ADDWAYPT: 125400 106950
+ADDWAYPT: 124100 103400
+PLATOON: 1 126950 112400 90 0 125500 109450 1 18
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NW:
+ORDER_ADV_MED:
+ADDWAYPT: 124100 107250
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ADDWAYPT: 121500 105150
+PLATOON: 2 128650 112300 90 0 126400 109600 2 18
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_FAST:
+ADDWAYPT: 126400 107500
+ORDER_ASMBLY_NW:
+ADDWAYPT: 124350 104000
+ORDER_ADV_SLOW:
+/* bunkers */
+PLATOON: 121 127800 108850 315 2 127800 108850 2 22
+PLATOON: 133 124800 109400 0 2 124800 109400 1 22
+/* enemy helo */
+PLATOON: 62 119100 98200 270 0 119150 100950 0 3
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 126000 100500
+ORDER_WPT_SETDELAYTIME: 240
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_PRIORITY_ARMOR:
+ORDER_ADV_FAST:
+ADDWAYPT: 125600 103350
+ORDER_WPT_SETDELAYTIME: 180
+/* enemy forces */
+PLATOON: 36 120800 97900 270 0 120800 97900 1 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 124250 103200
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_SOUTH:
+PLATOON: 37 126950 99300 270 0 126950 103000 0 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 90
+ORDER_FORM_COLUMN:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_SOUTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 125100 103200
+ORDER_ADV_MED:
+ADDWAYPT: 125350 105200
+ORDER_FORM_LINE:
+ORDER_ADV_FAST:
+PLATOON: 37 127750 100300 270 0 128100 103600 0 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 90
+ORDER_FORM_COLUMN:
+ORDER_TRVL_BYPASS:
+ORDER_ASMBLY_SOUTH:
+ORDER_ADV_MED:
+ADDWAYPT: 128450 104800
+ADDWAYPT: 128950 105900
+ADDWAYPT: 128950 107200
+ORDER_ASMBLY_WEST:
+ADDWAYPT: 126050 107100
+ORDER_ASMBLY_NW:
+PLATOON: 37 120100 99950 270 0 121100 103550 2 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_MED:
+ADDWAYPT: 121800 105800
+ORDER_ASMBLY_EAST:
+PLATOON: 37 123000 100200 270 0 124200 104400 2 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_SOUTH:
+ORDER_ADV_MED:
+PLATOON: 43 121600 99750 270 0 121600 99750 2 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_MED:
+ADDWAYPT: 124350 103800
+ORDER_ASMBLY_SOUTH:
+
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\muc2.pcx
+Text = 1, 1, Vous conduirez une attaque improvisée en liaison avec la TF Raven. Votre mission secondaire est d'assurer une défense de zone centrée sur la cote 582 (objectif " Shield ").\n \n INDICATIF : Reaper \n \n OBJECTIFS : \n Attaquer et détruire toute unité ennemie se trouvant à moins de 3 km de l'objectif Shield, ou à 1 km de l'objectif Anvil. \n Mener des attaques d'attrition contre les unités terrestres qui franchiraient la ligne de phase Golf. 
+Line 0 = 200, 200, 200, 287, 303, 119, 292 
+Line 1 = 200, 200, 200, 119, 292, 105, 242
+Line 2 = 200, 200, 200, 105, 242, 73, 195
+Line 3 = 200, 200, 200, 73, 195, 51, 150
+Sprite 0 = images\uobjs.pcx, 199, 218, 0
+Sprite 1 = images\uahb.pcx, 279, 295, 0
+Sprite 2 = images\uwpcp.pcx, 111, 269, 0
+Sprite 3 = images\uwpbp.pcx, 97, 219, 0
+Sprite 4 = images\uwpbp.pcx, 65, 172, 0
+Sprite 5 = images\uwppa.pcx, 43, 127, 0
+Sprite 6 = images\uobjA.pcx, 126, 118, 0
+Line 4 = 0, 0, 200, 0, 69, 315, 69
+Line 5 = 0, 0, 200, 0, 222, 315, 222
+Label 0 = 75, 72, 0, 0, 200, 1, LP ECHO
+Label 1 =  30, 225, 0, 0, 200, 1, LP GOLF
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\muc2.pcx
+Text = 1, 1, Vous interviendrez dans un secteur compris entre les lignes de phase Alpha et Bravo. Vous ne devrez en aucun cas franchir ces lignes de phase. \n La ligne de phase Golf marque également la limite avancée de la zone de bataille (FEBA). \n \n DEFENSE AERIENNE : \n Elle devrait se limiter aux moyens organiques. Toutes les défenses fixes ont été éliminées.
+Line 0 = 0, 0, 200, 293, 0, 293, 315
+Line 1 = 0, 0, 200, 47, 0, 47, 315
+Line 2 = 0, 0, 200, 0, 222, 315, 222
+Label 0 =  75, 225, 0, 0, 200, 1, LP GOLF 
+Label 1 = 57, 280, 0, 0, 200, 1, ALPHA
+Label 2 = 253, 280, 0, 0, 200, 1, BRAVO
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, FORCES AMIES
+Map = images\muc2.pcx
+Text = 1, 1, Ce secteur est tenu par des éléments du 2-8e de cavalerie, indicatif Goalie. Un team de niveau escadron, indicatif Raven, traversera le front pour attaquer afin de tenter de donner un coup d'arrêt à l'attaque russe et de fournir au 1-12e de cavalerie le temps nécessaire pour mettre sur pied une contre-attaque. Compte tenu du manque de munitions, aucun soutien d'artillerie n'est envisageable pour l'instant.
+Sprite 0 = images\utnkb.pcx, 229, 286, 0
+Sprite 1 = images\uinfb.pcx, 189, 195, 0
+Sprite 2 = images\uinfb.pcx, 129, 206, 0
+Sprite 3 = images\uarrownw.pcx, 214, 262, 0
+Label 0 = 137, 256, 0, 0, 200, 1, Goalie
+Label 1 = 197, 246, 0, 0, 200, 1, Goalie
+Label 2 = 253, 296, 0, 0, 200, 1, Raven
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, FORCES ENNEMIES
+Map = images\muc2.pcx
+Text = 1, 1, Les unités ennemies qui mènent cette attaque appartiennent au noyau de la 10e DB de la garde, avec le soutien de la 106e division aérienne de la garde. Ces éléments représentent les principales réserves d'attaque de la 2e armée de la garde. \n 
+Sprite 0 = images\rtnkb.pcx, 53, 50, 0
+Sprite 1 = images\rarrowse.pcx, 75, 76, 0
+Sprite 2 = images\rtnkb.pcx, 116, 27, 0
+Sprite 3 = images\rarrows.pcx, 122, 53, 0
+Label 0 = 141, 32, 200, 0, 0, 1, 10BG
+Label 1 = 78, 55, 200, 0, 0, 1, 10BG
+Time Out = 15
+[Briefing 4]
+
+Heading = 9, METEO
+Map = images\muc2.pcx
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec une couche nuageuse partielle à 2.500 pieds. \n La présence de la lune devrait accroître la visibilité et la porter à 3.000, voire 4.000 m. \n Excellentes conditions thermiques permettant de voir à plus de 6 km. \n Léger vent de nord-ouest, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 10
+
+
+

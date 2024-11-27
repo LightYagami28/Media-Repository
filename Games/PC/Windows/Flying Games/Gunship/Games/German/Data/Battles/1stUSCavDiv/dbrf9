@@ -1,0 +1,20 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\Muc9.pcx
+Text = 1, 1, Die Piloten schicken mit freundlichem Dank einen Kasten Bier vorbei. Gute Arbeit.
+Sprite 0 = images\uahb.pcx, 8, 186, 0
+Sprite 1 = images\uobjs.pcx, 176, 28, 0
+Sprite 2 = images\rinfp.pcx, 281, 67, 0
+Sprite 3 = images\rinfp.pcx, 252, 218, 0
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc9.pcx 
+Text = 1, 1, Eine wichtige Mission musste wegen Ihres Versagens abgebrochen werden. Dieses Missionsergebnis ist nicht akzeptabel. \n\n\n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen.
+Sprite 0 = images\uahb.pcx, 8, 186, 0
+Sprite 1 = images\uobjs.pcx, 176, 28, 0
+Sprite 2 = images\rinfp.pcx, 281, 67, 0
+Sprite 3 = images\rinfp.pcx, 252, 218, 0
+Time Out = 15
+

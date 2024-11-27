@@ -1,0 +1,110 @@
+TITLE: Piloten-Waffen
+BATTLEFIELD: czech 118085 23622 0 0 5 24
+OBJECTIVE: BLUE ONEKRADIUS 118085 23622 14 
+BLUE_ENEMIES: 100
+SIDE: 0
+MACHINE: 1
+PLATOON: 142 118085 23622 90 2 113500 24603 101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_PRIORITY_HQ:
+ADDWAYPT: 114900 20500
+ORDER_ASMBLY_BATTLEPOS
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_PRIORITY_HQ:
+ADDWAYPT: 119200 25700
+ORDER_ASMBLY_BATTLEPOS
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_PRIORITY_ARMOR:
+ADDWAYPT: 118085 23622
+ORDER_ASMBLY_LZ
+PLATOON: 141 112500 23902 270 6 112500 23902 3 1902
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 141 112300 23902 270 6 112300 23902 3 1907
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 68 115000 18000 180 6 115000 18000 3 1903
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 122 115050 18050 90 8 115050 18050 3 1904
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 103 120085 28622 0 7 120085 28622 3 1905
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 103 119085 29622 0 7 119085 26622 3 1906
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+
+
+[Title]
+TITLE = PILOTEN- WAFFEN
+
+[Sounds]
+InGame = speech\T211.wav, speech\T212.wav, speech\T213.wav, speech\T214.wav, speech\T215.wav, speech\t116.wav, speech\t117.wav, speech\t119.wav 
+
+[Briefing 0]
+Heading = 9, WAFFEN- AUSWAHL
+Map = images\back.pcx
+Text = 1, 1, Waffen-Auswahltasten: \n \n [F5] - Bordkanone \n [F6] - Raketen \n [F7] - ATGM-Raketen \n [F8] - Luft-Luft-              Raketen \n  \n [F6] schaltet zwischen den drei Raketen-Zonen A, B und C um. Jede Zone kann mit einem anderen Raketentyp geladen werden. \n \n [F7] schaltet zwischen den unterschiedlichen Anti-Panzer-Raketen um, die Sie mitführen. In den meisten Missionen haben Sie aber nur einen Raketentyp dabei.  
+Sound = speech\T201.wav
+Movie = movies\train21.bik, 0, 0, 315, 315
+Time Out = 57
+
+[Briefing 1]
+Heading = 9, IHADSS- SYMBOLE
+Map = images\back.pcx
+Text = 1, 1, Im LOS-Modus (Sichtlinie) erscheint der Bordkanonen- oder Raketen-Marker in der Mitte des IHADSS und bewegt sich mit Ihrer Ansicht. \n Im TADS-Modus bewegt sich der Marker mit der Bordschützen-Ansicht und wird innerhalb der aufgeschalteten Ziel-Box eingeblendet. \n Wenn die aktuelle Waffe feuern kann, wird der Marker solide. Kann die Waffe nicht feuern, wird er gepunktet dargestellt. Sie erhalten dann auch eine Warnung CONSTRAINT (Eingeschränkt). Das bedeutet, dass die Waffe nicht treffen kann. 
+Movie = movies\train22.bik, 0, 0, 315, 315
+Sound = speech\T202.wav
+Time Out = 69
+
+[Briefing 2]
+Heading = 9, LOS-MODUS
+Map = images\back.pcx
+Text = 1, 1, Tasten des LOS-Modus \n \n Der Hat-Schalter erlaubt Ihnen, sich während des Fliegens umzuschauen. \n \n Mit dem Joystick- Button #2 können Sie das auch mit Hilfe des Joysticks tun. \n \n [B] - Waffen-Modus. \n [I] - IHADSS-Modus. \n [T] - Thermischer             Modus. \n [Z] - Hineinzoomen. \n [X] - Herauszoomen. \n \n [F5] - Bordkanone \n [F6] - Raketen \n [F7] - ATGM-Raketen \n [F8] - Luft-Luft               Raketen
+Sound = speech\T203.wav
+Movie = movies\train23.bik, 0, 0, 315, 315
+Time Out = 67
+
+[Briefing 3]
+Heading = 9, TADS-MODUS
+Map = images\back.pcx
+Text = 1, 1, Tasten des TADS-Modus: \n \n [B] - Waffen-Modus. \n [L] - Ziel aufschalten. \n [J] - vorheriges Ziel. \n [K] - nächstes Ziel. \n \n [F5] - Bordkanone \n [F6] - Raketen \n [F7] - ATGM-Raketen \n [F8] - Luft-Luft Raketen 
+Sound = speech\T204.wav
+Movie = movies\train24.bik, 0, 0, 315, 315
+Time Out = 41
+
+[Briefing 4]
+Heading = 9, EINWEISUNG
+Map = images\tmap1.pcx
+Text = 1, 1, Die Kampfposition #1 hat zwei BMP-Platoons im Westen und Südwesten. \n Kampfposition #2 hat einige Trucks und Nachschub-Zelte im Norden. \n Kampfposition #3 hat zwei Panzer-Platoons 4 Kilometer südwärts. \n Drücken Sie [Umschalt]+[Q], um das Spiel zu verlassen. 
+Sound = speech\T105.wav
+Sprite 0 = images\uahb.pcx, 154, 157, 0
+Sprite 1 = images\uwpbp.pcx, 93, 82, 0
+Sprite 2 = images\uwpbp.pcx, 70, 172, 0
+Sprite 3 = images\uwpbp.pcx, 187, 188, 0
+Sprite 4 = images\rtnkp.pcx, 199, 275, 0
+Sprite 5 = images\rtnkp.pcx, 177, 286, 0
+Sprite 6 = images\rifvp1.pcx, 46, 179, 0
+Sprite 7 = images\rsupb.pcx, 103, 44, 0
+Line 0 = 155, 155, 155, 162, 166, 78, 195
+Line 1 = 155, 155, 155, 78, 195, 101, 105
+Line 2 = 155, 155, 155, 101, 105, 194, 211
+Label 0 = 89, 176, 10, 10, 10, 1, #1
+Label 1 = 88, 175, 99, 99, 208, 1, #1
+Label 2 = 112, 86, 10, 10, 10, 1, #2
+Label 3 = 111, 85, 99, 99, 208, 1, #2
+Label 4 = 206, 192, 10, 10, 10, 1, #3
+Label 5 = 205, 191, 99, 99, 208, 1, #3
+Time Out = 26
+Execute = 1

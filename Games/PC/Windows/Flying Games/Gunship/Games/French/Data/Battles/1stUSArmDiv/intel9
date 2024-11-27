@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le XVIIIe corps et la BAOR sont parvenus à encercler la 6e armée blindée, et préparent une poussée en Bélarus. \n La contre-attaque russe a été stoppée devant le IIe corps, et le IIIe corps continue à se replier lentement face à l'offensive principale. \n Au sud, le reste du Ve corps monte en ligne pour soutenir la 1e division de cavalerie.
+Sprite 0 = images\cin10.pcx, 0, 0, 0
+Sprite 1 = images\cir10.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du IIIe CORPS
+Map = images\cs4.pcx
+Text = 1, 1,  Le IIIe corps a pris le commandement de la 10e Panzer. La 1e DB US a donné un coup d'arrêt à l'attaque des 13e et 65e corps. \n Les 1e et 5e Panzer ont décroché de quelques kilomètres afin de consolider le front. \n La 5e division alpine a été affectée au IIe corps et fait mouvement depuis la Slovaquie. \n Les Russes ont laissé une brèche s'ouvrir derrière le 1er corps, que nous tentons d'exploiter.
+Sprite 0 = images\gercir10.pcx, 0, 0, 0
+Sprite 1 = images\gercin10 .pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 149, 29, 0
+Time Out = 15
+GOTOBRIEFING = 1

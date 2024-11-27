@@ -1,0 +1,30 @@
+[WIN]
+movie = movies\wintwow.bik 
+Heading = 9, STATUS
+Map = images\Muc4.pcx
+Text = 1, 1, The 1-12th has smashed open a hole in the 3rd Shock Army lines. They are retreating and trying to close the hole as fast possible. Unfortunately it is still an orderly retreat and our own supply situation prevents us from rapidly pursuing them. In addition, the 106th Guards have started to harry our troops and rear areas.
+Sprite 0 = images\uahb.pcx, 234, 282, 0
+Sprite 1= images\utnkb.pcx, 200, 232, 0
+Sprite 2 = images\rtnkb.pcx, 75, 24, 0
+Sprite 3 = images\rtnkb.pcx, 159, 18, 0
+Label 0 = 200, 255, 10, 10, 10, 1, Lion
+Label 1 = 201, 256, 0, 0, 200, 1, Lion 
+Label 2 = 99, 29, 200, 0, 0, 1, 72GT
+Label 3 = 183, 23, 200, 0, 0, 1, 72GT 
+Time Out = 15
+
+[Lose]
+movie = movies\lossonew.bik 
+Heading = 9, STATUS
+Map = images\muc4.pcx 
+Text = 1, 1, The 1-12th attack has failed. This was the 1st Cavalry's main offensive operation and we are now committed to a defensive engagement only. We are now fighting to hold what we have and no more. \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\uahb.pcx, 234, 282, 0
+Sprite 1= images\utnkb.pcx, 200, 232, 0
+Sprite 2 = images\rtnkb.pcx, 75, 24, 0
+Sprite 3 = images\rtnkb.pcx, 159, 18, 0
+Label 0 = 200, 255, 10, 10, 10, 1, Lion
+Label 1 = 201, 256, 0, 0, 200, 1, Lion 
+Label 2 = 99, 29, 200, 0, 0, 1, 72GT
+Label 3 = 183, 23, 200, 0, 0, 1, 72GT 
+Time Out = 15
+

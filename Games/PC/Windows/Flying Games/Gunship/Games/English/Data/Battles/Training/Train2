@@ -1,0 +1,67 @@
+TITLE: Missile Range
+BATTLEFIELD: NPOLAND 129000 15750 0 0 5 24
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+
+PLATOON: 142 122750 22400 270 0 124900 20900 2 101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+
+PLATOON: 103 124800 12800 225 0 124800 12800 0 1902
+BLUE_TARGET: 25
+PLATOON: 141 133850 15150 90 0 133850 15150 0 1903
+BLUE_TARGET: 25
+PLATOON: 103 132950 10300 180 0 132950 10300 1 1904
+BLUE_TARGET: 25
+
+[Title]
+TITLE = MISSILE RANGE
+
+[Sounds]
+InGame = speech\Sil1.wav 
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\tmap2.pcx
+Text = 1, 1, Welcome to the ATGM range. Today's mission is to practice using the Hellfire ATGM. There are two platoons of tanks and a BMP platoon. All three are shown on the map at the left. These platoons are targets and will not fire back. Approach each platoon using available cover and destroy all the vehicles using your hellfire ATGMs. Once the mission begins, press the [N] key to go to the map screen and plot waypoints to your targets.
+Sprite 0 = images\rtnkp.pcx, 67, 92, 0
+Sprite 1 = images\rtnkp.pcx, 230, 42, 0
+Sprite 2 = images\uahb.pcx, 25, 283, 0
+Sprite 3 = images\rifvp1.pcx, 248, 139, 0
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, WEATHER
+Map = images\tmap2.pcx
+Text = 1, 1, It is a bright sunny day. The weather in your sector of operations is clear. \n Visibility is unlimited. \n Thermal conditions are good, with ranges up to 6 kilometers. \n Winds are calm.
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, Objectives
+Map = images\tmap2.pcx
+Text = 1, 1, Seek out and destroy the tank platoons first. Once they have been destroyed approach the BMP platoon and destroy it. You do not have enough Hellfires to destroy all the vehicles, once your Hellfires have been depleted use your chaingun to destroy the remaining vehicles. This is a good opportunity to learn to control the Helicopter from the gunner's seat. Try to engage at least one of the platoons from the gunner's seat.
+Sprite 0 = images\rtnkp.pcx, 67, 92, 0
+Sprite 1 = images\rtnkp.pcx, 230, 42, 0
+Sprite 2 = images\uahb.pcx, 25, 283, 0
+Sprite 3 = images\rifvp1.pcx, 248, 139, 0
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, NOT USED
+Map = images\Tmap3.pcx
+Text = 1, 1, 
+Time Out = 1
+
+[Briefing 4]
+Heading = 9, NOT USED
+Map = images\Tmap3.pcx
+Text = 1, 1, 
+Time Out = 1
+
+Execute = 1

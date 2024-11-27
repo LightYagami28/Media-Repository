@@ -1,0 +1,22 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die 7. Brigade der britischen 1. Armoured wurde umzingelt, obwohl die Rheinarmee die russischen Vorstöße scheinbar aufhalten kann. \n Die schweren Kämpfe im Bereich des II. Korps dauern an: Die 5. Panzerdivision kämpft immer noch im Sektor Lublin, obwohl die amerikanische 1. Armored Verluste hinnehmen muss. \n Das V. Korps setzt seinen Zermürbungskampf in der Slowakei fort.
+Sprite 0 = images\cin2.pcx, 0, 0, 0
+Sprite 1 = images\cir2.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR-SEKTOR
+Map = images\cs1.pcx
+Text = 1, 1, 24. Infantry und 3. Armoured haben die Front an der Linie Braniewo - Olsztyn im östlichen Bereich der Lagekarte stabilisiert. \n Die 7. Brigade, die Desert Rats, wurden abgeschnitten und bereiten sich im Seengebiet östlich von Elk auf die Verteidigung vor. \n Die 4. und 20. Brigade verlangsamen das Vorrücken der 6. Panzerarmee, aber die 20. Panzergarde bezieht Stellung. \n Die Lage ist kritisch.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustow
+Label 3 = 183, 25, 155, 155, 155, 1, Grajewo
+Label 4 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ukcin3.pcx, 0, 0, 0
+Sprite 1 = images\ukcir3.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 224, 177, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

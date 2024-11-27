@@ -1,0 +1,25 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Les forces russes poursuivent leur offensive sur l'ensemble du front. Au nord, la 6e armée blindée a percé, faisant courir à la 1e DB britannique le risque d'être encerclée. \n D'intenses combats se poursuivent dans le secteur du IIe corps, alors que la 2e de la garde menace Lublin. \n Le Ve corps a ralenti la progression du GFS russe dans les régions montagneuses de Slovaquie. 
+Sprite 0 = images\cin1.pcx, 0, 0, 0
+Sprite 1 = images\cir1.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du IIe CORPS
+Map = images\cs2.pcx
+Text = 1, 1, D'intenses combats se poursuivent à Biala Podlaska, mais le 13e corps ukrainien a percé au nord et au sud de la ville. \n La 2e armée de la garde repousse la 5e Panzer en direction de Lublin. La 16e division blindée de la garde est toujours à l'est du Bug, en raison des attaques d'hélicoptères de la matinée. \n La 10e Panzer se replie de Chelm et de Zamosc sous forte pression.
+Label 0 = 279, 20, 200, 200, 200, 1, Brest
+Label 1 = 190, 56, 200, 200, 200, 1, Biala Podlaska
+Label 2 = 181, 115, 200, 200, 200, 1, Parczew
+Label 3 = 139, 215, 200, 200, 200, 1, Lublin
+Label 4 = 250, 229, 200, 200, 200, 1, Chelm
+Label 5 = 211, 242, 200, 200, 200, 1, Zamosc
+Label 6 = 245, 146, 200, 200, 200, 1, Wlodawa
+Label 7 = 171, 61, 200, 200, 200, 1, Miedzyrzec Podlaski
+Sprite 0 = images\gercin1.pcx, 0, 0, 0
+Sprite 1 = images\gercir1.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 250, 148, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

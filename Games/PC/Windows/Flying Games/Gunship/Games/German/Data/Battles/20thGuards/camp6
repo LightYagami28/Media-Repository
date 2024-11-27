@@ -1,0 +1,144 @@
+TITLE: rus6
+BATTLEFIELD: POLAND 107250 24750 0 0 6 27
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+OBJECTIVE: RED FORWARD_LINE 108000 32500 99350 25000 2
+RED_FRIENDLIES: 60
+RED_ENEMIES: 80
+BLUE_FRIENDLIES: 80
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 1
+MACHINE: 0
+/* Come with Me and will Be */
+PLATOON: 62 113700 18250 270 0 112350 22050 1 3
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 112500 27500
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_PRIORITY_ARMOR:
+ADDWAYPT: 103200 30500
+ORDER_WPT_SETDELAYTIME: 360
+ORDER_ASMBLY_PATROL:
+/* Make A Wish */
+PLATOON: 17 105650 31500 90 0 105650 31500 2 1
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 107000 29000
+ORDER_WPT_SETDELAYTIME: 240
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_PRIORITY_ARMOR:
+ORDER_ADV_MED:
+ADDWAYPT: 108850 29700
+ORDER_ASMBLY_CHKPT:
+ADDWAYPT: 112150 28300
+ORDER_WPT_SETDELAYTIME: 360
+ORDER_ASMBLY_BATTLEPOS:
+/* Count to Three */
+PLATOON: 1 108750 27150 45 6 108750 27150 2 15
+LOGIC: LOGIC_MAIN_DEFENSE
+PLATOON: 1 106750 26950 45 6 106750 26950 2 15
+LOGIC: LOGIC_MAIN_DEFENSE
+PLATOON: 2 109950 26800 45 6 109950 26800 1 15
+LOGIC: LOGIC_MAIN_DEFENSE
+PLATOON: 26 108800 28450 45 6 108800 28450 2 15
+LOGIC: LOGIC_MAIN_DEFENSE
+PLATOON: 1 100500 18900 90 6 113800 22000 2 14
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 2 100500 19900 90 6 113800 23000 2 14
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 1 100500 20900 90 6 113800 24000 2 14
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 79 99950 19900 90 6 112500 23000 2 14
+LOGIC: LOGIC_TANK_ASSAULT
+/* In a World of pure Imagination */
+PLATOON: 110 102950 17900 270 0 103050 29400 3 20
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 110 106200 17850 270 0 103550 29900 3 20
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 110 110600 17850 270 0 104050 30400 3 20
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 110 113800 17850 270 0 104550 30900 0 20
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 43 112250 18500 270 0 105550 40400 2 20
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 43 104550 18650 270 0 106050 40900 2 20
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 111 112200 17300 270 0 103050 29400 2 20
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 110 104450 17300 270 0 105550 29400 2 20
+LOGIC: LOGIC_TANK_ASSAULT
+
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\RUS6.PCX
+Text = 1, 1, Die Hauptoffensive gegen die amerikanische 1. Armored Division ist unterwegs. Sie haben die Aufgabe, die Task Force Hawk, eine schwere Panzereinheit, zu unterstützen. \n \n RUFZEICHEN: \n Flug #1: Flail \n \n ZIELE: \n Leisten Sie der Task Force Hawk direkte Luftunterstützung. Halten Sie die Verluste auf Truppen minimal. 
+Line 0 = 200, 200, 200, 287, 28, 260, 104
+Line 1 = 200, 200, 200, 260, 104, 263, 213
+Line 2 = 200, 200, 200, 263, 213, 77, 273
+Line 3 = 200, 0, 0, 173, 313, 0, 163
+Sprite 0 = images\rahb.pcx, 279, 20, 0
+Sprite 1 = images\rwpbp.pcx, 252, 81, 0
+Sprite 2 = images\rwpbp.pcx, 255, 190, 0
+Sprite 3 = images\rwppa.pcx, 69, 250, 0
+Label 0 = 159, 281, 10, 10, 10, 1, PL DELTA
+Label 1 = 160, 282, 200, 0, 0, 1, PL DELTA
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OPERATION
+Map = images\RUS6.PCX
+Text = 1, 1, Sie operieren in einem Sektor zwischen den Phasenlinien Alpha und Bravo. Alle SAM-Stellungen des Gebietes sind in voller Alarmbereitschaft. \n Alle Luftfahrzeuge, die PL Alpha oder Bravo überqueren, werden als feindlich betrachtet. \n \n LUFTABWEHR: \n Die Amerikaner haben derzeit wahrscheinlich nur fest zugewiesene Luftabwehr.
+Line 0 = 200, 0, 0, 242, 20, 97, 20
+Line 1 = 200, 0, 0, 97, 20, 14, 82
+Line 2 = 200, 0, 0, 57, 290, 221, 290
+Line 3 = 200, 0, 0, 221, 290, 305, 228
+Label 0 = 100, 30 , 10, 10, 10, 1, PL ALPHA
+Label 1 = 101, 31, 200, 0, 0, 1, PL ALPHA
+Label 2 = 100, 275, 10, 10, 10, 1, PL BRAVO
+Label 3 = 101, 275, 200, 0, 0, 1, PL BRAVO
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, VERBÜNDETE STREITKRÄFTE 
+Map = images\RUS6.PCX
+Text = 1, 1, Diese Kräfte bestehen aus der 29. Armeegarde-Division; sie greifen mit vollen Panzerkompanien von der 4. Guards Tank Division an.
+Sprite 0 = images\rtnkb.pcx, 250, 36, 0
+Sprite 1 = images\rtnkb.pcx, 270, 85, 0
+Sprite 2 = images\rarrowsw.pcx, 230, 57, 0
+Sprite 3 = images\rarrowsw.pcx, 249, 107, 0
+Label 0 = 272, 109, 255, 0, 0, 1, 4GT
+Label 1 = 251, 59, 255, 0, 0, 1, 4GT
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\RUS6.PCX
+Text = 1, 1, Kräfte der amerikanischen 1. Armored verteidigen die nördliche Passage nach Zelo. Sie sind offenbar vor unserem Eintreffen gewarnt, da eine verstärkende Panzerkompanie derzeit anrückt, um uns zu bekämpfen. Dies wird eine harte Schlacht werden. 
+Sprite 0 = images\utnkb.pcx, 15, 52, 0
+Sprite 1 = images\uarrowe.pcx, 43, 52, 0
+Sprite 2 = images\utnkb.pcx, 206, 188, 0
+Sprite 3 = images\utnkb.pcx, 138, 186
+Label 0 = 139, 209, 0, 0, 255, 1, 1. Pz
+Label 1 = 207, 212, 0, 0, 255, 1, 1. Pz
+Label 2 = 16, 75, 0, 0, 255, 1, 1. Pz
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, WETTER
+Map = images\RUS6.PCX
+Text = 1, 1, Der Wetterbericht in Ihrem Operations-Sektor meldet heiter bis wolkig, mit einer teilweisen Wolkendecke bei 2.500 Fuß. \n Die thermischen Bedingungen sind gut, mit Bereichen bis 6 km. \n Leichter Wind kommt mit 1 bis 2 Knoten aus N.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 10 

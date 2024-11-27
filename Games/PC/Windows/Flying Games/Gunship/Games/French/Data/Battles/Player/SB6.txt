@@ -1,0 +1,245 @@
+TITLE: Nid de frelons
+BATTLEFIELD: czech 146250 119250 0 0 11 24
+LEVEL: 7
+RUNAI: RED
+SIDE: 0
+MACHINE: 1
+PLATOON: 21 141050 113250 270 2 144050 113450 3 9
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 150800 113950
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 142750 117650
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 142700 122650
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 149550 120800
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 149700 123400
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 120
+PLATOON: 128 150750 123050 90 7 145700 124650 3 2
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 144550 118650
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 180
+ADDWAYPT: 148450 119250
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 180
+ADDWAYPT: 151350 120800
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 180
+ADDWAYPT: 149150 122950
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_FAST:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 360
+PLATOON: 61 149250 112250 90 2 148650 116300 3 5
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 147800 117550
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 480
+PLATOON: 64 150250 110250 90 2 149950 114650 3 12
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_LZ:
+ORDER_ADV_FAST:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 151750 120450
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 150650 123250
+ORDER_ASMBLY_LZ:
+ORDER_ADV_FAST:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 300
+BLUE_TARGET: 36
+PLATOON: 64 150550 123250 90 7 150550 123250 3 12
+BLUE_TARGET: 36
+PLATOON: 98 150550 123250 90 12 151200 123250 3 16
+ADDWAYPT: 150650 123250
+ADDWAYPT: 151200 123250 
+ADDWAYPT: 150650 123250
+ADDWAYPT: 151200 123250 
+PLATOON: 98 151100 123275 90 12 151200 123250 3 16
+ADDWAYPT: 150650 123250
+ADDWAYPT: 151200 123250 
+ADDWAYPT: 151100 123275 
+ADDWAYPT: 151200 123250 
+PLATOON: 98 151200 123275 90 12 150550 123250 3 16
+ADDWAYPT: 151150 123250 
+ADDWAYPT: 150550 123250 
+ADDWAYPT: 151100 123250 
+ADDWAYPT: 151100 123400 
+PLATOON: 122 151100 123250 180 0 151100 123250 3 16
+BLUE_TARGET: 36
+PLATOON: 122 151150 123250 180 0 151150 123250 3 16
+BLUE_TARGET: 36
+PLATOON: 122 151200 123250 180 0 151200 123250 3 16
+BLUE_TARGET: 36
+PLATOON: 105 149650 123300 315 8 149650 123300 3 22
+PLATOON: 105 150950 122500 180 2 150950 122500 3 22
+PLATOON: 105 151300 123550 0 0 151300 123550 3 22
+PLATOON: 56 148000 118000 45 3 148000 118000 3 15
+PLATOON: 56 152050 118200 135 2 152050 118200 3 15
+PLATOON: 72 143300 124650 0 2 143300 124650 3 23
+PLATOON: 69  151000 123250 180 0 151000 123250 3 19
+BLUE_TARGET: 36
+PLATOON: 68  151100 123400 90 0 151100 123400 3 19
+BLUE_TARGET: 36
+PLATOON: 122 150000 114450 270 0 150000 114450 3 21
+PLATOON: 78 150000 114550 180 0 150000 114550 3 21
+PLATOON: 73 146000 115000 270 1 148500 115500 3 21
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ADV_FAST:
+ORDER_TRVL_BYPASS:
+ADDWAYPT: 150000 114650
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\msb6.pcx
+Text = 1, 1, Ce raid en profondeur vise à détruire la position logistique avancée de la 106e DAG, située quelque part dans cette zone d'opérations. Soyez certain d'éliminer totalement ce point logistique.
+Sprite 0 = images\uahb.pcx, 46, 30, 0
+Sprite 1 = images\uwpbp.pcx, 106, 19, 0
+Sprite 2 = images\uwpbp.pcx, 241, 29, 0
+Sprite 3 = images\uwpbp.pcx, 80, 103, 0
+Sprite 4 = images\uwpbp.pcx, 79, 203, 0
+Sprite 5 = images\uwpbp.pcx, 216, 166, 0
+Sprite 6 = images\uwpbp.pcx, 219, 218, 0
+Line 0 = 200, 200, 200, 54, 38, 114, 42
+Line 1 = 200, 200, 200, 114, 42, 249, 52
+Line 2 = 200, 200, 200, 249, 52, 88, 126
+Line 3 = 200, 200, 200, 88, 126, 87, 226
+Line 4 = 200, 200, 200, 87, 226, 224, 189
+Line 5 = 200, 200, 200, 224, 189, 227, 241
+Time Out = 10
+
+[Blue_Briefing 1]
+Heading = 9, FORCES AMIES
+Map = images\msb6.pcx
+Text = 1, 1, Aucune force terrestre amie dans le cadre de cette mission.
+Time Out = 10
+
+[Blue_Briefing 2]
+Heading = 9, FORCES ENNEMIES
+Map = images\msb6.pcx
+Text = 1, 1, La 106e division aéroportée de la garde a établi une position logistique avancée quelque part dans cette zone d'opérations. Découvrez cette base et détruisez-la. Le Rens. n'en sait guère plus.
+Time Out = 20
+
+[Blue_Briefing 3]
+Heading = 9, METEO
+Map = images\msb6.pcx
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec couche nuageuse partielle à 2.500 pieds. \n Le soleil devrait se coucher pendant que vous quitterez le secteur cible. \n Visibilité limitée à 2 km. \n Conditions thermiques excellentes permettant de voir à plus de 6 km. \n Léger vent de nord-ouest, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\msb6.pcx
+Text = 1, 1, La 106e division aéroportée de la garde a établi une position logistique avancée. Vous effectuerez la patrouille aérienne de la soirée. Empêchez toute unité aérienne ennemie de pénétrer dans ce secteur et d'attaquer cette base.
+Sprite 0 = images\rahb.pcx, 240, 226, 0
+Sprite 1 = images\rwpbp.pcx, 139, 243, 0
+Sprite 2 = images\ rwpbp.pcx, 116, 123, 0
+Sprite 3 = images\ rwpbp.pcx, 194, 135, 0
+Sprite 4 = images\ rwpbp.pcx, 252, 166, 0
+Sprite 5 = images\ rwpbp.pcx, 208, 209, 0
+Line 0 = 200, 200, 200, 248, 234, 147, 266
+Line 1 = 200, 200, 200, 147, 266, 124, 146
+Line 2 = 200, 200, 200, 124, 146, 202, 158
+Line 3 = 200, 200, 200, 202, 158, 260, 189
+Line 4 = 200, 200, 200, 260, 189, 216, 232
+Time Out = 10
+
+[Red_Briefing 1]
+Heading = 9, FORCES AMIES
+Map = images\msb6.pcx
+Text = 1, 1, Quelques éléments du génie commencent la construction d'un nouveau point logistique au nord, et quelques unités de défense aérienne sont éparpillées dans le secteur. Nous attendons l'arrivée d'une formation de Hip dans quelques minutes, et la patrouille de l'après-midi est toujours en vol.
+Sprite 0 = images\robj.pcx, 242, 220, 0
+Sprite 1 = images\rsupb.pcx, 250, 231, 0
+Sprite 2 = images\rzsub.pcx, 75, 12, 0
+Sprite 3 = images\rzsub.pcx, 154, 16, 0
+Sprite 4 = images\rsam8b.pcx, -84, 81, 0
+Sprite 5 = images\rdumpb.pcx, 233, 58, 0
+Time Out = 10
+
+[Red_Briefing 2]
+Heading = 9, FORCES ENNEMIES
+Map = images\msb6.pcx
+Text = 1, 1, Nous ne disposons d'aucune information relative aux mouvements de l'ennemi.
+Time Out = 20
+
+[Red_Briefing 3]
+Heading = 9, METEO
+Map = images\msb6.pcx
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec couche nuageuse partielle à 2.500 pieds. \n Le soleil devrait se coucher pendant que vous quitterez le secteur cible. \n Visibilité limitée à 2 km. \n Conditions thermiques excellentes permettant de voir à plus de 6 km. \n Léger vent de nord-ouest, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+

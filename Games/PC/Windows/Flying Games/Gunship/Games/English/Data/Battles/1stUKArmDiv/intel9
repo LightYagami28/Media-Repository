@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, In the north, XVIII Corps and BAOR have launched an offensive designed to encircle the 28th Belarus Corps. \n II and III Corps attack has stalled in the face of a major counter attack by the Central Group of forces. \n In the south, 1st Cavalry division is engaged in bitter fighting with 3rd Shock Army, while, the 8th Ukrainian Army Corps surrendered at noon today.
+Sprite 0 = images\cin9.pcx, 0, 0, 0
+Sprite 1 = images\cir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR SECTOR
+Map = images\cs5.pcx
+Text = 1, 1, 3rd Armoured has started a drive to the northeast to cut off 6th Tank Army in XVIII Corps sector. \n 20th Guards has launched an attack to drive a wedge between BAOR and III Corps. 4th and 20th Brigades are holding our front, while a battle group from 7th brigade attacks the flank of 20th Guards main effort.
+Sprite 0 = images\ukcir9.pcx, 0, 0, 0
+Sprite 1 = images\ukcin9.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 64, 248, 0
+Label 0 = 280, 147, 155, 155, 155, 1, Minsk
+Time Out = 15
+GOTOBRIEFING = 1

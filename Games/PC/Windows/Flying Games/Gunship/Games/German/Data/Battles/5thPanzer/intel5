@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE 
+Map = images\imap.pcx
+Text = 1, 1, Mit Ausnahme der Slowakei fallen an voller Front die russischen Streitkräfte zurück. Die Aufklärung bestätigt jetzt, dass ihre Verluste bei einigen Einheiten nahezu katastrophal ausgefallen sind. Es ist unbekannt, wie lange diese Situation noch andauert. 
+Sprite 0 = images\cin5.pcx, 0, 0, 0
+Sprite 1 = images\cir5.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs2.pcx
+Text = 1, 1, Das 13. Ukrainische Armeekorps zieht sich in Richtung Brest zurück, mit der amerikanischen 1. Infantry in Verfolgung. \n Die 5. und 10. Panzer-Division führen zusammen einen koordinierten Angriff durch, um die 72. und 41. Garde-Division vor Zamosc aufzureiben. Sie setzen Luftlandetruppen ein, um die Lücke zu schließen.
+Sprite 0 = images\gercir5.pcx, 0, 0, 0
+Sprite 1 = images\gercin5.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 210, 247, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

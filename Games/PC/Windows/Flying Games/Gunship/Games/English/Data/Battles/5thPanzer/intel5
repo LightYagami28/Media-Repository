@@ -1,0 +1,18 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, All along the front, with the exception of Slovakia, Russian forces are falling back. Intelligence now confirms that their casualties have been nearly catastrophic in many units. It is unknown how long this situation will last. 
+Sprite 0 = images\cin5.pcx, 0, 0, 0
+Sprite 1 = images\cir5.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, II Corps SECTOR
+Map = images\cs2.pcx
+Text = 1, 1, 13th Ukrainian Corps is retreating toward Brest, with US 1st Infantry in pursuit. \n 1st Panzer is moving into line between 1st Infantry and 5th Panzer. \n 5th and 10th Panzer are conducting a coordinated attack to destroy 72nd and 41st Guards divisions in front of Zamosc, and are using airmobile troops to plug the gap. 
+Sprite 0 = images\gercir5.pcx, 0, 0, 0
+Sprite 1 = images\gercin5.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 210, 247, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

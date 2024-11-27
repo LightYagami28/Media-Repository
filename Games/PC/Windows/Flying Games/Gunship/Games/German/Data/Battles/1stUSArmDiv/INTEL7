@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Das XVIII. Korps sieht sich verfestigendem Widerstand im nördlichen Sektor gegenüber. BAOR und das II. und III. Korps führen ihren Vormarsch nach Weißrussland und die Ukraine fort. In der Slowakei hält sich das 8. Ukrainische Armeekorps weiterhin, obwohl die 3. Sturmarmee den Kontakt nach Süden verloren hat. \n Die Satellitenaufklärung hat neue Formationen entdeckt, die sich der Front nähern und die NATO somit zwingen, weiterhin so schnell wie möglich vorzustoßen.
+Sprite 0 = images\cin7.pcx, 0, 0, 0
+Sprite 1 = images\cir7.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs4.pcx
+Text = 1, 1, Das 13. Ukrainische Armeekorps wurde in den letzten Tagen aus dem Kampfgeschehen herausgenommen. Die amerikanische 1. Armored versucht Kontakt zu halten, wir haben jedoch momentan lediglich schwachen Kontakt. Die Überbleibsel der 2. Armeegarde und des 32. Ukrainischen Armeekorps halten den südlichen Sektor gegen die 1. und 5. Panzerdivision. \n Die 10. Panzerdivision wurde zur Überholung zurückgezogen. \n Beide Divisionen dringen weiter vor, während sie gleichzeitig versuchen wieder Kontakt mit dem Feind herzustellen. Die Aufklärung meldet nur wenige Feindeinheiten vor den Korps.
+Sprite 0 = images\gercir7.pcx, 0, 0, 0
+Sprite 1 = images\gercin7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 67, 34, 0
+Time Out = 15
+GOTOBRIEFING = 1

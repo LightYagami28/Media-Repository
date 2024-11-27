@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, XVIII Corps faces stiffening resistance in the Northern sector. BAOR, II and III Corps all continue their advance into Belarus and the Ukraine. In Slovakia, the 8th Ukrainian Army Corps continues to hold, although 3rd Shock army has broken contact to the East. \n Satellite reconnaissance has spotted new formations advancing toward the front, forcing NATO to continue pushing as fast as possible. No end is in sight.
+Sprite 0 = images\cin7.pcx, 0, 0, 0
+Sprite 1 = images\cir7.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, II Corps SECTOR
+Map = images\cs4.pcx
+Text = 1, 1, 13th Ukrainian Corps has been pulled out of combat for the last couple of days. 1st US armored is attempting to maintain contact, but we are not in substantial contact at this time. The remnants of 2nd Guards Army and 32nd Ukrainian Army Corps are holding the southern sector against the German 1st and 5th Panzer. \n 10th Panzer has been rotated back for refitting. \n Both divisions are advancing while attempting to regain contact with the enemy. Intelligence on enemy units in front of the Corps is minimal.
+Sprite 0 = images\gercir7.pcx, 0, 0, 0
+Sprite 1 = images\gercin7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 67, 34, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

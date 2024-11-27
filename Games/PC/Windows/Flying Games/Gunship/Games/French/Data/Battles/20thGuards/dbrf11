@@ -1,0 +1,24 @@
+[WIN]
+movie = movies\winfivew.bik 
+Heading = 9, SITUATION
+Map = images\Rus11.pcx
+Text = 1, 1, Félicitations. La destruction de ce convoi prive la 1e division de cavalerie de carburant et de munitions dont elle avait bien besoin. Elle sera maintenant facile à encercler et à éliminer.
+Sprite 0 = images\uahb.pcx, 176, 286, 0
+Sprite 1 = images\usupb.pcx, 165, 278, 0
+Sprite 2 = images\uarrownw.pcx, 148, 257, 0
+Sprite 3 = images\Rahb.pcx, 296, 9, 0
+Label 0 = 165, 300, 0, 0, 255, 1, Convoi
+
+Time Out = 15
+
+[Lose]
+movie = movies\lossfivew.bik 
+Heading = 9, SITUATION
+Map = images\rus11.pcx 
+Text = 1, 1, L'arrivée sans encombres de ce convoi a apporté à la 1e de cavalerie assez de logistique pour permettre à la 3e d'infanterie de récupérer et de soutenir de nouveau son flanc. Nous avons laissé passer la dernière occasion de priver la 1e de cavalerie de toute efficacité. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\usupb.pcx, 165, 278, 0
+Sprite 1 = images\uarrownw.pcx, 148, 257, 0
+Sprite 2 = images\Rahb.pcx, 296, 9, 0
+Label 0 = 165, 300, 0, 0, 255, 1, Convoi
+Time Out = 15
+

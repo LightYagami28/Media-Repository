@@ -1,0 +1,65 @@
+TITLE: Champ de tir missile
+BATTLEFIELD: NPOLAND 129000 15750 0 0 5 24
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+
+PLATOON: 142 122750 22400 270 0 124900 20900 2 101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+
+PLATOON: 103 124800 12800 225 0 124800 12800 0 1902
+BLUE_TARGET: 25
+PLATOON: 141 133850 15150 90 0 133850 15150 0 1903
+BLUE_TARGET: 25
+PLATOON: 103 132950 10300 180 0 132950 10300 1 1904
+BLUE_TARGET: 25
+
+[Title]
+TITLE = CHAMP DE TIR MISSILE
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\Tmap2.pcx
+Text = 1, 1, Bienvenue sur le champ de tir des missiles antichar. La mission d'aujourd'hui portera sur l'entraînement au tir de Hellfire. Vous trouverez deux pelotons de chars et un de BMP. Ils figurent tous les trois sur la carte, à gauche. Ces pelotons sont des cibles et ne riposteront pas. Approchez-vous de chacun d'eux en exploitant le terrain et détruisez tous les véhicules à l'aide de vos missiles Hellfire. 
+Sprite 0 = images\rtnkp.pcx, 67, 92, 0
+Sprite 1 = images\rtnkp.pcx, 230, 42, 0
+Sprite 2 = images\uahb.pcx, 25, 283, 0
+Sprite 3 = images\rifvp1.pcx, 248, 139, 0
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OBJECTIFS
+Map = images\Tmap2.pcx
+Text = 1, 1, Commencez par rechercher et détruire les deux pelotons de chars. Ceci fait, approchez-vous des BMP et détruisez-les également. Vous n'aurez pas assez de Hellfire pour détruire tous ces véhicules, et traiterez donc les dernières cibles au canon. Ceci représente une bonne occasion de contrôler l'hélico depuis le cockpit du tireur. Essayez d'engager et de traiter au moins un des pelotons depuis la place du tireur.
+Sprite 0 = images\rtnkp.pcx, 67, 92, 0
+Sprite 1 = images\rtnkp.pcx, 230, 42, 0
+Sprite 2 = images\uahb.pcx, 25, 283, 0
+Sprite 3 = images\rifvp1.pcx, 248, 139, 0
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, METEO
+Map = images\Tmap2.pcx
+Text = 1, 1, Nous serons en milieu de journée. Temps clair dans votre secteur. \n Visibilité illimitée. \n Bonnes conditions thermiques permettant de voir à 6 km. \n Vents calmes.
+Movie = movies\clear.bik, 0, 0, 315, 315
+Time Out = 15
+Execute = 1
+
+[Briefing 3]
+Heading = 9, VIDE
+Map = images\Tmap2.pcx
+Text = 1, 1, 
+Time Out = 1
+
+[Briefing 4]
+Heading = 9, VIDE
+Map = images\Tmap2.pcx
+Text = 1, 1, 
+Time Out = 1
+Execute = 1

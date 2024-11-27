@@ -1,0 +1,43 @@
+[WIN]
+movie = movies\extraonew.bik
+Heading = 9, STATUS
+Map = images\mg10.pcx
+Text = 1, 1, The Russian attack has stopped in our sector, due in large part to the disruption you just caused. Good work. The division is moving over to the attack in a few hours. Rest and rearm, and be ready to go.
+Label 0 = 240, 117, 115, 115, 115, 1, Gorodok
+Label 1 = 240, 117, 115, 115, 115, 1, Gorodok
+Label 2 = 244, 266, 115, 115, 115, 1, Dunayeutsy
+Label 3 = 251, 86, 115, 115, 115, 1, Yarmorintsy
+Sprite 0 = images\rsam6b.pcx, 131, -80, movies\radar.bik
+Sprite 1 = images\rsam6b.pcx, 100, -21, movies\radar.bik
+Sprite 2 = images\radv2b.pcx, 230, 21, movies\radar.bik
+Sprite 3 = images\rzsub.pcx, 70, -36, movies\radar.bik
+Sprite 4 = images\rzsub.pcx, 130, -6, movies\radar.bik
+Sprite 5 = images\rtnkb.pcx, 289, 215, 0
+Sprite 6 = images\rarrownw.pcx, 269, 198, 0
+Sprite 7 = images\rspgc.pcx, 280, 156, 0
+Sprite 8 = images\rarrownw.pcx, 259, 138, 0
+Sprite 9 = images\rhqb.pcx, 247, 164, 0
+Sprite 10 = images\uahb.pcx, 16, 240, 0
+Time Out = 10
+
+[Lose]
+movie = movies\extratwow.bik
+Heading = 9, STATUS
+Map = images\mg10.pcx
+Text = 1, 1, You have failed to accomplish your mission. The Russians have resupplied and are continuing their attack. \n \n Select "Fly Again" to refly this mission.
+Label 0 = 240, 117, 115, 115, 115, 1, Gorodok
+Label 1 = 240, 117, 115, 115, 115, 1, Gorodok
+Label 2 = 244, 266, 115, 115, 115, 1, Dunayeutsy
+Label 3 = 251, 86, 115, 115, 115, 1, Yarmorintsy
+Sprite 0 = images\rsam6b.pcx, 131, -80, movies\radar.bik
+Sprite 1 = images\rsam6b.pcx, 100, -21, movies\radar.bik
+Sprite 2 = images\radv2b.pcx, 230, 21, movies\radar.bik
+Sprite 3 = images\rzsub.pcx, 70, -36, movies\radar.bik
+Sprite 4 = images\rzsub.pcx, 130, -6, movies\radar.bik
+Sprite 5 = images\rtnkb.pcx, 289, 215, 0
+Sprite 6 = images\rarrownw.pcx, 269, 198, 0
+Sprite 7 = images\rspgc.pcx, 280, 156, 0
+Sprite 8 = images\rarrownw.pcx, 259, 138, 0
+Sprite 9 = images\rhqb.pcx, 247, 164, 0
+Sprite 10 = images\uahb.pcx, 16, 240, 0
+Time Out = 15

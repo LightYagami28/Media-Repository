@@ -1,0 +1,24 @@
+[Win]
+Heading = 9, STATUS
+Map = images\RUS2.PCX
+Text = 1, 1, Die britische 1. Armoured ist zusammengebrochen. Die 1. Urkrainische hat die britische Formation dezimiert. Das Hohe Kommando erwartet, dass die Briten noch diese Woche aufgeben. Wir wurden einem neuen Kommando zugewiesen, das sich mit der 1. US Armored Division im Süden befassen soll.
+Sprite 0 = images\Rahb.pcx, 290, 8, 0
+Sprite 1 = images\rtnkb.pcx, 144, 87, 0
+Sprite 2 = images\rarrownw.pcx, 119, 60, 0
+Sprite 3 = images\utnkb.pcx, 150, 274, 0
+Sprite 4 = images\uarrown.pcx, 151, 252, 0
+Label 0 = 144, 111, 255, 0, 0, 1, 1 MSD(U)
+Label 1 = 150, 296, 0, 0, 255, 1, 2-13
+Time Out = 15
+[Lose]
+Heading = 9, STATUS
+Map = images\RUS2.PCX
+Text = 1, 1, Die 1. Ukranische Flanken-Streitmacht wurde gestoppt. Die britische 1. Armoured hat nun Raum, durchzuatmen. Die 82. und die Marines sind ebenfalls eingetroffen. Die 1. US Armored bewegt sich nun in die Ukraine, um die 13. Ukrainische herauszufordern. \n \n  Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen. 
+Sprite 0 = images\Rahb.pcx, 290, 8, 0
+Sprite 1 = images\rtnkb.pcx, 144, 87, 0
+Sprite 2 = images\rarrownw.pcx, 119, 60, 0
+Sprite 3 = images\utnkb.pcx, 150, 274, 0
+Sprite 4 = images\uarrown.pcx, 151, 252, 0
+Label 0 = 144, 111, 255, 0, 0, 1, 1 MSD(U)
+Label 1 = 150, 296, 0, 0, 255, 1, 2-13
+Time Out = 15

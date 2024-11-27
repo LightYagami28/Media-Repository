@@ -1,0 +1,43 @@
+[WIN]
+movie = movies\winthreew.bik 
+Heading = 9, STATUS
+Map = images\rus6.pcx
+Text = 1, 1, The 1st Armored division has suffered a crushing defeat and has started to fall back all along its lines. The pursuit is frantic but we are being transferred to support the attacks against the German 5th panzer.
+Sprite 0 = images\rahb.pcx, 279, 20, 0
+Sprite 1 = images\rtnkb.pcx, 250, 36, 0
+Sprite 2 = images\rtnkb.pcx, 270, 85, 0
+Sprite 3 = images\rarrowsw.pcx, 230, 57, 0
+Sprite 4 = images\rarrowsw.pcx, 249, 107, 0
+Sprite 5 = images\utnkb.pcx, 15, 52, 0
+Sprite 6 = images\uarrowe.pcx, 43, 52, 0
+Sprite 7 = images\utnkb.pcx, 206, 188, 0
+Sprite 8 = images\utnkb.pcx, 138, 186
+Label 0 = 139, 209, 0, 0, 255, 1, 1st Armored
+Label 1 = 207, 212, 0, 0, 255, 1, 1st Armored
+Label 2 = 16, 75, 0, 0, 255, 1, 1st Armored
+Label 3 = 272, 109, 255, 0, 0, 1, 4GT
+Label 4 = 105, 298, 200, 200, 200, 1, Zelo 
+Label 5 = 251, 59, 255, 0, 0, 1, 4GT 
+Time Out = 15
+
+[Lose]
+movie = movies\lossfourw.bik 
+Heading = 9, STATUS
+Map = images\rus6.pcx 
+Text = 1, 1, We have lost our momentum against the Americans. We must now fight a defensive battle until we have recovered our strength. Unfortunately, this is exactly what the Americans are doing as well. The hope of a quick victory has been lost. \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\rahb.pcx, 279, 20, 0
+Sprite 1 = images\rtnkb.pcx, 250, 36, 0
+Sprite 2 = images\rtnkb.pcx, 270, 85, 0
+Sprite 3 = images\rarrowsw.pcx, 230, 57, 0
+Sprite 4 = images\rarrowsw.pcx, 249, 107, 0
+Sprite 5 = images\utnkb.pcx, 15, 52, 0
+Sprite 6 = images\uarrowe.pcx, 43, 52, 0
+Sprite 7 = images\utnkb.pcx, 206, 188, 0
+Sprite 8 = images\utnkb.pcx, 138, 186
+Label 0 = 139, 209, 0, 0, 255, 1, 1st Armored
+Label 1 = 207, 212, 0, 0, 255, 1, 1st Armored
+Label 2 = 16, 75, 0, 0, 255, 1, 1st Armored
+Label 3 = 272, 109, 255, 0, 0, 1, 4GT
+Label 4 = 105, 298, 200, 200, 200, 1, Zelo 
+Label 5 = 251, 59, 255, 0, 0, 1, 4GT 
+Time Out = 15

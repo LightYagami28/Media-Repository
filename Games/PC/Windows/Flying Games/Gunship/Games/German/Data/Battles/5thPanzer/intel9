@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE 
+Map = images\imap.pcx
+Text = 1, 1, Im Norden haben das XVIII. Korps und BAOR eine Offensive gestartet, die darauf abzielt, die 6. Panzerarmee einzuschließen. Der Angriff des II. und III. Korps kam aufgrund eines Gegenangriffs der zentralen Gruppe der Streitmächte zum Stillstand. Im Süden steht die 1. Cavalry Division in erbitterten Gefechten gegen die 3. Sturm-Armee, während sich das 8. Ukrainische Armeekorps heute Mittag ergeben hat. 
+Sprite 0 = images\cin9.pcx, 0, 0, 0
+Sprite 1 = images\cir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs4.pcx
+Text = 1, 1, Im Norden steht die amerikanische 1. Armored unter Beschuss durch die 65. und 13. Ukrainischen Armeekorps. \n Die 1. Panzer-Division wird von einer geschwächten 2. Armeegarde, und die 5. Panzer-Division von einem relativ frischen 1. Ukrainischen Armeekorps angegriffen. \n Das 32. Ukrainische Armeekorps wurde aus dem Kampf zurückgezogen.
+Sprite 0 = images\gercir9.pcx, 0, 0, 0
+Sprite 1 = images\gercin9.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 57, 169, 0
+Time Out = 15
+GOTOBRIEFING = 1

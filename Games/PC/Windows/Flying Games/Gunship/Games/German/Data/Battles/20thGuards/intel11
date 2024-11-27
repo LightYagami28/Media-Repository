@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Mit der Kapitulation der BAOR hat die Nordgruppe die 6. Panzerarmee und die 5. Belorussische nach Süden geschickt, um das 2. Korps anzugreifen, das Zeichen der Schwäche zeigte, aber noch nicht bald aufgeben wird. Die Südgruppe der Streitkräfte zieht sich nach Slowakien zurück und wird gerade vom 5. Korps verfolgt, das nun wieder zurück am Startpunkt der Kampagne ist.
+Sprite 0 = images\rcin11.pcx, 0, 0, 0
+Sprite 1 = images\rcir11.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DER 20. WACHARMEE
+Map = images\cs3.pcx
+Text = 1, 1, Die 1. Cavalry setzt ihren Rückzug fort, bleibt aber geschlossen. Die 3. Sturm-Armee versucht, Schwachpunkte in ihren Linien zu finden. Die 8. Ukrainische ist noch mit der 3. US Infantry beschäftigt. Die 32. Motorschützen-Division hat eine Zermürbungs-Schlacht gegen die Südflanke begonnen.
+Sprite 0 = images\ruscin11.pcx, 0, 0, 0
+Sprite 1 = images\ruscir11.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 101, 146, 0
+Time Out = 15
+GOTOBRIEFING = 1

@@ -1,0 +1,162 @@
+TITLE: Über die Hügel (Multiplayer)
+BATTLEFIELD: CZECH 22500 120750 0 0 6 25
+OBJECTIVE: BLUE THREEKRADIUS 23200 119000 16
+OBJECTIVE: RED THREEKRADIUS 23200 119100 16
+BLUE_ENEMIES: 80 
+RED_ENEMIES: 80 
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 1
+
+
+PLATOON: 129 20650 117300 90 0 23400 119200 2 901
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_ASMBLY_PATROL:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+
+PLATOON: 129 19250 119850 90 0 23400 119050 2 1102
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 240
+ORDER_ASMBLY_PATROL:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+
+PLATOON: 62 27000 118100 270 0 23300 119200 1 803
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 240
+ORDER_ASMBLY_PATROL:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+
+PLATOON: 62 26700 123150 270 0 23300 119200 0 1004
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 240
+ORDER_ASMBLY_PATROL:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+
+PLATOON: 114 19800 116000 90 0 19800 116000 1 2205
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+PLATOON: 114 19300 121100 90 0 19300 121100 1 2206
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+PLATOON: 114 21450 115300 90 0 22750 118050 2 2107
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 30
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 21800 119250
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 23200 121650
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 24600 119700
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 23350 117000
+ORDER_WPT_SETDELAYTIME: 30
+
+PLATOON: 55 26100 122300 270 0 26100 122300 0 1908
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+PLATOON: 55 26700 119400 270 0 26700 119400 2 1909
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+PLATOON: 55 24650 123750 270 0 22900 122200 1 2310
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 30
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 21700 119800
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 23150 117550
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 24850 118000
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 24500 119750
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 22550 120700
+ORDER_WPT_SETDELAYTIME: 30
+
+[Blue_Briefing 0]
+Heading = 9, OPERATION
+Text = 1, 1, Diese Operation ist ein Deathmatch zwischen britischen und russischen Helikoptern in einem Gebirgstal im östlichen Slowenien. Suchen und zerstören Sie so viele feindliche Hubschrauber wie möglich, aber achten Sie auch auf eingreifende Bodentruppen. \n\n RUFZEICHEN: \n Flug #1: Storm \n Flug #2: Lightning 
+Sprite 0 = images\uahb.pcx, 113, 81, 0
+Sprite 1 = images\uahb.pcx, 85, 132, 0
+Sprite 2 = images\uadvp.pcx, 93, 53, 0
+Sprite 3 = images\uadvp.pcx, 83, 155, 0
+Sprite 4 = images\uwppa.pcx, 167, 107, 0
+Label 0 = 110, 100, 10, 10, 10, 1, Storm 
+Label 1 = 109, 99, 99, 99, 208, 1, Storm 
+Label 2 = 76, 123, 10, 10, 10, 1, Lightning 
+Label 3 = 75, 122, 99, 99, 208, 1, Lightning 
+Time Out = 10
+
+[Blue_Briefing 1]
+Heading = 9, WETTER
+Text = 1, 1, Das Wetter in Ihrem Operationssektor ist leicht bewölkt mit einer teilweisen Wolkendecke bei 2500 Fuß. \n in Ihrem vorgelagerten Sammelgebiet herrscht nautisches Zwielicht. \n Die Sichtweite beträgt weniger als 2 km. \n Thermale Bedingungen sind mit Bereichen über 5 km gut. \n Es weht ein leichter Wind aus NW mit 1 bis 2 Knoten.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, OPERATION
+Text = 1, 1, Diese Operation ist ein Deathmatch zwischen britischen und russischen Helikoptern in einem Gebirgstal im östlichen Slowenien. Suchen und zerstören Sie so viele feindliche Hubschrauber wie möglich, aber achten Sie auch auf eingreifende Bodentruppen. \n\n RUFZEICHEN: \n Flug #1: Dragon \n Flug #2: Ghostrider 
+Sprite 0 = images\rahb.pcx, 240, 97, 0
+Sprite 1 = images\rahb.pcx, 234, 198, 0
+Sprite 2 = images\radvp.pcx, 219, 177, 0
+Sprite 3 = images\radvp.pcx, 231, 121, 0
+Sprite 4 = images\rwpbp.pcx, 167, 107, 0
+Label 0 = 234, 87, 10, 10, 10, 1, Dragon
+Label 1 = 233, 86, 255, 0, 0, 1, Dragon
+Label 2 = 226, 218, 10, 10, 10, 1, Ghostrider
+Label 3 = 225, 217, 255, 0, 0, 1, Ghostrider
+Time Out = 10
+
+[Red_Briefing 1]
+Heading = 9, WETTER
+Text = 1, 1, Das Wetter in Ihrem Operationssektor ist leicht bewölkt mit einer teilweisen Wolkendecke bei 2500 Fuß. \n in Ihrem vorgelagerten Sammelgebiet herrscht nautisches Zwielicht. \n Die Sichtweite beträgt weniger als 2 km. \n Thermale Bedingungen sind mit Bereichen über 5 km gut. \n Es weht ein leichter Wind aus NW mit 1 bis 2 Knoten.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+
+

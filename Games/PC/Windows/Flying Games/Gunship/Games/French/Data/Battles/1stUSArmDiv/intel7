@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le XVIIIe corps affronte une résistance croissante dans le secteur nord. La BAOR et les IIe et IIIe corps poursuivent leur avance en Bélarus et en Ukraine. En Slovaquie, le 8e corps d'armée ukrainien continue à tenir, malgré le fait que la 3e armée de choc ait rompu le contact à l'est. \n Le renseignement satellitaire a repéré l'approche de nouvelles formations en direction du front, ce qui oblige l'OTAN à continuer à progresser le plus vite possible. Aucune fin en vue. 
+Sprite 0 = images\cin7.pcx, 0, 0, 0
+Sprite 1 = images\cir7.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du IIe CORPS
+Map = images\cs4.pcx
+Text = 1, 1, Le 13e corps ukrainien a été retiré du front au cours des derniers jours. La 1e DB US tente de maintenir le contact, mais il demeure assez inconsistant. Les restes de la 2e armée de la garde et du 32e corps d'armée ukrainien tiennent le secteur sud, face aux 1e et 5e Panzer. \n La 10e Panzer a été retirée du front pour remise en condition. \n Les deux divisions avancent en tentant de rétablir le contact avec l'ennemi. Le renseignement relatif aux unités ennemies qui se trouvent devant le corps est minimal. 
+Sprite 0 = images\gercir7.pcx, 0, 0, 0
+Sprite 1 = images\gercin7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 67, 34, 0
+Time Out = 15
+GOTOBRIEFING = 1

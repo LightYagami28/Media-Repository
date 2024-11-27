@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, XVIII Corps faces stiffening resistance in the Northern sector. BAOR, II and III Corps all continue their advance into Belarus and the Ukraine. In Slovakia, the 8th Ukrainian Army Corps continues to hold, although 3rd Shock army has broken contact to the East. \n Satellite reconnaissance has spotted new formations advancing toward the front, forcing NATO to continue pushing as fast as possible. No end is in sight.
+Sprite 0 = images\cin7.pcx, 0, 0, 0
+Sprite 1 = images\cir7.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, V Corps SECTOR
+Map = images\cs4.pcx
+Text = 1, 1, The 3rd Shock Army has moved into its first defensive position. Air Raids continue to plague the 1st Cavalry Division, slowing its pursuit of the 3rd SA.  
+Sprite 0 = images\cavcir7.pcx, 0, 0, 0
+Sprite 1 = images\gercin7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 68, 254, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

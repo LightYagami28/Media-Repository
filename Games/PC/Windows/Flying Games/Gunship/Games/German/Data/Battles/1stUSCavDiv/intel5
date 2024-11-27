@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Überall an der Front ziehen sich die Russen zurück. Die Aufklärung bestätigt nun, dass die Verluste vieler Einheiten katastrophal waren. Wie lange diese Lage andauern wird, ist nicht bekannt. 
+Sprite 0 = images\cin5.pcx, 0, 0, 0
+Sprite 1 = images\cir5.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES V. KORPS
+Map = images\cs3.pcx
+Text = 1, 1, Die 3. Sturm-Armee zieht sich nun mit Höchstgeschwindigkeit in Richtung Ukraine zurück. Die 72. Panzergarde bleibt als Deckung für die verbleibenden nördlichen Streitkräfte. Die 1. Cavalry hat mit der Verfolgung begonnen, leidet aber unter Nachschubproblemen und Angriffen auf das Hinterland. 
+Sprite 0 = images\cavcir5.pcx, 0, 0, 0
+Sprite 1 = images\cavcin5.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 91, 142, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

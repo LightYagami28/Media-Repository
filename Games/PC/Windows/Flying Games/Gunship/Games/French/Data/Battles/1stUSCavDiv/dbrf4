@@ -1,0 +1,30 @@
+[WIN]
+movie = movies\wintwow.bik 
+Heading = 9, SITUATION
+Map = images\Muc4.pcx
+Text = 1, 1, Le 1-12e a ouvert une brèche dans les lignes de la 3e armée de choc. Elle se replie et essaie de refermer cette plaie le plus vite possible. Malheureusement, cette retraite s'effectue en bon ordre et notre situation logistique nous empêche de les poursuivre rapidement. En outre, la 106e division aérienne de la garde harcèle nos troupes et nos arrières.
+Sprite 0 = images\uahb.pcx, 234, 282, 0
+Sprite 1= images\utnkb.pcx, 200, 232, 0
+Sprite 2 = images\rtnkb.pcx, 75, 24, 0
+Sprite 3 = images\rtnkb.pcx, 159, 18, 0
+Label 0 = 200, 255, 10, 10, 10, 1, Lion
+Label 1 = 201, 256, 0, 0, 200, 1, Lion 
+Label 2 = 99, 29, 200, 0, 0, 1, 72BG
+Label 3 = 183, 23, 200, 0, 0, 1, 72BG
+Time Out = 15
+
+[Lose]
+movie = movies\lossonew.bik 
+Heading = 9, SITUATION
+Map = images\muc4.pcx 
+Text = 1, 1, L'attaque du 1-12e a échoué. Ce devait être la principale opération offensive de la 1e division de cavalerie, mais nous en sommes maintenant réduits à un simple engagement défensif et à nous battre pour conserver ce que nous avons. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uahb.pcx, 234, 282, 0
+Sprite 1= images\utnkb.pcx, 200, 232, 0
+Sprite 2 = images\rtnkb.pcx, 75, 24, 0
+Sprite 3 = images\rtnkb.pcx, 159, 18, 0
+Label 0 = 200, 255, 10, 10, 10, 1, Lion
+Label 1 = 201, 256, 0, 0, 200, 1, Lion 
+Label 2 = 99, 29, 200, 0, 0, 1, 72BG
+Label 3 = 183, 23, 200, 0, 0, 1, 72BG
+Time Out = 15
+

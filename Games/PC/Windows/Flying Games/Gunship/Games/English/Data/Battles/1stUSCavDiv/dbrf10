@@ -1,0 +1,32 @@
+[WIN]
+movie = movies\winonew.bik
+Heading = 9, STATUS
+Map = images\Muc10.pcx
+Text = 1, 1, This was their best chance to stop us. Good job clearing the LZ. That Tank Company they used for a counterattack was one of their last reserves. The end could be in sight. 
+Sprite 0 = images\uahb.pcx, 197, 292, 0
+Sprite 1 = images\uobja.pcx, 86, 44, 0
+Sprite 2 = images\utnkb.pcx, 145, 242
+Sprite 3 = images\uarrown.pcx, 150, 220, 0
+Sprite 4 = images\rinf2b.pcx, 144, 123, 0
+Sprite 5 = images\rinf2b.pcx, 56, 36, 0
+Sprite 7 = images\rTNKB.pcx, 281, 127, 0
+Sprite 9 = images\rarrowW.pcx, 260, 135, 0
+Label 0 = 172, 248, 10, 10, 10, 1, Eagle
+Label 1 = 172, 247, 99, 99, 208, 1, Eagle
+Time Out = 15
+
+[Lose]
+movie = movies\lossthreew.bik
+Heading = 9, STATUS
+Map = images\Muc10.pcx
+Text = 1, 1, You have failed to accomplish your mission. Our losses were not acceptable. You should have prepared for their reactions. \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\uahb.pcx, 197, 292, 0
+Sprite 1 = images\uobja.pcx, 86, 44, 0
+Sprite 2 = images\utnkb.pcx, 145, 242
+Sprite 3 = images\uarrown.pcx, 150, 220, 0
+Sprite 4 = images\rinf2b.pcx, 144, 123, 0
+Sprite 5 = images\rinf2b.pcx, 56, 36, 0
+Label 0 = 172, 248, 10, 10, 10, 1, Eagle
+Label 1 = 172, 247, 99, 99, 208, 1, Eagle
+Time Out = 15
+

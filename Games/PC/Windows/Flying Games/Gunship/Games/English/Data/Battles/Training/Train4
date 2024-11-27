@@ -1,0 +1,106 @@
+TITLE: Training Raid
+BATTLEFIELD: UKRAINE 92250 85500 0 0 20 24
+RUNAI: RED
+SIDE: 0
+BLUE_ENEMIES: 30
+PLATOON: 142 98650 91850 270 0 98650 91850 2 401
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+
+PLATOON: 62 85800 79250 90 0 87800 79250 1 302
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 90050 78800
+ADDWAYPT: 92050 78750
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_ASSMBLY:
+ADDWAYPT: 93900 79250
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_BATTLEPOS:
+ADDWAYPT: 93200 81950
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 87500 85100
+ORDER_WPT_SETDELAYTIME: 120
+
+PLATOON: 103 91850 84050 90 0 91850 84050 2 1803
+PLATOON: 141 91750 80650 90 0 91750 80650 0 1804
+PLATOON: 141 95050 80750 90 0 95050 80750 2 1805
+PLATOON: 103 90500 83400 90 0 90500 83400 0 1806
+SUPPORT: 77 86500 84650 90 0 86500 84650 2 287
+BLUE_TARGET2:
+SUPPORT: 77 85750 86050 90 0 85750 86050 1 288
+BLUE_TARGET2:
+PLATOON: 78 87050 85800 90 0 87050 85800 2 2009
+BLUE_TARGET2:
+PLATOON: 105 89509 81272 0 0 89509 81272 2 1810
+BLUE_TARGET: 36
+PLATOON: 70 89920 81068 35 8 89920 81068 1 1811
+BLUE_TARGET: 36
+PLATOON: 120 89277 81720 135 2 89277 81720 2 1812
+BLUE_TARGET: 36
+PLATOON: 124 89586 81376 270 6 89586 81376 0 1813
+BLUE_TARGET: 36
+PLATOON: 125 89433 81068 90 6 89433 81068 0 1814
+BLUE_TARGET: 36
+
+[Title]
+TITLE = TRAINING RAID
+
+[Sounds]
+InGame = speech\Sil1.wav 
+
+[Briefing 0]
+Heading = 9, MISSION PLANNING
+Map = images\Tmap4.pcx
+Text = 1, 1, Mission planning is up to you. Once the mission has started, switch to your map screen by pressing the [N] key. Plot out your waypoints to get to your mission objectives. Weapon choice is also being left up to you. Remember, Make the best possible weapon selection given your target type.
+Sprite 0 = images\uahb.pcx, 278, 277, 0
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, WEATHER
+Map = images\Tmap4.pcx
+Text = 1, 1, This is a night mission. The weather in your sector of operations is clear. \n Visibility should be helped by bright moonlight, and should be between 3 and 4 kilometers. \n Thermal conditions are excellent, with ranges of up to 8 kilometers. \n Winds are calm.
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, 1ST OBJECTIVE
+Map = images\Tmap4.pcx
+Text = 1, 1, This mission will be a simulated raid against an airfield and an artillery battery. All weapons are live, including the enemy's so watch out. Airfield defenses are shown on the map at the left The airfield is defended by a fixed SA-6 SAM Battery, a fixed AA gun and three bunkers. Use hellfire or HE rockets on the bunkers. Destroy the airfield defenses and the helicopters on the ground.
+Sprite 0 = images\uahb.pcx, 278, 277, 0
+Sprite 1 = images\rinfp.pcx, 79, 74, 0
+Sprite 2 = images\rsam6b.pcx, -12, -63, 0
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, 2ND OBJECTIVE
+Map = images\Tmap4.pcx
+Text = 1, 1, Next on the target list is an artillery battery. This consists of two platoons of artillery and their HQ unit. They have limited air defense, but be careful just the same when approaching them. They are shown on the map at the left.
+Sprite 0 = images\rspgp.pcx, 36, 134, 0
+Sprite 1 = images\rspgp.pcx, 21, 162, 0
+Sprite 2 = images\rhqb.pcx, 43, 156, 0
+Sprite 3 = images\uahb.pcx, 278, 277, 0
+Time Out = 15
+
+ [Briefing 4]
+Heading = 9, WARNING
+Map = images\Tmap4.pcx
+Text = 1, 1, There is also a flight of Havocs in the area. They are flying a routine patrol around their home airbase. There are also several platoons of target vehicles in the area. Destroy at least 30 percent of them. Good Luck.
+Sprite 0 = images\uahb.pcx, 278, 277, 0
+Sprite 1 = images\rtnkp.pcx, 143, 122, 0
+Sprite 2 = images\rifvp1.pcx, 148, 61, 0
+Sprite 3 = images\rifvp1.pcx, 207, 56, 0
+Sprite 4 = images\rtnkp.pcx, 116, 109, 0
+Time Out = 15
+
+
+Execute = 1

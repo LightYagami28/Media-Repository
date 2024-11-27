@@ -1,0 +1,35 @@
+[Win]
+movie = movies\extraonew.bik
+Heading = 9, SITUATION
+Map = images\mus10.pcx
+Text = 1, 1, Le 13e ukrainien se replie maintenant à toutes jambes. Il va probablement tenter de former une ligne de défense quelque part au sud-ouest. Ce pourrait bien être la dernière bataille. OBJECTIF : \n Attaquer et désorganiser les unités ennemies situées entre les LP Foxtrot et Delta. Accompli. \n Rechercher et détruire le PC ennemi situé entre les LP Echo et Delta. Accompli.
+Sprite 0 = images\uahb.pcx, 18, 225, 0
+Sprite 1 = images\uahb.pcx, 18, 225, 0
+Sprite 2 = images\utnkb.pcx, 6, 139, 0
+Sprite 3 = images\rtnkb.pcx, 287, 27, 0
+Sprite 4 = images\rtnkb.pcx, 292, 283, 0
+Sprite 5 = images\rhqb.pcx, 195, 89, 0
+Line 0 = 0, 0, 255, 227, 0, 227, 315
+Label 0 = 240, 256, 10, 10, 10, 1, LP ECHO
+Label 1 = 239, 255, 0, 0, 255, 1, LP ECHO
+Label 2 = 7, 162, 10, 10, 10, 1, Falcon
+Label 3 = 6, 161, 0, 0, 255, 1, Falcon
+Time Out = 15
+
+[Lose]
+movie = movies\winfivew.bik
+Heading = 9, SITUATION
+Map = images\mus10.pcx
+Text = 1, 1, La 15e DFM a écrasé la 3e blindée. Elle peut désormais attaquer le flanc de la 1e blindée US. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uahb.pcx, 18, 225, 0
+Sprite 1 = images\uahb.pcx, 18, 225, 0
+Sprite 2 = images\utnkb.pcx, 6, 139, 0
+Sprite 3 = images\rtnkb.pcx, 287, 27, 0
+Sprite 4 = images\rtnkb.pcx, 292, 283, 0
+Sprite 5 = images\rhqb.pcx, 195, 89, 0
+Line 0 = 0, 0, 255, 227, 0, 227, 315
+Label 0 = 240, 256, 10, 10, 10, 1, LP ECHO
+Label 1 = 239, 255, 0, 0, 255, 1, LP ECHO
+Label 2 = 7, 162, 10, 10, 10, 1, Falcon
+Label 3 = 6, 161, 0, 0, 255, 1, Falcon
+Time Out = 15

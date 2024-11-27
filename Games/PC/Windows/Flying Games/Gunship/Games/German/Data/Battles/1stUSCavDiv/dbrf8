@@ -1,0 +1,20 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\Muc8.pcx
+Text = 1, 1, Glückwunsch! Der 106. Luftgarde wurden die Flügel gewaltig gestutzt. Da nun ihre beiden Flugplätze an der Front verloren sind, können die Fronttruppen kaum noch mit Unterstützung rechnen. 
+Sprite 0 = images\uobjh.pcx, 223, 52, 0
+Sprite 1 = images\uahb.pcx, 1, 223, 0
+Sprite 2 = images\rsam6b.pcx, 218, 33, 0
+Sprite 3 = images\rifvb.pcx, 218, 33, 0
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc8.pcx 
+Text = 1, 1, Da Sie den Flugplatz nicht ausschalten konnten, verfügt die 106. immer noch über ein nahe gelegenes Flugfeld, von dem aus sie uns gehörig behindern kann. Für uns ist jetzt wieder die Defensive angesagt, obwohl ein Erfolg so greifbar war. \n \n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen.
+Sprite 0 = images\uobjh.pcx, 223, 52, 0
+Sprite 1 = images\uahb.pcx, 1, 223, 0
+Sprite 2 = images\rsam6b.pcx, 218, 33, 0
+Sprite 3 = images\rifvb.pcx, 218, 33, 0
+Time Out = 15
+

@@ -1,0 +1,21 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, BAOR \n 82nd Airborne drops direct from the US to reinforce 7th Armoured. \n 1st Marine division lands near Kaliningrad. \n 3rd AD (UK) and 24th ID (US) launch a massive ground attack to to trap 6th Tank Army. \n II Corps \n 1st, 5th and 10th Panzer divisions launch a massive blow aimed at Chelm and Zamosc. \n V Corps \n 1st Cavalry division attacks in support of II Corps. 
+Sprite 0 = images\cin4.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR SECTOR
+Map = images\cs1.pcx
+Text = 1, 1, The Corps is launching a two part attack. In the north, the US 24th Infantry division and the 1st Marine division are forcing the 28th and 5th Belarus corps back to the east of Kaliningrad. \n In the center, 1st and 3rd UK Armoured Divisions have launched their attack. Using 7th Brigade, the US 1st Armored and 82nd Airborne as an anvil, this attack aims at trapping three or more divisions of the 6th Tank Army.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 122, 226, 155, 155, 155, 1, Pisz
+Sprite 0 = images\ukcir7.pcx, 0, 0, 0
+Sprite 1 = images\ukcin7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 130, 183, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

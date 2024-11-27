@@ -1,0 +1,175 @@
+TITLE: Walkürenritt
+BATTLEFIELD: ukraine 33937 165140 0 0 6 26
+LEVEL: 6
+BLUE_ENEMIES: 75
+RED_FRIENDLIES: 35
+RUNAI: RED
+SIDE: 0
+MACHINE: 1
+PLATOON: 112 36000 168000 90 2 33500 159700 3 11
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32000 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32300 163000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 31000 167000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+PLATOON: 128 28000 162000 270 2  31000 167000 3 7
+BLUE_TARGET: 28
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32300 163000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32000 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 33500 159700 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 36000 168000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 39000 166000 
+ORDER_ASMBLY_PATROL:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+PLATOON: 64 27900 161800 90 2 31100 167000 3 12
+BLUE_TARGET: 28
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32400 163000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32100 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 33600 159700 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 36100 168000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ORDER_HELO_BYPASS:
+ADDWAYPT: 39000 166000 
+ORDER_ASMBLY_LZ:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+PLATOON: 64 27800 161700 90 2 31200 167000 3 13
+BLUE_TARGET: 28
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32500 163000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32200 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 33700 159700 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 36200 168000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 39200 166200 
+ORDER_ASMBLY_LZ:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+PLATOON: 56 33000 166000 0 2 33000 166000 3 20
+PLATOON: 72 31000 161000 270 2 31000 161000 3 22
+PLATOON: 56 28700 167100 315 8 28700 167100 3 23
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\msb0.pcx
+Text = 1, 1, Schmuggeln Sie sich hinter das feindliche Verteidigungsgebiet und fangen Sie eine Luftangriffseinheit ab, die sich auf einen vorgeschoben Posten zubewegt. Suchen Sie das Flusstal ab und zerstören Sie alle gegnerischen Helikopter, die Sie antreffen.
+Sprite 0 = images\uahb.pcx, 199, 215, 0
+Sprite 1 = images\uarrownw.pcx, 180, 198, 0
+Label 1 = 168, 234, 99, 99, 208, 1, Sie starten hier
+Time Out = 10
+
+[Blue_Briefing 1]
+Heading = 9, VERBÜNDETE STREITKRÄFTE
+Map = images\msb0.pcx
+Text = 1, 1, In dieser Mission gibt es keine verbündeten Bodenkräfte. 
+Time Out = 10
+
+[Blue_Briefing 2]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\msb0.pcx
+Text = 1, 1, Die 106. Guards Airborne bewegt eine ihrer Einheiten zu einer vorgezogenen Stellung. Sie muss von Angriffs-Helikoptern eskortiert werden. 
+Sprite 0 = images\rahb.pcx, 99, 205, 0
+Sprite 2 = images\rchb.pcx, 103, 178, 0
+Sprite 3 = images\rarrowsw.pcx, 105, 195, 0
+Label 1 = 116, 205, 255, 0, 0, 1, 106
+Label 2 = 119, 178, 255, 0, 0, 1, 106
+Label 3 = 99, 220, 255, 0, 0, 1, Hips
+Label 4 = 103, 193, 255, 0, 0, 1, Havocs
+Time Out = 20
+
+[Blue_Briefing 3]
+Heading = 9, WETTER
+Map = images\msb0.pcx
+Text = 1, 1, Das Wetter in Ihrem Operationssektor ist teilbewölkt, mit einer teils offenen Wolkenschicht bei 2.500 Fuß. \n Bei Sonnenaufgang stoßen Sie auf Ihr vorgezogenes Sammelgebiet. \n Die Sichtweite ist wegen Morgennebels auf 1 bis 2 Kilometer begrenzt. \n Die thermischen Bedingungen sind gut, mit Bereichen bis auf 5 Kilometern Höhe. \n Leichter Wind aus NW mit 1 bis 2 Knoten.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\msb0.pcx
+Text = 1, 1, Die 106. Guards Airborne bewegt eine Einheit in eine vorgeschobene Stellung und benutzt ein Flusstal, um sich vor feindlichem Radar zu verstecken. Sie sollen den Vorstoß eskortieren. Ihre Befehle sind: Durchsuchen Sie das Flusstal und zerstören Sie alle feindlichen Helikopter, die Sie finden können.
+Sprite 0 = images\rahb.pcx, 41, 92, 0
+Sprite 1 = images\rchb.pcx, 27, 64, 0
+Sprite 2 = images\rchb.pcx, 50, 64, 0
+Sprite 3 = images\rwplz.pcx, 248, 168, 0
+Label 1 = 60, 94, 255, 0, 0, 1, Sie starten hier 
+Time Out = 10
+
+[Red_Briefing 1]
+Heading = 9, FEINDLICHE STREITKRÄFTE 
+Map = images\msb0.pcx
+Text = 1, 1, Es gibt vorgeschobene feindliche Luftverteidigungs-Einheiten, die einen Teil Ihres Weges zum Ziel bewachen. Dazu zählen zwei Shilka-Batterien und eine Tor-Batterie.
+Sprite 0 = images\rzusb.pcx, 27, 62, 0
+Sprite 0 = images\rzsub.pcx, -59, 91, 0
+Sprite 0 = images\rsam8b.pcx, -75, -100, 0
+Time Out = 10
+
+[Red_Briefing 2]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\msb0.pcx
+Text = 1, 1, Unsere Aufklärung glaubt, dass das Deutsche Kommando in diesem Gebiet den Vorstoß abfangen will. Zahl und Typ der Abfangeinheiten sind jedoch unbekannt.
+Time Out = 20
+
+[Red_Briefing 3]
+Heading = 9, WETTER
+Map = images\msb0.pcx
+Text = 1, 1, Das Wetter in Ihrem Operationssektor ist teilbewölkt, mit einer teils offenen Wolkenschicht bei 2.500 Fuß. \n Bei Sonnenaufgang stoßen Sie auf Ihr vorgezogenes Sammelgebiet. \n Die Sichtweite ist wegen Morgennebels auf 1 bis 2 Kilometer begrenzt. \n Die thermischen Bedingungen sind gut, mit Bereichen bis auf 5 Kilometern Höhe. \n Leichter Wind aus NW mit 1 bis 2 Knoten.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20

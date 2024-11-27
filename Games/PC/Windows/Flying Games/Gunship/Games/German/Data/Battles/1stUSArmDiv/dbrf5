@@ -1,0 +1,24 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\mus5.pcx 
+Text = 1, 1, Der Flugplatz wurde gesichert. Die 1. Armored ist jetzt bereit anzugreifen und zur britischen 1. Armored aufzuschließen. \n ZIELE: \n Zerstören Sie alle Einheiten im Umkreis von 2 km um Ziel "Anvil". \n Erreicht \n Leisten Sie für Team "Raider" Luftdeckung. \n Erreicht \n Suchen und zerstören Sie jegliche Artillerie zwischen den Phasenlinien Charlie und Echo. \n Erreicht
+Sprite 0 = images\uahb.pcx, 140, 289,
+Sprite 1 = images\uobjA.pcx, 141, 29, 0
+Sprite 2 = images\rinfb.pcx, 111, 93, 0
+Sprite 3 = images\rahb.pcx, 144, 42, 0
+Sprite 4 = images\rmrlsb.pcx, 116, 24, 0
+Label 0 = 166, 151, 200, 200, 200, 1, Pisz
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\mg0.pcx
+Text = 1, 1, Durch den fehlgeschlagenen Versuch, den Flugplatz zu sichern, werden auch unsere Versuche zur britischen 1. Armored aufzuschließen fehlschlagen. \n \n Wählen Sie "WIEDERHOLEN", um die Mission noch mal zu fliegen!
+Sprite 0 = images\uahb.pcx, 140, 289,
+Sprite 1 = images\uobjA.pcx, 141, 29, 0
+Sprite 2 = images\rinfb.pcx, 111, 93, 0
+Sprite 3 = images\rahb.pcx, 144, 42, 0
+Sprite 4 = images\rmrlsb.pcx, 116, 24, 0
+Label 0 = 166, 151, 200, 200, 200, 1, Pisz
+Time Out = 15
+

@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Au nord, le XVIIIe corps et la BAOR ont lancé une offensive visant à encercler la 6e armée blindée. L'attaque des IIe et IIIe corps a été stoppée par une violente contre-attaque du Groupe de Forces Centre. Au sud, la 1e division de cavalerie est engagée dans de farouches combats contre la 3e armée de choc, tandis que le 8e corps d'armée ukrainien s'est rendu aujourd'hui.
+Sprite 0 = images\cin9.pcx, 0, 0, 0
+Sprite 1 = images\cir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du Ve CORPS
+Map = images\cs4.pcx
+Text = 1, 1, Au nord de nos positions, la 5e Panzer est attaquée par un 1e corps d'armée ukrainien en assez bonne forme. La 3e armée de choc a commencé à se replier pour une raison inconnue. Le Rens. rapporte que le moral russe n'a jamais été aussi bas. La 1e de cavalerie progresse afin d'engager la 3e de choc avant qu'elle n'ait eu la possibilité de se retirer davantage. \n Le 32e corps ukrainien a été retiré du front.
+Sprite 0 = images\cavcir9.pcx, 0, 0, 0
+Sprite 1 = images\gercin9.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 123, 260, 0
+Time Out = 15
+GOTOBRIEFING = 1

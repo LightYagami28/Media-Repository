@@ -1,0 +1,179 @@
+TITLE: La chevauchée des Valkyries
+BATTLEFIELD: ukraine 33937 165140 0 0 6 26
+LEVEL: 6
+BLUE_ENEMIES: 75
+RED_FRIENDLIES: 35
+RUNAI: RED
+SIDE: 0
+MACHINE: 1
+PLATOON: 112 36000 168000 90 2 33500 159700 3 11
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32000 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32300 163000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 31000 167000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+PLATOON: 128 28000 162000 270 2  31000 167000 3 7
+BLUE_TARGET: 28
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32300 163000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32000 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 33500 159700 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 36000 168000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 39000 166000 
+ORDER_ASMBLY_PATROL:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+PLATOON: 64 27900 161800 90 2 31100 167000 3 12
+BLUE_TARGET: 28
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32400 163000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32100 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 33600 159700 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 36100 168000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ORDER_HELO_BYPASS:
+ADDWAYPT: 39000 166000 
+ORDER_ASMBLY_LZ:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+PLATOON: 64 27800 161700 90 2 31200 167000 3 13
+BLUE_TARGET: 28
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32500 163000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32200 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 33700 159700 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 36200 168000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 39200 166200 
+ORDER_ASMBLY_LZ:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+PLATOON: 56 33000 166000 0 2 33000 166000 3 20
+PLATOON: 72 31000 161000 270 2 31000 161000 3 22
+PLATOON: 56 28700 167100 315 8 28700 167100 3 23
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\msb0.pcx
+Text = 1, 1, Vous vous glisserez derrière le dispositif défensif ennemi et intercepterez une unité d'assaut aérien s'approchant d'une zone de déploiement avancé. Vous fouillerez la vallée de la rivière et détruirez tout hélicoptère ennemi que vous rencontrerez.
+Sprite 0 = images\uahb.pcx, 199, 215, 0
+Sprite 1 = images\uarrownw.pcx, 180, 198, 0
+Label 1 = 168, 234, 99, 99, 208, 1, Point de départ
+Time Out = 10
+
+[Blue_Briefing 1]
+Heading = 9, FORCES AMIES
+Map = images\msb0.pcx
+Text = 1, 1, Cette mission ne comporte aucune force terrestre amie.
+Time Out = 10
+
+[Blue_Briefing 2]
+Heading = 9, FORCES ENNEMIES
+Map = images\msb0.pcx
+Text = 1, 1, La 106e aéroportée de la garde déplace l'une de ses unités vers une zone de déploiement avancé. Elle est escortée par des hélicoptères d'attaque.
+Sprite 0 = images\rahb.pcx, 99, 205, 0
+Sprite 2 = images\rchb.pcx, 103, 178, 0
+Sprite 3 = images\rarrowsw.pcx, 105, 195, 0
+Label 1 = 116, 205, 255, 0, 0, 1, 106
+Label 2 = 119, 178, 255, 0, 0, 1, 106
+Label 3 = 99, 220, 255, 0, 0, 1, Hip
+Label 4 = 103, 193, 255, 0, 0, 1, Havoc
+Time Out = 20
+
+[Blue_Briefing 3]
+Heading = 9, METEO
+Map = images\msb0.pcx
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec une couche nuageuse partielle à 2.500 pieds. \n Le soleil devrait se lever pendant que vous vous trouverez sur votre zone de rassemblement avancée. \n Visibilité limitée à 1-2 km en raison des brumes matinales. \n Bonnes conditions thermiques permettant de voir jusqu'à 5 km. \n Léger vent de nord-ouest, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\msb0.pcx
+Text = 1, 1, La 106e aéroportée de la garde achemine une de ses unités vers une zone de déploiement avancé en utilisant la vallée de la rivière pour échapper à la détection radar. Vous assurerez l'escorte de ce déplacement. Vos ordres sont de fouiller la vallée de la rivière et d'abattre tout hélicoptère ennemi que vous rencontrerez.
+Sprite 0 = images\rahb.pcx, 41, 92, 0
+Sprite 1 = images\rchb.pcx, 27, 64, 0
+Sprite 2 = images\rchb.pcx, 50, 64, 0
+Sprite 3 = images\rwplz.pcx, 248, 168, 0
+Label 1 = 60, 94, 255, 0, 0, 1, Point de départ
+Time Out = 10
+
+[Red_Briefing 1]
+Heading = 9, FORCES AMIES
+Map = images\msb0.pcx
+Text = 1, 1, Des unités avancées de défense aérienne couvriront une partie de votre trajet. Elles comprennent deux batteries de Shilka et une batterie de Tor.
+Sprite 0 = images\rzusb.pcx, 27, 62, 0
+Sprite 0 = images\rzsub.pcx, -59, 91, 0
+Sprite 0 = images\rsam8b.pcx, -75, -100, 0
+Time Out = 10
+
+[Red_Briefing 2]
+Heading = 9, FORCES ENNEMIES
+Map = images\msb0.pcx
+Text = 1, 1, Le Rens. estime que le commandement allemand qui se trouve dans ce secteur tentera d'intercepter ce déplacement. Les unités d'interception sont de type et de volume inconnus.
+Time Out = 20
+
+[Red_Briefing 3]
+Heading = 9, METEO
+Map = images\msb0.pcx
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec une couche nuageuse partielle à 2.500 pieds. \n Le soleil devrait se lever pendant que vous vous trouverez sur votre zone de rassemblement avancée. \n Visibilité limitée à 1-2 km en raison des brumes matinales. \n Bonnes conditions thermiques permettant de voir jusqu'à 5 km. \n Léger vent de nord-ouest, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+
+
+

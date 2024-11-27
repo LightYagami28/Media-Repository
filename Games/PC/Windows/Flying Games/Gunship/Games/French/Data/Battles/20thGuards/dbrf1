@@ -1,0 +1,28 @@
+[WIN]
+movie = movies\lossthreew.bik 
+Heading = 9, SITUATION
+Map = images\rus1.pcx
+Text = 1, 1, Bien joué ! Leur raid a été stoppé bien en deçà de sa cible, le parc de chars des Taman de la garde. Les 1e DB britannique et américaine affronteront demain un bataillon au complet. 
+Sprite 0 = images\rahb.pcx, 253, 29, 0
+Sprite 1 = images\uahb.pcx, 98, 257, 0
+Sprite 2 = images\uahb.pcx, 227, 272, 0
+Sprite 3 = images\uahb.pcx, -3, 219, 0
+Label 0 = 14, 219, 200, 200, 200, 1, Approx.
+Label 1 = 115, 257, 200, 200, 200, 1, Approx.
+Label 2 = 227, 290, 200, 200, 200, 1, Approx.
+Time Out = 15
+
+[Lose]
+movie = movies\wintwow.bik 
+Heading = 9, SITUATION
+Map = images\rus1.pcx 
+Text = 1, 1, Les Apache de l'ennemi ont réussi à franchir nos défenses et à semer la désolation parmi nos forces, qui bivouaquaient pour la nuit. Notre agenda est annulé, et cet échec va permettre aux Britanniques et aux Américains de renforcer leurs positions, voire de monter des opérations offensives contre nous.\n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\rahb.pcx, 253, 29, 0
+Sprite 1 = images\uahb.pcx, 98, 257, 0
+Sprite 2 = images\uahb.pcx, 227, 272, 0
+Sprite 3 = images\uahb.pcx, -3, 219, 0
+Label 0 = 14, 219, 200, 200, 200, 1, Approx.
+Label 1 = 115, 257, 200, 200, 200, 1, Approx.
+Label 2 = 227, 290, 200, 200, 200, 1, Approx.
+Time Out = 15
+

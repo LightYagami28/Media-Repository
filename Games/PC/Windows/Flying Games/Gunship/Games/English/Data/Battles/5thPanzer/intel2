@@ -1,0 +1,23 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, UK 1st Armoured's 7th brigade has been surrounded, although over all BAOR seems to be stopping the Russian advance. \n Heavy fighting continues in II Corps area, 5th Panzer is still fighting in the Lublin sector, although US 1st Armored is taking a beating. \n The V Corps continues a battle of attrition throughout Slovakia.
+Sprite 0 = images\cin2.pcx, 0, 0, 0
+Sprite 1 = images\cir2.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, II Corps SECTOR
+Map = images\cs2.pcx
+Text = 1, 1, 1st Armored if falling back to the line Siedlce - Lukow. The 3rd Brigade has been over run and is scattering. \n The 2nd Guards army are pushing 5th Panzer back toward Lublin. 13th Panzergrenadier Brigade is executing a counterattack. \n 10th Panzer is continuing to pull back under heavy pressure. 
+Label 0 = 104, 5, 200, 200, 200, 1, Siedlce
+Label 1 = 160, 63, 200, 200, 200, 1, Lukow
+Label 2 = 182, 181, 200, 200, 200, 1, Leczna
+Label 3 = 139, 215, 200, 200, 200, 1, Lublin
+Label 4 = 171, 61, 200, 200, 200, 1, Miedzyrzec Podlaski
+Sprite 0 = images\gercin2.pcx, 0, 0, 0
+Sprite 1 = images\gercir2.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 183, 183, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

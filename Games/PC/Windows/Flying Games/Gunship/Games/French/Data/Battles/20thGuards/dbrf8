@@ -1,0 +1,35 @@
+[WIN]
+Heading = 9, SITUATION
+Map = images\rus0.pcx
+Text = 1, 1, Bien joué ! La 5e Panzer se replie à toutes jambes. Nous avons reçu des ordres nous enjoignant de gagner l'Ukraine afin de soutenir la 3e armée de choc.
+Sprite 0 = images\rahb.pcx, 292, 7, 0
+Sprite 1= images\utnkb.pcx, 117, 149, 0
+Sprite 2 = images\utnkb.pcx, 110, 97, 0
+Sprite 3 = images\rarrowwb.pcx, 259, 52, 0
+Sprite 4 = images\rtnkb.pcx, 282, 48, 0
+Sprite 5 = images\rtnkb.pcx,  282, 235, 0
+Sprite 6 = images\rarrownw.pcx, 258, 228, 0
+Label 0 = 282, 73, 200, 0, 0, 1, Forward
+Label 1 = 282, 237, 200, 0, 0, 1, Forward 
+Label 3 = 117, 152, 0, 0, 200, 1, 5e
+Label 4 = 110, 99, 0, 0, 200, 1, 5e
+Label 5 = 76, 84, 200, 200, 200, 1, Pulawy
+Time Out = 15
+
+[Lose]
+Heading = 9, SITUATION
+Map = images\rus0.pcx 
+Text = 1, 1, La 5e Panzer a conservé le contrôle de la ville. Ses unités s'y sont fortifiées et nous craignons de ne pas disposer pour l'instant des moyens de les en déloger. Notre offensive est stoppée. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\rahb.pcx, 292, 7, 0
+Sprite 1= images\utnkb.pcx, 117, 149, 0
+Sprite 2 = images\utnkb.pcx, 110, 97, 0
+Sprite 3 = images\rarrowwb.pcx, 259, 52, 0
+Sprite 4 = images\rtnkb.pcx, 282, 48, 0
+Sprite 5 = images\rtnkb.pcx,  282, 235, 0
+Sprite 6 = images\rarrownw.pcx, 258, 228, 0
+Label 0 = 282, 73, 200, 0, 0, 1, Forward
+Label 1 = 282, 237, 200, 0, 0, 1, Forward 
+Label 3 = 117, 152, 0, 0, 200, 1, 5e
+Label 4 = 110, 99, 0, 0, 200, 1, 5e
+Label 5 = 76, 84, 200, 200, 200, 1, Pulawy
+Time out = 15

@@ -1,0 +1,158 @@
+TITLE: Der Donner der Kanonen
+BATTLEFIELD: UKRAINE 51000 102750 0 0 18 27
+LEVEL: 3
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 270
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 90
+RED_ENEMIES: 85
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 1
+MACHINE: 0
+
+PLATOON: 62 43950 109500 270 0 43950 109500 2 5
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+PLATOON: 127 52800 95750 90 0 50350 96700 2 4
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASMBLY:
+ORDER_FORM_NOE:
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+ADDWAYPT: 45950 97150
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_PATROL:
+ADDWAYPT: 46550 99100
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 48050 101650
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_PATROL:
+ADDWAYPT: 49800 104550
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ADV_MED:
+ADDWAYPT: 55300 98200
+ORDER_WPT_SETDELAYTIME: 540
+PLATOON: 115 56000 100700 270 6 56000 100700 1 22
+PLATOON: 115 52900 98000 270 6 52900 98000 2 22
+PLATOON: 82 54400 96450 135 6 54400 96450 0 23
+RED_TARGET: 29
+BLUE_PROTECT: 47
+PLATOON: 82 55400 97450 135 6 55400 97450 1 23
+RED_TARGET: 29
+BLUE_PROTECT: 47
+PLATOON: 82 56750 98000 135 6 56750 98000 0 23
+RED_TARGET: 29
+BLUE_PROTECT: 47
+PLATOON: 138 56100 96150 135 6 56100 96150 2 23
+PLATOON: 140 50650 99300 270 6 50650 99300 0 21
+PLATOON: 140 51250 100850 270 6 51250 100850 1 21
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb12.pcx
+Text = 1, 1, Sie fliegen eine Kampfpatrouille für die Artillerie-Stellung Ihrer Kompanie, Rufzeichen Iron. \n \n RUFZEICHEN: \n Flug #1: Specter \n \n Ziele: Fliegen Sie sämtliche Ihrer Patrouillen-Punkte an und zerstören Sie alle Feind-Einheiten, die Ihnen begegnen. Prüfen Sie vor dem Angriff jedoch die Feind-Identität Ihrer Ziele.
+Sprite 0 = images\uahb.pcx, 184, 10, 0
+Sprite 1 = images\uwpaa.pcx, 137, 14, 0
+Sprite 2 = images\uwppa.pcx, 49, 23, 0
+Sprite 3 = images\uwppa.pcx, 61, 62, 0
+Sprite 4 = images\uwppa.pcx, 91, 113, 0
+Sprite 5 = images\uwppa.pcx, 126, 170, 0
+Sprite 6 = images\uwppa.pcx, 236, 44, 0
+Line 0 = 200, 200, 200, 194, 18, 145, 37
+Line 1 = 200, 200, 200, 145, 37, 57, 46
+Line 2 = 200, 200, 200, 57, 46, 69, 85
+Line 3 = 200, 200, 200, 69, 85, 99, 136
+Line 4 = 200, 200, 200, 99, 136, 134, 193
+Line 5 = 200, 200, 200, 134, 193, 244, 67
+Time Out = 20
+
+[Blue_Briefing 1]
+Heading = 9, OPERATION
+Map = images\msb12.pcx
+Text = 1, 1, Sie werden in einem Sektor zwischen den Phasenlinien Alpha und Bravo operieren. Diese Phasenlinien dürfen unter keinen Umständen überquert werden. \n Jede Lufteinheit außerhalb dieses Gebietes wird als feindlich angesehen. \n LUFTABWEHR: \n In diesem Gebiet wurde nur von verbündeten Luftabwehr-Fahrzeugen berichtet. 
+Sprite 0 = images\usam4b.pcx, 216, 75, 0
+Sprite 1 = images\usam4b.pcx, 163, 21, 0
+Line 0 = 0, 0, 255, 0, 25, 315, 25
+Line 1 = 0, 0, 255, 0, 290, 315, 290
+Label 0 = 27, 50, 10, 10, 10, 1, PL ALPHA
+Label 1 = 265, 50, 10, 10, 10, 1, PL BRAVO
+Label 2 = 28, 51, 0, 0, 255, 1, PL ALPHA
+Label 3 = 266, 51, 0, 0, 255, 1, PL BRAVO
+Time Out = 15
+
+[Blue_Briefing 2]
+Heading = 9, VERBÜNDETE STREITKRÄFTE
+Map = images\msb12.pcx
+Text = 1, 1, Bodenkräfte der 3. Panzer-Artillerie verteidigen die Artillerie-Stellung, Rufzeichen Iron; alle Haupt-Verteidigungs-Einheiten unter Rufzeichen Goalie; zusätzlich gibt es noch zwei Scout-Fahrzeuge im Tal, Rufzeichen Forward.
+Sprite 0 = images\usam4b.pcx, 216, 75, 0
+Sprite 1 = images\usam4b.pcx, 163, 21, 0
+Sprite 2 = images\uifvp.pcx, 136, 82, 0
+Sprite 3 = images\uifvp.pcx, 170, 151, 0
+Sprite 4 = images\uspgb.pcx, 225, 46, 0
+Label 0 = 245, 113, 200, 0, 0, 1, Goalie
+Label 1 = 193, 66, 200, 0, 0, 1, Goalie
+Label 2 = 226, 62, 200, 0, 0, 1, Iron
+Label 3 = 171, 175, 200, 0, 0, 1, Forward
+Label 4 = 138, 107, 200, 0, 0, 1, Forward
+Time Out = 20
+
+[Blue_Briefing 3]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\msb12.pcx
+Text = 1, 1, Keine bekannten gegnerischen Streitkräfte derzeit anwesend. 
+Time Out = 10
+
+[Blue_Briefing 4]
+Heading = 9, WETTER
+Map = images\msb12.pcx
+Text = 1, 1, Der Wetterbericht Ihres Operationssektors meldet stetigen Regen, mit einer Wolkendecke bei 2.000 Fuß. \n In Ihrem vorgezogenen Sammelgebiet herrscht gerade nautisches Zwielicht. \n Die Sicht ist auf annähernd 2 Kilometer begrenzt. \n Die thermischen Bedingungen sind schwach, mit Bereichen zwischen 2 und 3 Kilometern, teilweise wegen Überlappung durch den Niederschlag. \n Der Wind kommt aus W mit 3 bis 5 Knoten.
+Movie = movies\rain.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb12.pcx
+Text = 1, 1, Dies ist ein Angriff tief ins Feindesland gegen Stellungen der 3. Panzer-Artillerie. \n \n RUFZEICHEN: \n Flug #1: Saber \n  \n \n Ziele: \n Suchen und zerstören Sie die Artillerie in der Nähe des Zieles Hammer.
+Sprite 0 = images\robjh.pcx, 174, 29, 0
+Sprite 1 = images\rahb.pcx, 9, 285, 0
+Time Out = 20
+
+[Red_Briefing 1]
+Heading = 9, OPERATION
+Map = images\msb12.pcx
+Text = 1, 1, Sie werden in einem Sektor zwischen den Phasenlinien Alpha und Bravo operieren. Diese Phasenlinien dürfen unter keinen Umständen überquert werden. \n Jede Lufteinheit außerhalb dieses Gebietes wird als feindlich angesehen. \n LUFTABWEHR: \n Wir haben nur eine positive Identifikation. Sie ist auf der Karte angegeben.
+Sprite 0 = images\usam4b.pcx, 200, 75, 0
+Line 0 = 255, 0, 0, 300, 60, 300, 270
+Line 1 = 255, 0, 0, 40, 19, 248, 19
+Label 0 = 50, 22, 10, 10, 10, 1, PL ALPHA
+Label 1 = 240, 63, 10, 10, 10, 1, PL BRAVO
+Label 2 = 51, 23, 255, 0, 0, 1, PL ALPHA
+Label 3 = 241, 64, 255, 0, 0, 1, PL BRAVO 
+Time Out = 15
+
+[Red_Briefing 2]
+Heading = 9, VERBÜNDETE STREITKRÄFTE
+Map = images\msb12.pcx
+Text = 1, 1, Über die Streitkräfte in diesem Gebiet ist nichts bekannt. Rechnen Sie mit Wacheinheiten und mehr gegnerischen Lufteinheiten, als derzeit vermutet.
+Time Out = 15
+
+[Red_Briefing 3]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\msb12.pcx
+Text = 1, 1, Keine verbündeten Boden-Streitkräfte anwesend. 
+Sprite 0 = images\usam4b.pcx, 216, 75, 0
+Time Out = 15
+
+[Red_Briefing 4]
+Heading = 9, WETTER
+Map = images\msb12.pcx
+Text = 1, 1, Der Wetterbericht Ihres Operationssektors meldet stetigen Regen, mit einer Wolkendecke bei 2.000 Fuß. \n In Ihrem vorgezogenen Sammelgebiet herrscht gerade nautisches Zwielicht. \n Die Sicht ist auf annähernd 2 Kilometer begrenzt. \n Die thermischen Bedingungen sind schwach, mit Bereichen zwischen 2 und 3 Kilometern, teilweise wegen Überlappung durch den Niederschlag. \n Der Wind kommt aus W mit 3 bis 5 Knoten.
+Movie = movies\rain.bik, 0, 0, 315, 315
+Time Out = 20

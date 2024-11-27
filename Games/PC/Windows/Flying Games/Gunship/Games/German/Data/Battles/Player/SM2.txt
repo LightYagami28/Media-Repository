@@ -1,0 +1,77 @@
+TITLE: Down Town (Multiplayer)
+BATTLEFIELD: UKRAINE 93000 75000 0 0 16 25
+BATTLESIZE: 4000 4000
+OBJECTIVE: BLUE TWOKRADIUS 93050 74800 
+OBJECTIVE: RED TWOKRADIUS 93050 74800 
+BLUE_ENEMIES: 80 
+RED_ENEMIES: 80 
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+
+
+PLATOON: 18 90450 76200 90 0 93350 74850 0 401
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_PATROL:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+
+PLATOON: 128 95100 73150 270 0 93000 75000 1 702
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_PATROL:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+
+PLATOON: 7 90450 76150 90 0 90450 76150 0 2203
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NE:
+ORDER_ADV_SLOW:
+
+PLATOON: 55 95100 73100 270 0 95100 73100 0 2204
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_SW:
+ORDER_ADV_SLOW:
+
+[Blue_Briefing 0]
+Heading = 9, OPERATION
+Text = 1, 1, Diese Mission ist ein Deathmatch zwischen amerikanischen und russischen Hubschraubern in einer kleinen Stadt. Suchen und zerstören Sie so viele feindliche Hubschrauber wie möglich, aber achten Sie auch auf eingreifende Bodentruppen. \n\n RUFZEICHEN: \n AH-64D-Flug: Specter 
+Sprite 0 = images\uahb.pcx, 99, 174, 0
+Sprite 1 =images\uwppa.pcx, 156, 135, 0
+Label 0 = 94, 192, 10, 10, 10, 1, Specter
+Label 1 = 93, 191, 99, 99, 208, 1, Specter
+Time Out = 10
+
+[Blue_Briefing 1]
+Heading = 9, WETTER
+Text = 1, 1, Das Wetter in Ihrem Operationssektor ist leicht bewölkt mit einer teilweisen Wolkendecke bei 2500 Fuß. \n in Ihrem vorgelagerten Sammelgebiet herrscht nautisches Zwielicht. \n Die Sichtweite beträgt weniger als 2 km. \n Thermale Bedingungen sind mit Bereichen über 5 km gut. \n Es weht ein leichter Wind aus NW mit 1 bis 2 Knoten.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, OPERATION
+Text = 1, 1, Diese Mission ist ein Deathmatch zwischen amerikanischen und russischen Hubschraubern in einer kleinen Stadt. Suchen und zerstören Sie so viele feindliche Hubschrauber wie möglich, aber achten Sie auch auf eingreifende Bodentruppen. \n\n RUFZEICHEN: \n Flug #1: Reaper 
+Sprite 0 = images\rahb.pcx, 192, 113, 0
+Sprite 1 = images\rwppa.pcx, 156, 135, 0
+Label 0 = 185, 95, 10, 10, 10, 1, Reaper
+Label 1 = 184, 94, 255, 0, 0, 1, Reaper
+Time Out = 10
+
+[Red_Briefing 1]
+Heading = 9, WETTER
+Text = 1, 1, Das Wetter in Ihrem Operationssektor ist leicht bewölkt mit einer teilweisen Wolkendecke bei 2500 Fuß. \n in Ihrem vorgelagerten Sammelgebiet herrscht nautisches Zwielicht. \n Die Sichtweite beträgt weniger als 2 km. \n Thermale Bedingungen sind mit Bereichen über 5 km gut. \n Es weht ein leichter Wind aus NW mit 1 bis 2 Knoten.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+

@@ -1,0 +1,199 @@
+TITLE: Panee Lo
+BATTLEFIELD: POLAND 141000 157500 0 0 23 25
+LEVEL: 2
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+RED_ENEMIES: 85
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 0
+MACHINE: 0
+PLATOON: 129 147850 153750 90 0 146250 156050 2 6
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 144850 152050
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 140750 152050
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 135700 152250
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 136950 157150
+ORDER_WPT_SETDELAYTIME: 90
+PLATOON: 116 146900 152850 90 0 144100 153500 2 19
+BLUE_PROTECT: 43
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_WEST:
+ORDER_ADV_SLOW:
+ADDWAYPT: 142550 154550
+ADDWAYPT: 141750 155800
+ADDWAYPT: 138650 155800
+ADDWAYPT: 136900 157100
+PLATOON: 116 147100 155500 90 0 141500 155800 0 19
+BLUE_PROTECT: 43
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_WEST:
+ORDER_ADV_SLOW:
+ADDWAYPT: 139650 155800
+ADDWAYPT: 137850 156250
+ADDWAYPT: 137550 159050
+
+PLATOON: 62 136900 164750 270 0 134750 161650 1 5
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 134300 159300
+ORDER_WPT_SETDELAYTIME: 180
+ADDWAYPT: 135450 158150
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 139750 161100
+ADDWAYPT: 143000 159050
+ORDER_WPT_SETDELAYTIME: 120
+PLATOON: 59 137950 164350 270 0 137950 160800 1 14
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ENGAGE:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_MED:
+ADDWAYPT: 139900 158350
+ORDER_ASMBLY_NE:
+PLATOON: 59 136200 163450 270 0 136200 163450 1 14
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 136750 161150
+ADDWAYPT: 136950 157150
+ORDER_ASMBLY_NE:
+ORDER_ADV_MED:
+PLATOON: 59 137800 163000 270 0 137950 157900 1 14
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NE:
+ORDER_ADV_MED:
+PLATOON: 105 136400 157100 270 0 136400 157100 3 14
+
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb15.pcx
+Text = 1, 1, You are escorting two platoons of recon units, callsign Bear. They must reach the airfield.: \n CALLSIGN: \n Flight #1     Sword \n \n OBJECTIVE: Protect the Scimitar recon vehicles at all costs. 
+Sprite 0 = images\uahb.pcx, 287, 75, 0
+Sprite 1 = images\uwpbp.pcx, 255, 106, 0
+Sprite 2 = images\uwpbp.pcx, 227, 26, 0
+Sprite 3 = images\uwpbp.pcx, 145, 26, 0
+Sprite 4 = images\uwpbp.pcx, 44, 26, 0
+Sprite 5 = images\uwpbp.pcx, 69, 128, 0
+Line 0 = 200, 200, 200, 295, 83, 263, 129
+Line 1 = 200, 200, 200, 263, 129, 235, 49
+Line 2 = 200, 200, 200, 235, 49, 153, 49
+Line 3 = 200, 200, 200, 153, 49, 52, 49
+Line 4 = 200, 200, 200, 52, 49, 77, 151
+Time Out = 20
+
+[Blue_Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\msb15.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n Any aircraft outside of this area will be considered hostile. \n AIR DEFENSE: \n Local air defenses are unknown at this time.
+Line 0 = 0, 0, 255, 0, 25, 315, 25
+Line 1 = 0, 0, 255, 0, 290, 315, 290
+Label 0 = 35, 27, 10, 10, 10, 1, PL ALPHA
+Label 1 = 35, 275, 10, 10, 10, 1, PL BRAVO
+Label 2 = 35, 28, 0, 0, 255, 1, PL ALPHA
+Label 3 = 35, 276, 0, 0, 255, 1, PL BRAVO 
+Time Out = 15
+
+[Blue_Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\msb15.pcx
+Text = 1, 1, A recon company is moving into the area in order to scout an airbase for enemy occupation.
+Sprite 0 = images\uifvp.pcx, 288, 116, 0
+Sprite 1 = images\uifvp.pcx, 288, 66, 0
+Sprite 2 = images\uarroww.pcx, 264, 118, 0
+Sprite 3 = images\uarroww.pcx, 264, 69, 0
+Time Out = 20
+
+[Blue_Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\msb15.pcx
+Text = 1, 1, Enemy forces are known to be operating in the region but exact location is unknown at this time.
+Time Out = 10
+
+[Blue_Briefing 4]
+Heading = 9, WEATHER
+Map = images\msb15.pcx
+Text = 1, 1, The weather in your sector of operations calls for a steady rain, with a cloud ceiling of 2000 feet. \n The clouds and precipitation will obscure any ambient light from the moon, limiting visibility to approximately 1 to 2 kilometers. \n Thermal conditions are poor, with ranges limited to 2 kilometers due in part to thermal crossover. \n Winds are out of the W, at 3 to 5 knots.
+Movie = movies\rain.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb15.pcx
+Text = 1, 1, You are escorting to platoon of recon units, callsign Lion. They must reach the air field. \n CALLSIGN: \n Flight #1     Saber \n \n OBJECTIVE: Protect the BMP2  recon vehicles at all costs.
+Sprite 0 = images\rahb.pcx, 68, 295, 0
+Sprite 1 = images\rwpbp.pcx, 25, 218, 0
+Sprite 2 = images\rwpbp.pcx, 16, 171, 0
+Sprite 3 = images\rwpbp.pcx, 39, 148, 0
+Sprite 4 = images\rwpbp.pcx, 125, 207, 0
+Sprite 5 = images\rwpbp.pcx, 190, 166, 0
+Line 0 = 200, 200, 200, 76, 303, 33, 241
+Line 1 = 200, 200, 200, 33, 241, 24, 194
+Line 2 = 200, 200, 200, 24, 194, 47, 171
+Line 3 = 200, 200, 200, 47, 171, 133, 230 
+Line 4 = 200, 200, 200, 133, 230, 198, 189
+Time Out = 20
+
+[Red_Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\msb15.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n Any aircraft outside of this area will be considered hostile. \n AIR DEFENSE: Local air defenses are unknown is confined to the area around the base.
+Line 0 = 255, 0, 0, 0, 25, 315, 25
+Line 1 = 255, 0, 0, 0, 290, 315, 290
+Label 0 = 35, 27, 10, 10, 10, 1, PL ALPHA
+Label 1 = 35, 275, 10, 10, 10, 1, PL BRAVO
+Label 3 = 35, 28, 255, 0, 0, 1, PL ALPHA
+Label 4 = 35, 276, 255, 0, 0, 1, PL BRAVO 
+Time Out = 15
+
+[Red_Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\msb15.pcx
+Text = 1, 1, Text = 1, 1, A recon company is moving into the area in order to scout an airbase for enemy occupation.
+Sprite 0 = iamges\rifvb.pcx, 82, 276, 0
+Sprite 1 = images\rarrown.pcx, 81, 250, 0
+Time Out = 10
+
+[Red_Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\msb15.pcx
+Text = 1, 1,Enemy forces are expected to be operating in the region but exact location is unknown at this time.
+Time Out = 20
+
+[Red_Briefing 4]
+Heading = 9, WEATHER
+Map = images\msb15.pcx
+Text = 1, 1, The weather in your sector of operations calls for a steady rain, with a cloud ceiling of 2000 feet. \n The clouds and precipitation will obscure any ambient light from the moon, limiting visibility to approximately 1 to 2 kilometers. \n Thermal conditions are poor, with ranges limited to 2 kilometers due in part to thermal crossover. \n Winds are out of the W, at 3 to 5 knots.
+Movie = movies\rain.bik, 0, 0, 315, 315
+Time Out = 20
+

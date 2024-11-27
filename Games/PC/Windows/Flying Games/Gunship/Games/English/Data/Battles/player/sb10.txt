@@ -1,0 +1,163 @@
+TITLE: Adlertag
+BATTLEFIELD: CZECH 123000 18500 0 0 6 1
+LEVEL: 9
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+OBJECTIVE: BLUE THREEKRADIUS 118000 123500 16
+BLUE_ENEMIES: 80
+BLUE_FRIENDLIES: 30
+RED_ENEMIES: 70
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 0
+
+PLATOON: 127 129850 12850 90 0 129100 12800 2 10
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+ORDER_ADV_MED:
+ADDWAYPT: 124100 13750
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_BATTLEPOS:
+ADDWAYPT: 119450 13100
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 116800 15250
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 116000 20250
+ORDER_WPT_SETDELAYTIME: 540
+PLATOON: 62 118250 23700 270 0 119550 24500 2 9
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 122950 23150
+ORDER_WPT_SETDELAYTIME: 150
+ORDER_ASMBLY_PATROL:
+ADDWAYPT: 126200 20550
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 124700 16450
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 119350 16900
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 118150 22300
+ORDER_WPT_SETDELAYTIME: 300
+PLATOON: 43 122100 23750 315 2 122100 23750 3 103
+PLATOON: 43 120650 23750 45 2 120650 23750 1 104
+PLATOON: 70 116150 21100 270 9 116150 21100 2 105
+PLATOON: 70 117750 25900 270 9 117750 25900 2 106
+PLATOON: 105 118010 23433 0 0 118010 23433 2 22
+PLATOON: 105 118010 23523 0 0 118010 23523 2 22
+PLATOON: 70 118410 23327 45 9 118410 233327 2 22
+PLATOON: 70 117798 23951 225 9 117798 23950 2 22
+PLATOON: 124 117930 23813 0 6 117930 23813 0 22
+PLATOON: 68 118192 23472 270 6 118192 23472 0 22
+PLATOON: 69 118192 23666 270 6 118192 23666 0 22
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb13.pcx
+Text = 1, 1, You are to conduct a raid on the airfield near Konik. \n \n CALLSIGN: \n Flight #1:  Ghostrider \n  OBJECTIVE: \n Destroy any enemy units that are within 3Km of Objective Hammer.
+Line 0 = 200, 200, 200, 295, 45, 280, 44
+Line 1 = 200, 200, 200, 280, 44, 180, 63
+Line 2 = 200, 200, 200, 180, 63, 87, 50
+Line 3 = 200, 200, 200, 87, 50, 34, 93
+Line 4 = 200, 200, 200, 34, 93, 18, 193
+Sprite 0 = images\uahb.pcx, 287, 37, 0
+Sprite 1 = images\uwpaa.pcx, 272, 21, 0
+Sprite 2 = images\uwpbp.pcx, 172, 40, 0
+Sprite 3 = images\uwpbp.pcx, 79, 27, 0
+Sprite 4 = images\uwpbp.pcx, 26, 70, 0
+Sprite 5 = images\uwpbp.pcx, 10, 170, 0
+Sprite 6 = images\robjh.pcx, 47, 223, 0
+Time Out = 20
+
+[Blue_Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\msb13.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n Any aircraft outside of this area will be considered hostile. \n AIR DEFENSE: \n  Expect heavy defenses around the air base.
+Sprite 0 = images\rsam6b.pcx, -63, 123, 0
+Line 0 = 0, 0, 255, 39, 295, 269, 295
+Line 1 = 0, 0, 255, 19, 273, 19, 46
+Label 0 = 22, 50, 10, 10, 10, 1, PL ALPHA
+Label 1 = 41, 297, 10, 10, 10, 1, PL BRAVO
+Label 2 = 23, 51, 0, 0, 255, 1, PL ALPHA
+Label 3 = 42, 298, 0, 0, 255, 1, PL BRAVO
+Time Out = 15
+
+[Blue_Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\msb13.pcx
+Text = 1, 1, No friendly ground forces are present for this mission.
+Time Out = 20
+
+[Blue_Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\msb13.pcx
+Text = 1, 1, Enemy force concentrations should be light but units are moving through the area all the time making it improbable to get an accurate count.
+Time Out = 10
+
+[Blue_Briefing 4]
+Heading = 9, WEATHER
+Map = images\msb13.pcx
+Text = 1, 1, The weather in your sector of operations is partly cloudy, with a partial cloud layer at 2500 feet. \n Visibility is unlimited. \n Thermal conditions are good, with ranges up to 6 kilometers. \n Winds are light out of the N, at 1 to 2 knots.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb13.pcx
+Text = 1, 1, You are to fly a routine patrol of the surrounding area. Keep alert, Enemy aircraft have been spotted in this region. \n \n CALLSIGN: \n Flight #1    Storm \n \n OBJECTIVE: Fly to each of your patrol points and defend the airfield if necessary. 
+Sprite 0 = images\rahb.pcx, 55, 234, 0
+Sprite 1 = images\rwpaa.pcx, 80, 235, 0
+Sprite 2 = images\rwppa.pcx, 149, 208, 0
+Sprite 3 = images\rwppa.pcx, 214, 156, 0
+Sprite 4 = images\rwppa.pcx, 184, 73, 0
+Sprite 5 = images\rwppa.pcx, 77, 83, 0
+Sprite 6 = images\rwppa.pcx, 53, 191, 0
+Line 0 = 200, 200, 200, 63, 242, 89, 258
+Line 1 = 200, 200, 200, 89, 258, 157, 231
+Line 2 = 200, 200, 200, 157, 231, 222, 179
+Line 3 = 200, 200, 200, 222, 179, 192, 96
+Line 4 = 200, 200, 200, 192, 96, 85, 106
+Line 5 = 200, 200, 200, 85, 106, 61, 214
+Time Out = 20
+
+[Red_Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\msb13.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n Any aircraft outside of this area will be considered hostile. \n AIR DEFENSE: none
+Line 0 = 255, 0, 0, 15, 0, 15, 315
+Line 1 = 255, 0, 0, 300, 0, 300, 315
+Label 0 = 17, 50, 255, 0, 0, 1, PL ALPHA
+Label 1 = 17, 270, 255, 0, 0, 1, PL BRAVO
+Time Out = 15
+
+[Red_Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\msb13.pcx
+Text = 1, 1, No friendly ground forces are present.
+Time Out = 10
+
+[Red_Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\msb13.pcx
+Text = 1, 1, Area forces are made up of rear area garrison forces, mostly stationed inside the city. 
+Sprite 0 = images\rsam6b.pcx, -63, 123, 0
+Sprite 1 = images\rifvp1.pcx, 104, 234, 0
+Sprite 2 = images\rifvp1.pcx, 139, 243, 0
+Time Out = 20
+
+[Red_Briefing 4]
+Heading = 9, WEATHER
+Map = images\msb13.pcx
+Text = 1, 1, The weather in your sector of operations is partly cloudy, with a partial cloud layer at 2500 feet. \n Visibility is unlimited. \n Thermal conditions are good, with ranges up to 6 kilometers. \n Winds are light out of the N, at 1 to 2 knots.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+

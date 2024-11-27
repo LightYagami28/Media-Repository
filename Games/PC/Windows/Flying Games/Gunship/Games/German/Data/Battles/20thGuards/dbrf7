@@ -1,0 +1,24 @@
+[WIN]
+movie = movies\extratwow.bik 
+Heading = 9, STATUS
+Map = images\rus7.pcx
+Text = 1, 1, Die Flugplätze wurden zerstört und dies wird für einige Zeit die deutschen Luftaktivitäten stoppen. Dies erlaubt uns, mit der nächsten Stufe des Feldzuges fortzufahren. 
+Sprite 0 = images\rahb.pcx, 87, 13, 0
+Sprite 1 = images\rchb.pcx, 151, 13, 0
+Sprite 2 = images\rchb.pcx, 234, 27, 0
+Sprite 3 = images\robjh.pcx, 109, 159, 0
+Sprite 4 = images\robja.pcx, 49, 221, 0
+Time Out = 15
+
+[Lose]
+movie = movies\extraonew.bik 
+Heading = 9, STATUS
+Map = images\rus7.pcx 
+Text = 1, 1, Die Flugplätze wurden nicht zerstört. Das wird schlimme Konsequenzen haben. Die erste ist, dass die 5. Panzer Abfang-Streitkräfte bewegen und uns halten kann, bis ein Vergeltungsschlag möglich wird. Die zweite liegt darin, dass sie nun funktionierende Basen haben, um nahe Luftunterstützung leisten zu können. \n \n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen. 
+Sprite 0 = images\rahb.pcx, 87, 13, 0
+Sprite 1 = images\rchb.pcx, 151, 13, 0
+Sprite 2 = images\rchb.pcx, 234, 27, 0
+Sprite 3 = images\robjh.pcx, 109, 159, 0
+Sprite 4 = images\robja.pcx, 49, 221, 0
+Time Out = 15
+

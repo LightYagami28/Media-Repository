@@ -1,0 +1,25 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Russische Streitkräfte setzen ihre Offensive entlang der Front fort. Im Norden konnte die 6. Panzerarmee durchbrechen, wodurch die amerikanische 1. Armored jetzt Gefahr läuft, eingekesselt zu werden. \n Im Bereich des II. Korps gehen die schweren Gefechte weiter, während sich die 2. Armeegarde nach Lublin zurückzieht. \n Auch dem V. Korps ist es gelungen, das Vorrücken der russischen SGF in die Gebirgsregion der Slowakei zu verlangsamen.
+Sprite 0 = images\cin1.pcx, 0, 0, 0
+Sprite 1 = images\cir1.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs2.pcx
+Text = 1, 1, Die schweren Kämpfe um Biala Podlaska setzen sich fort, aber das 13. Ukrainische Armeekorps konnte im Norden und Süden der Stadt durchbrechen. \n Die 5. Armeegarde treibt die 5. Panzerdivision zurück in Richtung Lublin. Die 16. Panzergarde-Division befindet sich, dank der morgendlichen Helikopterangriffe, noch östlich des Flusses Bug. \n Die 10. Panzerdivision zieht sich unter schwerem Beschuss von Chelm und Zamosc zurück.
+Label 0 = 279, 20, 200, 200, 200, 1, Brest
+Label 1 = 190, 56, 200, 200, 200, 1, Biala Podlaska
+Label 2 = 181, 115, 200, 200, 200, 1, Parczew
+Label 3 = 139, 215, 200, 200, 200, 1, Lublin
+Label 4 = 250, 229, 200, 200, 200, 1, Chelm
+Label 5 = 211, 242, 200, 200, 200, 1, Zamosc
+Label 6 = 245, 146, 200, 200, 200, 1, Wlodawa
+Label 7 = 171, 61, 200, 200, 200, 1, Miedzyrzec Podlaski
+Sprite 0 = images\gercin1.pcx, 0, 0, 0
+Sprite 1 = images\gercir1.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 170, 40, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

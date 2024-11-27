@@ -1,0 +1,21 @@
+[Briefing 0]
+Heading = 9, SITUATION
+ Map = images\imap.pcx
+Text = 1, 1, Sur l'ensemble du front, les forces de l'OTAN entament une contre-offensive majeure. \n La 24e DI et la 3e DB ont commencé à attaquer au nord afin de clouer sur place les 28e et 5e corps. Les 1e DB américaine et britannique poursuivent leurs attaques afin de dégager la 7e brigade. \n Les Rats du Désert ont lancé des attaques limitées afin d'élargir la poche en vue de l'arrivée de renforts.
+Sprite 0 = images\cin4a.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR DE LA BAOR
+Map = images\cs1.pcx
+Text = 1, 1, La 7e brigade et la 1e DB américaine ont lancé des attaques simultanées afin de faire jonction près de la ville de Pisz. \n Le Renseignement a découvert que la 69e division a été écartée de la zone des combats. \n La 3e DB a atteint sa position de départ en vue de l'attaque principale. \n Si tout se déroule bien aujourd'hui, la 1e division de Marines américaine prévoit de débarquer près de Kaliningrad, et la 82e division aéroportée sautera afin de renforcer la 7e brigade.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystok
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 122, 226, 155, 155, 155, 1, Pisz
+Sprite 0 = images\ukcin6.pcx, 0, 0, 0
+Sprite 1 = images\ukcir6.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 127, 202, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

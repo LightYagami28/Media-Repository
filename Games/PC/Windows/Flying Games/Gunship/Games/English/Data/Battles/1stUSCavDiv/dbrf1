@@ -1,0 +1,28 @@
+[Win]
+Heading = 9, STATUS
+Map = images\muc1.pcx
+Text = 1, 1, Congratulations! The successful capture of the Air base outside of Snina, has pushed back Russian area air assets, robbing them of air cover for a while.
+Sprite 0 = images\uobja.pcx, 217, 163, 0
+Sprite 1 = images\uahb.pcx, 27, 280, 0
+Label 0 = 258, 176, 200, 200, 200, 1, Snina
+Label 1 = 120, 209, 200, 200, 200, 1, Hunenne 
+Sprite 0 = images\rsam6b.pcx, 67, 68, 0
+Sprite 1 = images\rsam6b.pcx, 113, 26, 0
+Sprite 2 = images\rifvp1.pcx, 254, 158, 0
+Sprite 3 = images\rifvp1.pcx, 115, 189, 0
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc1.pcx 
+Text = 1, 1, You have failed to accomplish your mission. We could ill afford to lose any air assault units. \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\uobja.pcx, 217, 163, 0
+Sprite 1 = images\uahb.pcx, 27, 280, 0
+Label 0 = 258, 176, 200, 200, 200, 1, Snina
+Label 1 = 120, 209, 200, 200, 200, 1, Hunenne 
+Sprite 0 = images\rsam6b.pcx, 67, 68, 0
+Sprite 1 = images\rsam6b.pcx, 113, 26, 0
+Sprite 2 = images\rifvp1.pcx, 254, 158, 0
+Sprite 3 = images\rifvp1.pcx, 115, 189, 0
+Time Out = 15
+

@@ -1,0 +1,287 @@
+TITLE:  ger11
+BATTLEFIELD: UKRAINE 52000 101500 0 0 17 26
+ENGAGEMENT: BLUE MISSION_BLUE_HASTY_ATTACK_RAID 0 0 0
+ENGAGEMENT: RED MISSION_RED_DEFENSE 0 0 180
+OBJECTIVE: BLUE FORWARD_LINE 56000 93000 56000 109000 01
+BLUE_FRIENDLIES: 40
+BLUE_ENEMIES: 70
+RED_FRIENDLIES: 70
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 0
+MACHINE: 0
+/* SetupFriendlyHastyAttackRaid */
+PLATOON: 127 46000 105961 90 8 50150 107350 0 701
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 57450 104850
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARTY:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 57900 99550
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARTY:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 55400 96350
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 52900 98050
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 55400 103200
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 360
+/* SetupEnemyDefensive */
+PLATOON: 62 61500 98721 90 8 59250 97950 2 102
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 55300 95150
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 52600 97600
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 540
+ADDWAYPT: 48800 99300
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 50250 103700
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 420
+ADDWAYPT: 59800 100750
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 540
+/* Enemy Secondary Defensive Unit */
+PLATOON: 120 52000 95000 90 7 52000 95000 1 1903
+PLATOON: 120 55000 107000 90 7 55000 107000 1 1904
+/* SetupFriendlyHastyAttackForce */
+PLATOON: 138 47100 101400 270 6 48150 101450 3 1505
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ADV_MED: 
+ORDER_TRVL_DIGIN: 
+ORDER_WPT_SETDELAYTIME: 840
+ADDWAYPT: 49900 101200
+ORDER_WPT_SETDELAYTIME: 480
+ADDWAYPT: 56000 101150
+ORDER_TRVL_ENGAGE:
+PLATOON: 33 47100 99450 270 6 47500 98800 3 1506
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ADV_MED: 
+ORDER_TRVL_ENGAGE:
+ORDER_WPT_SETDELAYTIME: 840
+ADDWAYPT: 48350 96600
+ORDER_WPT_SETDELAYTIME: 0
+ADDWAYPT: 50850 95900
+ADDWAYPT: 55000 99550
+PLATOON: 34 46850 100550 270 6 47400 100550 3 1507
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ADV_MED: 
+ORDER_WPT_SETDELAYTIME: 840
+ORDER_TRVL_DIGIN: 
+ADDWAYPT: 49150 99950
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 52800 98450
+ADDWAYPT: 55950 100800
+PLATOON: 34 47000 102100 270 6 47450 102250 3 1508
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ADV_MED: 
+ORDER_WPT_SETDELAYTIME: 840
+ORDER_TRVL_DIGIN: 
+ADDWAYPT: 50200 102900
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 54400 104050
+ADDWAYPT: 55850 102850
+PLATOON: 33 47600 102800 270 6 48200 103000 3 1509
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ADV_MED: 
+ORDER_TRVL_ENGAGE:
+ORDER_WPT_SETDELAYTIME: 840
+ADDWAYPT: 51500 105100
+ORDER_WPT_SETDELAYTIME: 0
+ADDWAYPT: 56150 105150
+ADDWAYPT: 56050 103200
+PLATOON: 140 47850 101900 270 6 48450 102000 3 1510
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ADV_MED: 
+ORDER_WPT_SETDELAYTIME: 810
+ORDER_TRVL_DIGIN: 
+ADDWAYPT: 49900 101850
+/* Friendly Standard Main Zone Defensive Units */
+PLATOON: 121 46850 95700 270 7 46850 95700 3 1611
+PLATOON: 121 47150 104350 270 7 47150 104350 3 1612
+/* SetupFriendlyArtillery */
+SUPPORT: 82 45000 96700 270 8 45000 96700 2 2913
+SUPPORT: 82 45000 98500 270 8 45000 98500 3 2914
+SUPPORT: 82 45000 100000 270 8 45000 100000 2 2915
+SUPPORT: 83 45000 102000 270 8 45000 102000 1 3016
+SUPPORT: 19 22734 102289 270 8 22734 102289 1 3217
+/* SetupEnemyAreaSAMS */
+PLATOON: 72 58850 94850 90 758850 94850 0 1918
+PLATOON: 72 58450 107400 90 758450 107400 2 1919
+/* SetupEnemyArtillery */
+SUPPORT: 76 58000 102000 90 8 58000 102000 2 2820
+BLUE_TARGET: 29
+SUPPORT: 76 58000 104000 90 8 58000 104000 1 2821
+BLUE_TARGET: 29
+PLATOON: 78 58000 103000 90 8 58000 103000 1 2822
+BLUE_TARGET: 29
+SUPPORT: 77 56000 96000 90 8 56000 96000 2 2823
+BLUE_TARGET: 29
+SUPPORT: 77 57000 97000 90 8 57000 97000 1 2824
+BLUE_TARGET: 29
+SUPPORT: 77 58000 98000 90 8 58000 98000 2 2825
+BLUE_TARGET: 29
+PLATOON: 78 57100 97600 90 8 57100 97600 1 2826
+BLUE_TARGET2: 29
+/* Enemy Heavy Main Zone Defensive Units */
+PLATOON: 120 52000 96000 135 7 52000 96000 3 1927
+PLATOON: 120 53000 98000 135 7 53000 98000 3 1928
+PLATOON: 132 52800 97250 135 7 52800 97250 3 1929
+PLATOON: 120 55800 101100 90 7 55800 101100 3 1930
+PLATOON: 120 56000 105000 90 7 56000 105000 3 1931
+PLATOON: 132 56050 103200 90 7 56050 103200 3 1932
+/* SetupEnemyDefenseOfBattlePosition */
+PLATOON: 57 57490 102750 90 7 57490 102750 3 1933
+LOGIC: LOGIC_MAIN_DEFENSE
+PLATOON: 37 55619 100917 90 7 55619 100917 3 1934
+LOGIC: LOGIC_MAIN_DEFENSE
+PLATOON: 57 56707 102069 90 7 56707 102069 3 1935
+LOGIC: LOGIC_REF_DEFENSE
+PLATOON: 37 52860 95557 90 7 52860 95557 3 1936
+LOGIC: LOGIC_REF_DEFENSE
+PLATOON: 37 56603 105520 90 7 56603 105520 3 1937
+LOGIC: LOGIC_OUTPOST
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\mg11.pcx
+Text = 1, 1, Führen Sie in Verbindung mit der Spezialeinheit "Falcon" der 15. Panzer-Brigade einen schnellen Angriff aus, um die Phasenlinie Charlie von feindlichen Einheiten zu säubern. Als zweite Mission führen Sie einen Luftangriff aus, um die feindlichen Artillerie-Einheiten in Ihrem Einsatzgebiet zu zerstören. \n\n RUFZEICHEN: \n Flug #1: Reaper. \n ZIEL: \n Greifen Sie feindliche Kampfeinheiten entlang der Phasenlinie Charlie an und zerstören Sie diese. \n Zerstören Sie jegliche schwere Artillerie-Einheiten im Einsatzgebiet. \n Vermeiden Sie Verluste bei verbündeten Einheiten.
+Line 0 = 99, 99, 208, 235, 251, 235, 35
+Line 1 = 200, 200, 200, 38, 247, 121, 275
+Line 2 = 200, 200, 200, 121, 275, 267, 225
+Line 3 = 200, 200, 200, 267, 225, 276, 119
+Line 4 = 200, 200, 200, 276, 119, 226, 55
+Line 5 = 200, 200, 200, 226, 55, 176, 89
+Line 6 = 200, 200, 200, 176, 89, 226, 192
+Sprite 0 = images\uahb.pcx, 29, 238, 0
+Sprite 1 = images\uwpcp.pcx, 113, 255, 0
+Sprite 2 = images\uwpbp.pcx, 258, 205, 0
+Sprite 3 = images\uwpbp.pcx, 267, 99, 0
+Sprite 4 = images\uwpbp.pcx, 217, 35, 0
+Sprite 5 = images\uwpbp.pcx,  167, 69, 0
+Sprite 6 = images\uwpbp.pcx, 217, 172, 0
+Label 0 = 239, 156, 10, 10, 10, 1, PL CHARLIE
+Label 1 = 238, 155, 99, 99, 208, 1, PL CHARLIE
+Time Out = 20
+[Briefing 1]
+Heading = 9, OPERATION
+Map = images\mg11.pcx
+Text = 1, 1, Ihr Operations-Sektor wird durch die Phasenlinien Alpha, Bravo und Delta begrenzt. Diese Phasenlinien dürfen unter keinen Umständen überquert werden. \n Die Phasenlinie Foxtrot markiert die Startlinie der Spezialeinheit "Falcon". Die Phasenlinie Charlie markiert das Zielgebiet. \n \n LUFTABWEHR: \n Die Streitkräfte werden mit schwerer Luftabwehr unterstützt. Zur Zeit sind mindesten 2 Batterien SA-15 eingesetzt. Zusätzlich sollten Sie den Einsatz innerer Luftabwehreinheiten erwarten.
+Sprite 0 = images\rsam8b.pcx, 115, -155, 0
+Sprite 1 = images\rsam8b.pcx , 107, 94, 0
+Line 0 = 99, 99, 208, 235, 251, 235, 35
+Line 1 = 99, 99, 208, 147, 156, 77, 55
+Line 2 = 99, 99, 208, 1, 55, 315, 55
+Line 3 = 99, 99, 208, 1, 277, 315, 277
+Line 4 = 99, 99, 208, 287, 1, 287, 315
+Line 5 = 99, 99, 208, 116, 298, 116, 237
+Line 6 = 99, 99, 208, 116, 237, 147, 205
+Line 7 = 99, 99, 208, 147, 205, 147, 156
+Label 0 = 153, 176, 10, 10, 10, 1, PL FOXTROT
+Label 1 = 152, 175, 99, 99, 208, 1, PL FOXTROT
+Label 2 = 242, 75, 10, 10, 10, 1, PL DELTA
+Label 3 = 243, 76, 99, 99, 208, 1, PL DELTA
+Label 4 = 58, 44, 10, 10, 10, 1, PL ALPHA
+Label 5 = 57, 43, 99, 99, 208, 1, PL ALPHA
+Label 6 = 58, 280, 10, 10, 10, 1, PL BRAVO
+Label 7 = 57, 279, 99, 99, 208, 1, PL BRAVO
+Label 8 = 202, 117, 10, 10, 10, 1, PL CHARLIE
+Label 9 = 201, 116, 99, 99, 208, 1, PL CHARLIE
+Time Out = 20
+[Briefing 2]
+Heading = 9, VERBÜNDETE STREITKRÄFTE
+Map = images\mg11.pcx
+Text = 1, 1, Verbündete Streitkräfte bestehen aus einer Schweren Panzer-Kampfgruppe der 15. Panzerbrigade, Rufzeichen "Falcon". Sie führen einen schnellen Zwei-Spitzen-Angriff aus, um den Höhenrücken, durch Phasenlinie Charlie gekennzeichnet, zu säubern, und den Weg für einen geplanten Großangriff am Morgen zu ebnen. \n Ihnen wurde schwere Artillerieunterstützung zugesichert, ebenso wie Luftunterstützung durch amerikanische A-10. 
+Line 0 = 99, 99, 208, 235, 251, 235, 35
+Label 0 = 239, 156, 10, 10, 10, 1, PL CHARLIE
+Label 2 = 238, 155, 99, 99, 208, 1, PL CHARLIE
+Sprite 0 = images\utnkhq.pcx, 44, 146, 0
+Sprite 1 = images\utnkp.pcx, 49, 100, 0 
+Sprite 2 = images\uifvp.pcx, 44, 123, 0
+Sprite 3 = images\uifvp.pcx, 47, 169, 0
+Sprite 4 = images\utnkp.pcx, 59, 188, 0 
+Sprite 5 = images\uspgb.pcx, 11, 58, 0
+Sprite 6 = images\uspgb.pcx, 11, 92, 0
+Sprite 7 = images\uspgb.pcx, 11, 122, 0
+Sprite 8 = images\umlrsb.pcx, 11, 162, 0
+Time Out = 20
+[Briefing 3]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\mg11.pcx
+Text = 1, 1, Feindliche Einheiten der 7. Motorisierten Schützen-Division verteidigen momentan den Höhenrücken, der durch die Phasenlinie Charlie markiert wird. Sie haben Bataillonsstärke. Sie haben sich eingegraben und haben vor, das Gebiet zu halten. Sie verfügen über schwere Artillerieunterstützung und hervorragende SAM-Deckung für eine Einheit dieser Größe. 
+Sprite 0 = images\rinfb.pcx, 234, 198, 0
+Sprite 1 = images\rinfb.pcx, 209, 106, 0
+Sprite 2 = images\rinfb.pcx, 159, 35, 0
+Sprite 3 = images\rsam8b.pcx, 115, -155, 0
+Sprite 4 = images\rsam8b.pcx , 107, 94, 0
+Time Out = 20
+[Briefing 4]
+Heading = 9, WETTER
+Map = images\mg11.pcx
+Text = 1, 1, Der Wetterbericht in Ihrem Operations-Sektor meldet bewölkt, mit einer Wolkendecke bei 2.500 Fuß. \n Ihr vorgezogenes Sammelgebiet wird von nautischem Zwielicht erhellt. \n Die Sichtweite ist auf etwa 2 Kilometer beschränkt. \n Die thermischen Bedingungen sind gut, mit Bereichen bis 5 km. \n Leichter Wind kommt mit 3 bis 5 Knoten aus SW.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+Time Out = 20
+
+

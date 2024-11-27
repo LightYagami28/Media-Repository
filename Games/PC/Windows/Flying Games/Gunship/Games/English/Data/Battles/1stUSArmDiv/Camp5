@@ -1,0 +1,164 @@
+TITLE: armor 5
+BATTLEFIELD: NPOLAND 85125 157898 0 0 12 24
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT_RAID 0 0 0
+ENGAGEMENT: RED MISSION_RED_DEFENSE 0 0 180
+OBJECTIVE: BLUE TWOKRADIUS 84500 152300 14
+BLUE_ENEMIES: 80
+RED_FRIENDLIES: 80
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 0
+MACHINE: 0
+/* SetupFriendlyAirAssaultRaid */
+PLATOON: 18 84625 164848 0 8 87075 155748 1 101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 540
+ADDWAYPT: 85225 153098
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 540
+PLATOON: 108 83000 170000 0 8 84000 170000 1 1202
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_WPT_SETDELAYTIME: 600
+ADDWAYPT: 86575 160598
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_BYPASS:
+ADDWAYPT: 84927 152813
+ORDER_ASMBLY_LZ:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_BYPASS:
+ADDWAYPT: 83000 170000
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_BYPASS:
+PLATOON: 108 84000 170000 0 8 85000 170000 1 1203
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 85525 160548
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_BYPASS:
+ADDWAYPT: 85086 152622
+ORDER_ASMBLY_LZ:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_BYPASS:
+ADDWAYPT: 84000 170000
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_BYPASS:
+/* SetupEnemyDefensive */
+PLATOON: 62 82000 150000 0 8 85275 153148 2 904
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 36000 
+PLATOON: 45 84465 154937 315 6 84465 154937 2 1705
+PLATOON: 45 84562 157250 270 6 84562 157250 2 1706
+PLATOON: 46 83405 154537 180 6 83405 154537 1 1707
+/* Friendly Secondary Defensive Units */
+/* SetupEnemyDefendIndepth */
+PLATOON: 55 85006 152516 90 0 85006 152516 3 2208
+PLATOON: 125 84924 152540 90 7 84924 152540 0 2209
+PLATOON: 124 85089 152809 180 7 85089 152809 0 2210
+PLATOON: 69 85202 152564 270 0 85202 152564 0 2211
+PLATOON: 132 85362 152339 315 2 85362 152339 1 2212
+PLATOON: 120 84829 152909 135 2 84829 152909 1 2213
+/* SetupEnemyConvoy */
+PLATOON: 68 84075 155348 180 0 84849 152283 0 1814
+PLATOON: 68 85075 155348 180 0  84849 153283 0 1815
+PLATOON: 49 84575 155348 180 0 84849 152783 2 1816
+/* SetupEnemyArtillery */
+PLATOON: 74 83025 150998 180 7 83025 150998 2 3017
+PLATOON: 74 84025 150998 180 7 84025 150998 2 3018
+PLATOON: 74 83525 150998 180 7 83525 150998 2 3019
+PLATOON: 78 83525 151498 180 7 83525 151498 2 3020
+
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\Mus5.pcx
+Text = 1, 1, The airfield north of Pisz is being used by the 106th Guards Airborne for attacks against the British 1st Armoured. An air assault is being sent to capture it. The transports are 5 minutes behind you. As a secondary mission, conduct a Raid to destroy all enemy artillery units deployed in your area. \n CALLSIGNS: \n Flight 1: Javelin \n Flight 2:  Raider \n OBJECTIVES: \n Destroy any units with in 2km of OBJ Anvil. Provide air cover for Raider. Search and destroy any artillery units between PL Charlie and Echo. 
+Sprite 0 = images\uahb.pcx, 140, 289, 0
+Sprite 1 = images\uwpbp.pcx, 189, 92, 0
+Sprite 2 = images\uwpbp.pcx, 152, 39, 0
+Sprite 3 = images\uobjA.pcx, 141, 29, 0
+Line 0 = 200, 200, 200, 148, 297,197, 115
+Line 1 = 200, 200, 200, 197, 115, 160, 62
+Line 2 =0, 0, 255, 271, 0, 271, 315
+Line 3 = 0, 0, 255, 65, 0, 65, 315
+Label 0 = 166, 151, 200, 200, 200, 1, Pisz
+Label 1 = 210, 73, 0, 0, 255, 1, PL ECHO
+Label 2 = 70, 73, 0, 0, 255, 1, PL CHARLIE
+Time Out = 20
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\mus5.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n Any aircraft leaving its operations zone will be treated as hostile. \n \n AIR DEFENSE: \n Local air defense is reported as moderate, However the air field is well defended.
+Sprite 0 = images\rzsub.pcx, 36, -70, 0
+Sprite 1 = images\rinfb.pcx, 111, 93, 0
+Line 0 = 0, 0, 255, 35, 0, 35, 213
+Line 1 = 0, 0, 255, 35, 213, 84, 297
+Line 2 = 0, 0, 255, 290, 315, 290, 102
+Line 3 = 0, 0, 255, 290, 102, 241, 16
+Label 0 = 43, 188, 10, 10, 10, 1, PL ALPHA
+Label 1 = 230, 188, 10, 10, 10, 1, PL BRAVO
+Label 2 = 166, 151, 200, 200, 200, 1, Pisz
+Label 3 = 44, 189, 0, 0, 255, 1, PL ALPHA
+Label 4 = 230, 189, 0, 0, 255, 1, PL BRAVO 
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\mus5.pcx
+Text = 1, 1, No friendly ground forces are present at this time.
+Label 0 = 166, 151, 200, 200, 200, 1, Pisz 
+Time Out = 20
+
+[Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\mus5.pcx
+Text = 1, 1, Ground units from the 13th Ukrainian "Karkov" Division make up the garrison forces inside the city. The 106th Air Guards are operating out of the airfield to the north. In addition to the strikes being launched against the British 1st Armoured they are also maintaining a local aerial patrol which covers the city and the surrounding country side. The 13th also has placed a MRLS company somewhere to the north of the airfield.
+Sprite 0 = images\rinfb.pcx, 111, 93, 0
+Sprite 1 = images\rahb.pcx, 144, 42, 0
+Sprite 2 = images\rmrlsb.pcx, 116, 24, 0
+Label 0 = 166, 151,200, 200, 200, 1, Pisz
+ Time Out = 20
+
+[Briefing 4]
+Heading = 9, WEATHER
+Map = images\mus5.pcx
+Text = 1, 1, The weather in your sector of operations is overcast, with a ceiling of 2500 feet. \n Sunset should occur as you are leaving the target area. \n Visibility is limited to approximately 1 to 2 kilometers. \n Thermal conditions are good, with ranges of up to 5 kilometers. \n Winds are light out of the SW, at 3 to 5 knots.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+Label 0 = 166, 151, 200, 200, 200, 1, Pisz
+Time Out = 20

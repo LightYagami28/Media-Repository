@@ -1,0 +1,66 @@
+[Briefing 0]
+Heading = 9, NATO FORCES
+Map = images\imap.pcx
+Text = 1, 1, The Northern area is held by the British Army of the Rhine (BAOR) with 1st and 3rd British Armored, and the US 24th Infantry Divisions. \n The Central Area is held by German II Corps, commanding German 10th and 5th Panzer and the US 1st Armored Divisions. \n The Southern area is held by US V Corps, containing 1st Cavalry, 3rd Infantry, and German 1st Panzer Divisions.
+Sprite 0 = images\cbaor.pcx, 50, 100, 0
+Sprite 1 = images\cii.pcx, 50, 147, 0
+Sprite 2 = images\cv.pcx, 50, 209, 0
+Sprite 3 = images\d24usi.pcx, 72, 72, 0
+Sprite 4 = images\d3uk.pcx, 111, 66, 0
+Sprite 5 = images\d1uk.pcx, 134, 88, 0
+Sprite 6 = images\d1usa.pcx, 123, 115, 0
+Sprite 7 = images\d5gr.pcx, 135, 141, 0
+Sprite 8 = images\d10gr.pcx, 138, 171, 0
+Sprite 9 = images\d1gr.pcx, 123, 203, 0
+Sprite 10 = images\d1usc.pcx, 115, 228, 0
+Sprite 11 = images\d3usi.pcx, 84, 245, 0
+Line 0 = 99, 99, 208, 45, 148, 116, 112
+Line 1 = 99, 99, 208, 116, 112, 169, 112
+Line 2 = 99, 99, 208, 45, 200, 169, 200
+Time Out = 15
+[Briefing 1]
+Heading = 9, RUSSIAN FORCES
+Map = images\imap.pcx
+Text = 1, 1, The Northern Group of Forces controls the 28th and 5th Belarus Corps, with the 65th Belarus in reserve. \n  The Central Group of Forces contains the 2nd Guards Army, the 6th Tank Army and the 1st and 13th Ukrainian Corps, with the 20th Guards Tank Army in reserve. \n The Southern Group of Forces consists of the 8th Ukrainian Corps, and the 3rd Shock Army, with the 32nd Ukrainian Corps in reserve.
+Sprite 0 = images\ngf.pcx, 164, 17, 0
+Sprite 1 = images\c65b.pcx, 206, 5, 0
+Sprite 2 = images\c28b.pcx, 113, 39, 0
+Sprite 3 = images\c5b.pcx, 138, 50, 0
+Sprite 4 = images\cgf.pcx, 228, 108, 0
+Sprite 5 = images\c20g.pcx, 190, 92, 0
+Sprite 6 = images\c6t.pcx, 168, 80, 0
+Sprite 7 = images\c13u.pcx, 174, 111, 0
+Sprite 8 = images\c2g.pcx, 172, 137, 0
+Sprite 9 = images\c1u.pcx, 181, 165, 0
+Sprite 10 = images\sgf.pcx, 208, 228, 0
+Sprite 11 = images\c8u.pcx, 173, 206, 0
+Sprite 12 = images\c32u.pcx, 237, 205, 0
+Sprite 13 = images\c3s.pcx, 156, 239, 0
+Line 0 = 255, 0, 0, 164, 80, 244, 39
+Line 1 = 255, 0, 0, 176, 193, 272, 193
+Time Out = 15
+[Briefing 2]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, At 2300 last night, Russian forces attacked across the border  into Poland, Romania and Slovakia. NATO forces are fighting rear guard actions across the front to slow the Russian advance. In the North, British Army of the Rhine is withdrawing across the Vistula to avoid being surrounded by attacks from the East and North. The V Corps is falling back into the mountainous areas of Slovakia.
+Sprite 0 = images\cin0.pcx, 0, 0, 0
+Sprite 1 = images\cir0.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 3]
+Heading = 9, II Corps SECTOR
+Map = images\cs2.pcx
+Text = 1, 1, The US 1st Armored is fighting from Biala Podlaska south to Parczew, facing the 13th Ukrainian Corps. \n The 5th Panzer is in the sector from Parczew to Chelm, facing the 2nd Guards army, who have concentrated their attacks on the axis Wlodawa - Parczew and at Chelm, bypassing 6th brigade. \n 10th Panzer is facing 2nd Guards attack on Chelm, and 1st Ukranian Corps attack on Zamosc. \n Your current operations area is Highlighted.
+Label 0 = 279, 20, 200, 200, 200, 1, Brest
+Label 1 = 190, 56, 200, 200, 200, 1, Biala Podlaska
+Label 2 = 181, 115, 200, 200, 200, 1, Parczew
+Label 3 = 139, 215, 200, 200, 200, 1, Lublin
+Label 4 = 250, 229, 200, 200, 200, 1, Chelm
+Label 5 = 211, 242, 200, 200, 200, 1, Zamosc
+Label 6 = 245, 146, 200, 200, 200, 1, Wlodawa
+Sprite 0 = images\gercin0.pcx, 0, 0, 0
+Sprite 1 = images\gercir0.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 220, 33, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

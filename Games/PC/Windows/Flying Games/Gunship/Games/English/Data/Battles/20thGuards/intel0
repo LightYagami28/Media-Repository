@@ -1,0 +1,35 @@
+[Briefing 0]
+Heading = 9, NATO FORCES
+Map = images\imap.pcx
+Text = 1, 1, The Northern area is held by the British Army of the Rhine (BAOR) with 1st and 3rd British Armoured, and the US 1ST Armored and 24th Infantry Divisions. \n The Central Area is held by German II Corps, commanding German 1st, 5th and 10th Panzer and the US 1st Infantry Divisions. \n The Southern area is held by US V Corps, containing the US 1st Cavalry and 3rd Infantry, and German 5th Mountain Divisions.
+Sprite 0 = images\cin4a.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, RUSSIAN FORCES
+Map = images\imap.pcx
+Text = 1, 1, The Northern Group of Forces controls the 28th and 5th Belarus Corps, with the 65th Belarus in reserve. \n  The Central Group of Forces contains the 2nd Guards Army, the 6th Tank Army and the 1st and 13th Ukrainian Corps, with the 20th Guards Tank Army in reserve. \n The Southern Group of Forces consists of the 8th Ukrainian Corps, and the 3rd Shock Army, with the 32nd Ukrainian Corps in reserve.
+Sprite 0 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, It is the third day of operations and heavy fighting continues across the entire front. The British 7th Armored brigade has been surrounded, and Central Group of Forces has decided to commit 20th Guards Army to finish them off. \n 2nd Guards Army is meeting stiffening resistance in the Lublin sector. \n Northern Group of Forces is pushing towards the Gdansk and the Vistula. \n Southern Group of Forces is fighting a battle of attrition throughout Slovakia.
+Sprite 0 = images\cin4a.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 3]
+Heading = 9, GUARDS SECTOR
+Map = images\cs1.pcx
+Text = 1, 1, The 6th Tank Army has sealed the 7th Brigade off from the rest of 1st Armoured Division. \n The Army's plan calls for the  35th and 13th Motor Rifle divisions to extend the perimeter,  and for 4th Kantemir  and 2nd Taman Guards Tank Divisions to form the first assault echelon. 32nd Guards Tank is being held in army reserve.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustow
+Label 3 = 183, 25, 155, 155, 155, 1, Grajewo
+Label 4 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ukcin6.pcx, 0, 0, 0
+Sprite 1 = images\ukcir6.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 153, 202, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

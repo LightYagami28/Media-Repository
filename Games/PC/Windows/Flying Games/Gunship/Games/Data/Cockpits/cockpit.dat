@@ -1,0 +1,380 @@
+;
+;	Gunner Cockpit Screen
+;
+;
+;	   Description         	sprite file    x,y,w,h, wrap,t  #frames framesPerState frameDelay(ms)  comment
+
+[keys]
+keys.h
+
+
+[begin-baseKeys]
+
+	[enum-base]
+		Uber
+
+	[defs]
+
+; View Controls							
+	CommanderCockpit,               "Commander Cockpit",		"",			f1key
+	GunnerCockpit,                  "Gunner Cockpit",			"",			f2key
+	MapScreen,                      "Map Screen",				"",			f3key
+	GunnerSightCockpit,             "Gunner Sight",				"",			f4key
+	GunnerAuxiliarySightCockpit,    "Gunner Auxiliary Sight",	"",			f5key
+	CommanderVisionBlocksCockpit,   "Commander Vision Blocks",	"",			f6key
+	CommanderHatchCockpit,          "Commander Hatch",			"",			f7key
+	ChaseViewCockpit,               "Chase View",				"",			f8key
+	PreviousVehicle,                "Previous Vehicle",			shiftState, f9key
+	NextVehicle,                    "Next Vehicle",				"",			f9key		
+	PreviousPlatoon,                "Previous Platoon",			shiftState, f10key
+	NextPlatoon,                    "Next Platoon",				"",			f10key
+	                                
+	Tank1,                          "Tank #1",					shiftState, f1key
+	Tank2,                          "Tank #2",					shiftState, f2key
+	Tank3,                          "Tank #3",					shiftState, f3key
+	Tank4,                          "Tank #4",					shiftState, f4key
+	                                
+	                                
+; Vehicle and Platoon Orders
+	AutoDriveVehicle,               "AutoDrive Vehicle",		"",			akey	
+	AutoDrivePlatoon,               "AutoDrive Platoon",		shiftState, akey
+	                                
+	StopVehicle,                    "Stop Vehicle",				"",			skey
+	StopPlatoon,                    "Stop Platoon",				shiftState, skey
+	                                
+	FireAtWillPlatoon,              "Fire At Will Platoon",		"",			fkey
+	FireAtWillArmy,                 "Fire At Will Army",		shiftState, fkey				
+	                                
+	HoldFirePlatoon,                "Hold Fire Platoon",		"",			hkey
+	HoldFireArmy,                   "Hold Fire Army",			shiftState, hkey
+	                                
+	OneThirdSpeed,                  "1/3 Speed",				"",			ckey
+	TwoThirdSpeed,                  "2/3 Speed",				"",			vkey
+	MaxSpeed,                       "Max Speed",				"",			bkey
+	                                
+	PlatoonEngageLeft,              "Platoon Engage Left",		"",			commaKey
+	PlatoonEngageForward,           "Platoon Engage Forward",	shiftState, commaKey
+	PlatoonEngageRight,             "Platoon Engage Right",		"",			dotKey
+	PlatoonEngageRear,              "Platoon Engage Rear",		shiftState, dotkey
+	                                
+	EchelonRightFormation,          "Echelon Right Formation",	shiftState, backslashKey
+	WedgeFormation,                 "Wedge Formation",			shiftState, wKey
+	LineFormation,                  "Line Formation",			shiftState, lKey
+	StaggeredColumnFormation,       "Staggered Column Formation",shiftState, cKey
+	VeeFormation,                   "Vee Formation",			shiftState, vKey
+	EchelonLeftFormation,           "Echelon Left Formation",	shiftState, slashKey
+	                                
+	QuitGame,                       "Quit Game",				shiftState, qKey,	"", esckey
+	PauseGame,                      "Pause Game",				shiftState, pKey
+	                                
+	Accelerate,                     "Accelerate",				"",			upKey		
+	Decelerate,                     "Decelerate",				"",			downKey
+	                                
+	TurnLeft,                       "Turn Left",				"",			leftKey
+	TurnRight,                      "Turn Right",				"",			rightKey
+										
+
+[end-baseKeys]
+
+[begin-gcps]
+	[base-subdir]
+		cockpits\gunner\
+
+	[background]
+		cockpits\gunner\g-cpit_0.pcx
+
+	[bgTransparent] 
+		0
+
+	[hot-spot-file]	
+		g-hotspt.pcx
+
+	[enum-base]
+		Gcps	
+
+	[sprite-defs]
+	;1
+	 GunnerSightCockpit,            "Gunner Sight",				"",				245, 166, 125, 122, 0,0,     2, 0,   0, "", f4key ;
+	 CommanderCockpit,              "Commander Station",		g-spt_2.pcx,	272,  37,  43,  33, 1,0,	 4, 2, 100, "", f1key ;
+	 PauseGame,						"Pause Game",				g-spt_3.pcx,	272,  79,  43,  33, 1,0,	 4, 2, 100, "", pkey ;  
+	 FireControlMode,				"Fire Control Mode",		g-spt_4.pcx,	316,  22,  75, 102, 1,0,	 4, 1,   0, "", sixkey ; 
+	 GunSelect,			            "Gun Select", 				g-spt_11.pcx,	325, 354,  68,  97, 1,1,     4, 1,   0, "", fivekey ;
+	;6                           
+	 AmmoSelectSabot,		        "Ammo Select Sabot", 		g-spt_5.pcx,	274, 357,  30,  34, 1,1,	 3, 2, 100, "", ONEKEY, "", NUM1KEY ; Sabot
+	 AmmoSelectHEAT,		        "Ammo Select HEAT", 		g-spt_6.pcx,	304, 357,  35,  33, 1,1,	 3, 2, 100, "", TWOKEY, "", NUM2KEY ; Heat
+	 AmmoSelectMPAT,		        "Ammo Select MPAT", 		g-spt_8.pcx,	275, 405,  29,  29, 1,0,	 3, 2, 100, "", THREEKEY ; MPAT
+	 AmmoSelectSTAFF,		        "Ammo Select STAFF", 		g-spt_10.pcx,	304, 405,  35,  32, 1,1,	 3, 2, 100, "", FOURKEY ; Staff
+	 AmmoSelectAirGrnd,		        "Ammo Select Air/Grnd", 	g-spt_7.pcx,	289, 382,  38,  24, 1,1,	 4, 2, 100, "", EIGHTKEY ; Air/Grnd
+	;11									
+	 ThermalMag,		            "Thermal Mag", 				g-spt_12.pcx,	409, 370,  71,  64, 0,0,     4, 4,  60 ; 
+	 ThermalMode,		            "Thermal Mode",				g-spt_13.pcx,	432, 290,  25,  29, 1,0,     4, 1, 100, "", tkey 
+	 Polarity,                      "Polarity",					g-spt_14.pcx,	480, 245,  13,  21, 0,0,     2, 1, 100, "", wkey 
+	 Reticle,				        "Reticle",					g-spt_15.pcx,	519, 240,  36,  33, 0,0,     7, 1,   0 ;
+	 Symbols,				        "Symbols",					g-spt_16.pcx,	519, 290,  37,  30, 0,0,     7, 1,   0 ;
+	;16
+	 Decimal,				        "Decimal",					g-spt_17.pcx,	581, 110,  25,  23, 1,0,     2, 2, 100, shiftstate, delkey	 , shiftstate, numDotKey
+	 Zero,							"0",						g-spt_18.pcx,	543, 110,  39,  23, 1,0,     2, 2, 100, shiftstate, zerokey	 , shiftstate, num0key
+	 One,					        "1",			 			g-spt_19.pcx,	543,  90,  20,  21, 1,0,     2, 2, 100, shiftstate, onekey   , shiftstate, num1key
+	 Two,					        "2",			 			g-spt_20.pcx,	562,  90,  20,  21, 1,0,     2, 2, 100, shiftstate, twokey   , shiftstate, num2key
+	 Three,							"3",			 			g-spt_21.pcx,	581,  90,  25,  21, 1,0,     2, 2, 100, shiftstate, threekey , shiftstate, num3key
+	;21														    								 
+	 Four,							"4",						g-spt_22.pcx,	543,  70,  20,  21, 1,0,     2, 2, 100, shiftstate, fourkey  , shiftstate, num4key
+	 Five,							"5",						g-spt_23.pcx,	562,  70,  20,  21, 1,0,     2, 2, 100, shiftstate, fivekey  , shiftstate, num5key
+	 Six,					        "6",						g-spt_24.pcx,	581,  70,  25,  21, 1,0,     2, 2, 100, shiftstate, sixkey   , shiftstate, num6key
+	 Seven,							"7",						g-spt_25.pcx,	543,  51,  20,  21, 1,0,     2, 2, 100, shiftstate, sevenkey , shiftstate, num7key
+	 Eight,							"8",						g-spt_26.pcx,	562,  51,  20,  21, 1,0,     2, 2, 100, shiftstate, eightkey , shiftstate, num8key
+	;26									  														 
+	 Nine,							"9",						g-spt_27.pcx,	581,  51,  25,  21, 1,0,     2, 2, 100, shiftstate, ninekey  , shiftstate, num9key
+	 DamageDisplay,					"Damage Display",			g-spt_28.pcx,	433, 121,  35,  25, 1,0,     3, 2, 100, "", dkey
+	 RangeInput,			        "Range Input",				g-spt_29.pcx,	468, 121,  34,  25, 1,0,     3, 2, 100, "", rkey
+	 Enter,				            "Enter",					g-spt_30.pcx,	502, 121,  34,  25, 1,0,     2, 2, 100, "", ekey
+	 Magnification,		            "Magnification",			g-spt_31.pcx,	269, 442,  64,  34, 0,0,     4, 4,  60 ; 
+	;31
+	 GunnerAuxiliarySightCockpit,	"Auxiliary Sight",					  "",	  0, 304,  66,  63, 0,0,	 2, 0, 0 ;
+	                                    
+	 FiringPin,			            "Firing Pin",				g-spt_32.pcx,     0, 167, 125, 110, 1,0,     3, 3, 100
+	 TRU,					        "TRU",						g-spt_34.pcx,	554, 229,  52,  51, 1,0,     2, 1,   0
+	 Fault,				            "Fault",					g-spt_35.pcx,	555, 279,  51,  48, 1,0,     2, 1,   0
+	 ;FiringPin,						"Firing Pin",				g-spt_33.pcx,    -1,  -1,  -1,  -1, 1,0,     0, 1,   0 ; Fire Control Indicator 
+; keystroke only keys
+ 	 SlaveGunToHull,				"Slave Gun To Hull",    			  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			gkey
+	 SlaveHullToGun,				"Slave Hull To Gun",    			  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, gkey
+	 LaseTarget,					"Lase Target",						  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			spaceBar
+	 FireGun,						"Fire !",							  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			enterKey
+	 SmokeGenerator,				"Generate Smoke",					  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			slashKey
+	 LaunchSmokeGrenade,			"Launch Smoke Grenade",				  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			bkspKey
+	 ArmSmokeGrenade,				"Arm Smoke Grenade",				  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, bkspKey
+	 ;Polarity,                      "Polarity",						  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", wkey 
+	 MagMax,						"Magnification 10x",				  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", zkey
+	 MagMin,						"Magnification 3x",					  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", xkey 
+     ReticleContrastUp,				"Add Reticle Brightness",			  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", plusKey
+     ReticleContrastDown,			"Subtract Reticle Brightness",		  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", minusKey
+	 AddSymbolBrightness,			"Add Symbol Brightness",			  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, plusKey
+	 SubSymbolBrightness,			"Subtract Symbol Brightness",		  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, minusKey
+[end-gcps]
+
+
+[begin-gcpsMainReticle]
+	[base-subdir]
+		cockpits\gunner\
+
+	[background]
+		cockpits\gunner\g-cpit_1.pcx
+
+	[bgTransparent] 
+		1
+
+	[hot-spot-file]	
+		g-hotspt.pcx
+
+	[enum-Base]
+		MnRet
+
+	[sprite-defs]
+		GunnerCockpit,				"Gunner Station",					 "",      0,  0,  43,  33, 0,0,		 1, 1, 100, "", escKey ;
+
+		AmmoSelectSabot,		    "Ammo Select Sabot", 				 "",     -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", ONEKEY, "", NUM1KEY ; Sabot
+		AmmoSelectHEAT,		        "Ammo Select HEAT", 				 "",     -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", TWOKEY, "", NUM2KEY ; Heat
+		AmmoSelectMPAT,		        "Ammo Select MPAT", 				 "",     -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", THREEKEY ; MPAT
+		AmmoSelectSTAFF,		    "Ammo Select STAFF", 				 "",     -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", FOURKEY ; Staff
+		AmmoSelectAirGrnd,		    "Ammo Select Air/Grnd", 			 "",     -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", EIGHTKEY ; Air/Grnd
+
+ 		SlaveGunToHull,				"Slave Gun To Hull",    			  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			gkey
+		SlaveHullToGun,				"Slave Hull To Gun",    			  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, gkey
+		LaseTarget,					"Lase Target",						  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			spaceBar
+		FireGun,					"Fire !",							  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			enterKey
+		SmokeGenerator,				"Generate Smoke",					  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			slashKey
+		LaunchSmokeGrenade,			"Launch Smoke Grenade",				  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			bkspKey
+		ArmSmokeGrenade,			"Arm Smoke Grenade",				  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, bkspKey
+
+		GunSelect,			        "Gun Select", 						  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", fivekey ;
+		ThermalMode,		        "Thermal Mode",						  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", tkey 
+
+		RangeInput,			        "Range Input",						  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", rkey
+; keystroke only keys
+		Decimal,				    "Decimal",							  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftstate, delkey	 , shiftstate, numDotKey
+		Zero,						"0",								  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftstate, zerokey	 , shiftstate, num0key
+		One,					    "1",			 					  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftstate, onekey   , shiftstate, num1key
+		Two,					    "2",			 					  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100,  shiftstate, twokey   , shiftstate, num2key
+		Three,						"3",			 					  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftstate, threekey , shiftstate, num3key
+	;21														    								 
+		Four,						"4",								  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftstate, fourkey  , shiftstate, num4key
+		Five,						"5",								  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftstate, fivekey  , shiftstate, num5key
+		Six,					    "6",								  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftstate, sixkey   , shiftstate, num6key
+		Seven,						"7",								  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftstate, sevenkey , shiftstate, num7key
+		Eight,						"8",								  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftstate, eightkey , shiftstate, num8key
+	;26									  														 
+		Nine,						"9",								  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftstate, ninekey  , shiftstate, num9key
+		Enter,				        "Enter",							  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", ekey
+
+		MagMax,						"Magnification 10x",				  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", zkey
+		MagMin,						"Magnification 3x",					  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", xkey 
+		Polarity,                   "Polarity",						 	  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", wkey 
+	    ReticleContrastUp,			"Add Reticle Brightness",			  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", plusKey
+	    ReticleContrastDown,		"Subtract Reticle Brightness",		  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", minusKey
+	    AddSymbolBrightness,		"Add Symbol Brightness",			  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, plusKey
+	    SubSymbolBrightness,		"Subtract Symbol Brightness",		  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, minusKey
+
+
+[end-gcpsMainReticle]
+
+[begin-gcpsAuxReticle]
+	[base-subdir]
+		cockpits\gunner\
+
+	[background]
+		cockpits\gunner\g-cpit_2.pcx
+
+	[bgTransparent] 
+		1
+
+	[hot-spot-file]	
+		g-hotspt.pcx
+
+	[enum-Base]
+		AuxRet
+
+	[sprite-defs]
+		GunnerCockpit,				"Gunner Station",					  "",    0,  0,  43,  33, 0,0,		 1, 1, 100 ;
+
+
+		AmmoSelectSabot,		    "Ammo Select Sabot", 				 "",     -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", ONEKEY, "", NUM1KEY ; Sabot
+		AmmoSelectHEAT,		        "Ammo Select HEAT", 				 "",     -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", TWOKEY, "", NUM2KEY ; Heat
+		AmmoSelectMPAT,		        "Ammo Select MPAT", 				 "",     -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", THREEKEY ; MPAT
+		AmmoSelectSTAFF,		    "Ammo Select STAFF", 				 "",     -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", FOURKEY ; Staff
+		AmmoSelectAirGrnd,		    "Ammo Select Air/Grnd", 			 "",     -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", EIGHTKEY ; Air/Grnd
+
+ 		SlaveGunToHull,				"Slave Gun To Hull",    			  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			gkey
+		SlaveHullToGun,				"Slave Hull To Gun",    			  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, gkey
+		LaseTarget,					"Lase Target",						  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			spaceBar
+		FireGun,					"Fire !",							  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			enterKey
+		SmokeGenerator,				"Generate Smoke",					  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			slashKey
+		LaunchSmokeGrenade,			"Launch Smoke Grenade",				  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "",			bkspKey
+		ArmSmokeGrenade,			"Arm Smoke Grenade",				  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, bkspKey
+
+		GunSelect,			        "Gun Select", 						  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", fivekey ;
+		ThermalMode,		        "Thermal Mode",						  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", tkey 
+
+		Magnification,		        "Magnification",					  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", zkey, "", xkey
+		RangeInput,			        "Range Input",						  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", rkey
+
+		MagMax,						"Magnification 10x",				  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", zkey
+		MagMin,						"Magnification 3x",					  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", xkey 
+		Polarity,                   "Polarity",						 	  "",    -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", wkey 
+	    ReticleContrastUp,			"Add Reticle Brightness",			  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", plusKey
+	    ReticleContrastDown,		"Subtract Reticle Brightness",		  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, "", minusKey
+		AddSymbolBrightness,		"Add Symbol Brightness",			  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, plusKey
+		SubSymbolBrightness,		"Subtract Symbol Brightness",		  "",	 -1,  -1,  -1,  -1, 0,0,	 0, 0, 100, shiftState, minusKey
+
+
+[end-gcpsAuxReticle]
+
+[begin-Commander]
+	[base-subdir]
+		cockpits\commander\
+
+	[background]
+		cockpits\commander\c-cpit_0.pcx
+
+	[bgTransparent] 
+		0
+
+	[hot-spot-file]	
+		g-hotspt.pcx
+
+	[enum-Base]
+		Cmdr
+
+	[sprite-defs]
+		GunnerSightCockpit,				"Gunner Sight",						"",		  0, 646,  94, 102, 0,0,     2, 0,   0
+		CommanderVisionBlocksCockpit,	"Commander Vision Blocks",			"",	    106, 402, 392,  46, 0,0,	 2, 0,   0
+		GunnerCockpit,					"Gunner Cockpit",		  	c-spt_3.pcx,	272, 540,  38,  32, 1,0,	 4, 2, 100
+
+		ReticleContrastUp,				"Reticle Contrast Up",		c-spt_4.pcx,	125, 542,  27,  29, 1,0,	 3, 3,  30, "", plusKey
+		ReticleContrastDown,			"Reticle Contrast Down",	c-spt_5.pcx,	155, 542,  27,  29, 1,0,	 3, 3,  30, "", minusKey
+		Huh,							"Huh ?",					c-spt_6.pcx,	185, 542,  27,  28, 1,0,	 3, 3,  30 ;
+
+		GPSCITVToggle,					"GPS/CITV Toggle",			c-spt_7.pcx,	229, 769,  28,  30, 1,0,	 4, 2, 100 ; special key handlers/+
+		GunLOS,							"Gun Line of Sight",		c-spt_8.pcx,	258, 769,  28,  30, 1,0,	 4, 2, 100 ;
+																	 
+		ScanAutoMode,					"Scan Auto Mode",			c-spt_9.pcx,	132, 769,  28,  29, 0,0,	 3, 3, 100 ;
+		SearchMode,						"Hunter/Killer Mode",		c-spt_10.pcx,	162, 769,  28,  29, 0,0,	 3, 3, 100 ;
+
+		CITVPower,					    "CITV Power",			    c-spt_25.pcx,	182, 805,  29,  34, 1,0,	 4, 2,  30 ;
+		MagnificationToggle,			"Magnification Toggle",		c-spt_13.pcx,	272, 805,  28,  32, 1,0,     4, 2,  30 ;
+		ThermalMode,					"Thermal Mode",				c-spt_12.pcx,	242, 805,  28,  32, 1,0,	 4, 2,  30 ;
+		Polarity,                       "Polarity",					c-spt_11.pcx,	212, 805,  29,  32, 1,0,	 4, 2,  30, "", wkey 
+
+		ScanLeft,						"Scan Left",						  "",	121, 811,  15,  13, 0,0,     0, 0,   0 ;
+		ScanUp,							"Scan Up",							  "",	137, 796,  15,  14, 0,0,     0, 0,   0 ;
+		ScanRight,						"Scan Right",						  "",	153, 811,  15,  13, 0,0,     0, 0,   0 ;
+		ScanDown,						"Scan Down",						  "",	137, 825,  15,  14, 0,0,     0, 0,   0 ;
+
+		ArmSmokeGrenade,				"Arm Smoke Grenade",		c-spt_14.pcx,   501, 826,  32,  37, 1,0,	 5, 2, 100, shiftState, bkspKey
+		LaunchSmokeGrenade,				"Launch Smoke Salvo",		c-spt_15.pcx,   542, 829,  32,  36, 1,0,	 5, 2, 100, "",			bkspKey
+		LaunchSmokeGrenade2,			"Launch Smoke Salvo",		c-spt_16.pcx,   582, 830,  32,  37, 1,0,	 5, 2, 100, "",			bkspKey
+
+		TwoKMap,						"Two Kilometer Map",		c-spt_17.pcx,   390, 784,  30,  33, 1,0,	 4, 2, 100
+		FourKMap,						"Four Kilometer Map", 		c-spt_18.pcx,   424, 788,  30,  34, 1,0,	 4, 2, 100
+		FullMapScreen,					"Full Map Screen", 			c-spt_23.pcx,   390, 818,  30,  34, 1,0,	 4, 2, 100
+
+		PauseGame,						"Pause Game",				c-spt_22.pcx,	564, 794,  30,  34, 1,0,	 4, 2, 100, "", pkey ;  
+	
+		ControlUnit,				    "Control Unit",			    c-spt_19.pcx,   459, 789,  30,  34, 1,0,	 4, 4,  50 ;
+		PreviousVehicle,                "Previous Vehicle",			c-spt_20.pcx,   494, 790,  30,  34, 1,0,	 4, 4,  50, shiftState, f9key
+		NextVehicle,                    "Next Vehicle",				c-spt_21.pcx,   529, 792,  30,  34, 1,0,	 4, 4,  50, "",			f9key		
+		Dummy,									    "",				c-spt_24.pcx, 	 -1, -1,   -1,  -1, 0,0,     0, 0,   0 ;
+
+
+[end-Commander]
+
+[begin-Hatch]
+
+	[base-subdir]
+		cockpits\commander\
+
+	[background]
+		cockpits\commander\c-cpit_3.pcx
+
+	[bgTransparent] 
+		1
+
+	[hot-spot-file]	
+		g-hotspt.pcx
+
+	[enum-Base]
+		MG
+
+	[sprite-defs]
+		CommanderCockpit,              "Commander Station",					  "",	  0, 420, 640,  60, 0,0,     1, 1,   0
+
+[end-Hatch]
+
+[begin-VisionBlock]
+
+	[base-subdir]
+		cockpits\commander\
+
+	[background]
+		cockpits\commander\c-cpit_2.pcx
+
+	[bgTransparent] 
+		1
+
+	[hot-spot-file]	
+		g-hotspt.pcx
+
+	[enum-Base]
+		VB
+
+	[sprite-defs]
+		CommanderCockpit,              "Commander Station",					  "",	  0, 420, 640,  60, 0,0,     1, 1,   0
+		CommanderHatchCockpit,         "Commander Hatch",					  "",	  0,   0, 640,  60, 0,0,     1, 1,   0
+
+
+
+[end-VisionBlock]
+
+
+
+

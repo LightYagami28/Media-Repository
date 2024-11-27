@@ -1,0 +1,24 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\mus5.pcx 
+Text = 1, 1, The Airfield has been secured. 1st Armored is now prepared to attack in order to link up with the British 1st Armoured. 
+Sprite 0 = images\uahb.pcx, 140, 289,
+Sprite 1 = images\uobjA.pcx, 141, 29, 0
+Sprite 2 = images\rinfb.pcx, 111, 93, 0
+Sprite 3 = images\rahb.pcx, 144, 42, 0
+Sprite 4 = images\rmrlsb.pcx, 116, 24, 0
+Label 0 = 166, 151, 200, 200, 200, 1, Pisz
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\mg0.pcx
+Text = 1, 1, With the Failed attempt to secure the Airbase our attempts to link up with the British 1st Armored will fail. \n \n Select "Fly Again" to refly this mission
+Sprite 0 = images\uahb.pcx, 140, 289,
+Sprite 1 = images\uobjA.pcx, 141, 29, 0
+Sprite 2 = images\rinfb.pcx, 111, 93, 0
+Sprite 3 = images\rahb.pcx, 144, 42, 0
+Sprite 4 = images\rmrlsb.pcx, 116, 24, 0
+Label 0 = 166, 151, 200, 200, 200, 1, Pisz
+Time Out = 15
+

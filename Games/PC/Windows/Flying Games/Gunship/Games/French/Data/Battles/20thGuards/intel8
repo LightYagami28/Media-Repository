@@ -1,0 +1,19 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, La 20e de la garde engage la 5e Panzer. Le Groupe de Forces Centre continue à repousser l'ensemble du front. Le Groupe de Forces sud s'est arrêté et tient le 5e corps en respect. La 32e DFM ukrainienne se prépare à contre-attaquer. Le Groupe de Forces Nord contient toujours la BAOR.
+Sprite 0 = images\rcin7.pcx, 0, 0, 0
+Sprite 1 = images\rcir7.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR de la 20e de la GARDE
+Map = images\cs2.pcx
+Text = 1, 1, La 1e DI tient toujours face à la 20e de la garde et au 13e ukrainien. La 2e DB de la garde (Taman) et la 13e DFM engagent la 5e division de Panzer. La 2e armée de la garde est tenue en respect pour l'instant. La 10e Panzer continue à se replier pour protéger son flanc nord, et le 1er ukrainien est sur ses talons.
+Sprite 0 = images\ruscin8.pcx, 0, 0, 0
+Sprite 1 = images\ruscir8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 58, 136, 0
+Time Out = 15
+GOTOBRIEFING = 1
+
+
+

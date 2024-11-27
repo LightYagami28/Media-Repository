@@ -1,0 +1,291 @@
+TITLE:  UK5
+BATTLEFIELD: NPOLAND 108000 123000 0 0 17 25
+ENGAGEMENT: BLUE MISSION_BLUE_RAID 0 0 0
+ENGAGEMENT: RED MISSION_RED_DEFENSE 0 0 180
+RED_FRIENDLIES: 70
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 0
+/* SetupFriendlyRaid */
+PLATOON: 131 107000 116000 180 1 108200 119700 2 1101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 110350 120900
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 111650 122100
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 180
+ADDWAYPT: 109500 126250
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 180
+ADDWAYPT: 107050 127650
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 180
+ADDWAYPT: 106350 116550
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+/* SetupEnemyDefensive */
+PLATOON: 63 111400 128800 90 8 112500 129150 1 102
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 107000 128500
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 103250 125300
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 112050 122700
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 107900 127150
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+PLATOON: 63 111600 129100 90 8 112500 129100 1 203
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 240
+ADDWAYPT: 113100 124000
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 110400 121350
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 107050 121900
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 105450 120950
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 112500 129150
+ORDER_ASMBLY_ASSMBLY:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+/* Friendly Standard Main Zone Defensive Units */
+PLATOON: 121 100400 119500 180 7 100400 119500 3 2204
+PLATOON: 133 101050 118000 225 7 101050 118000 3 2205
+PLATOON: 121 102000 119150 225 7 102000 119150 3 2206
+PLATOON: 121 102550 117400 225 7 102550 117400 3 2207
+PLATOON: 31 101000 117000 225 7 101000 117000 3 2208
+/* Enemy Heavy Main Zone Defensive Units */
+PLATOON: 120 103550 120400 45 7 103550 120400 2 229
+PLATOON: 120 104000 119000 45 7 104000 119000 3 2210
+PLATOON: 120 109700 116500 0 7 109700 116500 3 2211
+PLATOON: 120 112000 116500 45 7 112000 116500 3 2212
+PLATOON: 37 106000 121000 45 3 106000 121000 3 2213
+/* SetupEnemyDefendPosition */
+PLATOON: 110 111500 127500 0 8 107500 127500 0 1914
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_NORTH:
+BLUE_TARGET: 25
+PLATOON: 110 111500 127500 90 8 108500 127500 0 1915
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_WEST:
+BLUE_TARGET: 25
+PLATOON: 117 111826 126933 45 8 107826 126933 0 1916
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_NW:
+BLUE_TARGET: 25
+PLATOON: 111 111000 127850 0 8 107000 127850 0 1917
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_NORTH:
+BLUE_TARGET: 25
+PLATOON: 110 112250 127000 0 8 112100 122950 0 1918
+BLUE_TARGET: 25
+PLATOON: 110 112250 127500 0 8 111650 123750 0 1919
+BLUE_TARGET: 25
+PLATOON: 117 112250 128000 0 8 112000 122300 0 1920
+BLUE_TARGET: 25
+PLATOON: 111 112250 128500 0 8 112350 124350 0 1921
+BLUE_TARGET: 25
+/* Enemy Regimental HQ */
+PLATOON: 66 106450 129641 0 8 106450 126441 3 1922
+BLUE_TARGET2: 22
+PLATOON: 117 106450 124441 0 6 106450 124441 3 1923
+BLUE_TARGET2: 22
+/* SetupEnemyArtillery */
+PLATOON: 77 112000 131000 45 8 107000 124000 2 3024
+PLATOON: 77 113000 132000 45 8 108000 123000 2 3025
+PLATOON: 78 114000 133000 45 8 108000 124000 2 3026
+/* SetupEnemyAreaSAMS */
+PLATOON: 70 112000 128000 0 8 112000 128000 2 2127
+PLATOON: 70 107000 129000 0 8 107000 129000 2 2128
+PLATOON: 70 114000 118000 0 8 114000 11 8000 2 2129
+/* SetupEnemyMobileAreaSAMS */
+PLATOON: 72 113000 130000 45 8 106000 124000 0 2130
+/* SetupEnemyAirfield */
+PLATOON: 105 112000 129641 0 8 112000 129641 2 2131
+PLATOON: 124 112202 129407 270 6 112202 129407 2 2132
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\muk5.pcx
+Text = 1, 1, La 20e armée de la garde prépare un nouvel assaut majeur contre la 7e brigade. Tous les moyens aériens sont lancés dans une attaque préemptive afin de tenter de désorganiser cette attaque avant qu'elle ne débute. \n \n INDICATIFS :\n Patrouille n°1 :\n Lightning \n \n OBJECTIF : \n Rechercher et détruire les éléments de la 2e division blindée de la garde, Taman, situés entre les lignes de phase Delta et Echo. 
+Line 0 = 155, 155, 155, 141, 21, 165, 95
+Line 1 = 155, 155, 155, 165, 95, 208, 119
+Line 2 = 155, 155, 155, 208, 119, 234, 143
+Line 3 = 155, 155, 155, 234, 143, 191, 226
+Line 4 = 155, 155, 155, 191, 226, 142, 254
+Line 5 = 155, 155, 155, 142, 254, 128, 32
+Line 6 = 99, 99, 208, 41, 214, 262, 81
+Line 7 = 99, 99, 208, 141, 303, 283, 221
+Sprite 0 = images\uahb.pcx, 133, 13, 0
+Sprite 1 = images\uwpcp.pcx, 157, 75, 0
+Sprite 2 = images\uwpcp.pcx, 200, 99, 0
+Sprite 3 = images\uwpbp.pcx, 225, 123, 0
+Sprite 4 = images\uwpbp.pcx, 182, 206, 0
+Sprite 5 = images\uwpbp.pcx, 133, 234, 0
+Sprite 6 = images\uwpcp.pcx, 120, 12, 0
+Label 0 = 102, 183, 10, 10, 10, 1, LP DELTA
+Label 1 = 101, 182, 99, 99, 208, 1, LP DELTA
+Label 2 = 184, 284, 10, 10, 10, 1, LP ECHO
+Label 3 = 183, 283, 99, 99, 208, 1, LP ECHO
+Time Out = 15
+ [Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\muk5.pcx
+Text = 1, 1, Vous interviendrez dans un secteur compris entre les lignes de phase Alpha et Bravo. Vous ne devrez en aucun cas franchir ces lignes de phase. \n La ligne de phase Golf marque la limite avancée de la zone de bataille. \n \n DEFENSE AERIENNE : \n Des défenses fixes ont été déployées afin de protéger l'aérodrome de Grajevo. En outre, le Rens. a identifié plusieurs unités mobiles SA-15 se déplaçant dans la zone.
+Sprite 0 = images\rsam6b.pcx, 121, 141, 0
+Sprite 1 = images\rsam6b.pcx, 21, 161, 0
+Sprite 2 = images\rsam6b.pcx, 161, -59, 0
+Sprite 3 = images\radv2b.pcx, 194, 244, 0
+Line 0 = 99, 99, 208, 41, 214, 262, 81
+Line 1 = 99, 99, 208, 141, 303, 283, 221
+Line 2 = 99, 99, 208, 1, 133, 40, 130
+Line 3 = 99, 99, 208, 40, 130, 88, 46
+Line 4 = 99, 99, 208, 88, 46, 142, 29
+Line 5 = 99, 99, 208, 142, 29, 142, 1
+Line 6 = 99, 99, 208, 20, 81, 54, 282
+Line 7 = 99, 99, 208, 54, 282, 202, 303
+Line 8 = 99, 99, 208, 182, 20, 283, 100
+Line 9 = 99, 99, 208, 283, 100, 283, 284
+Label 0 = 102, 183, 10, 10, 10, 1, LP DELTA
+Label 1 = 101, 182, 99, 99, 208, 1, LP DELTA
+Label 2 = 184, 284, 10, 10, 10, 1, LP ECHO
+Label 3 = 183, 283, 99, 99, 208, 1, LP ECHO
+Label 4 = 52, 235, 10, 10, 10, 1, LP ALPHA
+Label 5 = 51, 234, 99, 99, 208, 1, LP ALPHA
+Label 6 = 211, 32, 10, 10, 10, 1, LP BRAVO
+Label 7 = 210, 31, 99, 99, 208, 1, LP BRAVO
+Label 8 = 62, 102, 10, 10, 10, 1, LP GOLF
+Label 9 = 61, 101, 99, 99, 208, 1, LP GOLF
+Time Out = 15
+[Briefing 2]
+Heading = 9, FORCES AMIES
+Map = images\muk5.pcx
+Text = 1, 1, Ce secteur est tenu par une compagnie débarquée du 1er Staffords, indicatif Goalie, soutenue par un peloton du 2e Royal Tank Regiment. \n Ils ont fortifié leurs positions au nord et à l'est de la ligne de phase Golf.
+Sprite 0 = images\utnkp.pcx, 10, 25, 0
+Sprite 1 = images\uinfhq.pcx, 22, 49, 0
+Sprite 2 = images\uinfp.pcx, 3, 108, 0
+Sprite 3 = images\uinfp.pcx, 31, 82, 0
+Sprite 4 = images\uinfp.pcx, 59, 33, 0
+Line 0 = 99, 99, 208, 1, 133, 40, 130
+Line 1 = 99, 99, 208, 40, 130, 88, 46
+Line 2 = 99, 99, 208, 88, 46, 142, 29
+Line 3 = 99, 99, 208, 142, 29, 142, 1
+Label 0 = 23, 69, 10, 10, 10, 1, Goalie
+Label 1 = 22, 68, 99, 99, 208, 1, Goalie
+Label 2 = 45, 60, 10, 10, 10, 1, 1Staf
+Label 3 = 44, 59, 99, 99, 208, 1, 1Staf
+Label 4 = 33, 27, 10, 10, 10, 1, 2RTR
+Label 5 = 32, 26, 99, 99, 208, 1, 2RTR
+Label 6 = 62, 102, 10, 10, 10, 1, LP GOLF
+Label 7 = 61, 101, 99, 99, 208, 1, LP GOLF
+Time Out = 15
+[Briefing 3]
+Heading = 9, FORCES ENNEMIES
+Map = images\muk5.pcx
+Text = 1, 1, La 35e division de fusiliers motorisés occupe le front, et assure le rôle de force de couverture. \n Les éléments de tête de la 2e division blindée de la garde (Taman), votre cible, ont été aperçus par satellite alors qu'ils entraient dans la zone cible par le sud-est. Nous avons ensuite perdu la couverture satellitaire en raison de l'arrivée du front nuageux. \n L'aérodrome de Grajevo, votre ancienne base, constitue à présent une base avancée pour un régiment d'hélicoptères de combat. Gardez l'oeil ouvert sur ces aéronefs.
+Sprite 0 = images\rsam6b.pcx, 121, 141, 0
+Sprite 1 = images\rsam6b.pcx, 21, 161, 0
+Sprite 2 = images\rsam6b.pcx, 161, -59, 0
+Sprite 3 = images\radv2b.pcx, 194, 244, 0
+Sprite 4 = images\rinfb.pcx, 80, 67, 0
+Sprite 5 = images\rinf2b.pcx, 183, 8, 0
+Sprite 6 = images\rahb.pcx, 227, 274, 0
+Sprite 7 = images\rtnkdiv.pcx, 200, 198, 0
+Label 0 = 111, 101, 10, 10, 10, 1, 35DFM
+Label 1 = 110, 100, 255, 0, 0, 1, 35DFM
+Label 2 = 234, 23, 10, 10, 10, 1, 35DFM
+Label 3 = 233, 22, 255, 0, 0, 1, 35DFM
+Label 4 = 223, 204, 10, 10, 10, 1, 2Taman
+Label 5 = 222, 203, 255, 0, 0, 1, 2Taman
+Label 6 = 157, 220, 10, 10, 10, 1, Approx.
+Label 7 = 156, 219, 255, 0, 0, 1, Approx.
+Time Out = 15
+[Briefing 4]
+Heading = 9, METEO
+Map = images\muk5.pcx
+Text = 1, 1, Le temps est bouché dans votre secteur, avec un plafond à 2.500 pieds. \n Le soleil devrait se coucher pendant que vous vous trouverez sur votre zone de rassemblement avancée. \n La visibilité ne dépasse pas 2 km. \n Bonnes conditions thermiques permettant de voir à 4-5 km. \n Vent faible de sud-ouest, 3 à 5 noeuds.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+Time Out = 10
+
+
+

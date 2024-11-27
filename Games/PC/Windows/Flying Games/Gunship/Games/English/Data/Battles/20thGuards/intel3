@@ -1,0 +1,22 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, 20th Guards Army are to move south into Central Poland. \n 2nd Guards Army is still meeting stiff resistance in the Lublin sector, making only slight gains against the Germans. \n Northern Group of Forces is still pushing towards Gdansk and the Vistula, but meeting reduced resistance \n Southern Group of Forces is slowly losing ground to the 1st Cavalry Division.
+Sprite 0 = images\rcin2.pcx, 0, 0, 0
+Sprite 1 = images\rcir2.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, GUARDS SECTOR
+Map = images\cs1.pcx
+Text = 1, 1, 2nd Taman Guards has engaged the 1st US Armored. 34th MRD from the 6th Army has Successfully cut off the 20th Armoured Brigade and engaged them in a pitched battle. The 6th Tank Army is containing the rest of the British forces to the north 
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustow
+Label 3 = 183, 25, 155, 155, 155, 1, Grajewo
+Label 4 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ruscin2.pcx, 0, 0, 0
+Sprite 1 = images\ruscir2.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 92, 244, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

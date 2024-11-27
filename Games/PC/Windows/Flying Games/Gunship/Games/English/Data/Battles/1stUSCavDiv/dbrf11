@@ -1,0 +1,32 @@
+[WIN]
+movie = movies\campend1.bik, movies\campend2.bik
+sound = speech\CampaignVictory.wav, CampaignDefeat.wav
+Heading = 9, STATUS
+Map = images\Muc11.pcx
+Text = 1, 1, The 3rd Shock Army is in total disarray with the lose of their command staff. We expect them to surrender as soon as their comm net is back up. Well Done and Congratulations. This should mark the end of the conflict in our sector though we could have to move north to support the 1st Armored. Rumors are flying about nuclear release being an option.
+Sprite 0 = images\uahb.pcx, 17, 283, 0
+Sprite 1 = images\uobjh.pcx, 239, 45, 0
+Sprite 2 = Images\sam8b.pcx, 114, -147, 0
+Sprite 3 = images\rifvp1.pcx, 276, 69, 0
+Sprite 4 = images\rifvp1.pcx, 248, 41, 0
+Sprite 5 = images\rifvp1.pcx, 214, 65, 0
+Sprite 6 = images\rifvp1.pcx, 240, 105, 0
+Sprite 7 = images\rhqb.pcx, 248, 84, 0
+Sprite 8 = images\rhqb.pcx, 236, 63, 0
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc11.pcx 
+Text = 1, 1, With the command structure still intact, the 3rd Shock Army is now ready to wage a defensive war on its home ground. \n \n It is going to be a cold winter...  \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\uahb.pcx, 17, 283, 0
+Sprite 1 = images\uobjh.pcx, 239, 45, 0
+Sprite 2 = Images\sam8b.pcx, 114, -147, 0
+Sprite 3 = images\rifvp1.pcx, 276, 69, 0
+Sprite 4 = images\rifvp1.pcx, 248, 41, 0
+Sprite 5 = images\rifvp1.pcx, 214, 65, 0
+Sprite 6 = images\rifvp1.pcx, 240, 105, 0
+Sprite 7 = images\rhqb.pcx, 248, 84, 0
+Sprite 8 = images\rhqb.pcx, 236, 63, 0
+Time Out = 15
+

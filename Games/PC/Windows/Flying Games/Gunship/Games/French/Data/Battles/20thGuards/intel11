@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, La reddition de la BAOR au Groupe de Forces Nord a permis d'expédier au sud la 6e armée blindée et le 5e corps biélorusse afin d'attaquer le 2e corps, qui a montré des signes de faiblesse, mais ne semble pas sur le point de capituler. Le Groupe de Forces Sud est revenu en Slovaquie et poursuit actuellement le 5e corps, qui est quasiment revenu à son point de départ de la campagne.
+Sprite 0 = images\rcin11.pcx, 0, 0, 0
+Sprite 1 = images\rcir11.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR de la 20e de la GARDE
+Map = images\cs3.pcx
+Text = 1, 1, La 1e de cavalerie a poursuivi sa retraite, mais maintient sa cohésion. La 3e de choc a éprouvé sa résistance afin de localiser le point faible de ses lignes. Le 8e corps ukrainien est toujours engagé contre la 3e d'infanterie américaine. La 32e DFM a entamé une bataille d'attrition sur le flanc sud.
+Sprite 0 = images\ruscin11.pcx, 0, 0, 0
+Sprite 1 = images\ruscir11.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 101, 146, 0
+Time Out = 15
+GOTOBRIEFING = 1

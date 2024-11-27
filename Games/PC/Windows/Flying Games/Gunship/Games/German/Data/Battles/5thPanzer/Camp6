@@ -1,0 +1,149 @@
+TITLE: Ger 6
+BATTLEFIELD: UKRAINE 20250 106500 0 0 2 26
+ENGAGEMENT: BLUE MISSION_BLUE_RAID 0 0 0
+ENGAGEMENT: RED MISSION_RED_DEFENSE 0 0 180
+OBJECTIVE: BLUE ONEKRADIUS 22734 102289 17
+RED_FRIENDLIES: 60
+RUNAI: RED
+SIDE: 0
+MACHINE: 0
+/* SetupFriendlyRaid */
+PLATOON: 112 13085 108764 90 8 15150 108950 0 1101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 17000 106650
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_SEAD:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 19700 101550
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_SEAD:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 24200 101100
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_SEAD:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 23450 105650
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 240
+/* SUPRISE */
+PLATOON: 128 20000 115000 0 6 15000 115000 3 302
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_SEAD:
+ORDER_WPT_SETDELAYTIME: 400
+ADDWAYPT: 22500 102218
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_SEAD:
+/* Air field defense */
+PLATOON: 124 22734 102289 180 8 22734 102289 1 1903
+BLUE_TARGET: 36
+PLATOON: 125 22351 102078 90 8 22351 102078 1 1904
+BLUE_TARGET: 36
+PLATOON: 70 18550 105200 315 8 18550 104200 1 1905
+BLUE_TARGET2: 26
+PLATOON: 70 20000 100900 315 8  20000 100900 1 1906
+BLUE_TARGET2: 26
+PLATOON: 71 26000 103450 315 8 26000 103450 1 1907
+BLUE_TARGET2: 26
+PLATOON: 56 17340 103350 285 6 17340 103350 1 1908
+BLUE_TARGET2: 26
+PLATOON: 56 20422 106618 270 6 20422 106618 1 1909
+BLUE_TARGET2: 26
+PLATOON: 45 17041 103840 150 6 17041 103840 1 1910
+PLATOON: 45 22315 106718 40 6 22050 105800 2 1911
+PLATOON: 55 22030 102730 315 6 22030 102730  1 1912
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\mg6.pcx
+Text = 1, 1, Führen Sie einen Luftangriff auf den Flugplatz westlich von Zhovtnevoye aus. \n\n RUFZEICHEN: \n Flug #1: Lightning. \n \n Ziel: \n Verursachen Sie auf dem Flugplatz und dem dort befindlichen Luftfahrzeug möglichst viel Schaden. Suchen und zerstören Sie alle SAM-Stellungen um das Ziel "Crossbow".
+Sprite 0 = images\uobja.pcx, 197, 45, 0
+Sprite 1 = images\uwpaa.pcx, 6, 189, 0
+Sprite 2 = images\uwpbp.pcx, 48, 193, 0
+Sprite 3 = images\uwpbp.pcx, 85, 147, 0
+Sprite 4 = images\uwpbp.pcx, 139, 45, 0
+Sprite 5 = images\uwpbp.pcx, 229, 36, 0
+Sprite 6 = images\uwppa.pcx, 214, 129, 0
+Line 0 = 200, 200, 200, 15, 213, 56, 217
+Line 1 = 200, 200, 200, 56, 217, 93, 171
+Line 2 = 200, 200, 200, 93, 171, 147, 69
+Line 3 = 200, 200, 200, 147, 69, 237, 60
+Line 4 = 200, 200, 200, 237, 60, 222, 151
+Label 0 = 90, 88, 200, 200, 200, 1, Zhovtnevoye
+Label 1 =  202, 174, 200, 200, 200, 1, Yablonov
+Time Out = 20
+
+[Briefing 1]
+Heading = 9, OPERATION
+Map = images\mg6.pcx
+Text = 1, 1, Sie operieren in einem Sektor zwischen den Phasenlinien Alpha und Bravo. Diese Phasenlinien dürfen unter keinen Umständen überquert werden. \n LUFTABWEHR: \n Der Flugplatz wird durch mobile SAM-Einheiten und stationäre SAM-Stellungen schwer verteidigt.
+Sprite 0 = images\rsam6b.pcx, 4, 22, 0
+Sprite 1 = images\rsam6b.pcx, 33, -64, 0
+Sprite 2 = images\rsam6b.pcx, 153, -13, 0
+Sprite 3 = images\rzsub.pcx, 53, 64, 0
+Sprite 4 = images\rzsub.pcx, 124, 125, 0
+Sprite 7 = images\rtangb.pcx, 20, -98, 0
+Line 0 = 99, 99, 208, 13, 282, 13, 76
+Line 1 = 99, 99, 208, 13, 76, 134, 1
+Line 2 = 99, 99, 208, 88, 291, 228, 291
+Line 3 = 99, 99, 208, 228 , 291, 314, 144
+Label 0 = 19, 82, 99, 99, 208, 1, PL ALPHA
+Label 1 = 90, 282, 99, 99, 208, 1, PL BRAVO
+Label 2 = 90, 88, 200, 200, 200, 1, Zhovtnevoye
+Label 3 =  202, 174, 200, 200, 200, 1, Yablonov
+Time Out = 30
+
+[Briefing 2]
+Heading = 9, VERBÜNDETE STREITKRÄFTE
+Map = images\mg6.pcx
+Text = 1, 1, Es gibt keine verbündeten Streitkräfte in Ihrem Operationsgebiet.
+Label 0 = 90, 88, 200, 200, 200, 1, Zhovtnevoye
+Label 1 =  202, 174, 200, 200, 200, 1, Yablonov
+Time Out = 10
+
+[Briefing 3]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\mg6.pcx
+Text = 1, 1, Feindliche Streitkräfte in diesem Gebiet bestehen hauptsächlich aus Garnisonseinheiten in den Städten und schweren Flugplatz-Verteidigungen. \n Die Streitkräfte, die den Flugplatz umgeben, machen eine vorsichtige Annäherung empfehlenswert.  
+Sprite 0 = images\rsam6b.pcx, 4, 22, 0
+Sprite 1 = images\rsam6b.pcx, 33, -64, 0
+Sprite 2 = images\rsam6b.pcx, 153, -13, 0
+Sprite 3 = images\radv2b.pcx, 53, 64, 0
+Sprite 4 = images\radv2b.pcx, 124, 125, 0
+Sprite 5 = images\rifvb.pcx, 53, 89, 0
+Sprite 6 = images\rifvb.pcx, 175, 151, 0
+Sprite 7 = images\rtangb.pcx, 20, -98, 0
+Label 0 = 90, 88, 200, 200, 200, 1, Zhovtnevoye
+Label 1 =  202, 174, 200, 200, 200, 1, Yablonov
+Time Out = 20
+
+[Briefing 4]
+Heading = 9, WETTER
+Map = images\mg6.pcx
+Text = 1, 1, Der Wetterbericht in Ihrem Operations-Sektor meldet bedeckt, mit einer Wolkendecke bei 2.500 Fuß. \n In Ihrem vorgezogenen Sammelgebiet geht gerade die Sonne auf. \n Die Sicht ist wegen Morgennebels auf 1 bis 2 Kilometer begrenzt. \n Die thermischen Bedingungen sind schlecht, mit Bereichen bis 2 Kilometer. \n Leichter Wind kommt mit 3 bis 5 Knoten aus W.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+Label 0 = 90, 88, 200, 200, 200, 1, Zhovtnevoye
+Label 1 =  202, 174, 200, 200, 200, 1, Yablonov
+Time Out = 20

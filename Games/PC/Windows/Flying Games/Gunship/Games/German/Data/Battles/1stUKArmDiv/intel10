@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Das XVIII. Korps und die Rheinarmee haben das 28. Belarussische Korps einkreisen können und stoßen nun weiter nach Weißrussland vor. \n Die russischen Gegenangriffe wurden durch das II. Korps gestoppt, während das III. Korps immer noch langsam vor der Hauptoffensive zurückfällt. \n Im Süden beziehen die Reste des V. Korps Stellung, um die 1. Cavalry zu unterstützen.
+Sprite 0 = images\cin10.pcx, 0, 0, 0
+Sprite 1 = images\cir10.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR-SEKTOR
+Map = images\cs5.pcx
+Text = 1, 1, Südlich von uns hat die amerikanische 1st Infantry Division den Kampf gegen die 2. Tamanische Garde in Baranovichi übernommen. \n Die britische 2. Division ist zwischen der 1. und 3. Division in Stellung gegangen. \n Die 3. Division setzt die Angriffe nach Norden fort und hat das 28. Korps eingekreist. \n Im Abschnitt der 1. Division haben die Russen den Kontakt abgebrochen und ziehen nun nach Osten.
+Sprite 0 = images\ukcir10.pcx, 0, 0, 0
+Sprite 1 = images\ukcin10.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 145, 202, 0
+Label 0 = 280, 147, 155, 155, 155, 1, Minsk
+Time Out = 15
+GOTOBRIEFING = 1

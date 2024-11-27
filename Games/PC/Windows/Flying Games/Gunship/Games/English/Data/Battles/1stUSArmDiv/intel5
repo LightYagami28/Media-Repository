@@ -1,0 +1,21 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Across the front, NATO forces are launching the opening rounds of a major counteroffensive. \n 24th Infantry and 3rd Armoured begin attacks in the north to pin down 28th and 5th Corps. US and British 1st Armored Divisions continue attacks to relieve 7th Brigade. \n The Desert Rats launch limited attacks aimed at enlarging the pocket for reinforcements.
+Sprite 0 = images\cin4a.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR SECTOR
+Map = images\cs1.pcx
+Text = 1, 1, The 1st US Armored is continuing to raid the enemy rear areas. \n Intelligence has discovered that the 69th division has been withdrawn from the fighting. \n 3rd Armoured has reached its jump off position for the main attack. \n If today goes well, the US 1st Marine Division plans to land near Kaliningrad, and the 82nd Airborne will drop to reinforce 7th Brigade.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 122, 226, 155, 155, 155, 1, Pisz
+Sprite 0 = images\ukcin6.pcx, 0, 0, 0
+Sprite 1 = images\ukcir6.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 131, 248, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

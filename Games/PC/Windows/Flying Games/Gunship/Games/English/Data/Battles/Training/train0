@@ -1,0 +1,60 @@
+TITLE: Basic Flight
+BATTLEFIELD: czech 118085 23622 0 0 5 24
+OBJECTIVE: BLUE ONEKRADIUS 118085 23622 14 
+SIDE: 0
+MACHINE: 1
+PLATOON: 142  118085 23622 90 2 118085 19500 3 501
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_HALT
+ORDER_ASMBLY_CHKPT
+ADDWAYPT: 118085 23622 
+ORDER_ASMBLY_ASSMBLY
+
+[Title]
+TITLE = BASIC FLIGHT
+
+[Sounds]
+InGame = speech\T111.wav, speech\T112.wav, speech\t113.wav, speech\t114.wav, speech\t115.wav, speech\t116.wav, speech\t117.wav, speech\t118.wav, speech\t119.wav 
+
+[Briefing 0]
+Heading = 9, CYCLIC
+Map = images\back.pcx
+Text = 1, 1, Flight Hints: \n Generally, pushing the stick forward does not cause the helicopter to dive. If you push it all the way forward and hold it, you will start to dive only when you reach maximum power. You will also gain speed. \n Pulling the stick back does not mean you will climb. A common mistake is to pull back on the cyclic when you want to climb, instead you will end up flying backwards! 
+Sound = speech\T101.wav
+Movie = movies\train1.bik, 0, 0, 315, 315
+Time Out = 31
+
+[Briefing 1]
+Heading = 9, COLLECTIVE
+Map = images\back.pcx
+Text = 1, 1, The collective takes a second or two to respond. When descending, add a little up collective just before your reach the altitude you want, then center the collective. \n \n [A] - Altitude Hold autopilot. \n [-] and [=] - adjust the set altitude. \n Disengage by pressing the [A] key again. \n \n [H] - Hover Hold. \n \n It can only be set at very low speeds. Disengage by pressing the [H] key again, or by making a major movement of the Cyclic.
+Sound = speech\T102.wav
+Movie = movies\train2.bik, 0, 0, 315, 315
+Time Out = 21
+
+[Briefing 2]
+Heading = 9, TAIL ROTOR
+Map = images\back.pcx
+Text = 1, 1, Flight Hints: \n \n The Tail Rotor does not change your direction of flight, only the direction you are facing. In order to change your direction of flight, push the cyclic forward. You will begin to fly in the direction you are facing. \n \n Use the CYCLIC either alone or with the tail rotor if you wish to turn like an airplane.
+Sound = speech\T103.wav
+Movie = movies\train3.bik, 0, 0, 315, 315
+Time Out = 27
+
+[Briefing 3]
+Heading = 9, IHADSS
+Map = images\back.pcx
+Text = 1, 1, IHADSS stands for Integrated Helmet And Display Sight System. \n It shows critical flight and weapon information while looking outside the cockpit. \n \n SELECTING WAYPOINTS: \n Press the TAB key to open the communications menu. Select FLIGHT #1, then Waypoint Number, and the number of the waypoint you want to make current. Next select Orders, and Set Current waypoint. Use the TAB key to back out of communications. 
+Sound = speech\T104.wav
+Movie = movies\train4.bik, 0, 0, 315, 315
+Time Out = 45
+
+[Briefing 4]
+Heading = 9, BRIEFING
+Map = images\tmap0.pcx
+Text = 1, 1, In this mission you should become familiar with the Simplified flight mode. Your mission begins at your airfield. The Helicopter is on the runway ready to begin flight. \n Select to fly from inside the pilot's cockpit, [F1], or from the chase mode, [F4]. Push the selected key once the game begins. \n If you become lost, you can return to the airfield by flying toward the chevron under your compass heading.
+Sound = speech\T105.wav
+Time Out = 25
+
+Execute = 1
+

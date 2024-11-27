@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE 
+Map = images\imap.pcx
+Text = 1, 1, Das XVIII. Korps steht zunehmendem Widerstand im nördlichen Sektor gegenüber. BAOR, das II. und das III. Korps führen ihren Vorstoß nach Belorussland und in die Ukraine fort. In der Slowakei hält sich das 8. Ukrainische Armeekorps weiterhin, obwohl die 3. Sturm-Armee den Kontakt nach Osten verloren hat. \n Satteliten-Aufklärung hat neue geschlossene Formationen entdeckt, die sich in Richtung Front bewegen und die NATO zwingen, weiterhin so schnell wie nur möglich vorzustoßen. Es ist noch immer kein Ende in Sicht.
+Sprite 0 = images\cin7.pcx, 0, 0, 0
+Sprite 1 = images\cir7.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs4.pcx
+Text = 1, 1, Das 13. Ukrainische Armeekorps wurde für die letzten paar Tage aus dem Kampf zurückgezogen. Die Reste der 2. Armeegarde und des 32. Ukrainischen Armeekorps halten diesen Sektor, wir haben derzeit allerdings keinen bedeutenden Kontakt mit ihnen. \n Die 10. Panzer-Division wurde zur Überholung zurückbeordert und hinterlässt die 1. und 5. Panzer-Division an der Front. \n Beide Divisionen stoßen weiter vor, während sie versuchen wieder Kontakt mit dem Feind zu gewinnen. Die Aufklärung berichtet kaum von feindlichen Einheiten vor den Korps.
+Sprite 0 = images\gercir7.pcx, 0, 0, 0
+Sprite 1 = images\gercin7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 56, 178, 0
+Time Out = 15
+GOTOBRIEFING = 1

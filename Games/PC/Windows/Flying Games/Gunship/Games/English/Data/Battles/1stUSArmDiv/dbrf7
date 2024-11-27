@@ -1,0 +1,25 @@
+[Win]
+Heading = 9, STATUS
+Map = images\mus7.pcx
+Text = 1, 1, The 24th MRD has begun to withdraw. Good Work. 
+Sprite 0 = images\uahb.pcx, 25, 64, 0
+Sprite 1 = images\utnkb.pcx, 8, 33, 0
+Sprite 2 = images\rtnkb.pcx, 284, 176, 0
+Line 0 = 0, 0, 255, 255, 0, 255, 315
+Label 0 = 215, 250, 0, 0, 255, 1, PL ECHO
+Label 1 = 8, 53,  0, 0, 255, 1, FALCON
+Label 2 = 270, 197, 255, 0, 0, 1, 24th MRD
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\mus7.pcx
+Text = 1, 1, The 4-70th Armored has been overrun and destroyed. \n \n Select "Fly Again" to refly this mission
+Sprite 0 = images\uahb.pcx, 25, 64, 0
+Sprite 1 = images\utnkb.pcx, 8, 33, 0
+Sprite 2 = images\rtnkb.pcx, 284, 176, 0
+Line 0 = 0, 0, 255, 255, 0, 255, 315
+Label 0 = 215, 250, 0, 0, 255, 1, PL ECHO
+Label 1 = 8, 53,  0, 0, 255, 1, FALCON
+Label 2 = 270, 197, 255, 0, 0, 1, 24th MRD
+Time Out = 15

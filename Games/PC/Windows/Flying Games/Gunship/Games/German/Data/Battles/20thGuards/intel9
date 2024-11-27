@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die Nordgruppe handelt die Kapitulation mit der BAOR aus. Die Zentralgruppe setzt den Angriff auf die 5. Panzer-Division fort. Die Südgruppe wurde ein wenig verstärkt und erhielt Nachschub, und beginnt nun ihren Gegenangriff.
+Sprite 0 = images\rcin9.pcx, 0, 0, 0
+Sprite 1 = images\rcir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DER 20. WACHGARDE
+Map = images\cs4.pcx
+Text = 1, 1, Wir wurden verlegt, um die 3. Sturm-Armee in ihrem Gegenangriff gegen die 1. US Cavalry zu unterstützen. Im Süden greift die 8. Ukrainische die deutsche 5. Infanterie an, und die 32. Motorschützen-Division attackiert die 3. US Infantry. 
+Sprite 0 = images\ruscin9.pcx, 0, 0, 0
+Sprite 1 = images\ruscir9.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 74, 276
+Time Out = 15
+GOTOBRIEFING = 1

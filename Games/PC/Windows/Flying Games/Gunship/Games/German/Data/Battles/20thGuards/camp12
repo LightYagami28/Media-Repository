@@ -1,0 +1,152 @@
+TITLE: rus12
+BATTLEFIELD: CZECH 118500 145500 0 0 1 27
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+RED_ENEMIES: 80
+RED_FRIENDLIES: 40
+BLUE_FRIENDLIES: 80
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 1
+MACHINE: 0
+/* HELO HOW ARE YOU */
+PLATOON: 128 122800 138350 270 6 119850 139450 2 6
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 118150 139700
+ORDER_WPT_SETDELAYTIME: 210
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_PRIORITY_ARMOR:
+ADDWAYPT: 115300 140800
+ORDER_WPT_SETDELAYTIME: 210
+ADDWAYPT: 116100 143850
+ORDER_ASMBLY_CHKPT:
+ADDWAYPT: 113500 143900
+ORDER_WPT_SETDELAYTIME: 390
+ORDER_ASMBLY_BATTLEPOS:
+PLATOON: 17 112050 151100 90 0 112950 150600 2 8
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 114100 150600
+ORDER_WPT_SETDELAYTIME: 210
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_PRIORITY_ARMOR:
+ADDWAYPT: 116250 148700
+ORDER_WPT_SETDELAYTIME: 210
+ADDWAYPT: 115000 148750
+ORDER_ASMBLY_CHKPT:
+ADDWAYPT: 113900 145000
+ORDER_WPT_SETDELAYTIME: 390
+ORDER_ASMBLY_BATTLEPOS:
+PLATOON: 9 116200 144650 90 6 116200 144650 0 21
+LOGIC: LOGIC_MAIN_DEFENSE
+PLATOON: 9 120050 148250 90 6 120050 148250 1 21
+LOGIC: LOGIC_MAIN_DEFENSE
+PLATOON: 2 115850 146800 90 6 115850 146800 2 21
+LOGIC: LOGIC_MAIN_DEFENSE
+PLATOON: 1 118500 147450 90 6 118500 147450 2 21
+LOGIC: LOGIC_MIAN DEFENSE
+PLATOON: 1 118200 146800 90 6 118200 146800 2 21
+LOGIC: LOGIC_MIAN DEFENSE
+PLATOON: 2 115750 147950 90 6 115750 147950 2 21
+LOGIC: LOGIC_MIAN DEFENSE
+PLATOON: 7 113550 146800 90 6 113550 146800 2 21
+LOGIC: LOGIC_MIAN DEFENSE
+PLATOON: 79 114450 147900 90 6 114450 147900 2 21
+LOGIC: LOGIC_MIAN DEFENSE
+/* Insert mind control program here */
+PLATOON: 35 122000 139050 270 2 115050 146050 1 17
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 35 123500 140550 270 2 115450 146650 2 17
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 35 125600 142900 270 2 115850 147250 2 17
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 45 122100 140300 270 2 115450 146050 3 17
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 45 125200 144100 270 2 115050 147050 2 17
+LOGIC: LOGIC_MECH_ASSAULT 
+PLATOON: 45 124400 142100 270 2 115850 147050 1 17
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 44 125800 141650 270 2 115350 147250 2 17
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 36 122750 138050 270 2 115050 146350 1 17
+LOGIC: LOGIC_TANK_ASSAULT
+/* FLY NAVY! */
+SUPPORT: 87 108000 110000 270 6 108000 110000 1 30
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\rus12.pcx
+Text = 1, 1, Die Eliminierung der 1. Cavalry ist fast komplett. Wir beginnen nun einen Angriff auf die Kräfte, die Perechin verteidigen. Sie sollen der Task Force Eagle direkte Unterstützung leisten. \n\n RUFZEICHEN: Dragon \n Ziele: \n Attackieren und zerstören Sie die Verteidiger. Leisten Sie für die Task Force Bear Unterstützung. Halten Sie die Verluste auf eigener Seite minimal. 
+Line 0 = 200, 200, 200, 244, 15, 185, 37
+Line 1 = 200, 200, 200, 185, 37, 151, 42 
+Line 2 = 200, 200, 200, 151, 42, 94, 64
+Line 3 = 200, 200, 200, 94, 64, 110, 125
+Line 4 = 200, 200, 200, 110, 125, 58, 126
+Sprite 0 = images\Rahb.pcx, 236, 7, 0
+Sprite 1 = images\Rwpbp.pcx, 177, 14, 0
+Sprite 2 = images\Rwpbp.pcx, 143, 19, 0
+Sprite 3 = images\Rwpbp.pcx, 86, 41, 0
+Sprite 4 = images\Rwpcp.pcx, 102, 102, 0
+Sprite 5 = images\Rwpbp.pcx, 50, 103, 0
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OPERATION
+Map = images\rus12.pcx
+Text = 1, 1, Sie operieren in einem Sektor zwischen den Phasenlinien Alpha und Bravo. Diese Phasenlinien dürfen unter keinen Umständen überquert werden. \n Die Situation ist sehr unklar, und alle Luftfahrzeuge außerhalb ihres Gebietes werden als feindlich betrachtet. \n LUFTABWEHR: Rechnen Sie mit normaler Boden-Luftabwehr.
+Line 0 = 200, 0, 0, 40, 296, 280, 296
+Line 1 = 200, 0, 0, 30, 277, 30, 30
+Label 0 = 33, 50, 200, 0, 0, 1, PL ALPHA
+Label 1 = 60, 295, 200, 0, 0, 1, PL BRAVO
+Label 2 = 89, 197, 200, 200, 200, 1, Perechin
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, VERBÜNDETE STREITKRÄFTE
+Map = images\rus12.pcx
+Text = 1, 1, Zwei schwere Kompanien von der 7. Panzergarde, Rufzeichen Eagle, greifen Richtung Perechin an.
+Sprite 0 = images\rtnkb.pcx, 291, 90, 0
+Sprite 1 = images\rtnkb.pcx, 238, 33, 0
+Sprite 2 = images\rarrowsw.pcx, 213, 48, 0
+Sprite 3 = images\rarrowsw.pcx, 266, 107, 0
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Label 1 = 239, 56, 255, 0, 0, 1, 7GT
+Label 2 = 291, 112, 255, 0, 0, 1, 7GT
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\rus12.pcx
+Text = 1, 1, Die Verteidiger von der 3-8. Cavalry versuchen, den Vormarsch der 3. Shock Army aufzuhalten. Sie gewinnen an Boden, aber Ersatzfahrzeuge zu bekommen, fällt ihnen schwer. Falls dieser Angriff gestoppt werden kann, hat die 1. Cavalry die Möglichkeit, eine Gegenoffensive zu starten.
+Sprite 0 = images\uifvp.pcx, 147, 187, 0
+Sprite 1 = images\uifvp.pcx, 94, 174, 0
+Sprite 2 = images\uifvp.pcx, 178, 203, 0
+Sprite 3 = images\uifvp.pcx, 101, 131, 0
+Label 0 = 101, 152, 0, 0, 255, 1, 3-8 Cav
+Label 1 = 94, 194, 0, 0, 255, 1, 3-8 Cav
+Label 2 = 147, 207, 0, 0, 255, 1, 3-8 Cav
+Label 3 = 178, 224, 0, 0, 255, 1, 3-8 Cav 
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, WETTER
+Map = images\rus12.pcx
+Text = 1, 1, Der Wetterbericht in Ihrem Operations-Sektor meldet heiter bis wolkig, mit einer teilweisen Wolkendecke bei 2.500 Fuß. \n Derzeit findet in Ihrem Sammelgebiet der Sonnenaufgang statt. Die Sichtweite ist wegen Morgennebels auf etwa 1 bis 2 Kilometer beschränkt. \n Die thermischen Bedingungen sind gut, mit Bereichen bis 5 km. \n Leichter Wind kommt mit 1 bis 2 Knoten aus NW.
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 15
+
+
+

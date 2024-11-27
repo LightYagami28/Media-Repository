@@ -1,0 +1,45 @@
+[Win]
+movie = movies\losstwow.bik 
+Heading = 9, SITUATION
+Map = images\RUS2.PCX
+Text = 1, 1, Les unités de première ligne de la 1e division de cavalerie sont en déroute. Toute cette division se replie et nous pouvons reprendre le territoire que nous avions dû lui céder. Nous suivrons dès que la 10e de la garde se sera réorganisée.
+Sprite 0 = images\rahb.pcx, 279, 64, 0
+Sprite 1 = images\rtnkb.pcx, 280, 112, 0
+Sprite 2 = images\rtnkb.pcx, 281, 249, 0
+Sprite 3 = images\rarrowwb.pcx, 255, 115, 0
+Sprite 4 = images\rarrowwb.pcx, 256, 249, 0
+Sprite 5 = images\utnkb.pcx, 35, 217, 0
+Sprite 6 = images\utnkb.pcx, 23, 141, 0
+Sprite 7 = images\uarrowe.pcx, 51, 142, 0
+Sprite 8 = images\uarrowe.pcx, 63, 218, 0
+Label 0 = 23, 165, 0, 0, 200, 1, 1e Cav
+Label 1 = 35, 241, 0, 0, 200, 1, 1e Cav
+Label 2 = 280, 137, 200, 0, 0, 1, 10BG
+Label 3 = 281, 272, 200, 0, 0, 1, 10BG
+Label 4 = 43, 200, 10, 10, 10, 1, LP DELTA
+Label 5 = 44, 201, 200, 0, 0, 1, LP DELTA
+Line 0 = 200, 0, 0, 41, 0, 41, 315
+Time Out = 15
+
+[Lose]
+movie = movies\winonew.bik 
+Heading = 9, SITUATION
+Map = images\RUS2.PCX
+Text = 1, 1, La 10e DB de la garde a été écrasée et fuit en désordre. La 1e de cavalerie a commencé à déferler dans la brèche laissée par la 10e blindée. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\rahb.pcx, 279, 64, 0
+Sprite 1 = images\rtnkb.pcx, 280, 112, 0
+Sprite 2 = images\rtnkb.pcx, 281, 249, 0
+Sprite 3 = images\rarrowwb.pcx, 255, 115, 0
+Sprite 4 = images\rarrowwb.pcx, 256, 249, 0
+Sprite 5 = images\utnkb.pcx, 35, 217, 0
+Sprite 6 = images\utnkb.pcx, 23, 141, 0
+Sprite 7 = images\uarrowe.pcx, 51, 142, 0
+Sprite 8 = images\uarrowe.pcx, 63, 218, 0
+Label 0 = 23, 165, 0, 0, 200, 1, 1e Cav
+Label 1 = 35, 241, 0, 0, 200, 1, 1e Cav
+Label 2 = 280, 137, 200, 0, 0, 1, 10BG
+Label 3 = 281, 272, 200, 0, 0, 1, 10BG
+Label 4 = 43, 200, 10, 10, 10, 1, LP DELTA
+Label 5 = 44, 201, 200, 0, 0, 1, LP DELTA
+Line 0 = 200, 0, 0, 41, 0, 41, 315
+Time Out = 15

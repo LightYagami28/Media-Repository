@@ -1,0 +1,446 @@
+/* Pilot Intercom voice 1 */
+PHRASE:  0 317 1 EOF
+PHRASE:  1 317 2 EOF
+PHRASE:  2 317 3 EOF
+PHRASE:  3 317 4 EOF
+PHRASE:  4 317 5 EOF
+PHRASE:  5 317 6 EOF
+PHRASE:  6 317 7 EOF
+PHRASE:  7 317 8 EOF
+PHRASE:  8 317 9 EOF
+PHRASE:  9 317 10 EOF
+PHRASE:  10 317 11 EOF
+PHRASE:  11 317 12 EOF
+PHRASE:  12 317 13 EOF
+PHRASE:  13 317 14 VAR 23 EOF
+PHRASE:  14 317 VAR 15 VAR 23 EOF
+PHRASE:  15 317 21 VAR 23 EOF
+PHRASE:  16 317 22 VAR 23 EOF
+PHRASE:  17 317 35 EOF
+PHRASE:  18 317 36 EOF
+PHRASE:  19 317 37 EOF
+PHRASE:  20 317 38 EOF
+/* Pilot Radio voice 1 */
+PHRASE:  21 318 VAR 38 52 EOF
+PHRASE:  22 318 61 VAR 61 73 EOF
+PHRASE:  23 318 VAR 29 60 VAR 61 74 EOF
+PHRASE:  24 318 VAR 29 60 VAR 61 75 EOF
+PHRASE:  25 318 VAR 29 60 VAR 61 VAR 76 EOF
+/* Gunner Intercom voice 2 */
+PHRASE:  26 317 80 EOF
+PHRASE:  27 317 81 EOF
+PHRASE:  28 317 82 EOF
+PHRASE:  29 317 83 EOF
+PHRASE:  30 317 84 EOF
+PHRASE:  31 317 85 EOF
+PHRASE:  32 317 86 EOF
+PHRASE:  33 317 87 EOF
+PHRASE:  34 317 88 EOF
+PHRASE:  35 317 89 EOF
+PHRASE:  36 317 90 EOF
+PHRASE:  37 317 91 EOF
+PHRASE:  38 317 92 EOF
+PHRASE:  39 317 93 EOF
+PHRASE:  40 317 94 EOF
+PHRASE:  41 317 95 EOF
+PHRASE:  42 317 96 EOF
+PHRASE:  43 317 97 EOF
+PHRASE:  44 317 98 EOF
+PHRASE:  45 317 99 EOF
+PHRASE:  46 317 100 EOF
+PHRASE:  47 317 VAR 101 EOF
+PHRASE:  48 317 107 EOF
+PHRASE:  49 317 108 EOF
+PHRASE:  50 317 109 EOF
+PHRASE:  51 317 110 EOF
+/* Bitchin Betty voice 3 */
+PHRASE:  52 111 EOF
+PHRASE:  53 112 EOF
+PHRASE:  54  113 EOF
+PHRASE:  55 114 EOF
+PHRASE:  56 115 EOF
+PHRASE:  57 116 EOF
+PHRASE:  58 117 EOF
+PHRASE:  59 118 EOF
+PHRASE:  60 119 EOF
+PHRASE:  61 120 EOF
+PHRASE:  62 121 EOF
+PHRASE:  63 122 EOF
+PHRASE:  64  123 EOF
+PHRASE:  65 124 EOF
+PHRASE:  66 125 EOF
+PHRASE:  67 126 EOF
+PHRASE:  68 127 EOF
+/* Other Helos voice 4 */
+PHRASE:  69 318 128 EOF
+PHRASE:  70 318 VAR 129 VAR 143 147 EOF
+PHRASE:  71 318 VAR 129 VAR 143 148 EOF
+PHRASE:  72 318 129 319 EOF
+PHRASE:  73 318 VAR 129 149 EOF
+PHRASE:  74 318 VAR 129 150 EOF
+PHRASE:  75 318 VAR 129 VAR 151 EOF
+PHRASE:  76 318 VAR 129 VAR 157 EOF
+PHRASE:  77 318 VAR 129 163 EOF
+PHRASE:  78 318 VAR 129 164 EOF
+PHRASE:  79 318 VAR 129 165 EOF
+PHRASE:  80 318 VAR 129 166 EOF
+PHRASE:  81 318 VAR 129 167 EOF
+PHRASE:  82 318 VAR 129 168 EOF
+PHRASE:  83 318 VAR 129 169 VAR 170 VAR 182 EOF
+/* Friendly Ground Forces voice 5 */
+PHRASE:  84 318 VAR 184 VAR 186 210 EOF
+PHRASE:  85 318 VAR 184 VAR 186 211 EOF
+PHRASE:  86 318 VAR 172 VAR 186 VAR 212 EOF
+PHRASE:  87 318 VAR 172 VAR 186 VAR 218 EOF
+PHRASE:  88 318 VAR 172 VAR 186 VAR 224 EOF
+PHRASE:  89 318 VAR 244 266 EOF
+PHRASE:  90 318 VAR 199 VAR 186 VAR 241 EOF
+/* artillery voice 6 */
+PHRASE:  91 318 VAR 239 VAR 270 EOF
+/* Aircraft voice 7 */
+PHRASE:  92 318 VAR 243 276 EOF
+PHRASE:  93 318 VAR 243 277 EOF
+PHRASE:  94 318 VAR 243 278 EOF
+PHRASE:  95 318 VAR 243 279 EOF
+PHRASE:  96 318 VAR 243 280 EOF
+PHRASE:  97 318 VAR 243 281 EOF
+PHRASE:  98 318 VAR 251 319 EOF
+/* battalion HQ voice 8 */
+PHRASE:  99 318 VAR 275 303 EOF
+PHRASE:  100 318 VAR 275 304 EOF
+PHRASE:  101 318 VAR 275 305 EOF
+PHRASE:  102 318 VAR 275 306 EOF
+PHRASE:  103 318 VAR 283 VAR 275 307 EOF
+PHRASE:  104 318 VAR 275 308 EOF
+PHRASE:  105 318 VAR 275 309 EOF
+/* Transport helos voice 9 */
+PHRASE:  106 318 VAR 298 312 EOF
+PHRASE:  107 318 VAR 298 313 EOF
+PHRASE:  108 318 VAR 298 314 EOF
+PHRASE:  109 318 VAR 298 315 EOF
+PHRASE:  110 318 VAR 298 316 EOF
+/* repeat of 0 */
+PHRASE:  111 317 1 EOF
+
+/* File section:  File #,  File name,  Text,  var info */
+FILE: 1  v1001 "Steige"
+FILE: 2  v1002 "Sinke"
+FILE: 3  v1003 "Drehe nach links"
+FILE: 4  v1004 "Drehe nach rechts"
+FILE: 5  v1005 "Seitlich nach links"
+FILE: 6  v1006 "Seitlich nach rechts"
+FILE: 7  v1007 "Erhöhe Tempo"
+FILE: 8  v1008 "Drossele Tempo"
+FILE: 9  v1009 "Stoppe"
+FILE: 10  v1010 "Gehe auf Kurs"
+FILE: 11  v1011 "Unmöglich"
+FILE: 12  v1012 "Umgebungs-Ansicht"
+FILE: 13  v1013 "Instrumenten-Ansicht"
+FILE: 14  v1014 "Flugrichtung"
+FILE: 15  v1015 "Ziel, Panzer."  [TGT  1  
+FILE: 16  v1016 "Ziel, Panzerfahrzeug."  6  2  
+FILE: 17  v1017 "Ziel, Fahrzeug."  3  
+FILE: 18  v1018 "Ziel, Infanterie."  4  
+FILE: 19  v1019 "Ziel, Flugeinheit."  5  
+FILE: 20  v1020 "Ziel, Flugabwehr." ]  6  
+FILE: 21  v1021 "Bogey! Bogey! "
+FILE: 22  v1022 "Bandit, Bandit! "
+FILE: 23  v1023 "Auf 1 Uhr"  [POS  1  
+FILE: 24  v1024 "Auf 2 Uhr" 12  2  
+FILE: 25  v1025 "Auf 3 Uhr"  3  
+FILE: 26  v1026 "Auf 4 Uhr"  4  
+FILE: 27  v1027 "Auf 5 Uhr"  5  
+FILE: 28  v1028 "Auf 6 Uhr"  6  
+FILE: 29  v1029 "Auf 7 Uhr"  7  
+FILE: 30  v1030 "Auf 8 Uhr"  8  
+FILE: 31  v1031 "Auf 9 Uhr"  9  
+FILE: 32  v1032 "Auf 10 Uhr"  10  
+FILE: 33  v1033 "Auf 11 Uhr"  11  
+FILE: 34  v1034 "Auf 12 Uhr" ]  12  
+FILE: 35  v1035 "Wir gehen runter!!!"
+FILE: 36  v1036 "Wähle Rakete"
+FILE: 37  v1037 "Wähle Kanone"
+FILE: 38  v1038 "Wähle Raketen"
+FILE: 39  v1039 "Javelin, "  [CALL  1  
+FILE: 40  v1040 "Mace, " 13  2  
+FILE: 41  v1041 "Flail, "  3  
+FILE: 42  v1042 "Specter, "  4  
+FILE: 43  v1043 "Saber, "  5  
+FILE: 44  v1044 "Sword, "  6  
+FILE: 45  v1045 "Reaper, "  7  
+FILE: 46  v1046 "Dragon, "  8  
+FILE: 47  v1047 "Storm, "  9  
+FILE: 48  v1048 "Ghostrider, "  10  
+FILE: 49  v1049 "Lightning, "  11  
+FILE: 50  v1050 "Raider, "  12  
+FILE: 51  v1051 "Sandy, " ]  13  
+FILE: 52  v1052 "hier Six. Mission wird fortgesetzt. Ende."
+FILE: 53  v1053 "Liberty, "  [CALL  24  F30
+FILE: 54  v1054 "Bulldog, " 7  25  
+FILE: 55  v1055 "Hunter, "  26  
+FILE: 56  v1056 "Dagger, "  27  
+FILE: 57  v1057 "Thumper, "  28  
+FILE: 58  v1058 "Maul, "  29  
+FILE: 59  v1059 "Sledge, " ]  30  
+FILE: 60  v1060 "hier "
+FILE: 61  v1061 "Hier "
+FILE: 62  v1062 "Javelin. "  [CALL  1  
+FILE: 63  v1063 "Mace. " 11  2  
+FILE: 64  v1064 "Flail. "  3  
+FILE: 65  v1065 "Specter. "  4  
+FILE: 66  v1066 "Saber. "  5  
+FILE: 67  v1067 "Sword. "  6  
+FILE: 68  v1068 "Reaper. "  7  
+FILE: 69  v1069 "Dragon. "  8  
+FILE: 70  v1070 "Storm. "  9  
+FILE: 71  v1071 "Ghostrider. "  10  
+FILE: 72  v1072 "Lightning. " ]  11  
+FILE: 73  v1073 "Sieht jemand Überlebende? Over."
+FILE: 74  v1074 "CASREP folgt. Habe eine verlorene Einheit mit Überlebenden. Erbitte SAR-Einsatz. Over."
+FILE: 75  v1075 "CASREP folgt. Habe eine verlorene Einheit. Keine Überlebenden. Ende."
+FILE: 76  v1076 "Feuereinsatz. Stellungsbeschuss. Koordinaten übertragen. V.T. vier Schuss. Over."  [ART  1  
+FILE: 77  v1077 "Feuereinsatz. Sofortige Unterdrückung. Koordinaten übertragen. I.C.M. vier Schuss. Over." 4  2  
+FILE: 78  v1078 "Feuereinsatz. Rauch. Koordinaten übertragen. Vier Schuss. Over."  3  
+FILE: 79  v1079 "Feuereinsatz. Stellungsbeschuss. Koordinaten übertragen. M.L.R.S.-Batterie, zwei Schuss. Over." ]  4  
+FILE: 80  v2001 "Steigen"
+FILE: 81  v2002 "Sinken"
+FILE: 82  v2003 "Nach links drehen"
+FILE: 83  v2004 "Nach rechts drehen"
+FILE: 84  v2005 "Seitlich nach links"
+FILE: 85  v2006 "Seitlich nach rechts"
+FILE: 86  v2007 "Bremsen, bremsen!"
+FILE: 87  v2008 "Stopp!"
+FILE: 88  v2009 "Tempo erhöhen"
+FILE: 89  v2010 "Tempo senken"
+FILE: 90  v2011 "Auf meine Richtung einschwenken"
+FILE: 91  v2012 "Nase rauf"
+FILE: 92  v2013 "Nase runter"
+FILE: 93  v2014 "Scheinwerfer an"
+FILE: 94  v2015 "Scheinwerfer aus"
+FILE: 95  v2016 "Rakete abfeuern"
+FILE: 96  v2017 "Ziel zerstört"
+FILE: 97  v2018 "Wähle Flugkörper"
+FILE: 98  v2019 "Wähle Kanone"
+FILE: 99  v2020 "Wähle Rakete"
+FILE: 100  v2021 "Wähle Ziel"
+FILE: 101  v2022 "Ziele auf Panzer"  [TGT  1  
+FILE: 102  v2023 "Ziele auf Panzerfahrzeug" 6  2  
+FILE: 103  v2024 "Ziele auf Fahrzeug"  3  
+FILE: 104  v2025 "Ziele auf Infanterie"  4  
+FILE: 105  v2026 "Ziele auf Flugheinheit"  5  
+FILE: 106  v2027 "Ziele auf Flugabwehr" ]  6  
+FILE: 107  v2028 "Verkehr"
+FILE: 108  v2029 "Break! Break! Rakete!"
+FILE: 109  v2030 "Nicht möglich"
+FILE: 110  v2031 "Schütze steuert"
+FILE: 111  v3001 "Rotoren ausgefallen"
+FILE: 112  v3002 "Treibstoff-Systeme ausgefallen"
+FILE: 113  v3003 "Verteiler ausgefallen"
+FILE: 114  v3004 "Kanone ausgefallen"
+FILE: 115  v3005 "Waffe ausgefallen"
+FILE: 116  v3006 "Turbine 2 ausgefallen"
+FILE: 117  v3007 "Turbine 1 ausgefallen"
+FILE: 118  v3008 "Triebwerk ausgefallen"
+FILE: 119  v3009 "Hydraulik ausgefallen"
+FILE: 120  v3010 "Antriebswelle ausgefallen"
+FILE: 121  v3011 "Avionik ausgefallen"
+FILE: 122  v3012 "P N V S ausgefallen"
+FILE: 123  v3013 "TADS ausgefallen"
+FILE: 124  v3014 "Waffensteuerung ausgefallen"
+FILE: 125  v3015 "Störsysteme ausgefallen"
+FILE: 126  v3016 "Flügel beschädigt"
+FILE: 127  v3017 "Bingo Treibstoff"
+FILE: 128  v4001 "Break, Break, Rakete!"
+FILE: 129  v4002 "Mayday! Mayday! Es hat uns erwischt!"
+FILE: 130  v4003 "Hier Javelin "  [CALL  1  
+FILE: 131  v4004 "Hier Mace " 13  2  
+FILE: 132  v4005 "Hier Flail "  3  
+FILE: 133  v4006 "Hier Specter "  4  
+FILE: 134  v4007 "Hier Saber "  5  
+FILE: 135  v4008 "Hier Sword "  6  
+FILE: 136  v4009 "Hier Reaper "  7  
+FILE: 137  v4010 "Hier Dragon "  8  
+FILE: 138  v4011 "Hier Storm "  9  
+FILE: 139  v4012 "Hier Ghostrider "  10  
+FILE: 140  v4013 "Hier Lightning "  11  
+FILE: 141  v4014 "Hier Raider "  12  
+FILE: 142  v4015 "Hier Sandy " ]  13  
+FILE: 143  v4016 "Eins, "  [VEH  1  
+FILE: 144  v4017 "Zwei, " 4  2  
+FILE: 145  v4018 "Drei, "  3  
+FILE: 146  v4019 "Vier, " ]  4  
+FILE: 147  v4020 "Haben leichten Schaden genommen. Setzen Einsatz fort. Ende."
+FILE: 148  v4021 "Wir haben schweren Schaden genommen. Ziehen uns zurück. Ende."
+FILE: 149  v4022 "Ziel gesichtet. Ende."
+FILE: 150  v4023 "Ziel zerstört. Ziehen uns zurück."
+FILE: 151  v4024 "SPOTREP: Feindliche Panzer. Raster aktualisiert."  [TGT  1  
+FILE: 152  v4025 "SPOTREP: Feindliche Panzerfahrzeuge. Raster aktualisiert." 6  2  
+FILE: 153  v4026 "SPOTREP: Feindliche Fahrzeuge. Raster aktualisiert."  3  
+FILE: 154  v4027 "SPOTREP: Feindliche Infanterie. Raster aktualisiert."  4  
+FILE: 155  v4028 "SPOTREP: Feindliche Flugeinheit. Raster aktualisiert."  5  
+FILE: 156  v4029 "SPOTREP: Feindliche Flugabwehr. Raster aktualisiert." ]  6  
+FILE: 157  v4030 "KONTAKT: Greifen Panzer an. Raster aktualisiert."  [TGT  1  
+FILE: 158  v4031 "KONTAKT: Greifen Panzerfahrzeuge an. Raster aktualisiert." 6  2  
+FILE: 159  v4032 "KONTAKT: Greifen Fahrzeuge an. Raster aktualisiert."  3  
+FILE: 160  v4033 "KONTAKT: Greifen Infanterie an. Raster aktualisiert."  4  
+FILE: 161  v4034 "KONTAKT: Greifen Flugeinheit an. Raster aktualisiert."  5  
+FILE: 162  v4035 "KONTAKT: Greifen Flugabwehr an. Raster aktualisiert." ]  6  
+FILE: 163  v4036 "Haben schweren Beschuss vom Boden. Brauchen Unterstützung! SOFORT!"
+FILE: 164  v4037 "Wir sind in Position und erwarten weitere Befehle."
+FILE: 165  v4038 "Befehle verstanden. Rücken vor."
+FILE: 166  v4039 "Setzen den Einsatz fort."
+FILE: 167  v4040 "Ich sehe niemanden. Ende."
+FILE: 168  v4041 "Da ist Bewegung an der Absturzstelle."
+FILE: 169  v4042 "Bandit auf "
+FILE: 170  v4043 "ein Uhr."  [POS  1  
+FILE: 171  v4044 "zwei Uhr." 12  2  
+FILE: 172  v4045 "drei Uhr."  3  
+FILE: 173  v4046 "vier Uhr."  4  
+FILE: 174  v4047 "fünf Uhr."  5  
+FILE: 175  v4048 "sechs Uhr."  6  
+FILE: 176  v4049 "sieben Uhr."  7  
+FILE: 177  v4050 "acht Uhr."  8  
+FILE: 178  v4051 "neun Uhr."  9  
+FILE: 179  v4052 "zehn Uhr."  10  
+FILE: 180  v4053 "elf Uhr."  11  
+FILE: 181  v4054 "zwölf Uhr." ]  12  
+FILE: 182  v4055 "Gehen näher ran."  [ACT  1  
+FILE: 183  v4056 "Melden Überflug." 3  2  
+FILE: 184  v4057 "Entfernen uns." ]  3  
+FILE: 185  v5001 "Javelin, "  [CALL  1  
+FILE: 186  v5002 "Mace, " 11  2  
+FILE: 187  v5003 "Flail, "  3  
+FILE: 188  v5004 "Specter, "  4  
+FILE: 189  v5005 "Saber, "  5  
+FILE: 190  v5006 "Sword, "  6  
+FILE: 191  v5007 "Reaper, "  7  
+FILE: 192  v5008 "Dragon, "  8  
+FILE: 193  v5009 "Storm, "  9  
+FILE: 194  v5010 "Ghostrider, "  10  
+FILE: 195  v5011 "Lightning, " ]  11  
+FILE: 196  v5012 "Liberty, "  [CALL  24  F173
+FILE: 197  v5013 "Bulldog, " 4  25  
+FILE: 198  v5014 "Hunter, "  26  
+FILE: 199  v5015 "Dagger, " ]  27  
+FILE: 200  v5016 "hier Lion Six. "  [CALL  14  F187
+FILE: 201  v5017 "hier Falcon Six. " 10  15  
+FILE: 202  v5018 "hier Stone Six. "  16  
+FILE: 203  v5019 "hier Eagle Six. "  17  
+FILE: 204  v5020 "hier Raven Six. "  18  
+FILE: 205  v5021 "hier Bear Six. "  19  
+FILE: 206  v5022 "hier Hawk Six. "  20  
+FILE: 207  v5023 "hier Forward Six. "  21  
+FILE: 208  v5024 "hier Goalie Six. "  22  
+FILE: 209  v5025 "hier Iron Six. " ]  23  
+FILE: 210  v5026 "Erbitten sofortige Luftunterstützung! Wir stehen unter schwerem Beschuss. Over."
+FILE: 211  v5027 "Erbitten Luftunterstützung. Over."
+FILE: 212  v5028 "SPOTREP: Feindliche Panzer. Rasterdaten weitergeleitet. Ende."  [TGT  1  
+FILE: 213  v5029 "SPOTREP: Feindliche Panzerfahrzeuge. Rasterdaten weitergeleitet. Ende." 6  2  
+FILE: 214  v5030 "SPOTREP: Feindliche Fahrzeuge. Rasterdaten weitergeleitet. Ende."  3  
+FILE: 215  v5031 "SPOTREP: Feindliche Infanterie. Rasterdaten weitergeleitet. Ende."  4  
+FILE: 216  v5032 "SPOTREP: Feindliche Flugeinheiten. Rasterdaten weitergeleitet. Ende."  5  
+FILE: 217  v5033 "SPOTREP: Feindliche Flugabwehr. Rasterdaten weitergeleitet. Ende." ]  6  
+FILE: 218  v5034 "KONTAKT: Feindliche Panzer. Rasterdaten weitergegeben. Ende."  [TGT  1  
+FILE: 219  v5035 "KONTAKT: Feindliche Panzerfahrzeuge. Rasterdaten weitergegeben. Ende." 6  2  
+FILE: 220  v5036 "KONTAKT: Feindliche Fahrzeuge. Rasterdaten weitergegeben. Ende."  3  
+FILE: 221  v5037 "KONTAKT: Feindliche Infanterie. Rasterdaten weitergegeben. Ende."  4  
+FILE: 222  v5038 "KONTAKT: Feindliche Flugeinheit. Rasterdaten weitergegeben. Ende."  5  
+FILE: 223  v5039 "KONTAKT: Feindliche Flugabwehr. Rasterdaten weitergegeben. Ende." ]  6  
+FILE: 224  v5040 "Einsatzziel Hammer gesichert. Ende."  [OBJ  1  
+FILE: 225  v5041 "Einsatzziel Shield gesichert. Ende." 3  2  
+FILE: 226  v5042 "Einsatzziel Anvil gesichert. Ende." ]  3  
+FILE: 227  v5043 "Thumper, "  [CALL  28  F200
+FILE: 228  v5044 "Maul, " 3  29  
+FILE: 229  v5045 "Sledge, " ]  30  
+FILE: 230  v5046 "hier "
+FILE: 231  v5047 "Lion. "  [CALL  14  F218
+FILE: 232  v5048 "Falcon. " 10  15  
+FILE: 233  v5049 "Stone. "  16  
+FILE: 234  v5050 "Eagle. "  17  
+FILE: 235  v5051 "Raven. "  18  
+FILE: 236  v5052 "Bear. "  19  
+FILE: 237  v5053 "Hawk. "  20  
+FILE: 238  v5054 "Forward. "  21  
+FILE: 239  v5055 "Goalie. "  22  
+FILE: 240  v5056 "Iron. " ]  23  
+FILE: 241  v5057 "Feuereinsatz. Stellungsbeschuss. Koordinaten übertragen. V. T. vier Schuss. Over."  [ART  1  
+FILE: 242  v5058 "Feuereinsatz. Sofortige Unterdrückung. Koordinaten übertragen. I.C.M. vier Schuss. Over." 4  2  
+FILE: 243  v5059 "Feuereinsatz. Rauch. Koordinaten übertragen. Vier Schuss. Over."  3  
+FILE: 244  v5060 "Feuereinsatz. Stellungsbeschuss. Koordinaten übertragen. M.L.R.S.-Batterie, zwei Schuss. Over." ]  4  
+FILE: 245  v5061 "Javelin! "  [CALL  1  
+FILE: 246  v5062 "Mace! " 11  2  
+FILE: 247  v5063 "Flail! "  3  
+FILE: 248  v5064 "Specter! "  4  
+FILE: 249  v5065 "Saber! "  5  
+FILE: 250  v5066 "Sword! "  6  
+FILE: 251  v5067 "Reaper! "  7  
+FILE: 252  v5068 "Dragon! "  8  
+FILE: 253  v5069 "Storm! "  9  
+FILE: 254  v5070 "Ghostrider! "  10  
+FILE: 255  v5071 "Lightning! " ]  11  
+FILE: 256  v5072 "Hier Lion Six! "  [CALL  14  F243
+FILE: 257  v5073 "Hier Falcon Six! " 10  15  
+FILE: 258  v5074 "Hier Stone Six! "  16  
+FILE: 259  v5075 "Hier Eagle Six! "  17  
+FILE: 260  v5076 "Hier Raven Six! "  18  
+FILE: 261  v5077 "Hier Bear Six! "  19  
+FILE: 262  v5078 "Hier Hawk Six! "  20  
+FILE: 263  v5079 "Hier Forward Six! "  21  
+FILE: 264  v5080 "Hier Goalie Six! "  22  
+FILE: 265  v5081 "Hier Iron Six! " ]  23  
+FILE: 266  v5082 "FEUER EINSTELLEN! Sie haben eine freundliche Einheit getroffen! Wiederhole: FEUER EINSTELLEN!"
+FILE: 267  v6001 "Hier Thumper. " [CALL 28 F240
+FILE: 268  v6002 "Hier Maul. " 3 29
+FILE: 269  v6003 "Hier Sledge. " ] 30
+FILE: 270  v6004 "Feuereinsatz. Stellungsbeschuss. Koordinaten erhalten. V. T.-Einsatz. Vier Schuss. Ende."  [ART  1  
+FILE: 271  v6005 "Feuereinsatz. Sofortige Unterdrückung. Koordinaten erhalten. I.C.M. Vier Schuss. Ende." 4  2  
+FILE: 272  v6006 "Feuereinsatz. Rauch. Koordinaten erhalten. Raucheinsatz. Vier Schuss. Ende."  3  
+FILE: 273  v6007 "Feuereinsatz. Stellungsbeschuss. Koordinaten erhalten. M.L.R.S. Zwei Schuss. Ende." ]  4  
+FILE: 274  v7001 "Hier Marlin. "  [CALL  31  F244
+FILE: 275  v7002 "Hier Arrow. " 2]  32  
+FILE: 276  v7003 "Gehen auf Kurs. Ende."
+FILE: 277  v7004 "Im Anflug. Ende."
+FILE: 278  v7005 "Zielanflug. Ende."
+FILE: 279  v7006 "Greifen an. Ende."
+FILE: 280  v7007 "Ziel vernichtet, wir verschwinden. Ende."
+FILE: 281  v7008 "Nicht übertreiben. R T B. Ende."
+FILE: 282  v7009 "MAYDAY, MAYDAY! Hier ist Marlin! Sind getroffen, sind getroffen!"  [CALL  31  F252
+FILE: 283  v7010 "MAYDAY, MAYDAY! Hier ist Arrow!  Wir sind getroffen! Wir sind getroffen!" 2]  32  
+FILE: 284  v8001 "Javelin, "  [CALL  1  
+FILE: 285  v8002 "Mace, " 11  2  
+FILE: 286  v8003 "Flail, "  3  
+FILE: 287  v8004 "Specter, "  4  
+FILE: 288  v8005 "Saber, "  5  
+FILE: 289  v8006 "Sword, "  6  
+FILE: 290  v8007 "Reaper, "  7  
+FILE: 291  v8008 "Dragon, "  8  
+FILE: 292  v8009 "Storm, "  9  
+FILE: 293  v8010 "Ghostrider, "  10  
+FILE: 294  v8011 "Lightning, " ]  11  
+FILE: 295  v8012 "Alle Liberty-Einheiten, "  [CALL  24  F272
+FILE: 296  v8013 "Alle Bulldog-Einheiten, " 4  25  
+FILE: 297  v8014 "Alle Hunter-Einheiten, "  26  
+FILE: 298  v8015 "Alle Dagger-Einheiten, " ]  27  
+FILE: 299  v8016 "Hier Liberty Six. "  [CALL  24  F276
+FILE: 300  v8017 "Hier Bulldog Six. " 4  25  
+FILE: 301  v8018 "Hier Hunter Six. "  26  
+FILE: 302  v8019 "Hier Dagger Six. " ]  27  
+FILE: 303  v8020 "Im Moment ist keine Luftunterstützung verfügbar, ihr seid auf euch allein gestellt. Ende."
+FILE: 304  v8021 "Die Artillerie ist im Einsatz, melden uns zurück. Ende."
+FILE: 305  v8022 "Artillerie einsatzbereit und zu eurer Verfügung. Ende."
+FILE: 306  v8023 "SAR-Team wird zusammengestellt. Ende."
+FILE: 307  v8024 "Laut Radar befinden Sie sich außerhalb Ihres Einsatzgebietes. Kehren Sie SOFORT in Ihren Sektor zurück! Wiederhole, kehren Sie SOFORT in Ihren Sektor zurück! Ende."
+FILE: 308  v8025 "FRAGO: Missionsziele erreicht. Zur Basis zurückkehren. Ende."
+FILE: 309  v8026 "FRAGO: Alle Einheiten abbrechen und auf weitere Befehle warten. Ende."
+FILE: 310  v9001 "Hier Sandy. "  [CALL  12  F299
+FILE: 311  v9002 "Hier Raider. " 2]  13  
+FILE: 312  v9003 "Missionsziel gesichtet. Beginnen mit Bergung. Ende."
+FILE: 313  v9004 "Besatzung meldet Feindaktivitäten im Aufnahmegebiet. Erbitte Unterstützung bei Bergung. Over."
+FILE: 314  v9005 "Bergung abgeschlossen. R T B. Ende."
+FILE: 315  v9006 "Befinden uns in der LZ. Ende."
+FILE: 316  v9007 "LZ ist heiß. Erbitten Unterstützung. Over."
+FILE: 317  static1 "" Intercom squelch
+FILE: 318  static2  "" Radio squelch
+FILE: 319  staticwhite "" static
+
+

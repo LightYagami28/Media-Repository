@@ -1,0 +1,91 @@
+TITLE: Schießstand
+BATTLEFIELD: CZECH 120750 27000 0 0 5 24
+RUNAI: RED
+SIDE: 0
+
+PLATOON: 142 126950 33500 270 0 123350 32500 1 3
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_ARMOR:
+ORDER_ADV_SLOW:
+ADDWAYPT: 126700 27900
+ADDWAYPT: 125750 24100
+ADDWAYPT: 122800 25400
+ADDWAYPT: 118500 29050
+PLATOON: 103 125650 21400 90 0 125650 23550 0 14
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_SOUTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 124000 25700
+ADDWAYPT: 122850 28050
+ADDWAYPT: 121800 31650
+ADDWAYPT: 121350 34300
+ORDER_ASMBLY_NORTH:
+BLUE_TARGET: 25
+PLATOON: 103 114400 24650 90 0 114400 24650 1 14
+BLUE_TARGET: 25
+PLATOON: 141 118400 24750 90 0 118400 24750 0 14
+BLUE_TARGET: 25
+PLATOON: 141 123300 30100 180 0 123300 30100 1 14
+BLUE_TARGET: 25
+PLATOON: 105 118009 23522 180 0 118009 23522 2 14
+BLUE_TARGET2: 28
+PLATOON: 125 118088 23626 90 6 118088 23626 0 14
+BLUE_TARGET2: 28
+PLATOON: 124 117931 23579 90 6 117931 23579 0 14
+BLUE_TARGET2: 28
+SUPPORT: 82 127400 31550 90 0 127400 31550 2 30
+
+[Title]
+TITLE = SCHIESS- STAND
+
+
+[Briefing 0]
+Heading = 9, ZIELE
+Map = images\Tmap3.pcx
+Text = 1, 1, Willkommen auf dem Schießstand. Heute werden Sie eine Vielzahl von Zielen unter Ausnutzung Ihres gesamten Waffenarsenals angreifen. Die meisten der Bodenfahrzeuge sind Ziele, es befindet sich jedoch auch eine scharfe Luftabwehr-Einheit in der nähe des Flugplatzes. Alle Ziel-Platoons sind auf der Karte angezeigt. 
+Sprite 0 = images\rtnkp.pcx, 246, 34, 0
+Sprite 1 = images\rtnkp.pcx, 24, 104, 0
+Sprite 2 = images\rifvp1.pcx, 104, 106, 0
+Sprite 3 = images\rifvp1.pcx, 202, 213, 0
+Sprite 4 = images\uahb.pcx, 274, 280, 0
+Sprite 5 = images\rarrows.pcx, 252, 57, 0
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, HINWEISE
+Map = images\Tmap3.pcx
+Text = 1, 1, Es gibt mehrere Platoons aus Panzern und BMPs. Dabei handelt es sich um Ziele, die nicht zurückfeuern. Eines der Panzer-Platoons bewegt sich in Richtung des südlichen Kartenrands. Die Richtung wird durch den Pfeil unterhalb des Symbols angezeigt. Der Flugplatz verfügt über ein Flugabwehr-Geschütz, das die Hubschrauber auf dem Flugfeld verteidigt. Üben Sie die Verwendung von Raketen und Bordgeschütz an den stationären Hubschraubern.
+Sprite 0 = images\rtnkp.pcx, 249, 39, 0
+Sprite 1 = images\rtnkp.pcx, 24, 104, 0
+Sprite 2 = images\rifvp1.pcx, 104, 106, 0
+Sprite 3 = images\rifvp1.pcx, 202, 213, 0
+Sprite 4 = images\uahb.pcx, 274, 280, 0
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, ARTILLERIE
+Map = images\Tmap3.pcx
+Text = 1, 1, Ihnen wurde auch eine Artillerie-Stellung zugewiesen. Für die Artillerie- Unterstützung müssen Sie einen Zielreferenzpunkt (TRP) setzen, indem Sie Ihren Sichtbereich auf die zu bombardierende Region fixieren und dann die Taste 7 in der oberen Reihe Ihrer Tastatur drücken. Drücken Sie anschließend TAB, wählen Sie 'Unterstützung' und danach die Artillerie-Einheit (Sie haben in diesem Fall nur eine Wahlmöglichkeit). Denken Sie daran, dass auf einem realen Gefechtsfeld Bodeneinheiten bei der Anforderung von Artillerie- Unterstützung Vorrang vor Lufteinheiten haben.
+Sprite 0 = images\uspgb.pcx, 284, 243, 0
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, WETTER
+Map = images\Tmap3.pcx
+Text = 1, 1, Das Wetter in Ihrem Operationssektor ist wolkenlos. \n Die Sichtweite ist unbegrenzt. \n Thermale Bedingungen sind mit Bereichen bis zu 6 km gut. \n Es ist windstill.
+Movie = movies\clear.bik, 0, 0, 315, 315
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, NICHT BENUTZT
+Map = images\Tmap3.pcx
+Text = 1, 1, 
+Time Out = 1
+Execute = 1

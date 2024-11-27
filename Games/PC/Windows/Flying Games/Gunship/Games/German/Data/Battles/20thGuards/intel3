@@ -1,0 +1,21 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die 20. Armeegarde bewegt sich nach Zentral-Polen. \n Die 2. Armeegarde stemmt sich gegen harten Widerstand im Lublin-Sektor, und erzielt nur kleine Gewinne gegen die Deutschen. \n Die Nordgruppe stößt weiter gegen Danzig und Weichsel vor, trifft nur auf schwachen Widerstand. \n Die Südgruppe verliert langsam Boden gegen die 1. Cavalry Division. 
+Sprite 0 = images\rcin2.pcx, 0, 0, 0
+Sprite 1 = images\rcir2.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, 20. GARDE
+Map = images\cs1.pcx
+Text = 1, 1, Die 2. Tamanische Garde hat die 1. US Armored in Gefechte verwickelt. Die 34. Motorschützen-Division der 6. Armee hat die 20. British Armoured abgeschnitten und in eine offene Feldschlacht verwickelt. Die 6. Panzerarmee bringt den Rest der britischen Streitkräfte nach Norden.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustow
+Label 3 = 183, 25, 155, 155, 155, 1, Grajewo
+Label 4 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ruscin2.pcx, 0, 0, 0
+Sprite 1 = images\ruscir2.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 92, 244, 0
+Time Out = 15
+GOTOBRIEFING = 1

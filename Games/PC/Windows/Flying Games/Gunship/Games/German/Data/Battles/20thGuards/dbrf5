@@ -1,0 +1,22 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\rus5.pcx
+Text = 1, 1, Gratulation. Mit der Zerstörung der inneren Artillerie des Feindes in diesem Gebiet wird die kommende Offensive wesentlich einfacher durchzuführen sein, als bisher erwartet. Ruhen Sie sich aus, denn die kommende Schlacht wird schwierig werden.
+Sprite 0 = images\uhqb.pcx, 133, 36, 0
+Sprite 1 = images\uspgb.pcx, 188, 48, 0
+Sprite 2 = images\uspgb.pcx, 183, 91, 0
+Sprite 3 = images\uspgb.pcx, 151, 71, 0
+Sprite 4 = images\rahb.pcx, 187, 304, 0
+Sprite 5 = images\robjh.pcx, 152, 65, 0
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\rus5.pcx 
+Text = 1, 1, In der kommenden Schlacht werden wir höchstwahrscheinlich unter dem Druck der Artillerie liegen, welche die Amerikaner wegen Ihres Versagens gegen uns einsetzen können. \n \n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen. 
+Sprite 0 = images\robj.pcx, 152, 65, 0
+Sprite 1 = images\rahb.pcx, 187, 304, 0
+Sprite 2 = images\robjh.pcx, 152, 65, 0
+Time Out = 15
+
+

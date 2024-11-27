@@ -1,0 +1,174 @@
+TITLE: cav1
+BATTLEFIELD: CZECH 135000 138750 0 0 6 24
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+OBJECTIVE: BLUE TWOKRADIUS 138200 139800 14
+BLUE_ENEMIES: 60
+RED_FRIENDLIES: 60
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 0
+
+/* friendly helo */
+PLATOON: 21 128700 145100 90 0 132050 144450 0 1
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+ORDER_ADV_MED:
+ADDWAYPT: 134150 143750
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 137200 142500
+ORDER_WPT_SETDELAYTIME: 90
+ADDWAYPT: 139900 141250
+ORDER_WPT_SETDELAYTIME: 480
+ORDER_ASMBLY_PATROL:
+/* assault */
+PLATOON: 108 120050 130100 90 0 120051 130101 1 12
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 480
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 128050 132100
+ADDWAYPT: 138850 139850
+ORDER_ASMBLY_LZ:
+ADDWAYPT: 127350 131800
+ORDER_ASMBLY_ASSMBLY:
+ORDER_ADV_FAST:
+BLUE_PROTECT: 48
+PLATOON: 108 120550 130100 90 0 120551 130101 2 12
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 480
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 127550 133100
+ADDWAYPT: 138600 139900
+ORDER_ASMBLY_LZ:
+ADDWAYPT: 127450 133800
+ORDER_ASMBLY_ASSMBLY:
+ORDER_ADV_FAST:
+BLUE_PROTECT: 48
+/* enemy helo */
+PLATOON: 63 138800 139850 270 0 138600 141450 2 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 137400 139900
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 136850 137350
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 140050 138150
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 141150 139850
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 139000 139800
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_PATROL:
+/* ground battery */
+PLATOON: 43 132950 140600 270 0 132950 140600 2 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_SOUTH:
+ORDER_ADV_SLOW:
+PLATOON: 43 140050 139100 270 0 140050 139100 0 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_SOUTH:
+ORDER_ADV_SLOW:
+/* sam batterys */
+PLATOON: 70 136300 140100 270 8 136300 140100 0 19
+BLUE_TARGET2: 34
+PLATOON: 70 138600 138000 270 8 138600 138000 1 19
+BLUE_TARGET2: 34
+/* airfield */
+PLATOON: 105 138256 139772 0 0 138256 139772 1 19
+PLATOON: 105 138256 139684 0 0 138256 139684 1 19
+PLATOON: 125 138254 140063 0 7 138254 139063 0 19
+PLATOON: 69 138458 139894 270 6 138458 139894 0 19
+PLATOON: 120 138610 139582 225 2 138610 139582 1 19
+PLATOON: 120 138038 140206 45 2 138038 140206 1 19
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\muc1.pcx
+Text = 1, 1, Provide Security for the Air Assault on Objective Anvil. The transports are about 5 minutes out. Intelligence reports that the surrounding SAM sites in the area are still active. Destroy them. \n CALLSIGNS: \n Flight #1 Javelin. \n Flight #2 Raider \n OBJECTIVES: \n Suppress any air defense units covering the LZs. Minimize casualties to Raider. \n Destroy any enemy units within 2km of the objective. 
+Line 0 = 200, 200, 200, 35, 288, 102, 275
+Line 1 = 200, 200, 200, 102, 275, 144, 261
+Line 2 = 200, 200, 200, 144, 261, 205, 236
+Line 3 = 200, 200, 200, 205, 236, 259, 211
+Sprite 0 = images\uobja.pcx, 217, 163, 0
+Sprite 1 = images\uahb.pcx, 27, 280, 0
+Sprite 2 = images\uwpbp.pcx, 94, 252, 0
+Sprite 3 = images\uwpbp.pcx, 136, 238, 0
+Sprite 4 = images\uwpbp.pcx, 197, 213, 0
+Sprite 5 = images\uwpbp.pcx, 251, 188, 0
+Label 0 = 258, 176, 200, 200, 200, 1, Snina
+Label 1 = 120, 209, 200, 200, 200, 1, Hunenne
+Time Out = 20
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\muc1.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n AIR DEFENSE: \n There are two fixed SAM batteries overlooking  the airfield, as well as fixed gun emplacements. \n There is a possibility of other mobile units in the area. 
+Sprite 0 = images\rsam6b.pcx, 67, 68, 0
+Sprite 1 = images\rsam6b.pcx, 113, 26, 0
+Line 0 = 0, 0, 255, 0, 15, 315, 15 
+Line 1 = 0, 0, 255, 0, 300, 315, 300
+Label 0 = 81, 23, 0, 0, 255, 1, PL ALPHA
+Label 1 = 81, 288, 0, 0, 255, 1, PL BRAVO
+Label 3 = 258, 176, 200, 200, 200, 1, Snina
+Label 4 = 120, 209, 200, 200, 200, 1, Hunenne 
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\muc1.pcx
+Text = 1, 1,There are no friendly ground forces in the area.
+Label 0 = 258, 176, 200, 200, 200, 1, Snina
+Label 1 = 120, 209, 200, 200, 200, 1, Hunenne 
+Time Out = 10
+
+[Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\muc1.pcx
+Text = 1, 1, The situation is extremely fluid. There should be no combat units in the target area, only scattered rear echelon units and garrison forces in the towns. \n Be alert for helo patrols and returning Strike missions.
+Sprite 0 = images\rsam6b.pcx, 67, 68, 0
+Sprite 1 = images\rsam6b.pcx, 113, 26, 0
+Sprite 2 = images\rifvp1.pcx, 254, 158, 0
+Sprite 3 = images\rifvp1.pcx, 115, 189, 0
+Label 0 = 258, 176, 200, 200, 200, 1, Snina
+Label 1 = 120, 209, 200, 200, 200, 1, Hunenne 
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, WEATHER
+Map = images\muc1.pcx
+Text = 1, 1, The weather in your sector of operations is partly cloudy, with a partial cloud layer at 2500 feet. \n Visibility is unlimited. \n Thermal conditions are good, with ranges up to 6 kilometers. \n Winds are light out of the N, at 1 to 2 knots.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Label 0 = 258, 176, 200, 200, 200, 1, Snina
+Label 1 = 120, 209, 200, 200, 200, 1, Hunenne 
+Time Out = 10
+
+
+

@@ -1,0 +1,110 @@
+TITLE: Pilot Weapons
+BATTLEFIELD: czech 118085 23622 0 0 5 24
+OBJECTIVE: BLUE ONEKRADIUS 118085 23622 14 
+BLUE_ENEMIES: 100
+SIDE: 0
+MACHINE: 1
+PLATOON: 142 118085 23622 90 2 113500 24603 101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_PRIORITY_HQ:
+ADDWAYPT: 114900 20500
+ORDER_ASMBLY_BATTLEPOS
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_PRIORITY_HQ:
+ADDWAYPT: 119200 25700
+ORDER_ASMBLY_BATTLEPOS
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_PRIORITY_ARMOR:
+ADDWAYPT: 118085 23622
+ORDER_ASMBLY_LZ
+PLATOON: 141 112500 23902 270 6 112500 23902 3 1902
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 141 112300 23902 270 6 112300 23902 3 1907
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 68 115000 18000 180 6 115000 18000 3 1903
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 122 115050 18050 90 8 115050 18050 3 1904
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 103 120085 28622 0 7 120085 28622 3 1905
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 103 119085 29622 0 7 119085 26622 3 1906
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+
+
+[Title]
+TITLE = PILOT WEAPONS
+
+[Sounds]
+InGame = speech\T211.wav, speech\T212.wav, speech\T213.wav, speech\T214.wav, speech\T215.wav, speech\t116.wav, speech\t117.wav, speech\t119.wav 
+
+[Briefing 0]
+Heading = 9, SELECTION
+Map = images\back.pcx
+Text = 1, 1, Weapon Selection keys: \n \n [F5] - Cannon \n [F6] - Rockets \n [F7] - AT Missiles \n [F8] - Air to Air Missiles \n \n [F6] cycles between the three rocket zones, A, B and C. Each zone can be loaded with a different type of rocket. \n \n [F7] cycles through the different types of anti-tank missile carried. In most missions, you will only carry a single type of missile.
+Sound = speech\T201.wav
+Movie = movies\train21.bik, 0, 0, 315, 315
+Time Out = 46
+
+[Briefing 1]
+Heading = 9, IHADSS SYMBOLS
+Map = images\back.pcx
+Text = 1, 1, In Line of Sight mode the cannon and rocket reticle appears in the center of the IHADSS and moves with your view. \n In TADS mode, the reticle will move with the gunner's search, and will show inside the locked target box. \n \n If the current weapon can fire, the reticle will be solid. If the weapon can not fire, the reticle will be dashed. You will also receive a "CONSTRAINT" warning. This means the weapon is out of arc.
+Movie = movies\train22.bik, 0, 0, 315, 315
+Sound = speech\T202.wav
+Time Out = 41
+
+[Briefing 2]
+Heading = 9, LOS MODE
+Map = images\back.pcx
+Text = 1, 1, LOS Mode keys: \n \n  Hat switch allows you to look around while still flying. \n \n Joystick #2 Button allows you to look around using the joystick. \n \n [B] Weapon mode. \n [I] IHADSS modes. \n [T] Thermal Mode. \n [Z] Zoom in. \n [X] Zoom out. \n \n [F5] - Cannon \n [F6] - Rockets \n [F7] - AT Missiles \n [F8] - Air to Air Missiles 
+Sound = speech\T203.wav
+Movie = movies\train23.bik, 0, 0, 315, 315
+Time Out = 54
+
+[Briefing 3]
+Heading = 9, TADS MODE
+Map = images\back.pcx
+Text = 1, 1, TADS Mode keys: \n \n [B] Weapon mode. \n [L] Lock Target. \n [J] Previous Target. \n [K] Next Target. \n \n [F5] - Cannon \n [F6] - Rockets \n [F7] - AT Missiles \n [F8] - Air to Air Missiles 
+Sound = speech\T204.wav
+Movie = movies\train24.bik, 0, 0, 315, 315
+Time Out = 33
+
+[Briefing 4]
+Heading = 9, BRIEFING
+Map = images\tmap1.pcx
+Text = 1, 1, Battle Position #1 has two platoons of BMPs to the west and southwest. \n Battle Position #2 has several trucks and supply tent to the north. \n Battle Position #3 has two platoons of tanks 4 kilometers to the south. \n Press [ESC] to exit the game.
+Sound = speech\T105.wav
+Sprite 0 = images\uahb.pcx, 154, 157, 0
+Sprite 1 = images\uwpbp.pcx, 93, 82, 0
+Sprite 2 = images\uwpbp.pcx, 70, 172, 0
+Sprite 3 = images\uwpbp.pcx, 187, 188, 0
+Sprite 4 = images\rtnkp.pcx, 199, 275, 0
+Sprite 5 = images\rtnkp.pcx, 177, 286, 0
+Sprite 6 = images\rifvp1.pcx, 46, 179, 0
+Sprite 7 = images\rsupb.pcx, 103, 44, 0
+Line 0 = 155, 155, 155, 162, 166, 78, 195
+Line 1 = 155, 155, 155, 78, 195, 101, 105
+Line 2 = 155, 155, 155, 101, 105, 194, 211
+Label 0 = 89, 176, 10, 10, 10, 1, #1
+Label 1 = 88, 175, 99, 99, 208, 1, #1
+Label 2 = 112, 86, 10, 10, 10, 1, #2
+Label 3 = 111, 85, 99, 99, 208, 1, #2
+Label 4 = 206, 192, 10, 10, 10, 1, #3
+Label 5 = 205, 191, 99, 99, 208, 1, #3
+Time Out = 25
+Execute = 1

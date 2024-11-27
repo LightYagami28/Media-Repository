@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Au nord, le XVIIIe corps et la BAOR ont lancé une offensive visant à encercler la 6e armée blindée. L'attaque des IIe et IIIe corps a été stoppée par une violente contre-attaque du Groupe de Forces Centre. Au sud, la 1e division de cavalerie est engagée dans de farouches combats contre la 3e armée de choc, tandis que le 8e corps d'armée ukrainien s'est rendu aujourd'hui à midi. 
+Sprite 0 = images\cin9.pcx, 0, 0, 0
+Sprite 1 = images\cir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du IIe CORPS
+Map = images\cs4.pcx
+Text = 1, 1, Au nord de nos positions, la 1e DB américaine est attaquée par les 13e et 65e corps ukrainiens. \n La 1e Panzer est attaquée par une 2e armée de la garde affaiblie, et la 5e Panzer par un 1er corps ukrainien en relativement bonne forme. \n Le 32e corps ukrainien a été retiré du front.
+Sprite 0 = images\gercir9.pcx, 0, 0, 0
+Sprite 1 = images\gercin9.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 57, 169, 0
+Time Out = 15
+GOTOBRIEFING = 1

@@ -1,0 +1,18 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, XVIII Corps and BAOR have succeeded in encircling the 28th Belarusns Corps, and are continuing our drive into Belarus. \n The Russian counterattack has stalled in front of II Corps, while III Corps is still slowly falling back in front of the main offensive. \n In the south, The rest of V Corps is moving into line to support 1st Cavalry division.
+Sprite 0 = images\cin10.pcx, 0, 0, 0
+Sprite 1 = images\cir10.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR SECTOR
+Map = images\cs5.pcx
+Text = 1, 1, To our south, US 1st Infantry Division has taken over the battle against 2nd Taman Guards in Baranovichi. \n The British 2nd Division has moved into line between 1st and 3rd divisions. \n 3rd Division continues to attack north, and has encircled the 28th Corps. \n in 1st Division sector, the Russians have broken contact and are moving east.
+Sprite 0 = images\ukcir10.pcx, 0, 0, 0
+Sprite 1 = images\ukcin10.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 145, 202, 0
+Label 0 = 280, 147, 155, 155, 155, 1, Minsk
+Time Out = 15
+GOTOBRIEFING = 1
+

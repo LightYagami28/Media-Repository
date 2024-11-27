@@ -1,0 +1,20 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\Muc8.pcx
+Text = 1, 1, Congratulations! The 106th Guards Airborne has had its teeth pulled to the point of non-effectiveness. With both of its front line airfields gone they will be hard pressed to support front line troops in combat from now on.
+Sprite 0 = images\uobjh.pcx, 223, 52, 0
+Sprite 1 = images\uahb.pcx, 1, 223, 0
+Sprite 2 = images\rsam6b.pcx, 218, 33, 0
+Sprite 3 = images\rifvb.pcx, 218, 33, 0
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc8.pcx 
+Text = 1, 1, With your failure to take out the airfield, the 106th still has a close in airfield to launch attacks from. We are now so close that we can expect non-stop harassment attacks and raids. We now have to return to defensive operations. \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\uobjh.pcx, 223, 52, 0
+Sprite 1 = images\uahb.pcx, 1, 223, 0
+Sprite 2 = images\rsam6b.pcx, 218, 33, 0
+Sprite 3 = images\rifvb.pcx, 218, 33, 0
+Time Out = 15
+

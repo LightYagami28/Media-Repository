@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, In the north, XVIII Corps and BAOR have launched an offensive designed to encircle the 6th Tank Army. II and III Corps attack has stalled in the face of a major counter attack by the Central Group of forces. In the south, 1st Cavalry division is engaged in bitter fighting with 3rd Shock Army, while the 8th Ukrainian Army Corps surrendered at noon today.
+Sprite 0 = images\cin9.pcx, 0, 0, 0
+Sprite 1 = images\cir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, II Corps SECTOR
+Map = images\cs4.pcx
+Text = 1, 1, To our north, the US 1st Armored is under attack from both the 65th and 13th Ukrainian corps. \n 1st Panzer is under attack from a weakened 2nd Guards Army, and 5th Panzer by a relatively fresh 1st Ukrainian corps. \n The 32nd Ukrainian Corps has been pulled out of the line.
+Sprite 0 = images\gercir9.pcx, 0, 0, 0
+Sprite 1 = images\gercin9.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 57, 169, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

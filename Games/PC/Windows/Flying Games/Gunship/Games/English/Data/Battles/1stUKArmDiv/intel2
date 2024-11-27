@@ -1,0 +1,22 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Russian forces continue their offensive across the front. In the North, 6th Tank Army has broken through, placing UK 1st Armoured in danger of being surrounded. \n Heavy fighting continues in II Corps area, as 2nd Guards army threatens Lublin. \n The V Corps has slowed the progress of the Russian SGF in the mountainous areas of Slovakia.
+Sprite 0 = images\cin1.pcx, 0, 0, 0
+Sprite 1 = images\cir1.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR SECTOR
+Map = images\cs1.pcx
+Text = 1, 1, Corps has lost contact with 24th Infantry, who were attempting to stabilize the front west of the Vistula. \n  3rd Armoured has began a major withdrawal in order to regain contact with the 24th, and to prevent a breakthrough by 5th Corps. \n In the 1st Armoured area, 7th and 4th Brigades are holding their own, but 6th Tank Army has broken through the 20th Brigade in the Bialystok area.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustow
+Label 3 = 183, 25, 155, 155, 155, 1, Grajewo
+Sprite 0 = images\ukcin2.pcx, 0, 0, 0
+Sprite 1 = images\ukcir2.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 183, 206, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

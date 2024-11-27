@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, BAOR hat sich der Nord-Streitkräftegruppe ergeben. Die Zentrale Gruppe liegt noch im Kampf dem 2. Korps. Die Südgruppe hat das 5. Korps mit seinem Gegenangriff zerschlagen. Derzeit zieht sich das 5. Korps nach Slowakien zurück.
+Sprite 0 = images\rcin9.pcx, 0, 0, 0
+Sprite 1 = images\rcir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DER 20. ARMEEGARDE 
+Map = images\cs4.pcx
+Text = 1, 1, Die 1. Cavalry zieht sich Richtung Slowakien zurück und wir erwarten ein ähnliches Manöver zu dem, das wir selbst versuchten. Die 3. US Infantry zieht sich ebenso zurück wie die deutsche 5. Infanterie. 
+Sprite 0 = images\ruscin10.pcx, 0, 0, 0
+Sprite 1 = images\ruscir10.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 25, 239, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

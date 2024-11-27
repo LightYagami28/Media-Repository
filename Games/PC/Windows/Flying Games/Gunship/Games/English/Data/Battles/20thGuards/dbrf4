@@ -1,0 +1,29 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\rus4.pcx
+Text = 1, 1, The 1st Armored's command structure is now in ruins. We have one mission objective to complete before meeting them head on. You are to report to mission planning immediately. 
+Sprite 0 = images\uhqb.pcx, 84, 79, 0
+Sprite 1 = images\uhqb.pcx, 98, 208, 0
+Sprite 2 = images\usam4b.pcx, 48, -10, 0
+Sprite 3 = images\usam4b.pcx, 65, 120, 0
+Sprite 4 = images\rahb.pcx, 263, 20, 0
+Label 0 = 106, 226, 0, 0, 255, 1, Approximate
+Label 1 = 89, 99, 0, 0, 255, 1, Approximate 
+Label 2 = 108, 80, 0, 0, 255, 1, 1st Armor
+Label 3 = 122, 208, 0, 0, 255, 1, 1st Armor
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\rus4.pcx 
+Text = 1, 1, With the 1st Armored command structure intact they will be able to counter our move to the south. Units have already started to move into new positions. We will be unable to link up with the 1st Ukrainian units that are already planning to withdraw.
+Sprite 0 = images\uhqb.pcx, 84, 79, 0
+Sprite 1 = images\uhqb.pcx, 98, 208, 0
+Sprite 2 = images\usam4b.pcx, 48, -10, 0
+Sprite 3 = images\usam4b.pcx, 65, 120, 0
+Sprite 4 = images\rahb.pcx, 263, 20, 0
+Label 0 = 106, 226, 0, 0, 255, 1, Approximate
+Label 1 = 89, 99, 0, 0, 255, 1, Approximate 
+Label 2 = 108, 80, 0, 0, 255, 1, 1st Armor
+Label 3 = 122, 208, 0, 0, 255, 1, 1st Armor
+Time Out = 15

@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le Groupe de Forces Nord tout entier est sur le point de s'effondrer tandis que la BAOR exploite sa percée en direction de Minsk, capitale du Bélarus. \n Le IIe corps a éliminé la 20e de la garde en tant qu'unité opérationnelle, et le IIIe corps entame sa propre attaque. \n Au sud, le Ve corps a franchi le Dniestr avec la 3e division, et s'enfonce dans le flanc du 1er corps ukrainien. 
+Sprite 0 = images\cin11.pcx, 0, 0, 0
+Sprite 1 = images\cir11.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du IIIe CORPS
+Map = images\cs4.pcx
+Text = 1, 1, Le IIIe corps a percé en direction des arrières russes, et la 1e DB US et la 10e Panzer tentent d'éliminer la 13e division ukrainienne.\n Les 1e et 5e Panzer foncent sur Gorodok et ont fortement entamé le potentiel de la 2e armée de la garde et du 1er corps ukrainien. \n La 3e armée de choc a enfin lâché prise et se replie en direction de Kiev. \n Les Russes semblent s'effondrer sur l'ensemble du front. Les prisonniers affluent en nombre record dans l'ensemble de la zone du corps. 
+Sprite 0 = images\gercir11.pcx, 0, 0, 0
+Sprite 1 = images\gercin11.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 219, 41, 0
+Time Out = 15
+GOTOBRIEFING = 1

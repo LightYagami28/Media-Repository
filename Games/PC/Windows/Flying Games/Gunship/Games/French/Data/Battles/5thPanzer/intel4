@@ -1,0 +1,24 @@
+[Briefing 0]
+Heading = 9, MISE A JOUR DE LA CAMPAGNE
+Map = images\imap.pcx
+Text = 1, 1, Après l'échec de la tentative de s'emparer de Lublin, ainsi que face à la 7e brigade, l'assaut russe est retombé comme un soufflé. Les deux camps se sont accordés quelques jours afin de se préparer au round suivant. \n Les forces navales de l'OTAN contrôlent entièrement la Baltique. Dans le nord de la Pologne, la bataille aérienne continue au-dessus du secteur de la 7e brigade. \n Dans le secteur du Ve corps, Les combats se sont poursuivis, et le front s'est stabilisé devant Kosice.
+Sprite 0 = images\cir4.pcx, 0, 0, 0
+Sprite 1 = images\cin4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Contre-offensive de l'OTAN \n BAOR \n La 82e division aéroportée, arrivée directement des Etats-Unis, a sauté afin de renforcer la 7e brigade blindée. \n La 1e division de Marines a débarqué près de Kaliningrad.\n Les 3e DB britannique et 1e DB américaine ont lancé une attaque terrestre massive afin de dégager la 7e brigade blindée. \n IIe Corps \n Les 1e, 5e et 10e divisions de Panzer lancent une attaque massive en direction de Chelm et Zamosc. \n Ve Corps \n La 1e division de cavalerie attaque en soutien du IIe corps.
+Sprite 0 = images\cin4.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, SECTEUR du IIe CORPS
+Map = images\cs2.pcx
+Text = 1, 1, La 1e blindée a été affectée à la BAOR, et attaque au nord. \n La 1e DI américaine prend position sur le flanc gauche du corps, et la 1e division de Panzer remonte du sud. \n Les 5e et 10e Panzer lancent une contre-offensive en direction de Chelm et de Zamosc.
+Sprite 0 = images\gercir4.pcx, 0, 0, 0
+Sprite 1 = images\gercin4.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 145, 199, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

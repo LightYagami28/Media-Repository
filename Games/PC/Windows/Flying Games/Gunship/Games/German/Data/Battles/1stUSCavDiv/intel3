@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die 7. Brigade der britischen 1. Armoured ist immer noch umzingelt, während sich die Rheinarmee östlich der Weichsel hält. \n Die schweren Kämpfe im Bereich des II. Korps dauern an. Der Angriff auf Lublin hat begonnen, ein Großteil des II. Korps kämpft, um weitere Durchbrüche zu verhindern. \n In der Slowakei hat sich die Lage zu einem ausgedehnten Bewegungskampf entwickelt, in dem keine Seite einen eindeutigen Vorteil erringen kann. \n Die russischen Streitkräfte haben schwerste Verluste erlitten und einige Einheiten werden aus dem Kampf genommen.
+Sprite 0 = images\cin3.pcx, 0, 0, 0
+Sprite 1 = images\cir3.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES III. KORPS
+Map = images\cs3.pcx
+Text = 1, 1, Die 1. Cavalry ist in Position gegangen und wird morgen mit der Offensive beginnen. Die 3. Cavalry versucht, die 7. Panzergarde von der Umflankung der 2. Cavalry abzuhalten. Die amerikanische 3. Infantry steht diesmal allein gegen die 27. und 47.
+Sprite 0 = images\cavcin3.pcx, 0, 0, 0
+Sprite 1 = images\cavcir3.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 79, 134, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

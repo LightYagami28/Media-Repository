@@ -1,0 +1,148 @@
+TITLE: rus9
+BATTLEFIELD: UKRAINE 84000 172500 0 0 0 27
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+OBJECTIVE: RED FORWARD_LINE 78150 164600 78150 180350 2
+RED_FRIENDLIES: 60
+RED_ENEMIES: 75
+BLUE_FRIENDLIES: 75
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 1
+MACHINE: 0
+
+/* HELOS */
+PLATOON: 128 90450 168200 270 0 89800 168900 1 2
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 88900 169850
+ORDER_WPT_SETDELAYTIME: 90
+ORDER_ASMBLY_BATTLEPOS:
+ADDWAYPT: 85800 169750
+ORDER_WPT_SETDELAYTIME: 90
+ADDWAYPT: 83050 168050
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 82050 167200
+ORDER_ASMBLY_CHKPT:
+ADDWAYPT: 81350 168200
+ORDER_WPT_SETDELAYTIME: 240
+ORDER_ASMBLY_BATTLEPOS:
+/* RUSSIAN GRUNTS */
+PLATOON: 36 91300 170600 270 6 83600 170600 2 15
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 36 91300 178050 270 6 83600 178050 1 15
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 35 90200 169750 270 6 83600 169750 1 15
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 35 90200 171350 270 6 83600 171350 2 15
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 35 90350 177250 270 6 83600 177250 0 15
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 35 90350 178950 270 6 83600 178950 2 15
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 43 90200 170550 270 6 83600 170550 2 15
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 43 90350 178050 270 6 83600 178050 1 15
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 58 88500 170700 270 6 82200 170600 2 17
+LOGIC: LOGIC_OUTPOST
+PLATOON: 58 88650 178150 270 6 83600 175250 1 17
+LOGIC: LOGIC_OUTPOST
+/* CAVALRY */
+PLATOON: 1 78000 171900 90 6 88450 171900 3 22
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 1 78000 173200 90 6 88450 173200 3 22
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 1 78100 176200 90 6 88450 176200 3 22
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 1 78050 177400 90 6 88450 177400 3 22
+LOGIC: LOGIC_TANK_ASSAULT 
+PLATOON: 2 77450 172600 90 6 88450 172600 2 22
+LOGIC: LOGIC_MECH_ASSAULT 
+PLATOON: 2 77400 176800 90 6 88450 176800 2 22
+LOGIC: LOGIC_MECH_ASSAULT 
+PLATOON: 9 80100 172500 90 6 88450 172500 1 22
+LOGIC: LOGIC_MECH_ASSAULT 
+PLATOON: 9 79850 176700 90 6 88450 176700 1 22
+LOGIC: LOGIC_MECH_ASSAULT 
+PLATOON: 6 77150 174650 90 6 88450 174650 2 22
+LOGIC: LOGIC_OUTPOST 
+/* SUPPORT */
+SUPPORT: 76 94000 168000 270 6 94000 168000 2 29
+SUPPORT: 74 96000 174000 270 6 96000 174000 2 29
+SUPPORT: 65 120000 150000 270 2 84000 170000 2 32
+SUPPORT: 19 57000 168000 90 2 84000 171000 2 31
+SUPPORT: 86 73000 168000 90 2 73000 168000 2 28
+SUPPORT: 85 73000 169000 90 2 73000 169000 2 28
+
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\RUS9.PCX
+Text = 1, 1, La 3e armée de choc a lancé une attaque contre la 1e division de cavalerie. Vous en assurerez le soutien aérien. La 1e de cavalerie a apparemment décidé de lancer elle aussi une attaque. \n \n INDICATIF :\n Patrouille n°1 : Mace \n \n OBJECTIF : \n Assurer le soutien du groupement tactique Falcon et de l'élément de reco Eagle. Falcon doit rejoindre la LP Delta.
+Line 0 = 200, 200, 200, 287, 72, 274, 86
+Line 1 = 200, 200, 200, 274, 86, 256, 105
+Line 2 = 200, 200, 200, 256, 105, 194, 103
+Line 3 = 200, 200, 200, 194, 103, 139, 69
+Line 4 = 200, 200, 200, 139, 69, 119, 52
+Line 5 = 200, 200, 200, 119, 52, 105, 72
+Line 6 = 200, 0, 0, 41, 0, 41, 315
+Sprite 0 = images\rahb.pcx, 279, 64, 0
+Sprite 1 = images\rwpcp.pcx, 266, 63, 0
+Sprite 2 = images\rwpbp.pcx, 248, 82, 0
+Sprite 3 = images\rwpbp.pcx, 186, 80, 0
+Sprite 4 = images\rwpbp.pcx, 131, 46, 0
+Sprite 5 = images\rwpcp.pcx, 111, 29, 0
+Sprite 6 = images\rwpBp.pcx, 97, 49, 0
+Label 0 = 43, 200, 10, 10, 10, 1, LP DELTA
+Label 1 = 44, 201, 200, 0, 0, 1, LP DELTA
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\RUS9.PCX
+Text = 1, 1, Vous interviendrez dans un secteur compris entre les lignes de phase Alpha et Bravo. Tous les sites SAM du secteur ont été placés en alerte maximale. Tout appareil franchissant les LP Alpha ou Bravo sera considéré comme hostile. \n \n DEFENSE AERIENNE : \n Seuls les moyens normaux d'échelon compagnie seront présents.
+Line 0 = 200, 0, 0, 30, 30, 30, 250
+Line 1 = 200, 0, 0, 35, 275, 255, 275
+Label 0 = 32, 50, 10, 10, 10, 1, LP ALPHA
+Label 1 = 33, 51, 200, 0, 0, 1, LP ALPHA
+Label 2 = 37, 278, 10, 10, 10, 1, LP BRAVO
+Label 3 = 38, 279, 200, 0, 0, 1, LP BRAVO
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, FORCES AMIES
+Map = images\RUS9.PCX
+Text = 1, 1, Le groupement tactique Falcon et l'élément de reco Eagle appartiennent à la 10e DB de la garde. Ils relancent l'offensive contre la 1e division de cavalerie américaine.
+Sprite 0 = images\rtnkb.pcx, 280, 112, 0
+Sprite 1 = images\rtnkb.pcx, 281, 249, 0
+Sprite 2 = images\rarrowwb.pcx, 255, 115, 0
+Sprite 3 = images\rarrowwb.pcx, 256, 249, 0
+Label 0 = 280, 137, 200, 0, 0, 1, 10BG
+Label 1 = 281, 272, 200, 0, 0, 1, 10BG
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, FORCES ENNEMIES
+Map = images\RUS9.PCX
+Text = 1, 1, Les forces en approche relèvent de la 1-8e brigade de cavalerie. Elles comprennent au moins deux escadrons, accompagnés de leurs unités de soutien.
+Sprite 0 = images\utnkb.pcx, 35, 217, 0
+Sprite 1 = images\utnkb.pcx, 23, 141, 0
+Sprite 2 = images\uarrowe.pcx, 51, 142, 0
+Sprite 3 = images\uarrowe.pcx, 63, 218, 0
+Label 0 = 23, 165, 0, 0, 200, 1, 1e Cav
+Label 1 = 35, 241, 0, 0, 200, 1, 1e Cav
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, METEO
+Map = images\RUS9.PCX
+Text = 1, 1, Temps clair dans votre secteur d'opérations. \n Le soleil devrait se lever pendant que vous vous trouverez sur votre zone de rassemblement avancée. \n Visibilité limitée à 1-2 km en raison des brumes matinales. \n Bonnes conditions thermiques, permettant de voir jusqu'à 5 km. \n Vents calmes.
+Movie = movies\clear.bik, 0, 0, 315, 315
+Time Out = 10
+

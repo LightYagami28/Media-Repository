@@ -1,0 +1,20 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\Muc9.pcx
+Text = 1, 1, The pilots sent over a case of beer as a thank you, well done.
+Sprite 0 = images\uahb.pcx, 8, 186, 0
+Sprite 1 = images\uobjs.pcx, 176, 28, 0
+Sprite 2 = images\rinfp.pcx, 281, 67, 0
+Sprite 3 = images\rinfp.pcx, 252, 218, 0
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc9.pcx 
+Text = 1, 1, A vital mission was canceled so you could fail at this one instead. This was an unacceptable mission outcome. \n \n Select " Fly Again" to refly this mission.
+Sprite 0 = images\uahb.pcx, 8, 186, 0
+Sprite 1 = images\uobjs.pcx, 176, 28, 0
+Sprite 2 = images\rinfp.pcx, 281, 67, 0
+Sprite 3 = images\rinfp.pcx, 252, 218, 0
+Time Out = 15
+

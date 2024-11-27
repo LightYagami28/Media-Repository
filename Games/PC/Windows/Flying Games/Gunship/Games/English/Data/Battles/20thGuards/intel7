@@ -1,0 +1,18 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, 20th Guards is moving to engage the rear of the 5th Panzer Division. 5th Panzer has moved to defend. Central Group of Forces is Pushing the entire Front Back. South Group of Forces is falling back to a defensible position within the Ukraine to try to regroup. North Group of Forces has pushed the BOAR into a pocket and is offering to accept their surrender.
+Sprite 0 = images\rcin7.pcx, 0, 0, 0
+Sprite 1 = images\rcir7.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, GUARDS SECTOR
+Map = images\cs2.pcx
+Text = 1, 1, 20th GA has cut off 1st US Infantry route of Supply and Escape. 2nd Taman Guards and the 13th MRD are moving to intercept the 5th Panzer Division, which 2nd Guards Army is attacking in full force. 10th Panzer has fallen back to protect its northern flank from attack and 1st Ukrainian has followed up hoping to keep them on the run.
+Sprite 0 = images\ruscin7.pcx, 0, 0, 0
+Sprite 1 = images\ruscir7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 61, 109, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

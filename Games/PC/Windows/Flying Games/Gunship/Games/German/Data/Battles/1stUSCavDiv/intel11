@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die nördliche Gruppe der Streitkräfte ist kollabiert und hinterlässt dem XVIII. Korps nur noch vereinzelten Widerstand. BAOR zieht weiter auf Minsk zu, während die weißrussische Regierung einen Waffenstillstand erbittet. \n Das II. und III. Korps stehen noch immer schwerem Widerstand gegenüber, aber wichtige Einheiten des Feindes ziehen sich zurück oder ergeben sich. \n Das V. Korps zieht hinter die verbleibenden russischen und ukrainischen Einheiten und bewegt sich weiter auf Kiew zu.
+Sprite 0 = images\cin12.pcx, 0, 0, 0
+Sprite 1 = images\cir12.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES V. KORPS
+Map = images\cs4.pcx
+Text = 1, 1, Die Situation ist ziemlich unklar. Die meisten der Divisionen, die gegen das V. Korps kämpften, haben aufgehört, als Kampfeinheit zu zählen. Die Ausnahme ist die 10. Panzergarde. Die 1. und 3. formen eine Tasche, die die meisten zentralen Streitkräfte bzw. deren Reste einfangen sollte. Die amerikanische 3. Infantry ist dafür zuständig, diese Tasche stramm zusammenzuziehen.
+Sprite 0 = images\cavcir11.pcx, 0, 0, 0
+Sprite 1 = images\gercin12.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 236, 151, 0
+Time Out = 15
+GOTOBRIEFING = 1

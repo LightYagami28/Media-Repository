@@ -1,0 +1,40 @@
+[WIN]
+Heading = 9, SITUATION
+Map = images\Muc3.pcx
+Text = 1, 1, Les unités du 3-8e sont parvenues à se replier en bon ordre, et avec des pertes minimales. Le 7e s'est fait refaire le portrait et recule lentement. Le 1-12e est maintenant prêt à mener sa première offensive contre les Russes. Allez dormir un peu, car c'est nous qui allons les appuyer.
+Sprite 0 = images\uahb.pcx, 21, 262, 0
+Sprite 1 = images\uifvp.pcx, 147, 187, 0
+Sprite 2 = images\uifvp.pcx, 94, 174, 0
+Sprite 3 = images\uifvp.pcx, 178, 203, 0
+Sprite 4 = images\uifvp.pcx, 101, 131, 0
+Sprite 5 = images\rtnkb.pcx, 291, 90, 0
+Sprite 6 = images\rtnkb.pcx, 238, 33, 0
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Label 1 = 178, 224, 0, 0, 200, 1, Forward
+Label 2 = 94, 194, 0, 0, 200, 1, Forward
+Label 3 = 147, 208, 0, 0, 200, 1, Forward
+Label 4 = 101, 152, 0, 0, 200, 1, Forward
+Label 5 = 262, 38, 200, 0, 0, 1, 7BG
+Label 6 = 291, 114, 200, 0, 0, 1, 7BG
+Time Out = 15
+
+[Lose]
+Heading = 9, SITUATION
+Map = images\muc3.pcx 
+Text = 1, 1, Le 3-8e a été taillé en pièces. Le 7e de la garde n'a stoppé sa progression que le temps d'un regroupement en vue d'une nouvelle attaque, qu'il va entamer d'ici une à deux heures. \n \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uahb.pcx, 21, 262, 0
+Sprite 1 = images\uifvp.pcx, 147, 187, 0
+Sprite 2 = images\uifvp.pcx, 94, 174, 0
+Sprite 3 = images\uifvp.pcx, 178, 203, 0
+Sprite 4 = images\uifvp.pcx, 101, 131, 0
+Sprite 5 = images\rtnkb.pcx, 291, 90, 0
+Sprite 6 = images\rtnkb.pcx, 238, 33, 0
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Label 1 = 178, 224, 0, 0, 200, 1, Forward
+Label 2 = 94, 194, 0, 0, 200, 1, Forward
+Label 3 = 147, 208, 0, 0, 200, 1, Forward
+Label 4 = 101, 152, 0, 0, 200, 1, Forward
+Label 5 = 262, 38, 200, 0, 0, 1, 7BG
+Label 6 = 291, 114, 200, 0, 0, 1, 7BG
+Time Out = 15
+

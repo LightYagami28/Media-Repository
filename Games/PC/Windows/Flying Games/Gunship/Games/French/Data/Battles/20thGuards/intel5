@@ -1,0 +1,19 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, La 20e de la garde fait mouvement en direction du centre de la Pologne. La 2e armée de la garde n'obtient toujours que de maigres succès face à la 5e division de Panzer. \n Le Groupe de Forces Nord commence à encercler les restes de la BAOR.\n Le Groupe de Forces Sud a entamé une retraite en bon ordre vers l'Ukraine. \n Le Groupe de Forces Centre s'enfonce lentement au centre de la Pologne.
+Sprite 0 = images\rcin4.pcx, 0, 0, 0
+Sprite 1 = images\rcir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, 20e de la GARDE
+Map = images\cs2.pcx
+Text = 1, 1, La 20e de la garde a poursuivi la 1e DB dans la région centrale de la Pologne. Elle espère entrer en contact avec le gros des forces ennemies d'ici deux jours. Le 13e ukrainien met la pression contre la 1e DI et la tient en respect. La 2e de la garde repousse fermement la 5e Panzer, mais le 1e ukrainien ne peut plus faire reculer la 10e Panzer.
+Sprite 0 = images\ruscin4.pcx, 0, 0, 0
+Sprite 1 = images\ruscir4.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 59, 62, 0
+Time Out = 15
+GOTOBRIEFING = 1
+
+
+

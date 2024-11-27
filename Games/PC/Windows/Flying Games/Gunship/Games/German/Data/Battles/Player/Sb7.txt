@@ -1,0 +1,127 @@
+ TITLE: Frogger
+BATTLEFIELD: CZECH 30750 149250 0 0 12 1
+LEVEL: 2
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+RED_ENEMIES: 70
+RED_FRIENDLIES: 50
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 0
+PLATOON: 127 24000 155750 90 0 25700 155650 0 7
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+PLATOON: 128 37950 153600 270 0 35700 154350 1 8
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 34100 153350
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ADV_MED:
+ADDWAYPT: 34750 150500
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 34950 148500
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 35100 152400
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 35550 148000
+ORDER_WPT_SETDELAYTIME: 120
+
+PLATOON: 105 35750 143900 270 0 35750 143900 2 22
+PLATOON: 105 35950 144200 270 0 35950 144200 2 22
+PLATOON: 72 29450 142300 180 6 29450 142300 2 21
+PLATOON: 43 27750 152450 0 2 27750 152450 3 21
+PLATOON: 67 36800 143450 230 6 36800 143450 0 18
+RED_PROTECT: 42
+BLUE_TARGET: 29
+PLATOON: 120 35300 143000 270 2 35300 143000 2 22
+PLATOON: 120 37350 146000 180 2 37350 146000 2 22
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb7.pcx
+Text = 1, 1, Dies ist ein Luftangriff tief ins Feindesland. Die Russen haben eine FROG Raketen-Stellung in dieses Gebiet bewegt. Sie muss zerstört werden. \n Flug #1: Reaper \n Ziele: Suchen und zerstören Sie die FROG-Stellung in der Nähe des Ziels Anvil.
+Sprite 0 = images\uobja.pcx, 264, 11, 0
+Sprite 1 = images\uahb.pcx, 15, 280, 0
+Time Out = 20
+
+[Blue_Briefing 1]
+Heading = 9, OPERATION
+Map = images\msb7.pcx
+Text = 1, 1, Sie operieren in einem Sektor zwischen den Phasenlinien Alpha und Bravo. Diese Phasenlinien dürfen unter keinen Umständen überquert werden. \n Alle Luftfahrzeuge außerhalb dieses Gebiets werden als feindlich betrachtet. \n\n LUFTABWEHR: \n Rechnen Sie mit schweren, mobilen Abwehreinheiten um das Ziel herum.
+Line 0 = 0, 0, 255, 5, 17, 241, 17
+Line 1 = 0, 0, 255, 305, 41, 305, 270
+Label 0 = 25, 19, 0, 0, 255, 1, PL ALPHA
+Label 1 = 245, 60, 0, 0, 255, 1, PL BRAVO
+Time Out = 15
+
+[Blue_Briefing 2]
+Heading = 9, VERBÜNDETE STREITKRÄFTE
+Map = images\msb7.pcx
+Text = 1, 1, Keine verbündeten Streitkräfte anwesend.
+Time Out = 20
+
+[Blue_Briefing 3]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\msb7.pcx
+Text = 1, 1, Bislang wurden über das Gebiet keine Informationen erlangt. Rechnen Sie mit leichten bis schweren Kräften in diesem Gebiet.
+Time Out = 10
+
+[Blue_Briefing 4]
+Heading = 9, WETTER
+Map = images\msb7.pcx
+Text = 1, 1, Der Wetterbericht in Ihrem Operations-Sektor meldet geschlossene Wolkendecke bei 2.500 Fuß. \n Der Sonnenuntergang sollte einsetzen, wenn Sie das Zielgebiet verlassen. \n Die Sichtweite ist auf etwa 1 bis 2 Kilometer beschränkt. \n Die thermischen Bedingungen sind gut, mit Bereichen bis zu 5 km. \n Leichter Wind kommt mit 3 bis 5 Knoten aus SW.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb7.pcx
+Text = 1, 1, Patrouillieren Sie im Gebiet um die SRBM-Stellung, Rufzeichen Raven. Variieren Sie Ihre Patrouille, aber kreisen Sie nicht und lenken Sie nicht die Aufmerksamkeit auf die Stellung. \n \n RUFZEICHEN: \n Flug #1: Dragon \n Ziele: \n Beschützen Sie die SRBM-Einheiten um jeden Preis. Minimieren Sie die Verluste der verbündeten Streitkräfte.
+Sprite 0 = images\mrlsb.pcx, 276, 32, 0
+Time Out = 20
+
+[Red_Briefing 1]
+Heading = 9, OPERATION
+Map = images\msb7.pcx
+Text = 1, 1, Sie operieren in einem Sektor zwischen den Phasenlinien Alpha und Bravo. Diese Phasenlinien dürfen unter keinen Umständen überquert werden. \n Alle Luftfahrzeuge außerhalb dieses Gebiets werden als feindlich betrachtet. \n\n LUFTABWEHR: keine
+Line 0 = 255, 0, 0, 252, 300, 64, 300
+Line 1 = 255, 0, 0, 25, 258, 25, 51
+Label 0 = 70, 290, 255, 0, 0, 1, PL ALPHA
+Label 1 = 27, 60, 255, 0, 0, 1, PL BRAVO
+Time Out = 15
+
+[Red_Briefing 2]
+Heading = 9, VERBÜNDETE STREITKRÄFTE
+Map = images\msb7.pcx
+Text = 1, 1, Um die Startrampen herum sind Einheiten versteckt - die Positionen finden Sie in ihrer Karte.
+Sprite 0 = images\rsam8.pcx, -48, -161, 0
+Sprite 1 = images\rinfp.pcx, 238, 23, 0
+Sprite 2 = images\rinfp.pcx, 279, 83, 0
+Sprite 3 = images\rifvp1.pcx, 87, 212, 0
+Sprite 4 = images\radv2b.pcx, 218, 11, 0
+Time Out = 20
+
+[Red_Briefing 3]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\msb7.pcx
+Text = 1, 1, Es wurden keine feindlichen Streitkräfte im Gebiet beobachtet. 
+Time Out = 10
+
+[Red_Briefing 4]
+Heading = 9, WETTER
+Map = images\msb7.pcx
+Text = 1, 1, Der Wetterbericht in Ihrem Operations-Sektor meldet geschlossene Wolkendecke bei 2.500 Fuß. \n Der Sonnenuntergang sollte einsetzen, wenn Sie das Zielgebiet verlassen. \n Die Sichtweite ist auf etwa 1 bis 2 Kilometer beschränkt. \n Die thermischen Bedingungen sind gut, mit Bereichen bis zu 5 km. \n Leichter Wind kommt mit 3 bis 5 Knoten aus SW.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+Time Out = 20

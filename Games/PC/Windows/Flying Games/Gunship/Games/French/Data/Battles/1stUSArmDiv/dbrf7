@@ -1,0 +1,25 @@
+[Win]
+Heading = 9, SITUATION
+Map = images\mus7.pcx
+Text = 1, 1, La 24e DFM a commencé à se replier. Beau travail. OBJECTIF : \n Fournir un appui aérien au team Falcon. Accompli. \n Attaquer et désorganiser tout ennemi rencontré entre les LP Foxtrot et Echo. Accompli. \n Assurer que Falcon rejoint la LP Echo. Accompli.
+Sprite 0 = images\uahb.pcx, 25, 64, 0
+Sprite 1 = images\utnkb.pcx, 8, 33, 0
+Sprite 2 = images\rtnkb.pcx, 284, 176, 0
+Line 0 = 0, 0, 255, 255, 0, 255, 315
+Label 0 = 215, 250, 0, 0, 255, 1, LP ECHO
+Label 1 = 8, 53,  0, 0, 255, 1, FALCON
+Label 2 = 270, 197, 255, 0, 0, 1, 24e DFM
+Time Out = 15
+
+[Lose]
+Heading = 9, SITUATION
+Map = images\mus7.pcx
+Text = 1, 1, Le 4-70e blindé a été écrasé et éliminé. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission. 
+Sprite 0 = images\uahb.pcx, 25, 64, 0
+Sprite 1 = images\utnkb.pcx, 8, 33, 0
+Sprite 2 = images\rtnkb.pcx, 284, 176, 0
+Line 0 = 0, 0, 255, 255, 0, 255, 315
+Label 0 = 215, 250, 0, 0, 255, 1, LP ECHO
+Label 1 = 8, 53,  0, 0, 255, 1, FALCON
+Label 2 = 270, 197, 255, 0, 0, 1, 24e DFM
+Time Out = 15

@@ -1,0 +1,139 @@
+TITLE: armor 4
+BATTLEFIELD: NPOLAND 88148 171351 0 0 2 24
+ENGAGEMENT: BLUE MISSION_BLUE_RAID 0 0 0
+ENGAGEMENT: RED MISSION_RED_DEFENSE 0 0 180
+BLUE_ENEMIES: 80
+RED_FRIENDLIES: 80
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 0
+MACHINE: 0
+/* SetupFriendlyRaid */
+PLATOON: 17 92548 177000 90 8 91648 176801 2 1101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_MED:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 94048 171101
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 93498 167951
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 420
+ADDWAYPT: 87898 166151
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 480
+/* SetupEnemyAreaSAMS */
+PLATOON: 70 91125 167625 90 8 91125 167624 2 2202
+BLUE_TARGET: 34
+PLATOON: 70 88152 166125 0 8 88152 166125 2 2203
+BLUE_TARGET: 34
+PLATOON: 70 83648 167625 270 8 83648 167625 2 2204
+BLUE_TARGET: 34
+/* setupsamdefenses */
+PLATOON: 98 90234 168140 90 9 90234 168140 2 1805
+PLATOON: 98 92625 167601 270 9 92531 168257 2 1806
+PLATOON: 97 92109 167039 180 9 92109 167039 2 1807
+PLATOON: 98 84375 168375 270 9 84376 168375 2 1808
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 83648 166828
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 83039 168164
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 84375 168375 
+PLATOON: 98 83648 166828 90 9 83647 166828 2 1809
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 83039 168164
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 84375 168375
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 83648 166828
+PLATOON: 97 83039 168164 180 9 83039 168165 3 1810
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 84375 168375 
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 83648 166828
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 83039 168164
+PLATOON: 54 89718 165351 90 6 89718 165351 2 1811
+PLATOON: 68 87164 165140 90 2 87164 165141 0 1812
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 84648 167625 
+ORDER_ASSMBLY_SOUTH:
+ORDER_WPT_SETDELAYTIME: 600
+ADDWAYPT: 87814 163596
+PLATOON: 97 87814 163596 180 9 87814 163596 2 1813
+PLATOON: 97 87783 164066 180 9 87783 164066 2 1814
+PLATOON: 98 88171 164091 180 9 88171 164091 2 1815
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\Mus4.pcx
+Text = 1, 1, In preparation for our offensive to the north to help relieve the British 1st Armoured, a hole needs to be punched in the enemy's SAM belt. \n CALLSIGN: \n Flight #1  Lightning \n OBJECTIVES: \n Destroy all fixed and mobile SAM sites between PL Delta and PL Echo. \n Minimize loses to friendly forces.
+Sprite 0 = images\uahb.pcx, 238, 263, 0
+Sprite 1 = images\uwpcp.pcx, 220, 244, 0
+Sprite 2 = images\uwpbp.pcx, 268, 130, 0
+Sprite 3 = images\uwpbp.pcx, 257, 67, 0
+Sprite 4 = images\uwppa.pcx, 145, 31, 0
+Line 0 = 200, 200, 200, 246, 271, 228, 267
+Line 1 = 0, 0, 255, 290, 0, 290, 315
+Line 2 = 0, 0, 255, 25, 0, 25, 315
+Line 3 = 200, 200, 200, 228, 267, 276, 153
+Line 4 = 200, 200, 200, 276, 153, 265, 90
+Line 5 = 200, 200, 200, 265, 90, 153, 54
+Label 0 = 247, 27, 0, 0, 255, 1, PL ECHO
+Label 1 = 33, 73, 0, 0, 255, 1, PL CHARLIE
+Time Out = 20
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\mus4.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n Any aircraft leaving its operations zone will be treated as hostile. \n \n AIR DEFENSE: \n There are at least three fixed SAM emplacements in your area. There are possibly several mobile units as well but their exact location is unknown. 
+Sprite 0 = images\rsam6b.pcx, 98, -37, 0
+Sprite 1 = images\rsam6b.pcx, 38, -67, 0
+Sprite 2 = images\rsam6b.pcx, -52, -37, 0
+Line 0 = 0, 0, 255, 290, 315, 290, 0 
+Line 1 = 0, 0, 255, 25, 0, 25, 315
+Label 0 = 33, 188, 10, 10, 10, 1, PL ALPHA
+Label 1 = 230, 188, 10, 10, 10, 1, PL BRAVO
+Label 2 = 34, 189, 0, 0, 255, 1, PL ALPHA
+Label 3 = 230, 189, 0, 0, 255, 1, PL BRAVO 
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\mus4.pcx
+Text = 1, 1, No friendly ground forces are present at this time.
+Time Out = 20
+
+[Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\mus4.pcx
+Text = 1, 1, Enemy forces are mostly made up of dismounted infantry from the 69th Motor Rifle Division, they are garrisoning the fixed SAM sites and doing standard foot patrols through the surrounding countryside. There are very few vehicles in the area.
+Sprite 0 = images\rinfp.pcx, 211, 76, 0
+Sprite 1 = images\rinfp.pcx, 151, 46, 0
+Sprite 2 = images\rinfp.pcx, 61, 76, 0
+ Time Out = 20
+
+[Briefing 4]
+Heading = 9, WEATHER
+Map = images\mus4.pcx
+Text = 1, 1, The weather in your sector of operations is overcast, with a ceiling of 2500 feet. \n Sunrise is time to occur at your forward Assembly Area. \n Visibility is limited to approximately 1 kilometer due to fog. \n Thermal conditions are poor, with ranges limited to 2 kilometers. \n Winds are light out of the SW, at 3 to 5 knots.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+ Time Out = 20
+

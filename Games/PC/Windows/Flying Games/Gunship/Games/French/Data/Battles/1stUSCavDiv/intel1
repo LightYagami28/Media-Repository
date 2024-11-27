@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Les forces russes poursuivent leur offensive sur l'ensemble du front. Au nord, la 2e armée blindée a percé, faisant courir à la 1e DB britannique le risque d'être encerclée. \n D'intenses combats se poursuivent dans le secteur du IIe corps, alors que la 2e de la garde menace Lublin. \n Le Ve corps a ralenti la progression du GFS russe dans les régions montagneuses de Slovaquie.
+Sprite 0 = images\cin1.pcx, 0, 0, 0
+Sprite 1 = images\cir1.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du IIIe CORPS
+Map = images\cs3.pcx
+Text = 1, 1, La 1e division de cavalerie continue à se retirer dans les régions sauvages de Slovaquie afin de tenter d'empêcher les 7e et 10e DB de la garde de contourner notre flanc. La 3e d'infanterie américaine a commencé ses opérations contre la 27e DFM, mais continue à se replier en maintenant le contact.
+Sprite 0 = images\cavcin1.pcx, 0, 0, 0
+Sprite 1 = images\cavcir1.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 99, 169, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

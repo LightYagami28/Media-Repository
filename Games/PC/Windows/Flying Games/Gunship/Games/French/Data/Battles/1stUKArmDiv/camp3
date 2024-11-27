@@ -1,0 +1,284 @@
+TITLE:  UK3
+BATTLEFIELD: NPOLAND 141000 114000 0 0 1 25
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 0
+ENGAGEMENT: RED MISSION_RED_DEFENSE 0 0 180
+RED_FRIENDLIES: 60
+BLUE_ENEMIES: 40
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 0
+/* SetupFriendlySAR */
+PLATOON: 130 135000 120000 335 7 138200 118000 1 101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 137750 114450
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 141750 111850
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 144550 108700
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 240
+ADDWAYPT: 134200 121150
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+PLATOON: 108 134000 121000 335 8 137150 119200 1 1202
+BLUE_PROTECT: 48
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 137400 114450
+ORDER_ASMBLY_CHKPT:
+ORDER_WPT_SETDELAYTIME: 0
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 140350 110000
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 144500 108750
+ORDER_ASMBLY_SAR:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 137950 114950
+ORDER_ASMBLY_CHKPT:
+ORDER_WPT_SETDELAYTIME: 0
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 130050 124950
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_HELOS:
+/* SetupEnemyHelo */
+PLATOON: 63 141000 115000 90 7 140900 115100 1 1103
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 141800 111800
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 135500 114500
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 146350 117550
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 136250 119700
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 141150 115100
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+/* FriendlyUnits */
+PLATOON: 101 145650 108050 90 9 144500 108750 1 2104
+BLUE_PROTECT2: 45
+/* Enemy Standard Main Zone Defensive Units */
+PLATOON: 53 140550 115600 135 7 140550 115600 1 2206
+PLATOON: 53 135900 111950 180 7 135900 111950 2 2207
+/* SetupEnemyAreaSAMS */
+PLATOON: 70 140000 115000 270 8 140000 115000 1 2108
+BLUE_TARGET2: 34
+PLATOON: 70 148000 114000 270 8 148000 114000 1 2109
+BLUE_TARGET2: 34
+/* SetupEnemyMobileAreaSAMS */
+PLATOON: 72 144500 107050 180 6 144500 108750 1 2110
+BLUE_TARGET2: 34
+PLATOON: 55 142058 111007 180 6 141800 111750 1 1911
+LOGIC: LOGIC_MAIN_DEFENSE:
+BLUE_TARGET2: 34
+/* SetupEnemyAirfield */
+PLATOON: 124 141454 114982 270 6 141454 114982 0 1412
+PLATOON: 125 141454 115144 270 6 141454 115144 0 1413
+PLATOON: 69 141506 115070 90 7 141500 115070 0 1414
+PLATOON: 105 141254 115091 180 0 141254 115091 0 2116
+BLUE_TARGET2: 34
+/* SetupEnemyHQ */
+PLATOON: 122 136000 111000 180 8 136000 111000 1 1917
+PLATOON: 66 136025 111025 180 8 136025 111025 1 1918
+ORDER_MODE_WAYPT:
+ORDER_FORM_DIAMOND:
+PLATOON: 78 135975 111000 180 8 135975 111000 1 1919
+ORDER_MODE_WAYPT:
+ORDER_FORM_DIAMOND:
+/* SetupEnemyConvoy */
+PLATOON: 122 139000 113000 270 6 139000 113000 2 1820
+PLATOON: 122 139050 113000 270 6 139050 113000 1 1821
+PLATOON: 98 139025 113075 270 6 139025 112975 1 1822
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 80
+ADDWAYPT: 139025 113075
+ADDWAYPT: 139025 112975
+ADDWAYPT: 139025 113075
+ADDWAYPT: 139025 112975
+PLATOON: 68 148769 120593 270 1 139025 113000 0 1823
+ORDER_TRVL_BYPASS: 
+ORDER_WPT_SETDELAYTIME: 80
+ORDER_ADV_MED: 
+ADDWAYPT: 147238 115054
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 133000 111000
+PLATOON: 68 149769 120593 270 1 139025 113000 0 1824
+ORDER_TRVL_BYPASS: 
+ORDER_WPT_SETDELAYTIME: 80
+ORDER_ADV_MED: 
+ADDWAYPT: 147238 115054
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 133000 111000
+/* SetupEnemyTankCompanyReserve */
+PLATOON: 110 147000 118500 270 8 147000 118500 0 1725
+PLATOON: 110 147000 117500 270 8 147000 117500 2 1726
+PLATOON: 117 147500 118000 270 8 147500 118000 2 1727
+PLATOON: 111 147000 118000 270 8 147000 118000 1 1728
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\MUK3.pcx
+Text = 1, 1, Une équipe SAS, indicatif Forward, a observé les activités ennemies dans le secteur d'Augustov et doit être extraite avant notre prochain repli. Vous escorterez la formation d'évacuation à l'aller comme au retour de l'objectif Shield, et prendrez en charge la SEAD. \n \n INDICATIFS :\n Patrouille n°1 : Javelin  Patrouille n°2 : Raider \n \n OBJECTIFS: \n Neutraliser les défenses aériennes ennemies sur le trajet de Raider. \n Eviter toute perte à Raider, et assurer son repli.
+Line 0 = 155, 155, 155, 38, 278, 102, 238
+Line 1 = 155, 155, 155, 102, 238, 93, 167
+Line 2 = 155, 155, 155, 93, 167, 173, 115
+Line 3 = 155, 155, 155, 173, 115, 229, 52
+Line 4 = 155, 155, 155, 229, 52, 22, 301
+Sprite 0 = images\uahb.pcx, 30, 270, 0
+Sprite 1 = images\uwpbp.pcx, 93, 218, 0
+Sprite 2 = images\uwpbp.pcx, 84, 147, 0
+Sprite 3 = images\uwpbp.pcx, 164, 95, 0
+Sprite 4 = images\uwppa.pcx, 220, 32, 0
+Sprite 5 = images\uwpcp.pcx, 14, 281, 0
+Sprite 6 = images\uobjs.pcx, 213, 31, 0
+Label 0 = 209, 162, 155, 155, 155, 1, Augustov
+Time Out = 15
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\MUK3.pcx
+Text = 1, 1, Vous interviendrez dans un secteur compris entre les lignes de phase Alpha et Bravo. Vous ne devrez en aucun cas franchir ces lignes de phase. L'objectif Shield marque la zone d'extraction principale. \n \n DEFENSE AERIENNE : \n Forward a repéré plusieurs sites de SAM importants, ainsi qu'un certain nombre d'unités se déplaçant dans le secteur.
+Line 0 = 99, 99, 208, 40, 240, 40, 80
+Line 1 = 99, 99, 208, 40, 80, 100, 20
+Line 2 = 99, 99, 208, 100, 20, 272, 20
+Line 3 = 99, 99, 208, 40, 284, 249, 284
+Line 4 = 99, 99, 208, 249, 284, 284, 248
+Line 5 = 99, 99, 208, 284, 248, 284, 70
+Sprite 0 = images\uobjs.pcx, 213, 31, 0
+Sprite 1 = images\rsam6b.pcx, 18, 58, 0
+Sprite 2 = images\rsam6b.pcx, 178, 38, 0
+Sprite 3 = images\rsam8b.pcx, -122, -96, 0
+Sprite 4 = images\rtangb.pcx, -6, -67, 0
+Sprite 5 = images\radv2b.pcx, 123, 173, 0
+Label 0 = 123, 23, 10, 10, 10, 1, LP ALPHA
+Label 1 = 122, 22, 99, 99, 208, 1, LP ALPHA
+Label 2 = 123, 287, 10, 10, 10, 1, LP BRAVO
+Label 3 = 122, 286, 99, 99, 208, 1, LP BRAVO
+Label 4 = 209, 162, 155, 155, 155, 1, Augustov
+Time Out = 15
+[Briefing 2]
+Heading = 9, FORCES AMIES
+Map = images\MUK3.pcx
+Text = 1, 1, Les forces amies se limitent à Forward, l'équipe SAS. \n La ligne de vol de Raider est également indiquée.
+Line 0 = 155, 155, 155, 18, 298, 81, 262
+Line 1 = 155, 155, 155, 81, 262, 86, 167
+Line 2 = 155, 155, 155, 86, 167, 145, 78
+Line 3 = 155, 155, 155, 145, 78, 228, 53
+Line 4 = 155, 155, 155, 228, 53, 97, 177
+Line 5 = 155, 155, 155, 97, 177, 1, 377
+Sprite 0 = images\uchb.pcx, 10, 290, 0
+Sprite 1 = images\uwpaa.pcx, 72, 242, 0
+Sprite 2 = images\uwpcp.pcx, 78, 147, 0
+Sprite 3 = images\uwpcp.pcx, 137, 58, 0
+Sprite 4 = images\uwplz.pcx, 219, 33, 0
+Sprite 5 = images\uwpcp.pcx, 89, 157, 0
+Sprite 6 = images\usfp.pcx, 217, 42, 0
+Label 0 = 215, 65, 10, 10, 10, 1, Forward
+Label 1 = 214, 64, 99, 99, 208, 1, Forward
+Label 2 = 11, 276, 10, 10, 10, 1, Raider
+Label 3 = 10, 275, 99, 99, 208, 1, Raider
+Label 4 = 209, 162, 155, 155, 155, 1, Augustov
+Time Out = 15
+[Briefing 3]
+Heading = 9, FORCES ENNEMIES
+Map = images\MUK3.pcx
+Text = 1, 1, Nos seules informations proviennent des comptes rendus de Forward. \n Une unité d'assaut aérien est stationnée sur l'aérodrome d'Augustov. \n Un dépôt logistique a été aperçu aujourd'hui et pourrait bien se trouver encore dans cette zone. \n En outre, on a vu une unité de quartier général quitter la ville en direction de l'ouest. \n Attendez-vous à rencontrer des unités de combat en transit dans le secteur.
+Sprite 0 = images\rsam6b.pcx, 18, 58, 0
+Sprite 1 = images\rsam6b.pcx, 178, 38, 0
+Sprite 2 = images\rsam8b.pcx, -122, -96, 0
+Sprite 3 = images\rtangb.pcx, -6, -67, 0
+Sprite 4 = images\radv2b.pcx, 123, 173, 0
+Sprite 5 = images\rairb.pcx, 151, 169, 0
+Sprite 6 = images\rhqb.pcx, 189, 135, 0
+Sprite 7 = images\rsupb.pcx, 114, 133, 0
+Sprite 8 = images\rarrowwb.pcx, 163, 133, 0
+Time Out = 15
+[Briefing 4]
+Heading = 9, METEO
+Map = images\MUK3.pcx
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec une couche nuageuse partielle à 2.500 pieds. \n L'aube devrait se lever pendant que vous serez sur votre zone de rassemblement avancée. \n Visibilité limitée à 1-2 km en raison des brumes matinales. \n Bonnes conditions thermiques permettant de voir à 5 km. \n Vent faible de nord-ouest, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 10
+
+
+
+

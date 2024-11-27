@@ -1,0 +1,23 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, UK 1st Armoured's 7th brigade has been surrounded, although over all BAOR seems to be stopping the Russian advance. \n Heavy fighting continues in II Corps area, 5th Panzer is still fighting in the Lublin sector, although US 1st Armored is taking a beating. \n The V Corps continues a battle of attrition throughout Slovakia.
+Sprite 0 = images\cin2.pcx, 0, 0, 0
+Sprite 1 = images\cir2.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR SECTOR
+Map = images\cs1.pcx
+Text = 1, 1, 24th Infantry and 3rd Armoured have stabilized the front on the Braniewo - Olsztyn line, to the east of the situation map. \n 7th Brigade, the Desert Rats, have been cut off, and are preparing to defend in the lake area east of Elk. \n 4th and 20th Brigades are slowing 6th Tank Army's advance, but 20th Guards Tank Army is moving into the line. \n The situation is critical.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustow
+Label 3 = 183, 25, 155, 155, 155, 1, Grajewo
+Label 4 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ukcin4.pcx, 0, 0, 0
+Sprite 1 = images\ukcir4.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 176, 175, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

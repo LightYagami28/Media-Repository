@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, The front is solidifying in front of XVIII Corps. BAOR, II and III Corps all continue their advance into Belarus and the Ukraine. In the south, 1st Cavalry division has regained contact with a reinforced 3rd Shock Army, while, the 8th Ukrainian Army Corps continues to hold out.
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Sprite 1 = images\cir8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, II Corps SECTOR
+Map = images\cs4.pcx
+Text = 1, 1, 1st US Armored Is launching an attack against the 13th Ukrainian division which is still attempting to withdraw to the east. \n 1st and 5th Panzer are continuing offensive operation in the south. \n Both divisions are advancing while attempting to regain contact with the enemy. Intelligence on enemy units in front of the Corps is still minimal.
+Sprite 0 = images\gercir8.pcx, 0, 0, 0
+Sprite 1 = images\gercin8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 158, 32, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

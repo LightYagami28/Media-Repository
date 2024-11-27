@@ -1,0 +1,308 @@
+TITLE: Si j'avais un marteau
+BATTLEFIELD: ukraine 99000 70500 0 4 6 27
+LEVEL: 9
+OBJECTIVE: BLUE REAR_LINE 95000 64000 100000 80000 7
+OBJECTIVE: RED FORWARD_LINE 95000 64000 100000 80000 1
+BLUE: FRIENDLIES 30
+BLUE: ENEMIES 80
+RED: ENEMIES 90
+RED: FRIENDLIES 50
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 1
+MACHINE: 1
+PLATOON: 128 105000 65000 90 3 100950 66750 3 7
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 180
+ADDWAYPT: 96350 67900
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 240
+ADDWAYPT: 96200 70300
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARTY:
+ORDER_WPT_SETDELAYTIME: 240
+ADDWAYPT: 98050 73600
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 240
+PLATOON: 109 94000 78000 0 3 100600 76950 3 4
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_EAST:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 240
+ADDWAYPT: 98900 73900
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_ASMBLY_EAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 240
+ADDWAYPT: 97900 71700
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ASMBLY_EAST:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 96350 68150
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_EAST:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 540
+PLATOON: 79 96000 72500 270 6 97500 71250 3 18
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ASMBLY_NE:
+PLATOON: 1 97000 72500 270 6 98300 71950 3 18
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ASMBLY_EAST:
+PLATOON: 1 97000 74000 270 6 99000 74000 3 18
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ASMBLY_EAST:
+PLATOON: 2 97000 75500 270 6 98900 75050 3 18
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ASMBLY_NE:
+ADDWAYPT: 100650 74500
+ORDER_TRVL_DIGIN:
+ORDER_ASMBLY_NORTH:
+PLATOON: 9 95500 71000 335 6 96250 67750 3 18
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ASMBLY_NE:
+PLATOON: 7 95500 74500 270 6 95500 74500 3 18
+PLATOON: 6 95000 71000 270 6 95200 71000 3 18
+SUPPORT: 19 88000 68000 270 3 101000 71000 3 31
+SUPPORT: 82 94000 72700 270 3 94100 72700 3 30
+RED_TARGET: 29
+SUPPORT: 82 93000 70000 270 3 93100 70200 3 30
+RED_TARGET: 29
+SUPPORT: 83 94000 75000 270 3 94100 74900 3 28
+RED_TARGET: 29
+SUPPORT: 77 103900 65500 90 8 103900 65500 3 28
+SUPPORT: 77 103850 64700 90 8 103850 64700 3 29
+remSUPPORT: 77 103200 64500 90 8 103200 64500 3 29
+SUPPORT: 74 106350 64800 90 8 106350 64800 3 30
+PLATOON: 60 100437 64515 90 7 94000 71000 3 21
+LOGIC: LOGIC_RECON
+PLATOON: 59 106125 75328 90 7 100900 74750 3 21
+ORDER_MODE_WAYPT:
+ORDER_TRVL_ASSAULT:
+ORDER_ADV_FAST:
+ADDWAYPT: 93656 75037
+PLATOON: 37 101500 66500 135 7 98000 72000 3 19
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 37 102500 67500 135 7 95000 73000 3 19
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 117 102000 67000 135 7 98000 72000 3 19
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 59 102200 66800 135 7 97000 72000 3 19
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 37 104000 70000 135 7 102500 72500 3 23
+ORDER_MODE_WAYPT:
+ORDER_TRVL_ASSAULT:
+ORDER_ADV_FAST:
+ADDWAYPT: 101000 74000
+ADDWAYPT: 98000 74000
+ADDWAYPT: 96000 70000
+PLATOON: 37 105000 71000 135 7 102500 72550 3 23
+ORDER_MODE_WAYPT:
+ORDER_TRVL_ASSAULT:
+ORDER_ADV_FAST:
+ADDWAYPT: 100000 75000
+ADDWAYPT: 94000 75000
+ADDWAYPT: 94000 70000
+PLATOON: 51 104500 70500 135 7 102500 72600 3 23
+ORDER_MODE_WAYPT:
+ORDER_TRVL_ASSAULT:
+ORDER_ADV_FAST:
+ADDWAYPT: 101000 75000
+ADDWAYPT: 97000 72000
+PLATOON: 38 105000 69750 135 7 102500 72600 3 23
+ORDER_MODE_WAYPT:
+ORDER_TRVL_ASSAULT:
+ORDER_ADV_FAST:
+ADDWAYPT: 101000 75000
+ADDWAYPT: 97000 72000
+ADDWAYPT: 95000 71000
+
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb4.pcx
+Text = 1, 1, Vous assurerez l'appui aérien direct de l'attaque de la 120e DFM (Rogachev). \n \n INDICATIF : \n Patrouille n°1 : Reaper \n \n OBJECTIFS : \n Appuyer l'attaque de percée sur la LP Charlie.\n Minimiser les pertes des unités terrestres amies. \n La destruction de toutes les unités d'artillerie ennemies doit être considérée comme un objectif de mission.
+Sprite 0 = images\rahb.pcx, 269, 39, 0
+Sprite 1 = images\rwpbp.pcx, 188, 63, 0
+Sprite 2 = images\rwpbp.pcx, 96, 86, 0
+Sprite 3 = images\rwpbp.pcx, 93, 134, 0
+Sprite 4 = images\rwpbp.pcx, 130, 200, 0
+Line 0 = 155, 155, 155, 278, 48, 197, 83
+Line 1 = 155, 155, 155, 197, 83, 105, 106
+Line 2 = 155, 155, 155, 105, 106, 102, 154
+Line 3 = 155, 155, 155, 102, 154, 139, 220
+Line 4 = 255, 0, 0, 79, 39, 110, 80
+Line 5 = 255, 0, 0, 110, 80, 110, 127
+Line 6 = 255, 0, 0, 110, 127, 151, 160
+Line 7 = 255, 0, 0, 151, 160, 160, 205
+Line 8 = 255, 0, 0, 160, 205, 201, 261
+Label 0 = 117, 108, 10, 10, 10, 1, LP CHARLIE
+Label 1 = 116, 107, 255, 0, 0, 1, LP CHARLIE
+Time Out = 15
+[Red_Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\Msb4.pcx
+Text = 1, 1, Votre secteur sera délimité par les lignes de phase Alpha et Bravo. Vous ne franchirez en aucun cas ces lignes de phase. 
+Line 0 = 255, 0, 0, 29, 211, 29, 69
+Line 1 = 255, 0, 0, 29, 69, 69, 29
+Line 2 = 255, 0, 0, 69, 29, 282, 29
+Line 3 = 255, 0, 0, 29, 251, 59, 281
+Line 4 = 255, 0, 0, 59, 281, 242, 281
+Line 5 = 255, 0, 0, 242, 281, 282, 241
+Line 6 = 255, 0, 0, 282, 241, 282, 50
+Line 7 = 255, 0, 0, 79, 39, 110, 80
+Line 8 = 255, 0, 0, 110, 80, 110, 127
+Line 9 = 255, 0, 0, 110, 127, 151, 160
+Line 10 = 255, 0, 0, 151, 160, 160, 205
+Line 11 = 255, 0, 0, 160, 205, 201, 261
+Label 0 = 117, 108, 10, 10, 10, 1, LP CHARLIE
+Label 1 = 116, 107, 255, 0, 0, 1, LP CHARLIE
+Label 2 = 151, 32, 10, 10, 10, 1, LP ALPHA
+Label 3 = 150, 31, 255, 0, 0, 1, LP ALPHA
+Label 4 = 151, 285, 10, 10, 10, 1, LP BRAVO
+Label 5 = 150, 284, 255, 0, 0, 1, LP BRAVO
+Time Out = 15
+[Red_Briefing 2]
+Heading = 9, FORCES AMIES
+Map = images\Msb4.pcx
+Text = 1, 1, Un bataillon de chars en sous-effectif de la 120e DFM de la garde (Rogachev) exécute une attaque de percée dans votre zone d'opérations. Cette force est composée de deux escadrons de chars, indicatifs Bear et Iron, appuyés par un bataillon d'artillerie, indicatif Maul.
+Sprite 0 = images\rtnkb.pcx, 221, 43, 0
+Sprite 1 = images\rtnkb.pcx, 262, 126, 0
+Sprite 2 = images\rspgc.pcx, 279, 46, 0
+Line 0 = 255, 0, 0, 264, 150, 238, 205
+Line 1 = 255, 0, 0, 238, 205, 190, 243
+Line 2 = 255, 0, 0, 190, 243, 84, 222
+Line 3 = 255, 0, 0, 84, 222, 84, 152
+Line 4 = 255, 0, 0, 84, 152, 94, 162
+Line 5 = 255, 0, 0, 84, 152, 74, 162
+Line 6 = 255, 0, 0, 216, 66, 108, 148
+Line 7 = 255, 0, 0, 108, 148, 108, 138
+Line 8 = 255, 0, 0, 108, 148, 148, 118
+Time Out = 15
+[Red_Briefing 3]
+Heading = 9, FORCES ENNEMIES
+Map = images\Msb4.pcx
+Text = 1, 1, Les forces ennemies seront composées d'une unité de blindés de niveau compagnie, se déployant actuellement le long de la LP Charlie, et soutenue par un bataillon d'artillerie au complet et par des moyens aériens.
+Sprite 0 = images\Utnkb.pcx, 111, 126, 0
+Sprite 1 = images\utnkp.pcx, 138, 148, 0
+Sprite 2 = images\utnkp.pcx, 151, 183, 0
+Sprite 3 = images\uifvp.pcx, 144, 249, 0
+Sprite 4 = images\ucavp.pcx, 94, 68, 0
+Sprite 5 = images\uspgp.pcx, 26, 161, 0
+Sprite 6 = images\umlrsp.pcx, 51, 217, 0
+Time Out = 15
+[Red_Briefing 4]
+Heading = 9, METEO
+Map = images\Msb4.pcx
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec couche nuageuse partielle à 2.500 pieds. \n Visibilité illimitée. \n Bonnes conditions thermiques, permettant de voir à 6 km. \n Léger vent du nord, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 10
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb4.pcx
+Text = 1, 1, Vous assurerez une défense de secteur en appui d'un team du 1-13e blindé, essentiellement composé de chars, et se déployant actuellement le long de la LP Charlie. \n \n INDICATIF : \n Patrouille n°1 : Specter \n \n OBJECTIFS :\n Empêcher toute percée par l'ennemi de la LP Charlie. \n Minimiser les pertes des unités terrestres amies. \n La protection des unités d'artillerie doit être considérée comme un objectif de mission.
+Sprite 0 = images\uahb.pcx, 49, 299, 0
+Sprite 1 = images\uwpbp.pcx, 183, 247, 0
+Sprite 2 = images\uwpbp.pcx, 147, 206, 0
+Sprite 3 = images\uwpbp.pcx, 127, 162, 0
+Sprite 4 = images\uwpbp.pcx, 96, 91, 0
+Line 0 = 155, 155, 155, 58, 308, 192, 267
+Line 1 = 155, 155, 155, 192, 267, 156, 226
+Line 2 = 155, 155, 155, 156, 226, 136, 182
+Line 3 = 155, 155, 155, 136, 182, 105, 111
+Line 4 = 99, 99, 208, 79, 39, 110, 80
+Line 5 = 99, 99, 208, 110, 80, 110, 127
+Line 6 = 99, 99, 208, 110, 127, 151, 160
+Line 7 = 99, 99, 208, 151, 160, 160, 205
+Line 8 = 99, 99, 208, 160, 205, 201, 261
+Label 0 = 117, 108, 10, 10, 10, 1, LP CHARLIE
+Label 1 = 116, 107, 99, 99, 208, 1, LP CHARLIE
+Time Out = 15
+[Blue_Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\Msb4.pcx
+Text = 1, 1, Votre secteur sera délimité par les lignes de phase Alpha et Bravo. Vous ne franchirez en aucun cas ces lignes de phase. 
+Line 0 = 99, 99, 208, 29, 211, 29, 69
+Line 1 = 99, 99, 208, 29, 69, 69, 29
+Line 2 = 99, 99, 208, 69, 29, 282, 29
+Line 3 = 99, 99, 208, 29, 251, 59, 281
+Line 4 = 99, 99, 208, 59, 281, 242, 281
+Line 5 = 99, 99, 208, 242, 281, 282, 241
+Line 6 = 99, 99, 208, 282, 241, 282, 50
+Line 7 = 99, 99, 208, 79, 39, 110, 80
+Line 8 = 99, 99, 208, 110, 80, 110, 127
+Line 9 = 99, 99, 208, 110, 127, 151, 160
+Line 10 = 99, 99, 208, 151, 160, 160, 205
+Line 11 = 99, 99, 208, 160, 205, 201, 261
+Label 0 = 117, 108, 10, 10, 10, 1, LP CHARLIE
+Label 1 = 116, 107, 99, 99, 208, 1, LP CHARLIE
+Label 2 = 151, 32, 10, 10, 10, 1, LP ALPHA
+Label 3 = 150, 31, 99, 99, 208, 1, LP ALPHA
+Label 4 = 151, 285, 10, 10, 10, 1, LP BRAVO
+Label 5 = 150, 284, 99, 99, 208, 1, LP BRAVO
+Time Out = 15
+[Blue_Briefing 2]
+Heading = 9, FORCES AMIES
+Map = images\Msb4.pcx
+Text = 1, 1, Les forces amies seront composées d'un team essentiellement constitué de chars du 1-13e blindé, se déployant actuellement le long de la LP Charlie. Il est soutenu par un bataillon d'artillerie au complet, indicatif Sledge.
+Sprite 0 = images\Utnkb.pcx, 111, 126, 0
+Sprite 1 = images\utnkp.pcx, 138, 148, 0
+Sprite 2 = images\utnkp.pcx, 151, 183, 0
+Sprite 3 = images\uifvp.pcx, 144, 249, 0
+Sprite 4 = images\ucavp.pcx, 94, 68, 0
+Sprite 5 = images\uspgp.pcx, 26, 161, 0
+Sprite 6 = images\umlrsp.pcx, 51, 217, 0
+Time Out = 15
+[Blue_Briefing 3]
+Heading = 9, FORCES ENNEMIES
+Map = images\Msb4.pcx
+Text = 1, 1, Un bataillon de chars en sous-effectif de la 120e DFM de la garde (Rogachev) exécute une attaque de percée dans votre zone d'opérations. 
+Sprite 0 = images\rtnkb.pcx, 221, 43, 0
+Sprite 1 = images\rtnkb.pcx, 262, 126, 0
+Sprite 2 = images\rspgc.pcx, 279, 46, 0
+Time Out = 15
+[Blue_Briefing 4]
+Heading = 9, METEO
+Map = images\Msb4.pcx
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec couche nuageuse partielle à 2.500 pieds. \n Visibilité illimitée. \n Bonnes conditions thermiques, permettant de voir à 6 km. \n Léger vent du nord, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 10
+

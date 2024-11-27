@@ -1,0 +1,127 @@
+TITLE: rus4
+BATTLEFIELD: POLAND 135000 37500 0 0 12 27
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+RED_ENEMIES: 70
+BLUE_FRIENDLIES: 70
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 1
+MACHINE: 0
+/* This is you, any questions? */
+PLATOON: 128 140000 30600 270 0 138950 31250 2 7
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 133350 30650
+ORDER_PRIORITY_AIRDEF:
+ORDER_ADV_MED:
+ADDWAYPT: 129450 31050
+ORDER_WPT_SETDELAYTIME: 210
+ORDER_ASMBLY_BATTLEPOS:
+ADDWAYPT: 129200 36600
+ORDER_WPT_SETDELAYTIME: 210
+ADDWAYPT: 129500 41100
+ORDER_WPT_SETDELAYTIME: 240
+/* GOTTMEINUNZ */
+PLATOON: 17 141900 50000 90 0 141000 44250 0 10
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_ASSMBLY:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_SEAD:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 139250 43450
+ORDER_WPT_SETDELAYTIME: 360
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ASMBLY_HELO_S_AND_D:
+ADDWAYPT: 128400 43450
+ORDER_WPT_SETDELAYTIME: 420
+/* GRUNTS */
+PLATOON: 121 132900 43600 45 2 132900 43600 2 17
+PLATOON: 121 131550 42000 45 2 131550 42000 1 17
+RED_TARGET: 23
+PLATOON: 28  129400 30650 90 6 129400 30650 1 17
+RED_TARGET2: 27
+PLATOON: 29 129350 44150 90 6 129350 44150 2 17
+RED_TARGET2: 27
+PLATOON: 25 130750 43200 45 2 130750 43200 1 17
+RED_TARGET: 23
+PLATOON: 7 132800 44600 45 2 132800 44600 2 17
+PLATOON: 7 132000 43100 45 2 132000 43100 2 17
+PLATOON: 7 130500 41900 45 2 130500 41900 2 17
+PLATOON: 79 132000 43100 225 2 132000 43100 2 17
+RED_TARGET: 23
+PLATOON: 136 131050 43950 135 2 131050 43950 2 17
+RED_TARGET: 23
+
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\RUS4.PCX
+Text = 1, 1, Reconnaissance has located a Headquarters unit of the American 1st Armored Division somewhere between Phase Lines DELTA and FOXTROT.  Perform a Search and destroy mission for the HQ units. \n \n CALLSIGNS: \n Flight #1:   Reaper. \n \n OBJECTIVES: \n Move in and destroy or damage as many vehicles as possible.
+Line 0 = 200, 200, 200, 258, 20, 250, 41
+Line 1 = 200, 200, 200, 250, 41, 138, 29
+Line 2 = 200, 200, 200, 138, 29, 60, 37
+Line 3 = 200, 200, 200, 60, 37, 58, 148
+Line 4 = 200, 200, 200, 58, 148, 61, 238
+Line 5 = 200, 0, 0, 20, 0, 20, 315
+Line 6 = 200, 0, 0, 185, 0, 185, 315
+Sprite 0 = images\rahb.pcx, 250, 12, 0
+Sprite 1 = images\rwpcp.pcx, 242, 18, 0
+Sprite 2 = images\rwpbp.pcx, 130, 6, 0
+Sprite 3 = images\rwpbp.pcx, 52, 14, 0
+Sprite 4 = images\rwpbp.pcx, 50, 125, 0
+Sprite 5 = images\rwppa.pcx, 53, 215, 0
+Label 0 = 22, 50, 10, 10, 10, 1, PL FOXTROT
+Label 1 = 23, 51, 200, 0, 0, 1, PL FOXTROT
+Label 2 = 187, 50, 10, 10, 10, 1, PL ECHO
+Label 3 = 188, 51, 200, 0, 0, 1, PL ECHO
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\RUS4.PCX
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. All area SAM sites have been put on full alert. Any aircraft crossing PL Alpha or Bravo will be treated as hostile. \n \n AIR DEFENSE: \n Expect heavy Air Defense around the Headquarters units.
+Line 0 = 200, 0, 0, 15, 0, 15, 315
+Line 1 = 200, 0, 0, 300, 0, 300, 315
+Label 0 = 16, 50, 10, 10, 10, 1, PL ALPHA
+Label 1 = 17, 51, 200, 0, 0, 1, PL ALPHA
+Label 2 = 245, 50, 10, 10, 10, 1, PL BRAVO
+Label 3 = 246, 51, 200, 0, 0, 1, PL BRAVO
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\RUS4.PCX
+Text = 1, 1, No Friendly ground Forces are present.
+ Time Out = 15
+
+[Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\RUS4.PCX
+Text = 1, 1, The HQ units of the 1st armored may have moved recently. Their last known locations are shown on the map.
+Sprite 0 = images\uhqb.pcx, 84, 79, 0
+Sprite 1 = images\uhqb.pcx, 98, 208, 0
+Sprite 2 = images\usam4b.pcx, 48, -10, 0
+Sprite 3 = images\usam4b.pcx, 65, 120, 0
+Label 0 = 106, 226, 0, 0, 255, 1, Approximate
+Label 1 = 89, 99, 0, 0, 255, 1, Approximate 
+Label 2 = 108, 80, 0, 0, 255, 1, 1st Armor
+Label 3 = 122, 208, 0, 0, 255, 1, 1st Armor
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, WEATHER
+Map = images\RUS4.PCX
+Text = 1, 1, The weather in your sector of operations is overcast, with a ceiling of 2500 feet. \n Sunset should occur as you are leaving the target area. \n Visibility is limited to approximately 1 to 2 kilometers. \n Thermal conditions are good, with ranges of up to 5 kilometers. \n Winds are light out of the SW, at 3 to 5 knots.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+ Time Out = 15
+
+

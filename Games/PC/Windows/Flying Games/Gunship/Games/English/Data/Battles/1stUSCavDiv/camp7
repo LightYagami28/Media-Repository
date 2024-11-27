@@ -1,0 +1,160 @@
+TITLE: cav7
+BATTLEFIELD: UKRAINE 64500 106500 0 0 22 24
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+OBJECTIVE: BLUE TWOKRADIUS 69250 101750 16
+BLUE_ENEMIES: 60
+RED_FRIENDLIES: 60
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 0
+
+PLATOON: 21 61400 112800 90 0 64800 110150 2 6
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+ORDER_ADV_MED:
+ADDWAYPT: 68050 109400
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 70900 107500
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 69950 102550
+ORDER_WPT_SETDELAYTIME: 210
+ORDER_ASMBLY_PATROL:
+PLATOON: 108 50350 111450 90 0 50360 111460 0 12
+BLUE_PROTECT: 48
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 330
+ORDER_FORM_NOE:
+ORDER_ASMBLY_CHKPT:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 69800 101550 
+ORDER_ASMBLY_LZ:
+ADDWAYPT: 56800 112250
+ORDER_ASMBLY_ASSMBLY:
+PLATOON: 108 50350 112950 90 0 50360 112960 1 12
+BLUE_PROTECT: 48
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 330
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 69700 101550
+ORDER_ASMBLY_LZ:
+ORDER_ADV_FAST:
+ADDWAYPT: 56850 113750
+ORDER_ASMBLY_ASSMBLY:
+PLATOON: 108 50400 113750 90 0 50410 113760 0 12
+BLUE_PROTECT: 48
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 330
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+ADDWAYPT: 69800 101500
+ORDER_ASMBLY_LZ:
+ADDWAYPT: 57700 114200
+ORDER_ASMBLY_ASSMBLY:
+/* ENEMY FORCES */
+PLATOON: 43 68100 105250 270 0 68100 105250 1 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_SW:
+ORDER_ADV_SLOW:
+PLATOON: 43 66300 101800 270 0 66300 101800 2 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_WEST:
+ORDER_ADV_SLOW:
+PLATOON: 43 70600 101450 270 0 70600 101450 0 19
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_SOUTH:
+ORDER_ADV_SLOW:
+/* AIRFIELD */
+PLATOON: 105 69257 101519 0 0 69257 101519 2 19
+PLATOON: 105 69257 101433 0 0 69257 101433 2 19
+PLATOON: 125 69257 101815 0 7 69257 101815 0 19
+PLATOON: 124 69458 101646 90 6 69458 101646 0 19
+PLATOON: 120 69046 101949 225 2 69046 101949 1 19
+PLATOON: 120 69635 101314 45 2 69635 101315 1 19
+PLATOON: 69 69493 101471 270 6 69493 101471 0 19 
+
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\muc7.pcx
+Text = 1, 1, You are to provide cover for the air assault moving on the air base outside of Khmel'Nitskiy. Destroy all enemy units with 2km of the airfield. The transports will be 5 minutes behind you. Good Luck. \n \n CALLSIGNS: \n Flight #1: Sword \n Flight #2: Raider \n OBJECTIVES: \n Destroy all enemy units within 2 KM of the airfield. Protect the transports 
+Line 0 = 200, 200, 200, 96, 284, 164, 231
+Line 1 = 200, 200, 200, 164, 231, 229, 216
+Line 2 = 200, 200, 200, 229, 216, 286, 178
+Line 3 = 200, 200, 200, 286, 178, 267, 79
+Sprite 0 = images\uahb.pcx, 88, 276, 0
+Sprite 1 = images\uwpcp.pcx, 156, 208, 0
+Sprite 2 = images\uwpbp.pcx, 221, 193, 0
+Sprite 3 = images\uwpbp.pcx, 278, 155, 0
+Sprite 4 = images\uwpbp.pcx, 259, 56, 0
+Sprite 5 = images\uobja.pcx, 248, 39, 0
+Label 0 = 220, 103, 200, 200, 200, 1, Khel'Nitskiy
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\muc7.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n The situation is very fluid and any air unit outside its own area will be considered hostile. \n \n AIR DEFENSE: \n Normal airfield defense are expected.
+Line 0 = 0, 0, 200, 300, 0, 300, 315
+Line 1 = 0, 0, 200, 15, 0, 15, 315
+Label 0 = 17, 280, 0, 0, 200, 1, PL ALPHA
+Label 1 = 255, 280, 0, 0, 200, 1, PL BRAVO
+Label 2 = 220, 103, 200, 200, 200, 1, Khel'Nitskiy 
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\muc7.pcx
+Text = 1, 1, There are no friendly ground forces in this mission. Raider's flight plan is shown.
+Sprite 0 = images\uwplz.pcx, 255, 36
+Line 0 = 200, 200, 200, -125, 287, 264, 59
+Line 1 = 200, 200, 200, -125, 257, 264, 59
+Line 2 = 200, 200, 200, -125, 303, 264, 59
+Label 0 = 220, 103, 200, 200, 200, 1, Khel'Nitskiy 
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\muc7.pcx
+Text = 1, 1, This is a deep strike mission, Intelligence reports nothing but normal airfield defense and rear echelon garrison forces in the area. No first echelon units are present. Be wary of returning Strike missions.
+Sprite 0 = images\rifvp1.pcx, 200, 67, 0
+Sprite 1 = images\rifvp1.pcx, 229, 120, 0
+Label 0 = 220, 103, 200, 200, 200, 1, Khel'Nitskiy 
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, WEATHER
+Map = images\muc7.pcx
+Text = 1, 1, The weather in your sector of operations is overcast, with a ceiling of 2500 feet. \n The clouds will obscure any ambient light from the moon, limiting visibility to approximately 1 to 2 kilometers. \n Thermal conditions are poor due to thermal crossover, with ranges limited to 2 kilometers. \n Winds are light out of the SW, at 3 to 5 knots.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+Label 0 = 220, 103, 200, 200, 200, 1, Khel'Nitskiy 
+Time Out = 15
+
+

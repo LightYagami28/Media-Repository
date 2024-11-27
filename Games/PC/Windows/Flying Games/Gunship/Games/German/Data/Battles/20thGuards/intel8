@@ -1,0 +1,19 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die 20. Garde verwickelt die 5. Panzer in Gefechte. Die Zentralgruppe drängt noch immer die gesamte Front zurück. Die Südgruppe stoppte und hält das 1. und 5. Korps an Ort und Stelle. Die 32. Ukrainische Motorschützen-Division bereitet sich auf einen Gegenangriff vor. Die Nordgruppe hält noch immer die BAOR, wo sie ist. 
+Sprite 0 = images\rcin7.pcx, 0, 0, 0
+Sprite 1 = images\rcir7.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DER 20. WACHGARDE
+Map = images\cs2.pcx
+Text = 1, 1, Die 1. Infantry hält noch immer gegen die 20. Armeegarde und die 13. Ukrainische aus. Die 2. Tamanische Garde und die 13. Motorschützen-Division kämpfen gegen die 5. Panzer-Division. Die 2. Armeegarde wird zurzeit noch an Ort und Stelle gebunden. Die 10. Panzer fällt immer noch zurück, um ihre Nordflanke vor Angriffen zu schützen, und die 1. Ukrainische folgt nach.   
+Sprite 0 = images\ruscin8.pcx, 0, 0, 0
+Sprite 1 = images\ruscir8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 58, 136, 0
+Time Out = 15
+GOTOBRIEFING = 1
+
+
+

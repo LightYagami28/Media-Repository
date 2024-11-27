@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le Groupe de Forces Nord a ralenti sa progression face à la BAOR. Le Groupe de Forces Centre a décidé d'engager la 20e de la garde afin d'éliminer la 1e DB. \n La 2e armée de la garde a repoussé la 5e Panzer jusqu'à la Wisla. \n Le Groupe de Forces Sud cède du terrain à un rythme alarmant.
+Sprite 0 = images\rcin6.pcx, 0, 0, 0
+Sprite 1 = images\rcir6.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR de la 20e de la GARDE
+Map = images\cs2.pcx
+Text = 1, 1, La 2e DB de la garde (Taman) a lancé son offensive contre la 1e DB américaine. Le reste de la 20e de la garde fait écran sur l'arrière de la 1e DI. Le 13e ukrainien use la capacité de combat de la 1e d'infanterie. La 2e de la garde contraint la 5e Panzer à se replier rapidement. Le 1er ukrainien est tenu en échec par la 10e Panzer.
+Sprite 0 = images\ruscin6.pcx, 0, 0, 0
+Sprite 1 = images\ruscir6.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 30, 39, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

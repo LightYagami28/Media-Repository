@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die Nordgruppe hat ihren Vormarsch auf die Kräfte der BAOR verlangsamt. Die Zentralgruppe hat entschieden, die 20. Garde mit der Vernichtung der 1. Armored zu beauftragen. \n Die 2. Armeegarde hat die 5. Panzer bis zur Weichsel zurückgedrängt. \n Die Südgruppe verliert auf dramatische Weise an Boden. 
+Sprite 0 = images\rcin6.pcx, 0, 0, 0
+Sprite 1 = images\rcir6.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DER 20. WACHGARDE
+Map = images\cs2.pcx
+Text = 1, 1, Die 2. Tamanische Garde hat ihre Offensive gegen die 1. US Armored begonnen. Der Rest der 20. Garde schirmt den Rückteil der 1. Infantry Division ab. Die 13. Ukrainische dünnt die Kampf-Fähigkeiten der 1. Infantry aus. Die 2. Garde erzwingt einen schnellen Rückzug der 5. Panzer. Die 1. Ukrainische liegt im Patt mit der 10. Panzer.
+Sprite 0 = images\ruscin6.pcx, 0, 0, 0
+Sprite 1 = images\ruscir6.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 30, 39, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

@@ -1,0 +1,198 @@
+TITLE: cav9
+BATTLEFIELD: UKRAINE 78000 165750 0 0 19 24
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+BLUE_ENEMIES: 60
+RED_FRIENDLIES: 60
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 0
+
+/* HELO */
+PLATOON: 17 70900 167550 90 0 75800 169200 0 9
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_PATROL:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 77500 168450
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 79700 167250
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 82850 164600
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_CHKPT:
+ORDER_PRIORITY_AIRDEF:
+/* RESCUE */
+PLATOON: 108 70650 166150 90 0 72650 167650 0 13
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 600
+ORDER_ASMBLY_ASSMBLY:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 75300 168700
+ORDER_ASMBLY_CHKPT:
+ADDWAYPT: 78350 167900
+ADDWAYPT: 78000 164150
+ADDWAYPT: 79450 160700
+ORDER_ASMBLY_SAR:
+ADDWAYPT: 70200 160650
+ORDER_ASMBLY_ASSMBLY:
+BLUE_PROTECT2: 49
+/* DOWNED TROOPS */
+PLATOON: 99 79400 160600 90 0 79400 160600 2 12
+BLUE_PROTECT: 48
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+/* ENEMY GROUND */
+PLATOON: 98 84500 165600 270 0 84500 165600 0 21
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 240
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 83350 163300
+ADDWAYPT: 83150 161500
+ADDWAYPT: 82200 160250
+PLATOON: 98 84250 170150 270 0 84250 170150 2 21
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 83350 170100
+ADDWAYPT: 82100 170400
+ADDWAYPT: 81000 169650
+ADDWAYPT: 79500 169250
+ADDWAYPT: 77850 168650
+PLATOON: 97 84450 160300 270 0 84450 160300 1 21
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 84300 161300
+ADDWAYPT: 84200 162350
+ADDWAYPT: 83550 162800
+ORDER_WPT_SETDELAYTIME: 240
+ADDWAYPT: 83100 161200
+ADDWAYPT: 81700 160050
+/* ENEMY AIR */
+PLATOON: 64 90000 162600 270 0 85000 162600 2 10
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 79150 166500
+ORDER_ASMBLY_LZ:
+ORDER_FORM_NOE:
+ADDWAYPT: 85800 159300
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+PLATOON: 64 90950 172350 270 0 84950 172350 2 10
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 81050 169400
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_BATTLEPOS:
+ADDWAYPT: 78650 171800
+ORDER_WPT_SETDELAYTIME: 240
+ADDWAYPT: 74950 170650
+PLATOON: 63 85400 168500 270 0 76300 167550 0 11
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_LZ:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+ADDWAYPT: 85700 167600
+ORDER_ASMBLY_ASSMBLY:
+PLATOON: 63 74100 163850 270 0 75600 165550 1 11
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 600
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\muc9.pcx
+Text = 1, 1, An aircraft has been shot down in your area the crew has survived and is being actively hunted. You are to provide cover for the SAR mission. The Blackhawk's are already in the air. \n CALLSIGNS: \n Flight #1: Storm \n Flight #2: Sandy \n OBJECTIVES: \n Provide security for the Transports and clear an LZ around objective shield for the pickup.
+Line 0 = 200, 200, 200, 16, 194, 114, 227 
+Line 1 = 200, 200, 200, 114, 227, 148, 212
+Line 2 = 200, 200, 200, 148, 212, 192, 188
+Line 3 = 200, 200, 200, 192, 188, 255, 135
+Sprite 0 = images\uahb.pcx, 8, 186, 0
+Sprite 1 = images\uwpbp.pcx, 106, 204, 0
+Sprite 2 = images\uwpbp.pcx, 140, 189, 0
+Sprite 3 = images\uwpbp.pcx, 184, 165, 0
+Sprite 4 = images\uwpbp.pcx, 247, 112, 0
+Sprite 5 = images\uobjs.pcx, 176, 28, 0
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\muc9.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n The situation is very fluid and any air unit outside its own area will be considered hostile. \n \n AIR DEFENSE: \n Expect infantry anti-aircraft weapons in abundance.
+Line 0 = 99, 99, 208, 30, 275, 30, 70
+Line 1 = 99, 99, 208, 30, 70, 151, 1
+Line 2 = 99, 99, 208, 85, 272, 226, 272
+Line 3 = 99, 99, 208, 226, 272, 314, 122
+Label 0 = 63, 47, 10, 10, 10, 1, PL ALPHA
+Label 1 = 262, 225, 10, 10, 10, 1, PL BRAVO
+Label 2 = 62, 46, 99, 99, 208, 1, PL ALPHA
+Label 3 = 261, 224, 99, 99, 208, 1, PL BRAVO
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\muc9.pcx
+Text = 1, 1, The only ground forces in this mission are a couple of very scared pilots they are somewhere near objective shield.
+Sprite 0 = images\uobjs.pcx, 176, 28, 0
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\muc9.pcx
+Text = 1, 1, The Russians have acted fast on this one. The have put down enemy infantry patrols and are slowly closing a circle around our boys. They are ferrying in troops by helo. The are also searching with Havocs and Blacksharks
+Sprite 0 = images\rinfp.pcx, 281, 67, 0
+Sprite 1 = images\rarrowwb.pcx, 225, 218, 0
+Sprite 2 = images\rarrowwb.pcx, 256, 70, 0
+Sprite 3 = images\rinfp.pcx, 252, 218, 0
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, WEATHER
+Map = images\muc9.pcx
+Text = 1, 1, The weather in your sector of operations calls for rain, with increasing chance of thunderstorms, and a 1500 foot ceiling. \n Nautical Twilight is timed to occur at your forward Assembly Area. \n Visibility is limited to 1 to 2 kilometers. \n Thermal conditions are poor, with ranges limited to less than 2 kilometers due in part to thermal crossover caused by the precipitation. \n Winds are out of the NNW, at 5 to 10 knots.
+Movie = movies\storm.bik, 0, 0, 315, 315
+Time Out = 15
+

@@ -1,0 +1,158 @@
+TITLE: The Sound of the Guns
+BATTLEFIELD: UKRAINE 51000 102750 0 0 18 27
+LEVEL: 3
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 270
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 90
+RED_ENEMIES: 85
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 1
+MACHINE: 0
+
+PLATOON: 62 43950 109500 270 0 43950 109500 2 5
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+PLATOON: 127 52800 95750 90 0 50350 96700 2 4
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASMBLY:
+ORDER_FORM_NOE:
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+ADDWAYPT: 45950 97150
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_PATROL:
+ADDWAYPT: 46550 99100
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 48050 101650
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_PATROL:
+ADDWAYPT: 49800 104550
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ADV_MED:
+ADDWAYPT: 55300 98200
+ORDER_WPT_SETDELAYTIME: 540
+PLATOON: 115 56000 100700 270 6 56000 100700 1 22
+PLATOON: 115 52900 98000 270 6 52900 98000 2 22
+PLATOON: 82 54400 96450 135 6 54400 96450 0 23
+RED_TARGET: 29
+BLUE_PROTECT: 47
+PLATOON: 82 55400 97450 135 6 55400 97450 1 23
+RED_TARGET: 29
+BLUE_PROTECT: 47
+PLATOON: 82 56750 98000 135 6 56750 98000 0 23
+RED_TARGET: 29
+BLUE_PROTECT: 47
+PLATOON: 138 56100 96150 135 6 56100 96150 2 23
+PLATOON: 140 50650 99300 270 6 50650 99300 0 21
+PLATOON: 140 51250 100850 270 6 51250 100850 1 21
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb12.pcx
+Text = 1, 1, You are flying Combat patrol for your companies artillery battery, call sign Iron. \n \n CALLSIGN: \n Flight #1     Specter \n \n OBJECTIVES: Fly to each of your patrol points and destroy any enemy units encountered. Be sure of your targets before engaging. \n Protect the Artillery Units form destruction.
+Sprite 0 = images\uahb.pcx, 184, 10, 0
+Sprite 1 = images\uwpaa.pcx, 137, 14, 0
+Sprite 2 = images\uwppa.pcx, 49, 23, 0
+Sprite 3 = images\uwppa.pcx, 61, 62, 0
+Sprite 4 = images\uwppa.pcx, 91, 113, 0
+Sprite 5 = images\uwppa.pcx, 126, 170, 0
+Sprite 6 = images\uwppa.pcx, 236, 44, 0
+Line 0 = 200, 200, 200, 194, 18, 145, 37
+Line 1 = 200, 200, 200, 145, 37, 57, 46
+Line 2 = 200, 200, 200, 57, 46, 69, 85
+Line 3 = 200, 200, 200, 69, 85, 99, 136
+Line 4 = 200, 200, 200, 99, 136, 134, 193
+Line 5 = 200, 200, 200, 134, 193, 244, 67
+Time Out = 20
+
+[Blue_Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\msb12.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n Any aircraft outside of this area will be considered hostile. \n AIR DEFENSE: \n  Only friendly air defense vehicles have been reported in the area.
+Sprite 0 = images\usam4b.pcx, 216, 75, 0
+Sprite 1 = images\usam4b.pcx, 163, 21, 0
+Line 0 = 0, 0, 255, 0, 25, 315, 25
+Line 1 = 0, 0, 255, 0, 290, 315, 290
+Label 0 = 27, 50, 10, 10, 10, 1, PL ALPHA
+Label 1 = 265, 50, 10, 10, 10, 1, PL BRAVO
+Label 2 = 28, 51, 0, 0, 255, 1, PL ALPHA
+Label 3 = 266, 51, 0, 0, 255, 1, PL BRAVO
+Time Out = 15
+
+[Blue_Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\msb12.pcx
+Text = 1, 1, Ground forces from the 3rd Panzer are defending the artillery battery, callsign Iron,  all main defense units are callsign Goalie, in addition there are two Puma scout vehicles in the valley, they are callsign Forward.
+Sprite 0 = images\usam4b.pcx, 216, 75, 0
+Sprite 1 = images\usam4b.pcx, 163, 21, 0
+Sprite 2 = images\uifvp.pcx, 136, 82, 0
+Sprite 3 = images\uifvp.pcx, 170, 151, 0
+Sprite 4 = images\uspgb.pcx, 225, 46, 0
+Label 0 = 245, 113, 200, 0, 0, 1, Goalie
+Label 1 = 193, 66, 200, 0, 0, 1, Goalie
+Label 2 = 226, 62, 200, 0, 0, 1, Iron
+Label 3 = 171, 175, 200, 0, 0, 1, Forward
+Label 4 = 138, 107, 200, 0, 0, 1, Forward
+Time Out = 20
+
+[Blue_Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\msb12.pcx
+Text = 1, 1, No known enemy forces are present at this time.
+Time Out = 10
+
+[Blue_Briefing 4]
+Heading = 9, WEATHER
+Map = images\msb12.pcx
+Text = 1, 1, The weather in your sector of operations calls for a steady rain, with a cloud ceiling of 2000 feet. \n Nautical Twilight is timed to occur at your forward Assembly Area. \n Visibility is limited to approximately 2 kilometers. \n Thermal conditions are poor, with ranges between 2 and 3 kilometers due in part to thermal crossover caused by the precipitation. \n Winds are out of the W, at 3 to 5 knots.
+Movie = movies\rain.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb12.pcx
+Text = 1, 1, This a deep strike against 3rd Panzer's Artillery assets. Mission planning will be your responsibility.  \n \n CALLSIGN: \n Flight #1   Saber \n  \n \n OBJECTIVE: \n Search and destroy the artillery in the vicinity of Objective Hammer. 
+Sprite 0 = images\robjh.pcx, 174, 29, 0
+Sprite 1 = images\rahb.pcx, 9, 285, 0
+Time Out = 20
+
+[Red_Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\msb12.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n Any aircraft outside of this area will be considered hostile. \n AIR DEFENSE: We have only 1 Positive Identification. It is displayed on the map. 
+Sprite 0 = images\usam4b.pcx, 200, 75, 0
+Line 0 = 255, 0, 0, 300, 60, 300, 270
+Line 1 = 255, 0, 0, 40, 19, 248, 19
+Label 0 = 50, 22, 10, 10, 10, 1, PL ALPHA
+Label 1 = 240, 63, 10, 10, 10, 1, PL BRAVO
+Label 2 = 51, 23, 255, 0, 0, 1, PL ALPHA
+Label 3 = 241, 64, 255, 0, 0, 1, PL BRAVO 
+Time Out = 15
+
+[Red_Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\msb12.pcx
+Text = 1, 1, No friendly ground forces are present. 
+Time Out = 10
+
+[Red_Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\msb12.pcx
+Text = 1, 1, Nothing is known about the forces in this area. Expect Guards units and more than the shown amount of enemy aircraft.
+Sprite 0 = images\usam4b.pcx, 216, 75, 0
+Time Out = 15
+
+[Red_Briefing 4]
+Heading = 9, WEATHER
+Map = images\msb12.pcx
+Text = 1, 1, The weather in your sector of operations calls for a steady rain, with a cloud ceiling of 2000 feet. \n Nautical Twilight is timed to occur at your forward Assembly Area. \n Visibility is limited to approximately 2 kilometers. \n Thermal conditions are poor, with ranges between 2 and 3 kilometers due in part to thermal crossover caused by the precipitation. \n Winds are out of the W, at 3 to 5 knots.
+Movie = movies\rain.bik, 0, 0, 315, 315
+Time Out = 20

@@ -1,0 +1,22 @@
+[WIN]
+movie = movies\lossfivew.bik
+Heading = 9, SITUATION
+Map = images\Muc5.pcx
+Text = 1, 1, Bien joué ! La survie de ce convoi nous permet de continuer à poursuivre la 3e armée de choc en Ukraine. Allez vous reposer, votre prochaine mission ne devrait pas avoir lieu avant quelques jours.
+Sprite 0 = images\uahb.pcx, 176, 286, 0
+Sprite 1 = images\usupb.pcx, 165, 278, 0
+Sprite 2 = images\uarrownw.pcx, 148, 257, 0
+Label 0 = 165, 290, 0, 0, 200, 1, Shield
+Time Out = 15
+
+[Lose]
+movie = movies\winfivew.bik
+Heading = 9, SITUATION
+Map = images\muc5.pcx 
+Text = 1, 1, Vous n'avez pas mené à bien votre mission. Sans cet appoint logistique crucial, nous allons nous traîner comme des escargots et permettre à la 3e armée de choc de préparer ses défenses. Ce conflit risque maintenant de franchir le seuil nucléaire. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uahb.pcx, 176, 286, 0
+Sprite 1 = images\usupb.pcx, 165, 278, 0
+Sprite 2 = images\uarrownw.pcx, 148, 257, 0
+Label 0 = 165, 290, 0, 0, 200, 1, Shield 
+Time Out = 15
+

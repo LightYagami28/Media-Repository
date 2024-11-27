@@ -1,0 +1,45 @@
+[win]
+Heading = 9, STATUS
+Map = images\mus0.pcx
+Text = 1, 1, The 24th MRD attack on Biala Podlaska has been stalled thanks to your efforts. Most of the non-essential personnel have been evacuated or are almost ready to leave before the next attack, which will probably begin soon. \n Next mission briefing will be in 2 hours. 
+Sprite 0 = images\uahb.pcx, 34, 151, 0
+Sprite 1 = images\uifvp.pcx, 79, 112, 0
+Sprite 2 = images\utnkp.pcx, 68, 85, 0
+Sprite 3 = images\utnkp.pcx, 77, 149, 0
+Sprite 4 = images\usam4b.pcx, -31, 79, 0
+Sprite 5 = images\rtnkb.pcx, 245, 261, 0
+Sprite 6 = images\rtnkb.pcx, 263, 3, 0
+Sprite 7 = images\rarrowsw.pcx, 243, 26, 0
+Sprite 8 = images\rarrownw.pcx, 225, 248, 0
+Label 0 = 26, 115, 99, 99, 208, 1, Biala Podlaska
+Label 1 = 267, 261, 255, 0, 0, 1, 24th
+Label 2 = 285, 3, 255, 0, 0, 1, 24th
+Label 3 = 79, 134, 99, 99, 208, 1, Stone
+Label 4 = 68, 105, 99, 99, 208, 1, Stone
+Label 5 = 77, 169, 99, 99, 208, 1, Stone
+Label 6 = 84, 276, 99, 99, 208, 1, PL GOLF
+Line 0 = 200, 200, 200, 94, 0, 94, 315
+Time Out = 15
+[Lose]
+Heading = 9, STATUS
+Map = images\mus0.pcx
+Text = 1, 1, You have failed to accomplish your mission. 24th MRD has overrun the 1-35th Armored guarding the city of Biala Podlaska. They now control the airfield and can launch air strikes at our rear areas. \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\uahb.pcx, 34, 151, 0
+Sprite 1 = images\uifvp.pcx, 79, 112, 0
+Sprite 2 = images\utnkp.pcx, 68, 85, 0
+Sprite 3 = images\utnkp.pcx, 77, 149, 0
+Sprite 4 = images\usam4b.pcx, -31, 79, 0
+Sprite 5 = images\rtnkb.pcx, 245, 261, 0
+Sprite 6 = images\rtnkb.pcx, 263, 3, 0
+Sprite 7 = images\rarrowsw.pcx, 243, 26, 0
+Sprite 8 = images\rarrownw.pcx, 225, 248, 0
+Label 0 = 26, 115, 99, 99, 208, 1, Biala Podlaska
+Label 1 = 267, 261, 255, 0, 0, 1, 24th
+Label 2 = 285, 3, 255, 0, 0, 1, 24th
+Label 3 = 79, 134, 99, 99, 208, 1, Stone
+Label 4 = 68, 105, 99, 99, 208, 1, Stone
+Label 5 = 77, 169, 99, 99, 208, 1, Stone
+Label 6 = 84, 276, 99, 99, 208, 1, PL GOLF
+Line 0 = 200, 200, 200, 94, 0, 94, 315
+Time Out = 15
+

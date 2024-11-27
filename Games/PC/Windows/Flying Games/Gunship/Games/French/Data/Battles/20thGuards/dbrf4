@@ -1,0 +1,29 @@
+[WIN]
+Heading = 9, SITUATION
+Map = images\rus4.pcx
+Text = 1, 1, La structure de commandement de la 1e DB est en ruines. Nous avons un objectif de mission à remplir avant de les affronter face à face. Présentez-vous immédiatement à la cellule de planification de mission. 
+Sprite 0 = images\uhqb.pcx, 84, 79, 0
+Sprite 1 = images\uhqb.pcx, 98, 208, 0
+Sprite 2 = images\usam4b.pcx, 48, -10, 0
+Sprite 3 = images\usam4b.pcx, 65, 120, 0
+Sprite 4 = images\rahb.pcx, 263, 20, 0
+Label 0 = 106, 226, 0, 0, 255, 1, Approx.
+Label 1 = 89, 99, 0, 0, 255, 1, Approx.
+Label 2 = 108, 80, 0, 0, 255, 1, 1 Armor
+Label 3 = 122, 208, 0, 0, 255, 1, 1 Armor
+Time Out = 15
+
+[Lose]
+Heading = 9, SITUATION
+Map = images\rus4.pcx 
+Text = 1, 1, La 1e DB, avec une structure de commandement intacte, va être en mesure de contrer notre progression au sud. Des unités commencent déjà à faire mouvement vers de nouvelles positions. Nous ne parviendrons pas à faire jonction avec les unités du 1e ukrainien, qui se préparent déjà à se replier.
+Sprite 0 = images\uhqb.pcx, 84, 79, 0
+Sprite 1 = images\uhqb.pcx, 98, 208, 0
+Sprite 2 = images\usam4b.pcx, 48, -10, 0
+Sprite 3 = images\usam4b.pcx, 65, 120, 0
+Sprite 4 = images\rahb.pcx, 263, 20, 0
+Label 0 = 106, 226, 0, 0, 255, 1, Approx.
+Label 1 = 89, 99, 0, 0, 255, 1, Approx.
+Label 2 = 108, 80, 0, 0, 255, 1, 1 Armor
+Label 3 = 122, 208, 0, 0, 255, 1, 1 Armor
+Time Out = 15

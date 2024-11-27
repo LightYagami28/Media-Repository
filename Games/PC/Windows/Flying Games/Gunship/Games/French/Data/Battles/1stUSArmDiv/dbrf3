@@ -1,0 +1,18 @@
+[Win]
+movie = movies\winonew.bik
+Heading = 9, SITUATION
+Map = images\mus3.pcx
+Text = 1, 1, Beau travail. Sans unités pour renforcer les objectifs acquis, la progression du 13e corps ukrainien s'est arrêtée, ce qui nous donne un peu de temps pour nous regrouper. /n  La 1e blindée s'oriente désormais vers le nord afin de venir en aide à la 1e DB britannique. \n \n OBJECTIFS : \n  Localiser et éliminer l'escadron de chars qu'ils vont bientôt déplacer. La vitesse est l'élément-clé. Minimiser les pertes des unités amies.
+Sprite 0 = images\uahb.pcx, 2, 282, 0
+Sprite 1 = images\rtnkb.pcx, 192, 89, 0
+Time Out = 15
+
+[Lose]
+movie = movies\lossonew.bik
+Heading = 9, SITUATION
+Map = images\mus3.pcx
+Text 1, 1, Comme nous n'avons pas stoppé ses renforts, le 13e ukrainien a attaqué le flanc nord du 1er bataillon de chars et l'a totalement dispersé. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uahb.pcx, 2, 282, 0
+Sprite 1 = images\rtnkb.pcx, 192, 89, 0
+Time Out = 15
+

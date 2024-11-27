@@ -1,0 +1,18 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1,North Group of Forces has slowed its advance on the forces of BOAR. Central Group of Forces has decided to commit 20th Guards to the destruction of the 1st Armored. \n 2nd Guards Army  has pushed the 5th Panzer up against the Wisla River. \n Southern Group of Forces is losing ground at a frightening rate.
+Sprite 0 = images\rcin6.pcx, 0, 0, 0
+Sprite 1 = images\rcir6.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, GUARDS SECTOR
+Map = images\cs2.pcx
+Text = 1, 1, 2nd Taman Guards has launched its offensive against the 1st US Armored. The rest of the 20th Guards are screening the rear of the 1st Infantry Division. 13th Ukrainian is wearing down the 1st Infantry ability to fight. 2nd Guards is forcing 5th Panzer to withdraw rapidly. 1st Ukrainian is stalemated against the 10th Panzer 
+Sprite 0 = images\ruscin6.pcx, 0, 0, 0
+Sprite 1 = images\ruscir6.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 30, 39, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

@@ -1,0 +1,15 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die 6. Panzerarmee und die 5. Belorussische haben ihre jeweiligen Ziele angegriffen und das 2. Korps zeigt Zermürbungs-Erscheinungen bei ihren Gegenangriffen. Die Südgruppe erzwang einen Kampf gegen das 5. Korps. Dies könnte gut das Ende des Krieges sein.
+Sprite 0 = images\rcin12.pcx, 0, 0, 0
+Sprite 1 = images\rcir12.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DER 20. WACHGARDE
+Map = images\cs3.pcx
+Text = 1, 1, Das 5. Korps hat keinen Raum mehr zum Manövrieren und versucht nun einen Gegenangriff auf seiner ganzen Front. Sie setzen jedes Stück Ausrüstung ein, das sie haben. Die ganze Front entlang kommen Vermutungen auf, dass der Krieg bald vorbei sein könnte und wir die Sieger sein werden.
+Sprite 0 = images\cavcin3.pcx, 0, 0, 0
+Sprite 1 = images\cavcir3.pcx, 0, 0, 0
+Time Out = 15
+GOTOBRIEFING = 1

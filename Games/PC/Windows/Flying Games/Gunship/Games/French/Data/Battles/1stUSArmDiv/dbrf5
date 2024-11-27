@@ -1,0 +1,24 @@
+[WIN]
+Heading = 9, SITUATION
+Map = images\mus5.pcx 
+Text = 1, 1, L'aérodrome est entre nos mains. La 1e blindée est maintenant prête à attaquer pour rejoindre la 1e DB britannique. OBJECTIFS : \n Détruire toutes les unités approchant à moins de 2 km de l'objectif Anvil. Accompli. \n Fournir un appui aérien à Raider. Accompli. \n Rechercher et détruire toutes les unités d'artillerie situées entre les LP Charlie et Echo. Accompli.
+Sprite 0 = images\uahb.pcx, 140, 289,
+Sprite 1 = images\uobjA.pcx, 141, 29, 0
+Sprite 2 = images\rinfb.pcx, 111, 93, 0
+Sprite 3 = images\rahb.pcx, 144, 42, 0
+Sprite 4 = images\rmrlsb.pcx, 116, 24, 0
+Label 0 = 166, 151, 200, 200, 200, 1, Pisz
+Time Out = 15
+
+[Lose]
+Heading = 9, SITUATION
+Map = images\mg0.pcx
+Text = 1, 1, Après l'échec de la tentative visant à nous emparer de l'aérodrome, nous ne pourrons pas faire jonction avec la 1e DB britannique. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission. 
+Sprite 0 = images\uahb.pcx, 140, 289,
+Sprite 1 = images\uobjA.pcx, 141, 29, 0
+Sprite 2 = images\rinfb.pcx, 111, 93, 0
+Sprite 3 = images\rahb.pcx, 144, 42, 0
+Sprite 4 = images\rmrlsb.pcx, 116, 24, 0
+Label 0 = 166, 151, 200, 200, 200, 1, Pisz
+Time Out = 15
+

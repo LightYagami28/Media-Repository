@@ -1,0 +1,2 @@
+Due to the way that CH products handle Joystick button calls, the #2 button does not function in the normal manner in the Pilot and Chase view cockpits.
+The #2 joystick button functions as a toggle between flight and view mode in the Pilot and Chase cockpits. DO NOT PRESS AND HOLD THE BUTTON TO MOVE YOUR VIEW. Press the #2 button once to chave from flight controls to view mode. Press it again to return to Flight Control Mode.

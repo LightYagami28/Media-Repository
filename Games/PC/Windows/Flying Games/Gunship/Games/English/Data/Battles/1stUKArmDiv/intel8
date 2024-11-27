@@ -1,0 +1,31 @@
+[Briefing 0]
+Heading = 9, CAMPAIGN UPDATE
+Map = images\imap.pcx
+Text = 1, 1, After the main breakthrough destroyed three divisions of 6th Tank Army, the NATO advance continued. \n 1st UK Armoured Division was pulled out of the line to allow a few days to rest and reorganize the 7th Brigade, which had suffered major casualties while in the pocket. \n Now, 1st Armoured is moving back into line, to continue the NATO advance toward Minsk. 
+Sprite 0 = images\cir8.pcx, 0, 0, 0
+Sprite 1 = images\cin8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, ORGANIZATION
+Map = images\imap.pcx
+Text = 1, 1, The US XVIII Corps is now in control of the 1st Marine, 24th Infantry and 82nd Airborne divisions. \n BAOR has the British 1st and 3rd Armoured divisions, with the 2nd Division enroute from England. \n US III Corps has command of the US 1st Armored and 1st Infantry Divisions. \n German II Corps has the 1st, 5th and 10th Panzer divisions. \n US V Corps commands the 1st Cav, 3rd Infantry, 5th Alpine, and the newly arrived US 10th Mountain division.
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, The front is solidifying in front of XVIII Corps. BAOR, II and III Corps all continue their advance into Belarus and the Ukraine. In the south, 1st Cavalry division has regained contact with a reinforced 3rd Shock Army, while, the 8th Ukrainian Army Corps continues to hold out.
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Sprite 1 = images\cir8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 3]
+Heading = 9, BAOR SECTOR
+Map = images\cs5.pcx
+Text = 1, 1, The Russians have been able to stop their retreat from turning into a rout. Resistance has started to firm up a bit as our forces draw within striking distance of Minsk, the Belarus capital. \n The 20th Guards Army did not take as heavy a loss as many of the other units, and is keeping its two best divisions in reserve. Do not expect any easy advances from here on.
+Sprite 0 = images\ukcir8.pcx, 0, 0, 0
+Sprite 1 = images\ukcin8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 59, 165, 0
+Label 0 = 280, 147, 155, 155, 155, 1, Minsk
+Time Out = 15
+GOTOBRIEFING = 1
+

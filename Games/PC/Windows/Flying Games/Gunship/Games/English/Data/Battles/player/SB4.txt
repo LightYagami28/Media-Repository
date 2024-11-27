@@ -1,0 +1,227 @@
+TITLE: Men of Harlech
+BATTLEFIELD: Czech 40000 148000 0 4 6 25
+LEVEL: 9
+OBJECTIVE: BLUE FORWARD_LINE 32000 151000 39000 140000 1
+OBJECTIVE: RED REAR_LINE 32000 151000 39000 140000 7
+BLUE: FRIENDLIES 40
+BLUE: ENEMIES 80
+RED: ENEMIES 90
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+MACHINE: 1
+PLATOON: 129 46000 154000 45 3 44650 151450 3 6
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 540
+ADDWAYPT: 41300 150050
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 360
+ADDWAYPT: 36150 148400
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 35550 144600
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 540
+PLATOON: 128 34000 154000 315 3 37100 1520003 7
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_MED:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 39500 154350
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 42300 154650
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_AIRDEF:
+ADDWAYPT: 44500 152350
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 480
+ADDWAYPT: 39800 149100
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 480
+PLATOON: 80 47000 151000 270 6 39700 147950 3 15
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ASMBLY_WEST:
+PLATOON: 31 46000 150000 270 6 37950 146300 3 14
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ASMBLY_SW:
+PLATOON: 31 46000 151000 270 6 41000 148000 3 17
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ADDWAYPT: 38150 149200
+ORDER_ASMBLY_SW:
+PLATOON: 32 46500 150500 270 6 41000 148000 3 20
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ADDWAYPT: 39900 149350
+ORDER_ASMBLY_SW:
+PLATOON: 116 44800 149200 270 6 37950 146300 3 18
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ASMBLY_NE:
+ORDER_ADV_FAST:
+SETDELAYTIME: 240
+ADDWAYPT: 34000 142000
+PLATOON: 116 45000 1498000 270 6 41000 150000 3 18
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ADV_FAST:
+ADDWAYPT: 37800 149200
+SETDELAYTIME: 120
+ADDWAYPT: 34000 142000
+SUPPORT: 82 47000 153000 90 3 47000 153000 3 30
+SUPPORT: 82 47000 152000 90 3 47000 152000 3 28
+SUPPORT: 74 33000 144000 270 8 33000 144000 3 29
+SUPPORT: 74 33000 146000 270 8 33000 146000 3 29
+SUPPORT: 77 34000 145000 270 8 34000 145000 3 29
+PLATOON: 59 37000 146000 270 7 47000 152000 3 21
+LOGIC: LOGIC_RECON
+PLATOON: 59 37000 149000 270 7 47000 152000 3 21
+LOGIC: LOGIC_RECON
+PLATOON: 110 37000 150500 0 2 40000 150000 3 19
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ADDWAYPT: 39750 149200
+ORDER_ADV_ MED:
+ORDER_ASMBLY_NORTH:
+PLATOON: 110 37000 151000 315 7 37800 146300 3 19
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ADV_SLOW:
+ORDER_ASMBLY_SE:
+PLATOON: 110 37000 146000 225 7 37600 146400 3 23
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ADV_ SLOW:
+ORDER_ASMBLY_SE:
+PLATOON: 111 35000 148000 270 7 36100 148100 3 23
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ADV_ SLOW:
+ORDER_ASMBLY_EAST:
+PLATOON: 51 43000 142000 135 7 42000 148000 3 19
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ADV_ MED:
+ADDWAYPT: 38000 147000
+ADDWAYPT: 34000 143000
+PLATOON: 51 45000 142000 135 7 43000 148000 3 19
+ORDER_MODE_WAYPT:
+ORDER_TRVL_DIGIN:
+ORDER_ADV_ MED:
+ADDWAYPT: 38000 147000
+ADDWAYPT: 34000 143000
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb5.pcx
+Text = 1, 1, Support the Welsh Guard's reconnaissance in force to clear the pass of enemy units.
+Sprite 0 = images\uahb.pcx, 269, 269, 0
+Sprite 1 = images\uwpbp.pcx, 242, 207, 0
+Sprite 2 = images\uwpbp.pcx, 175, 178, 0
+Sprite 3 = images\uwpbp.pcx, 72, 146, 0
+Sprite 4 = images\uwpbp.pcx, 60, 70, 0
+Line 0 = 155, 155, 155, 278, 278, 251, 227
+Line 1 = 155, 155, 155, 251, 227, 184, 198
+Line 2 = 155, 155, 155, 184, 198, 81, 166
+Line 3 = 155, 155, 155, 81, 166, 69, 90
+Line 4 = 0, 0, 200, 0, 218, 138, 0
+Label 0 = 108, 108, 0, 0, 200, 1, PL CHARLIE
+Time Out = 15
+[Blue_Briefing 1]
+Heading = 9, FRIENDLY FORCES
+Map = images\Msb5.pcx
+Text = 1, 1, Friendly forces in this operation will consist of a tank-heavy team from the Welsh Guards, and a Recce troop from the 9/12 Royal Lancers. They are on a reconnaissance in force to clear the pass.
+Sprite 0 = images\Utnkb.pcx, 272, 200, 0
+Sprite 1 = images\utnkp.pcx, 138, 148, 0
+Sprite 2 = images\utnkp.pcx, 151, 183, 0
+Sprite 3 = images\uifvp.pcx, 144, 249, 0
+Sprite 4 = images\ucavp.pcx, 94, 68, 0
+Sprite 5 = images\uspgp.pcx, 26, 161, 0
+Sprite 6 = images\umlrsp.pcx, 51, 217, 0
+Time Out = 15
+[Blue_Briefing 2]
+Heading = 9, ENEMY FORCES
+Map = images\Msb5.pcx
+Text = 1, 1, Intelligence has no information on enemy positions. You may encounter a unit similar to your own carrying out a similar mission to regain contact.
+Time Out = 10
+[Blue_Briefing 3]
+Heading = 9, WEATHER
+Map = images\Msb2.pcx
+Text = 1, 1, The weather in your sector of operations is partly cloudy, with a partial cloud layer at 2500 feet. \n Visibility is unlimited. \n Thermal conditions are good, with ranges up to 6 kilometers. \n Winds are light out of the N, at 1 to 2 knots.
+Time Out = 10
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb5.pcx
+Text = 1, 1, The 2nd Taman Guards are deploying to ambush a British advance through the pass. You are to operate in support of the Guards and seal off any escape for the British forces.
+Sprite 0 = images\rahb.pcx, 39, 274, 0
+Sprite 1 = images\rwpcp.pcx, 208, 278, 0
+Sprite 2 = images\rwpbp.pcx, 254, 229, 0
+Sprite 3 = images\rwppa.pcx, 157, 163, 0
+Time Out = 15
+[Red_Briefing 1]
+Heading = 9, FRIENDLY FORCES
+Map = images\Msb5.pcx
+Text = 1, 1, Friendly forces in this operation will consist of a tank company, and a company of the divisional reconnaissance regiment, with heavy artillery support.
+Sprite 0 = images\rtnkb.pcx, 57, 149, 0
+Sprite 1 = images\rtnkp.pcx, 158, 189, 0
+Sprite 2 = images\rtnkp.pcx, 96, 211, 0
+Sprite 3 = images\rtnkp.pcx, 97, 110, 0
+Sprite 4 = images\racavp.pcx, 121, 131, 0
+Sprite 5 = images\racavp.pcx, 99, 171, 0
+Sprite 6 = images\rifvp1.pcx, 220, 29, 0
+Sprite 7 = images\rifvp1.pcx, 260, 29, 0
+Sprite 8 = images\rspgp.pcx, 36, 88, 0
+Sprite 9 = images\rmlrsp.pcx, 16, 68, 0
+Sprite 10 = images\rmlrsp.pcx, 17, 109, 0
+Time Out = 15
+[Red_Briefing 2]
+Heading = 9, ENEMY FORCES
+Map = images\Msb5.pcx
+Text = 1, 1, The advancing unit is from the Welsh Guards, carrying out a mission to regain contact.
+Sprite 0 = images\Utnkb.pcx, 272, 200, 0
+Time Out = 10
+[Red_Briefing 3]
+Heading = 9, WEATHER
+Map = images\Msb2.pcx
+Text = 1, 1, The weather in your sector of operations is partly cloudy, with a partial cloud layer at 2500 feet. \n Visibility is unlimited. \n Thermal conditions are good, with ranges up to 6 kilometers. \n Winds are light out of the N, at 1 to 2 knots.
+Time Out = 10
+

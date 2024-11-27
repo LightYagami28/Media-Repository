@@ -1,0 +1,131 @@
+TITLE: rus5
+BATTLEFIELD: POLAND 46500 22500 0 0 22 27
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 90
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 270
+OBJECTIVE: RED THREEKRADIUS 46300 18500 16
+RED_FRIENDLIES: 70
+RED_ENEMIES: 70
+BLUE_FRIENDLIES: 70
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 1
+MACHINE: 0
+
+/* Rats Live on no Evil Star */
+PLATOON: 62 47700 29800 270 0 46750 28300 2 4
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 43050 25900
+ORDER_WPT_SETDELAYTIME: 90
+ORDER_PRIORITY_HQ:
+ADDWAYPT: 42350 21000
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 48750 21100
+ORDER_WPT_SETDELAYTIME: 180
+ADDWAYPT: 51100 19750
+ORDER_WPT_SETDELAYTIME: 360
+ORDER_ASMBLY_PATROL:
+/* Look out behind you! */
+PLATOON: 17 30800 37800 90 0 40800 29800 2 11
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+ADDWAYPT: 42200 25300
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ADDWAYPT: 42250 20850
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 50400 18600
+ORDER_WPT_SETDELAYTIME: 360
+ORDER_ASMBLY_PATROL:
+
+PLATOON: 109 33000 38750 90 0 42000 29750 0 11
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 41750 28350
+ORDER_WPT_SETDELAYTIME: 30
+ORDER_ASMBLY_BATTLEPOS:
+ADDWAYPT: 42400 25550
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 46200 19700
+ORDER_WPT_SETDELAYTIME: 360
+ORDER_ASMBLY_PATROL:
+/* Live Mice Sit on Us */
+PLATOON: 25 45150 16400 90 6 45150 16400 1 22
+RED_TARGET: 29
+SUPPORT: 82 47700 16900 90 6 47700 16900 1 22
+RED_TARGET: 29
+SUPPORT: 82 47450 19050 90 6 47450 19050 0 22
+RED_TARGET: 29
+SUPPORT: 83 45850 18050 90 6 45850 18050 1 22
+RED_TARGET: 29
+PLATOON: 6 46000 15600 135 2 46000 15600 2 22
+PLATOON: 6 47650 20650 135 2 47650 20650 2 22
+PLATOON: 6 49150 17800 135 2 49150 17800 2 22
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\RUS5.PCX
+Text = 1, 1, Die Aufklärung hat eine Stellung von Artillerie-Einheiten lokalisiert. Stoßen Sie bis zu diesem Ort vor und suchen und zerstören Sie die Artillerie-Einheiten, die dort stehen. \n \n RUFZEICHEN: \n Flug #1: Specter. \n \n ZIELE: \n Suchen und zerstören Sie alle gegnerischen Artillerie-Einheiten in der Umgebung des Ziels Dagger.
+Line 0 = 200, 200, 200, 182, 304, 176, 282
+Line 1 = 200, 200, 200, 176, 282, 102, 234
+Line 2 = 200, 200, 200, 102, 234, 88, 136
+Line 3 = 200, 200, 200, 88, 136, 216, 138
+Line 4 = 200, 200, 200, 216, 138, 263, 111
+Sprite 0 = images\rahb.pcx, 174, 296, 0
+Sprite 1 = images\rwpaa.pcx, 167, 259, 0
+Sprite 2 = images\rwpbp.pcx, 94, 211, 0
+Sprite 3 = images\rwpbp.pcx, 80, 113, 0
+Sprite 4 = images\rwpbp.pcx, 208, 115, 0
+Sprite 5 = images\rwppa.pcx, 255, 88, 0
+Sprite 6 = images\robjh.pcx, 152, 65, 0
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, OPERATION
+Map = images\RUS5.PCX
+Text = 1, 1, Sie operieren in einem Sektor zwischen den Phasenlinien Alpha und Bravo. Alle SAM-Stellungen des Gebietes sind in voller Alarmbereitschaft. Alle Luftfahrzeuge, die PL Alpha oder Bravo überqueren, werden als feindlich betrachtet. \n \n LUFTABWEHR: \n Keine Boden-Luftabwehr vorhanden.
+Line 0 = 200, 0, 0, 15, 0, 15, 315
+Line 1 = 200, 0, 0, 300, 0, 300, 315
+Label 0 = 16, 50, 10, 10, 10, 1, PL ALPHA
+Label 1 = 17, 51, 200, 0, 0, 1, PL ALPHA
+Label 2 = 240, 50, 10, 10, 10, 1, PL BRAVO
+Label 3 = 241, 51, 200, 0, 0, 1, PL BRAVO
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, VERBÜNDETE STREITKRÄFTE
+Map = images\RUS5.PCX
+Text = 1, 1, Keine verbündeten Boden-Streitkräfte anwesend. 
+ 
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, FEINDLICHE STREITKRÄFTE
+Map = images\RUS5.PCX
+Text = 1, 1, Die genaue Position der gegnerischen Kräfte ist zurzeit unbekannt; derzeit befinden sie sich irgendwo in der Umgebung des Ziels Dagger.
+Sprite 0 = images\robjh.pcx, 152, 65, 0
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, WETTER
+Map = images\RUS5.PCX
+Text = 1, 1, Der Wetterbericht in Ihrem Operations-Sektor meldet geschlossene  Wolkendecke bei 2.500 Fuß. \n Die Sichtweite ist wegen der Wolken, die das Mondlicht verdecken, nur etwa 1 bis 2 Kilometer. \n Die thermischen Bedingungen sind wegen thermischer Überlappungen schlecht, mit Bereichen bis höchstens 2 km. \n Leichter Wind kommt mit 3 bis 5 Knoten aus SW.
+Movie = movies\overcast.bik, 0, 0, 315, 315
+Time Out = 10 
+

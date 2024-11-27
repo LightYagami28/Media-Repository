@@ -1,0 +1,40 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\Muc3.pcx
+Text = 1, 1, Die Einheiten der 3-8. konnten sich geordnet und ohne größere Verluste zurückziehen. Die 7. hat sich eine blutige Nase geholt und zieht sich langsam zurück, während die 1-12. nun mit der ersten Offensive gegen die Russen beginnen kann. Ruhen Sie sich aus, wir halten die Augen offen.
+Sprite 0 = images\uahb.pcx, 21, 262, 0
+Sprite 1 = images\uifvp.pcx, 147, 187, 0
+Sprite 2 = images\uifvp.pcx, 94, 174, 0
+Sprite 3 = images\uifvp.pcx, 178, 203, 0
+Sprite 4 = images\uifvp.pcx, 101, 131, 0
+Sprite 5 = images\rtnkb.pcx, 291, 90, 0
+Sprite 6 = images\rtnkb.pcx, 238, 33, 0
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Label 1 = 178, 224, 0, 0, 200, 1, Forward
+Label 2 = 94, 194, 0, 0, 200, 1, Forward
+Label 3 = 147, 208, 0, 0, 200, 1, Forward
+Label 4 = 101, 152, 0, 0, 200, 1, Forward
+Label 5 = 262, 38, 200, 0, 0, 1, 7BG
+Label 6 = 291, 114, 200, 0, 0, 1, 7BG 
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc3.pcx 
+Text = 1, 1, Die 3-8. wurde zerschmettert. Die 7. Panzergarde hat nur kurz pausiert, um sich neu zu formieren. Sie wird innerhalb der nächsten Stunden mit ihrem Angriff beginnen. \n \n \n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen.
+Sprite 0 = images\uahb.pcx, 21, 262, 0
+Sprite 1 = images\uifvp.pcx, 147, 187, 0
+Sprite 2 = images\uifvp.pcx, 94, 174, 0
+Sprite 3 = images\uifvp.pcx, 178, 203, 0
+Sprite 4 = images\uifvp.pcx, 101, 131, 0
+Sprite 5 = images\rtnkb.pcx, 291, 90, 0
+Sprite 6 = images\rtnkb.pcx, 238, 33, 0
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Label 1 = 178, 224, 0, 0, 200, 1, Forward
+Label 2 = 94, 194, 0, 0, 200, 1, Forward
+Label 3 = 147, 208, 0, 0, 200, 1, Forward
+Label 4 = 101, 152, 0, 0, 200, 1, Forward
+Label 5 = 262, 38, 200, 0, 0, 1, 7BG
+Label 6 = 291, 114, 200, 0, 0, 1, 7BG 
+Time Out = 15
+

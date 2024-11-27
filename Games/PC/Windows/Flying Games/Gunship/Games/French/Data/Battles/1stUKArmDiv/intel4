@@ -1,0 +1,22 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, La 7e brigade de la 1e DB britannique a été encerclée mais, globalement, la BAOR semble avoir stoppé la progression russe. \n D'intenses combats se poursuivent dans le secteur du IIe corps, la 5e Panzer continue à se battre dans la région de Lublin, mais la 1e DB américaine se fait laminer. \n Le Ve corps poursuit sa bataille d'attrition en Slovaquie.
+Sprite 0 = images\cin2.pcx, 0, 0, 0
+Sprite 1 = images\cir2.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR DE LA BAOR
+Map = images\cs1.pcx
+Text = 1, 1, La 24e DI et la 3e DB ont stabilisé le front sur la ligne Branievo-Olsztyn, à l'est de la carte de situation. \n La 7e Brigade, les Rats du Désert, a été isolée, et prépare ses défenses dans la région du lac situé à l'est d'Elk. \n Les 4e et 20e brigades ralentissent la progression de la 6e armée blindée, mais la 20e armée blindée de la garde monte en ligne. \n La situation est critique.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystok
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustov
+Label 3 = 183, 25, 155, 155, 155, 1, Grajevo
+Label 4 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ukcin4.pcx, 0, 0, 0
+Sprite 1 = images\ukcir4.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 176, 175, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

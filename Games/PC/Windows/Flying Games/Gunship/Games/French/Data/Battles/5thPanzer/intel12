@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le Groupe de Forces Nord s'est effondré, laissant le XVIIIe corps face à quelques îlots de résistance épars. La BAOR poursuit son avance sur Minsk, alors que le gouvernement du Bélarus demande un cessez le feu. \n Les IIe et IIIe corps affrontent toujours une farouche résistance, mais les unités majeures de l'ennemi se retirent ou se rendent. \n Le Ve corps poursuit les unités russes et ukrainiennes restantes et fait mouvement sur Kiev. 
+Sprite 0 = images\cin12.pcx, 0, 0, 0
+Sprite 1 = images\cir12.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du IIe CORPS
+Map = images\cs4.pcx
+Text = 1, 1, La situation est extrêmement fluide. La plupart des divisions faisant face au IIe corps n'existent plus en tant qu'unités opérationnelles. La seule exception est la 7e DFM à Gorodok. Nous devons prendre l'aérodrome situé à l'extérieur de la ville, et la 5e Panzer lance une offensive dans ce but. \n Les Ve et IIIe corps forment une poche qui devrait pouvoir piéger la majeure partie du Groupe de Forces Centre, ou ce qu'il en reste. Le IIe corps est chargé de réduire cette poche. 
+Sprite 0 = images\gercir12.pcx, 0, 0, 0
+Sprite 1 = images\gercin12.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 95, 157, 0
+Time Out = 15
+GOTOBRIEFING = 1

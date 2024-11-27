@@ -1,0 +1,20 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, 20th Guards is moving into Central Poland. 2nd Guards Army is still achieving meager successes against the 5th Panzer Division \n Northern Group of Forces is starting to surround the remnants of BOAR. \n Southern Group of Forces has started an orderly withdrawal back into the Ukraine. \n Central Group of Forces is moving slowly into Central Poland.
+Sprite 0 = images\rcin4.pcx, 0, 0, 0
+Sprite 1 = images\rcir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, GUARDS SECTOR
+Map = images\cs2.pcx
+Text = 1, 1, 20th Guards has pursued the 1st Armored Division into central Poland. They hope to contact their main forces within two days. 13th Ukrainian is pressuring the 1st Infantry Division and holding them in place. 2nd Guards is pushing 5th Panzer back steadily and 1st Ukrainian is unable to push 10th Panzer any further to the rear.
+Sprite 0 = images\ruscin4.pcx, 0, 0, 0
+Sprite 1 = images\ruscir4.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 59, 62, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+
+
+

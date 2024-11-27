@@ -1,0 +1,214 @@
+TITLE: Cry Havoc 
+BATTLEFIELD: CZECH 144000 135750 0 0 0 27
+LEVEL: 3
+ENGAGEMENT: BLUE MISSION_BLUE_AIR_ASSAULT 0 0 270
+ENGAGEMENT: RED MISSION_RED_AIR_ASSAULT 0 0 90
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 1
+MACHINE: 0
+
+PLATOON: 62 149800 130000 270 0 150050 131700 0 5
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+ORDER_ADV_MED:
+ADDWAYPT: 148250 130200
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_BATTLEPOS:
+ADDWAYPT: 145400 131500
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 142600 132650
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 141550 136450
+ORDER_WPT_SETDELAYTIME: 90
+ADDWAYPT: 139750 139400
+ORDER_WPT_SETDELAYTIME: 120
+PLATOON: 18 138450 140000 90 0 139150 139550 3 4
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 141650 141600
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_PATROL:
+ADDWAYPT: 145900 139950
+ORDER_WPT_SETDELAYTIME: 90
+ADDWAYPT: 149250 136950
+ORDER_WPT_SETDELAYTIME: 90
+ADDWAYPT: 145650 133400
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 138650 134950
+ORDER_WPT_SETDELAYTIME: 120
+PLATOON: 1 140250 128400 90 0 139300 132000 2 23
+RED_TARGET: 33
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_MED:
+ADDWAYPT: 138050 133450
+ADDWAYPT: 137700 135200
+ADDWAYPT: 137750 136850
+ADDWAYPT: 137650 139250
+ADDWAYPT: 139650 138950
+PLATOON: 1 141200 129500 90 0 141200 129500 1 23
+RED_TARGET: 33
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 140050 131500
+ADDWAYPT: 139050 133750
+ADDWAYPT: 137900 136350
+ADDWAYPT: 138500 138550
+ADDWAYPT: 139800 139650
+PLATOON: 2 139900 130000 90 0 139900 130000 1 23
+RED_TARGET: 33
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 138650 133250
+ADDWAYPT: 137700 136400
+ADDWAYPT: 137600 138700
+ADDWAYPT: 140550 139150
+PLATOON: 9 143050 133400 90 0 143050 133400 2 15
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+ADDWAYPT: 145100 134650
+ORDER_WPT_SETDELAYTIME: 60
+ORDER_ASMBLY_SE:
+ADDWAYPT: 146450 135150
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 146900 136200
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 147950 137050
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 148000 139100
+ORDER_WPT_SETDELAYTIME: 60
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb8.pcx
+Text = 1, 1, You are flying Combat patrol for your area.. \n \n CALLSIGN: \n Flight #1     Specter \n \n OBJECTIVE: Fly to each of your patrol points and destroy any enemy units encountered. Be sure of your targets before engaging. 
+Sprite 0 = images\uahb.pcx, 266, 20, 0
+Sprite 1 = images\uwpaa.pcx, 270, 54, 0
+Sprite 2 = images\uwppa.pcx, 235, 24, 0
+Sprite 3 = images\uwppa.pcx, 178, 50, 0
+Sprite 4 = images\uwppa.pcx, 122, 73, 0
+Sprite 5 = images\uwppa.pcx, 101, 149, 0
+Sprite 6 = images\uwppa.pcx, 65, 208, 0
+Line 0 = 200, 200, 200, 274, 43, 279, 77
+Line 1 = 200, 200, 200, 279, 77, 243, 47
+Line 2 = 200, 200, 200, 243, 47, 186, 73
+Line 3 = 200, 200, 200, 186, 73, 130, 96
+Line 4 = 200, 200, 200, 130, 96, 109, 172
+Line 5 = 200, 200, 200, 109, 172, 73, 231
+Time Out = 20
+
+[Blue_Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\msb8.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n Any aircraft outside of this area will be considered hostile. \n AIR DEFENSE: \n  Only friendly air defense vehicles have been reported in the area.
+Line 0 = 0, 0, 255, 0, 25, 315, 25
+Line 1 = 0, 0, 255, 0, 290, 315, 290
+Label 0 = 27, 50, 10, 10, 10, 1, PL ALPHA
+Label 1 = 265, 50, 10, 10, 10, 1, PL BRAVO
+Label 2 = 28, 51, 0, 0, 255, 1, PL ALPHA
+Label 3 = 266, 51, 0, 0, 255, 1, PL BRAVO
+Time Out = 15
+
+[Blue_Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\msb8.pcx
+Text = 1, 1, There is a tank company moving into the area form the north, they are operating under callsign Iron. There is also a cavalry recon platoon in the forest which is operating under callsign Falcon.
+Sprite 0 = images\utnkb.pcx.pcx, 83, 14, 0
+Sprite 1 = images\uarrows.pcx, 83, 50, 0
+Label 0 = 83, 40, 0, 0, 255, 1, Iron
+Sprite 2 = images\uifv.pcx, 128, 101, 0
+Label 1 = 28, 125, 0, 0, 255, 1, Falcon
+Time Out = 20
+
+[Blue_Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\msb8.pcx
+Text = 1, 1, No known enemy forces are present at this time.
+Time Out = 10
+
+[Blue_Briefing 4]
+Heading = 9, WEATHER
+Map = images\msb8.pcx
+Text = 1, 1, The weather in your sector of operations is clear. \n Sunrise is timed to occur at your forward Assembly Area. \n Visibility is limited to 1 to 2 kilometers due to an early morning mist. \n Thermal conditions are good, with ranges up to 5 kilometers. \n Winds are calm.
+Movie = movies\clear.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\Msb8.pcx
+Text = 1, 1, This is a deep strike against a 2nd echelon tank company moving through the area. \n \n CALLSIGN: \n Flight #1:     Saber \n  \n \n OBJECTIVE: \n Search out and destroy the tank company moving through the area.
+Sprite 0 = images\utnkb.pcx, 83, 14, 0
+Sprite 1 = images\uarrows.pcx, 83, 40, 0
+Sprite 2 = images\rahb.pcx, 266, 35, 0
+Sprite 3 = images\rwpaa.pcx, 271, 54, 0
+Sprite 4 = images\rwpbp.pcx, 235, 24, 0
+Sprite 5 = images\rwpbp.pcx, 178, 50, 0
+Sprite 6 = images\rwpbp.pcx, 122, 73, 0
+Sprite 7 = images\rwpbp.pcx, 101, 149, 0
+Sprite 8 = images\rwpbp.pcx, 65, 208, 0
+Line 0 = 200, 200, 200, 274, 43, 279, 77
+Line 1 = 200, 200, 200, 279, 77, 243, 47
+Line 2 = 200, 200, 200, 243, 47, 186, 73
+Line 3 = 200, 200, 200, 186, 73, 130, 96
+Line 4 = 200, 200, 200, 130, 96, 109, 172
+Line 5 = 200, 200, 200, 109, 172, 73, 231
+Time Out = 20
+
+[Red_Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\msb8.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n Any aircraft outside of this area will be considered hostile. \n AIR DEFENSE: Unknown at this time.
+Line 0 = 255, 0, 0, 300, 60, 300, 270
+Line 1 = 255, 0, 0, 40, 19, 248, 19
+Label 0 = 50, 22, 10, 10, 10, 1, PL ALPHA
+Label 1 = 251, 276, 10, 10, 10, 1, PL BRAVO
+Label 2 = 51, 23, 255, 0, 0, 1, PL ALPHA
+Label 3 = 250, 275, 255, 0, 0, 1, PL BRAVO 
+Time Out = 15
+
+[Red_Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\msb8.pcx
+Text = 1, 1, No friendly ground forces are present for this mission.
+Time Out = 15
+
+[Red_Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\msb8.pcx
+Text = 1, 1, The only known force present is the tank company moving from the north. Watch out for enemy patrols from the airbase in the south.
+Sprite 0 = images\utnkb.pcx, 83, 14, 0
+Sprite 1 = images\uarrows.pcx, 83, 50, 0
+Time Out = 15
+
+[Red_Briefing 4]
+Heading = 9, WEATHER
+Map = images\msb8.pcx
+Text = 1, 1, The weather in your sector of operations is clear. \n Sunrise is timed to occur at your forward Assembly Area. \n Visibility is limited to 1 to 2 kilometers due to an early morning mist. \n Thermal conditions are good, with ranges up to 5 kilometers. \n Winds are calm.
+Movie = movies\clear.bik, 0, 0, 315, 315
+Time Out = 20
+

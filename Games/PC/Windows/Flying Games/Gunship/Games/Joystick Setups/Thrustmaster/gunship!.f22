@@ -1,0 +1,30 @@
+Rem GUNSHIP! 
+
+USE TQS
+USE RCS
+USE NOMOUSE
+MDEF gunship!
+
+BTN H2U Cannon 
+BTN H2D ATGM
+BTN H2L Rockets 
+BTN H2R AAM 
+BTN H3U Zoom_in DLY(3) 
+BTN H3D Zoom_out DLY(3) 
+BTN H3L Zoom_in RPT(2)
+BTN H3R Zoom_out RPT(2) 
+BTN S4 Chaff/Flare 
+BTN H4U Pilot 
+BTN H4D Gunner 
+BTN H4L ORT 
+BTN H4R ChaseView 
+
+Rem TQS controls 
+
+RNG 1 6 Zoom_in = z Zoom_out = x
+BTN T6 Lock_Target 
+BTN T2 Rgt_MFD_Zoom 
+BTN T3 Lft_MFD_Zoom 
+BTN T4 Cycle_RGT_MFD 
+BTN T5 Cycle_LFT_MFD 
+BTN T9 Centerview 

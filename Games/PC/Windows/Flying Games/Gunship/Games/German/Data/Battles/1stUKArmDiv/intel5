@@ -1,0 +1,21 @@
+[Briefing 0]
+Heading = 9, LAGE
+ Map = images\imap.pcx
+Text = 1, 1, Die 7. Brigade der britischen 1. Armoured ist immer noch eingekesselt, während die Rheinarmee östlich der Weichsel die Stellung hält. \n Die schweren Kämpfe im Bereich des II. Korps halten an. Der Angriff auf Lublin hat begonnen, ein Großteil des II. Korps bemüht sich, weitere Durchbrüche zu verhindern. \n In der Slowakei hat sich die Lage zu einem ausgedehnten Bewegungskampf entwickelt, in dem keine Seite einen eindeutigen Vorteil erringen kann. \n Die russischen Streitkräfte haben schwerste Verluste erlitten und einige Einheiten werden aus dem Kampf genommen.
+Sprite 0 = images\cin3.pcx, 0, 0, 0
+Sprite 1 = images\cir3.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR-SEKTOR
+Map = images\cs1.pcx
+Text = 1, 1, Die Desert Rats sind halten sich weiterhin gegen die schweren Angriffe der 20. Garde, die alle ihre Divisionen in Stellung bringt. \n Im übrigen Bereich des Korps-Gebiets hat sich die Front stabilisiert, was teilweise auch an den Verlusten liegt, die die russische in ihrer Anfangsoffensive erlitten hat. \n Die amerikanische 1. Armored hat einen Vorstoß in Richtung der 7. Brigade begonnen, Lomza erreicht und die 6. Panzerarmee verdrängt.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 166, 290, 155, 155, 155, 1, Lomza
+Label 3 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ukcin5.pcx, 0, 0, 0
+Sprite 1 = images\ukcir5.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 153, 202, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

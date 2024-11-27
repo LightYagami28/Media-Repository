@@ -1,0 +1,31 @@
+[Win]
+Heading = 9, SITUATION
+Map = images\mus2.pcx
+Text = 1, 1, La 13e DFM a été stoppée. Les lignes sont, pour le moment, stabilisées. Briefing de mission dans 2 heures. \n OBJECTIFS : \n Attaquer et désorganiser toute force franchissant la LP Hotel.   Accompli. \n Assurer la couverture aérienne des forces terrestres du secteur. Accompli.
+Sprite 0 = images\uahb.pcx, 33, 262, 0
+Sprite 1 = images\utnkb.pcx, 141, 269, 0
+Sprite 2 = images\rtnkb.pcx, 90, -1, 0
+Sprite 3 = images\rtnkb.pcx, 208, 38, 0
+Sprite 4 = images\rinfb.pcx, 269, 105, 0
+Line 0 = 99, 99, 208, 0, 222, 315, 222
+Line 1 = 99, 99, 208, 0, 40, 315, 40
+Label 0 = 71, 214, 99, 99, 208, 1, LP GOLF
+Label 1 = 71, 48, 99, 99, 208, 1, LP HOTEL
+Label 2 = 141, 293, 99, 99, 208, 1, Stone
+Time Out = 15
+
+[Lose}
+Heading = 9, SITUATION
+Map = images\mus2.pcx
+Text = 1, 1, La 13e DFM a éliminé la force retardatrice expédiée pour la stopper. La 13e est libre d'attaquer notre flanc. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission. 
+Sprite 0 = images\uahb.pcx, 33, 262, 0
+Sprite 1 = images\utnkb.pcx, 141, 269, 0
+Sprite 2 = images\rtnkb.pcx, 90, -1, 0
+Sprite 3 = images\rtnkb.pcx, 208, 38, 0
+Sprite 4 = images\rinfb.pcx, 269, 105, 0
+Line 0 = 99, 99, 208, 0, 222, 315, 222
+Line 1 = 99, 99, 208, 0, 40, 315, 40
+Label 0 = 71, 214, 99, 99, 208, 1, LP GOLF
+Label 1 = 71, 48, 99, 99, 208, 1, LP HOTEL
+Label 2 = 141, 293, 99, 99, 208, 1, Stone
+Time Out = 15

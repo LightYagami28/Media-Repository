@@ -1,0 +1,28 @@
+[WIN]
+movie = movies\lossthreew.bik 
+Heading = 9, STATUS
+Map = images\rus1.pcx
+Text = 1, 1, Gut gemacht! Der Überfall wurde kurz vor dem beabsichtigten Ziel gestoppt, dem Panzer-Park der Tamanischen Garde. Die britische 1. Armoured und die amerikanische 1. Armored werden morgen ein Bataillon in voller Stärke vorfinden. 
+Sprite 0 = images\rahb.pcx, 253, 29, 0
+Sprite 1 = images\uahb.pcx, 98, 257, 0
+Sprite 2 = images\uahb.pcx, 227, 272, 0
+Sprite 3 = images\uahb.pcx, -3, 219, 0
+Label 0 = 14, 219, 200, 200, 200, 1, Annähernd 
+Label 1 = 115, 257, 200, 200, 200, 1, Annähernd 
+Label 2 = 227, 290, 200, 200, 200, 1, Annähernd 
+Time Out = 15
+
+[Lose]
+movie = movies\wintwow.bik 
+Heading = 9, STATUS
+Map = images\rus1.pcx 
+Text = 1, 1, Die gegnerischen Apaches haben es geschafft, unsere Verteidigung zu durchbrechen und haben unsere Kräfte vernichtet, während wir im Nachtlager waren. Unser Zeitplan ist nun zerstört und dies wird den Briten und Amerikanern erlauben, ihre Positionen wieder zu verstärken und möglicherweise eine Offensive gegen uns zu starten. \n \n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen. 
+Sprite 0 = images\rahb.pcx, 253, 29, 0
+Sprite 1 = images\uahb.pcx, 98, 257, 0
+Sprite 2 = images\uahb.pcx, 227, 272, 0
+Sprite 3 = images\uahb.pcx, -3, 219, 0
+Label 0 = 14, 219, 200, 200, 200, 1, Annähernd 
+Label 1 = 115, 257, 200, 200, 200, 1, Annähernd 
+Label 2 = 227, 290, 200, 200, 200, 1, Annähernd 
+Time Out = 15
+

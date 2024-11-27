@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, 6th Tank Army and the 5th Belarus have engaged their respective targets and the 2nd Corp is showing signs of desperation in their counterattacks. Southern Group has forced a fight out of the 5th Corp. This could well be the end of the War.
+Sprite 0 = images\rcin12.pcx, 0, 0, 0
+Sprite 1 = images\rcir12.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, GUARDS SECTOR
+Map = images\cs3.pcx
+Text = 1, 1, The 5th Corp has run out of room to maneuver and has turned to attempt a counter attack all across its front. They are using every piece of equipment that they can. All across the front, the rumor is that the war can soon be over and we will be victorious. 
+Sprite 0 = images\cavcin3.pcx, 0, 0, 0
+Sprite 1 = images\cavcir3.pcx, 0, 0, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

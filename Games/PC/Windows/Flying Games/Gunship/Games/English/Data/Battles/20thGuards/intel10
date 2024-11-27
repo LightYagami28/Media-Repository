@@ -1,0 +1,18 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, BOAR has surrendered to the Northern Group of Forces. Central Group of Forces is still embattled with 2nd Corp. Southern Group of forces has routed the 5th Corp with its counter attack. Currently 5th Corp is retreating into Slovakia
+Sprite 0 = images\rcin9.pcx, 0, 0, 0
+Sprite 1 = images\rcir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, GUARDS SECTOR
+Map = images\cs4.pcx
+Text = 1, 1, The 1st Cavalry is withdrawing towards Slovakia, we expect a similar maneuver to the one we attempted. 3rd US Infantry is also withdrawing, as well as the 5th German Infantry. 
+Sprite 0 = images\ruscin10.pcx, 0, 0, 0
+Sprite 1 = images\ruscir10.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 25, 239, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

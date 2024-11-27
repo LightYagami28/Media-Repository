@@ -1,0 +1,28 @@
+[Win]
+Heading = 9, SITUATION
+Map = images\muc1.pcx
+Text = 1, 1, Félicitations ! Grâce à la capture de la base aérienne proche de Snina, nous avons réussi à repousser les moyens aériens russes du secteur, et à priver l'ennemi de couverture aérienne pour un petit moment.
+Sprite 0 = images\uobja.pcx, 217, 163, 0
+Sprite 1 = images\uahb.pcx, 27, 280, 0
+Label 0 = 258, 176, 200, 200, 200, 1, Snina
+Label 1 = 120, 209, 200, 200, 200, 1, Hunenne 
+Sprite 0 = images\rsam6b.pcx, 67, 68, 0
+Sprite 1 = images\rsam6b.pcx, 113, 26, 0
+Sprite 2 = images\rifvp1.pcx, 254, 158, 0
+Sprite 3 = images\rifvp1.pcx, 115, 189, 0
+Time Out = 15
+
+[Lose]
+Heading = 9, SITUATION
+Map = images\muc1.pcx 
+Text = 1, 1, Vous n'avez pas mené à bien votre mission. Nous ne pouvions guère nous permettre de perdre des unités d'assaut aérien. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uobja.pcx, 217, 163, 0
+Sprite 1 = images\uahb.pcx, 27, 280, 0
+Label 0 = 258, 176, 200, 200, 200, 1, Snina
+Label 1 = 120, 209, 200, 200, 200, 1, Hunenne 
+Sprite 0 = images\rsam6b.pcx, 67, 68, 0
+Sprite 1 = images\rsam6b.pcx, 113, 26, 0
+Sprite 2 = images\rifvp1.pcx, 254, 158, 0
+Sprite 3 = images\rifvp1.pcx, 115, 189, 0
+Time Out = 15
+

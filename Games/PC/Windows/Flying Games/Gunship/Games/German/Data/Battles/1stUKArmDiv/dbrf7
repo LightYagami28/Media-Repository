@@ -1,0 +1,38 @@
+[WIN]
+movie = movies\lossfivew.bik
+Heading = 9, STATUS
+Map = images\MUK7.pcx
+Text = 1, 1, Nach den neuesten Informationen haben wir die 45. Panzer- sowie die 34. und 64. Motorschützen-Division im Sack. \n Während Sie draußen waren, hat sich die Brigade mit den übrigen Divisionen verbunden. Sieht so aus, als hätten wir sie eiskalt erwischt. \n Und was vielleicht noch besser ist: Die 7. Brigade zieht sich zusammen mit uns für einige Tage Erholung zurück. 
+Line 4 = 99, 99, 208, 272, 41, 272, 297
+Sprite 0 = images\uahb.pcx, 202, 247, 0
+Sprite 1 = images\uobjs.pcx, 147, 93, 0
+Sprite 2 = images\uobja.pcx, 95, 207, 0
+Sprite 3 = images\uarbp.pcx, 147, 103, 0
+Sprite 4 = images\uarbp.pcx, 98, 218, 0
+Label 0 = 122, 227, 10, 10, 10, 1, Raven
+Label 1 = 121, 226, 99, 99, 208, 1, Raven
+Label 2 = 170, 111, 10, 10, 10, 1, Raven
+Label 3 = 169, 110, 99, 99, 208, 1, Raven
+Label 4 = 213, 178, 10, 10, 10, 1, PL DELTA
+Label 5 = 212, 177, 99, 99, 208, 1, PL DELTA
+Time Out = 15
+
+[Lose]
+movie = movies\losstwow.bik
+Heading = 9, STATUS
+Map = images\MUK7.pcx
+Text = 1, 1, Sie haben Ihr Missionsziel nicht erreicht. Die Einheiten der 82. wurden überrannt und die meisten der Russen konnten entkommen. \n \n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen.
+Line 4 = 99, 99, 208, 272, 41, 272, 297
+Sprite 0 = images\uahb.pcx, 202, 247, 0
+Sprite 1 = images\uobjs.pcx, 147, 93, 0
+Sprite 2 = images\uobja.pcx, 95, 207, 0
+Sprite 3 = images\uarbp.pcx, 147, 103, 0
+Sprite 4 = images\uarbp.pcx, 98, 218, 0
+Label 0 = 122, 227, 10, 10, 10, 1, Raven
+Label 1 = 121, 226, 99, 99, 208, 1, Raven
+Label 2 = 170, 111, 10, 10, 10, 1, Raven
+Label 3 = 169, 110, 99, 99, 208, 1, Raven
+Label 4 = 213, 178, 10, 10, 10, 1, PL DELTA
+Label 5 = 212, 177, 99, 99, 208, 1, PL DELTA
+Time Out = 15
+

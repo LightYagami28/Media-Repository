@@ -1,0 +1,65 @@
+[Briefing 0]
+Heading = 9, FORCES DE L'OTAN
+Map = images\imap.pcx
+Text = 1, 1, Le secteur nord est tenu par la British Army of the Rhine (BAOR) avec les 1e et 3e divisions blindées britanniques et la 24e division d'infanterie américaine. \n Le secteur central est tenu par le IIe corps allemand à la tête des 10e et 5e divisions de Panzer et de la 1e division blindée US. \n Le secteur sud est tenu par le Ve corps américain composé de la 1e division de cavalerie, de la 2e division d'infanterie et de la 1e division de Panzer allemande.
+Sprite 0 = images\cbaor.pcx, 50, 100, 0
+Sprite 1 = images\cii.pcx, 50, 147, 0
+Sprite 2 = images\cv.pcx, 50, 209, 0
+Sprite 3 = images\d24usi.pcx, 72, 72, 0
+Sprite 4 = images\d3uk.pcx, 111, 66, 0
+Sprite 5 = images\d1uk.pcx, 134, 88, 0
+Sprite 6 = images\d1usa.pcx, 123, 115, 0
+Sprite 7 = images\d5gr.pcx, 135, 141, 0
+Sprite 8 = images\d10gr.pcx, 138, 171, 0
+Sprite 9 = images\d1gr.pcx, 123, 203, 0
+Sprite 10 = images\d1usc.pcx, 115, 228, 0
+Sprite 11 = images\d3usi.pcx, 84, 245, 0
+Line 0 = 99, 99, 208, 45, 148, 116, 112
+Line 1 = 99, 99, 208, 116, 112, 169, 112
+Line 2 = 99, 99, 208, 45, 200, 169, 200
+Time Out = 15
+[Briefing 1]
+Heading = 9, FORCES RUSSES
+Map = images\imap.pcx
+Text = 1, 1, Le Groupe de Forces Nord commande les 28e et 5e corps biélorusses, avec le 65e biélorusse en réserve. \n  Le Groupe de Forces Centre est composé de la 2e armée de la garde, de la 6e armée blindée et des 1er et 13e corps ukrainiens, avec la 20e armée blindée de la garde en réserve. \n Le Groupe de Forces Sud est constitué du 8e corps ukrainien et de la 3e armée de choc, avec le 32e corps ukrainien en réserve.
+Sprite 0 = images\ngf.pcx, 164, 17, 0
+Sprite 1 = images\c65b.pcx, 206, 5, 0
+Sprite 2 = images\c28b.pcx, 113, 39, 0
+Sprite 3 = images\c5b.pcx, 138, 50, 0
+Sprite 4 = images\cgf.pcx, 228, 108, 0
+Sprite 5 = images\c20g.pcx, 190, 92, 0
+Sprite 6 = images\c6t.pcx, 168, 80, 0
+Sprite 7 = images\c13u.pcx, 174, 111, 0
+Sprite 8 = images\c2g.pcx, 172, 137, 0
+Sprite 9 = images\c1u.pcx, 181, 165, 0
+Sprite 10 = images\sgf.pcx, 208, 228, 0
+Sprite 11 = images\c8u.pcx, 173, 206, 0
+Sprite 12 = images\c32u.pcx, 237, 205, 0
+Sprite 13 = images\c3s.pcx, 156, 239, 0
+Line 0 = 255, 0, 0, 164, 80, 244, 39
+Line 1 = 255, 0, 0, 176, 193, 272, 193
+Time Out = 15
+[Briefing 2]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, A 23 heures, la nuit dernière, les forces russes ont attaqué sur les frontières polonaise, roumaine et slovaque. Les forces de l'OTAN mènent des actions d'arrière-garde sur l'ensemble du front afin de ralentir la progression russe. Au nord, les éléments de la British Army of the Rhine se retirent en franchissant la Vistule afin d'éviter d'être encerclés par les attaques venant de l'est et du nord. Le Ve corps bat en retraite dans les régions montagneuses de Slovaquie. 
+Sprite 0 = images\cin0.pcx, 0, 0, 0
+Sprite 1 = images\cir0.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 3]
+Heading = 9, SECTEUR du IIe CORPS
+Map = images\cs2.pcx
+Text = 1, 1, La 1e DB américaine combat de Biala Podlaska à Parczew, au sud, face au 13e corps ukrainien. \n La 5e Panzer occupe le secteur Parczew-Chelm, face à la 2e armée de la garde, qui a concentré ses attaques sur l'axe Wlodawa-Parczew et sur Chelm, contournant ainsi la 6e brigade. \n La 10e Panzer affronte la 2e de la garde à Chelm, ainsi que l'attaque du 1e corps ukrainien sur Zamosc. \n Votre zone d'opérations actuelle est affichée en surbrillance.
+Label 0 = 279, 20, 200, 200, 200, 1, Brest
+Label 1 = 190, 56, 200, 200, 200, 1, Biala Podlaska
+Label 2 = 181, 115, 200, 200, 200, 1, Parczew
+Label 3 = 139, 215, 200, 200, 200, 1, Lublin
+Label 4 = 250, 229, 200, 200, 200, 1, Chelm
+Label 5 = 211, 242, 200, 200, 200, 1, Zamosc
+Label 6 = 245, 146, 200, 200, 200, 1, Wlodawa
+Sprite 0 = images\gercin0.pcx, 0, 0, 0
+Sprite 1 = images\gercir0.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 275, 141, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

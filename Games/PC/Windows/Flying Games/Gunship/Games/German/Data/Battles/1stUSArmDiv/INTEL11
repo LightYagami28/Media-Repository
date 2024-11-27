@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die nördliche Gruppe der Streitkräfte ist zusammengebrochen und setzt dem XVIII. Korps lediglich vereinzelt Widerstand entgegen. BAOR zieht weiter auf Minsk zu, worauf die Regierung Weißrusslands einen Waffenstillstand erbittet. \n Das II. und III. Korps stehen immer noch starkem Widerstand gegenüber, aber wichtige Einheiten des Feindes ziehen sich bereits zurück oder ergeben sich. \n Das V. Korps verfolgt verbleibende russische und ukrainische Einheiten und zieht auf Kiew zu.
+Sprite 0 = images\cin12.pcx, 0, 0, 0
+Sprite 1 = images\cir12.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs4.pcx
+Text = 1, 1, Die Situation ist sehr unklar. Das III. Und V. Korps formen eine Tasche, in der sich der Großteil der zentralen Gruppe der Streitmächte, bzw. deren verbleibende Reste, einfangen soll. Das II. Korps ist dafür zuständig, die Tasche zu schließen. Die meisten der russischen Einheiten gelten nicht mehr länger als Kampfeinheiten. 
+Sprite 0 = images\gercir12.pcx, 0, 0, 0
+Sprite 1 = images\gercin12.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 248, 92, 0
+Time Out = 15
+GOTOBRIEFING = 1

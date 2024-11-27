@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, XVIII Corps and BAOR have succeeded in encircling the 6th Tank Army, and are preparing a drive into Belarus. \n The Russian counterattack has stalled in front of II Corps, while III Corps is still slowly falling back in front of the main offensive. \n In the south, The rest of V Corps is moving into line to support 1st Cavalry division.
+Sprite 0 = images\cin10.pcx, 0, 0, 0
+Sprite 1 = images\cir10.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, II Corps SECTOR
+Map = images\cs4.pcx
+Text = 1, 1, To our north, III Corps has assumed command of 10th Panzer. US 1st Armored have stopped the attack of 13th and 65th Corps in their tracks. \n 1st and 5th Panzer have fallen back a few miles to consolidate the line. \n 5th Alpine division has been assigned to II Corps and is moving up from Slovakia. \n The Russians have allowed a gap to open behind 1st Corps, which we will try to exploit.
+Sprite 0 = images\gercir10.pcx, 0, 0, 0
+Sprite 1 = images\gercin10.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 95, 157, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

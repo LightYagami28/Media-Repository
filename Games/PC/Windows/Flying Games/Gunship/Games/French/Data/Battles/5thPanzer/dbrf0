@@ -1,0 +1,31 @@
+[WIN]
+movie = movies\winfourw.bik
+Heading = 9, SITUATION
+Map = images\mg0.pcx 
+Text = 1, 1, En éliminant l'avant-garde de la 16e DB de la garde, vous avez contraint la 2e armée de la garde à ralentir sa progression. \n Refaites le plein de carburant et de munitions immédiatement, le kampfgruppe Stone a besoin d'un appui aérien durant son repli. 
+Sprite 0 = images\uahb.pcx, 10, 301, 0
+Sprite 1 = images\utnkb.pcx, 20, 270, 0
+Sprite 2 = images\rtnk16.pcx, 199, 45, 0
+Sprite 3 = images\rifv207.pcx, 97, 111, 0
+Sprite 4 = images\rifv207.pcx, 200, 198, 0
+Sprite 5 = images\rahb.pcx, 270, 85, 0
+Label 0 = 75, 288, 200, 200, 200, 1, Rivière Bug
+Label 1 = 265, 121, 200, 200, 200, 1, Shatsk
+Label 2 = 43, 271, 10, 10, 10, 1, Stone
+Label 3 = 42, 270, 99, 99, 208, 1, Stone
+Time Out = 15
+[Lose]
+Heading = 9, SITUATION
+Map = images\mg0.pcx 
+Text = 1, 1, Vous n'avez pas mené à bien votre mission. Cela devrait permettre à la 16e DB de la garde d'attaquer et de laminer votre division. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uahb.pcx, 10, 301, 0
+Sprite 1 = images\utnkb.pcx, 20, 270, 0
+Sprite 2 = images\rtnk16.pcx, 188, 46, 0
+Sprite 3 = images\rifv207.pcx, 97, 111, 0
+Sprite 4 = images\rifv207.pcx, 200, 198, 0
+Sprite 5 = images\rahb.pcx, 270, 85, 0
+Label 0 = 75, 288, 200, 200, 200, 1, Rivière Bug
+Label 1 = 265, 121, 200, 200, 200, 1, Shatsk
+Label 2 = 43, 271, 10, 10, 10, 1, Stone
+Label 3 = 42, 270, 99, 99, 208, 1, Stone
+Time Out = 15

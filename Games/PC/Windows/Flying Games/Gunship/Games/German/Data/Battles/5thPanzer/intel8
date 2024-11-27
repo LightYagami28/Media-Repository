@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE 
+Map = images\imap.pcx
+Text = 1, 1, Die Front verfestigt sich vor dem XVIII. Korps. BAOR, das II. und das III. Korps stoßen weiter nach Weißrussland und in die Ukraine vor. Im Süden hat die 1. Cavalry Division den Kontakt zur 3. Sturm-Armee zurückgewonnen, während sich das 8. Ukrainische Armeekorps weiterhin hält.
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Sprite 1 = images\cir8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs4.pcx
+Text = 1, 1, Die Aufklärung hat den Kontakt zum 1. Ukrainischen Armeekorps verloren. Die Anzeichen deuten darauf hin, dass sie in den letzten 24 Stunden an die Front gezogen wurden. \n Die 5. Panzer-Division startet einen Angriff, um durch das raue Terrain an die Front vorzustoßen. Die 1. Panzer-Division setzt ihren Angriff in Richtung Norden fort. \n Beide Divisionen stoßen vor, während sie versuchen wieder Kontakt zu dem Feind zu erhalten. Laut Aufklärung sind Feindaktivitäten vor den Korps minimal.
+Sprite 0 = images\gercir8.pcx, 0, 0, 0
+Sprite 1 = images\gercin8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 65, 159, 0
+Time Out = 15
+
+

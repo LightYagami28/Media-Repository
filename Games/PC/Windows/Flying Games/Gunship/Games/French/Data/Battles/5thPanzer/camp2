@@ -1,0 +1,292 @@
+TITLE: ger2
+BATTLEFIELD: POLAND 120996 112500 0 0 21 26
+ENGAGEMENT: BLUE MISSION_BLUE_HASTY_ATTACK 0 0 0
+ENGAGEMENT: RED MISSION_RED_DELIBERATE  115555 114555 180
+OBJECTIVE: RED FORWARD_LINE 114000 104000 114000 120000 01
+OBJECTIVE: BLUE REAR_LINE 114000 104000 114000 120000 10
+BLUE_FREINDLIES: 40
+BLUE_ENEMIES: 80
+RED_FRIENDLIES: 80
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 0
+MACHINE: 0
+/* SetupFriendlyHastyAttack */
+PLATOON: 127 113496 114079 90 8 115115 112862 1 701
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 120
+ADDWAYPT: 117714 117321
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 420
+ADDWAYPT: 122193 116490
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 420
+ADDWAYPT: 123785 117834
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 125085 116834
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 360
+/* SetupEnemyDefensive */
+PLATOON: 62 128496 114887 90 8 126596 115150 0 102
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ADDWAYPT: 124046 108100
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 180 
+ADDWAYPT: 121136 113205
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 60
+ADDWAYPT: 123896 116500
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 540 
+PLATOON: 62 122496 105187 90 8 122396 106250 0 103
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_ASSMBLY:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ADDWAYPT: 123896 107850
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 240
+ADDWAYPT: 126496 112200
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ADDWAYPT: 124996 116050
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 540
+/* SetupEnemydeliberateattack */
+PLATOON: 35 123714 108890 135 6 121346 110914 1 1904
+ORDER_MODE_WAYPT:
+ORDER_ADV_FAST
+ADDWAYPT: 120152 113918
+ORDER_FORM_EXTLINE:
+ORDER_FIRE:
+ADDWAYPT: 119018 115035
+ADDWAYPT: 114568 115345
+PLATOON: 51 123234 108390 135 6 120846 110414 0 1905
+ORDER_MODE_WAYPT:
+ORDER_ADV_FAST
+ADDWAYPT: 119652 113918
+ORDER_FORM_EXTLINE:
+ORDER_FIRE:
+ADDWAYPT: 118518 114535
+ADDWAYPT: 114568 115845
+PLATOON: 51 124000 109000 135 6 120846 110414 1 1906
+ORDER_MODE_WAYPT:
+ORDER_ADV_FAST
+ADDWAYPT: 119752 113918
+ORDER_FORM_EXTLINE:
+ORDER_FIRE:
+ADDWAYPT: 119518 115335
+ADDWAYPT: 114568 114845
+PLATOON: 52 124214 108350 135 6 121846 110414 1 1907
+ORDER_MODE_WAYPT:
+ORDER_ADV_FAST
+ADDWAYPT: 120152 113418
+ORDER_FORM_EXTLINE:
+ORDER_FIRE:
+ADDWAYPT: 119518 114535
+ADDWAYPT: 115068 115345
+PLATOON: 35 126314 110540 120 6 115000 116000 1 1908
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 35 127434 112000 120 6 115000 116000 1 1909
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 51 126964 111314 120 6 115000 116000 1 1910
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 36 127814 110480 120 6 115000 116000 1 1911
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 35 127014 115240 90 6 114500 115000  1 1912
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 51 127814 114814 90 6 114500 115000 1 1913
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 51 127814 115941 90 6 114500 115000 0 1914
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 52 127861 115384 90 6 114500 115000 0 1915
+LOGIC: LOGIC_MECH_ASSAULT
+/* Friendly Hasty Attack Terrain (2a) */
+PLATOON: 138 125005 122000 45 7 125005 122000 1 1516
+SET_DELAY_TIMER: 45
+ORDER_MODE_WAYPT:
+ORDER_FIRE:
+ADDWAYPT: 119000 116000
+PLATOON: 33 124980 122595 45 7 124980 122595 1 1517
+ORDER_MODE_WAYPT:
+ORDER_FIRE
+ADDWAYPT: 118050 115505
+PLATOON: 33 125106 122105 45 7 125106 122105 1 1518
+ORDER_MODE_WAYPT:
+ORDER_FIRE:
+ADDWAYPT: 119731 116361
+PLATOON: 34 125485 122631 45 7 125485 122631 1 1519
+ORDER_MODE_WAYPT:
+ORDER_FIRE:
+ADDWAYPT: 120000 117000
+/* Friendly Standard Main Zone Defensive Units */
+PLATOON: 121 115402 112432 320 7 115402 112432 1 1620
+PLATOON: 133 116909 114904 270 7 116909 114904 1 1621
+PLATOON: 121 117050 118050 290 7 117050 118050 1 1622
+PLATOON: 33 117843 116578 270 7 117843 116578 1 1623
+PLATOON: 115 115734 115618 270 7 115734 115618 1 1624
+SUPPORT: 82 114317 117184 270 6 114317 117184 1 1625
+/* SetupEnemyMobileAreaSAMS */
+PLATOON: 72 127372 110352 270 8 110352 110352 0 1926
+LOGIC_SUPPORT:
+/* SetupEnemyArtillery */
+SUPPORT: 77 126500 105500 180 7 126500 105500 0 3027
+SUPPORT: 74 125300 105500 180 7 125300 105500 0 3028
+/* USA ANDCHASE FORCES */
+PLATOON: 1 117513 102914 180 6 117535 105418 1 1729
+ORDER_MODE_WAYPT:
+ORDER_ADV_FAST:
+ADDWAYPT: 116895 106019
+ADDWAYPT: 114018 106982
+ADDWAYPT: 112000 107509
+PLATOON: 37 117513 99014 180 6 117535 105418 1 1730
+ORDER_MODE_WAYPT:
+ORDER_ADV_FAST:
+ADDWAYPT: 116895 106019
+ADDWAYPT: 114018 106982
+ADDWAYPT: 112000 107509
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\mg2.pcx
+Text = 1, 1, La 6e brigade de Panzer poursuit son repli. Un Kampfgruppe de la 13e brigade de Panzergrenadiers mène une attaque de flanc contre les forces de poursuite. Vous désorganiserez la progression ennemie et assurerez la couverture aérienne des unités qui se trouvent dans votre secteur. \n \n INDICATIF :\n Patrouille n°1 : Reaper \n \n OBJECTIFS : \n Engager et détruire les unités ennemies situées entre les lignes de phase Foxtrot et Delta. \n Minimiser les pertes de toutes les unités amies impliquées.
+Line 0 = 99, 99, 208, 25, 89, 65, 130
+Line 1 = 99, 99, 208, 65, 130, 65, 279
+Line 2 = 99, 99, 208, 187, 29, 247, 89
+Line 3 = 99, 99, 208, 247, 89, 247, 279
+Line 4 = 200, 200, 200, 8, 190, 40, 165
+Line 5 = 200, 200, 200, 40, 165, 92, 254
+Line 6 = 200, 200, 200, 92, 254, 182, 238
+Line 7 = 200, 200, 200, 182, 238, 214, 265
+Line 8 = 200, 200, 200, 214, 265, 240, 245
+Sprite 0 = images\uahb.pcx, 0,182, 0
+Sprite 1 = images\uwpbp.pcx, 32, 143, 0
+Sprite 2 = images\uwpbp.pcx, 84, 232, 0
+Sprite 3 = images\uwpbp.pcx, 174, 216, 0
+Sprite 4 = images\uwpbp.pcx,  202, 243, 0
+Sprite 5 = images\uwppa.pcx, 228, 223, 0
+Label 0 = 47, 93, 10, 10, 10, 1, LP FOXTROT
+Label 1 = 244, 58, 10, 10, 10, 1, LP DELTA
+Label 2 = 46, 207, 200, 200, 200, 1, Leczna
+Label 3 = 46, 92, 99, 99, 208, 1, LP FOXTROT
+Label 4 = 243, 57, 99, 99, 208, 1, LP DELTA
+Time Out = 30
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\mg2.pcx
+Text = 1, 1, Vous interviendrez dans un secteur compris entre les lignes de phase Alpha et Bravo. Vous ne devrez en aucun cas franchir ces lignes de phase. \n La situation est très fluide, et toute unité aérienne se trouvant hors de son secteur sera considérée comme hostile. \n \n DEFENSE AERIENNE : \n Les unités en progression disposeront des moyens de défense aérienne mobiles normaux, mais risquent d'être accompagnées, dans le cadre de cet assaut, par d'autres unités de défense aérienne mobiles organiques.
+Line 0 = 99, 99, 208, 13, 282, 13, 76
+Line 1 = 99, 99, 208, 13, 76, 134, 1
+Line 2 = 99, 99, 208, 88, 291, 228, 291
+Line 3 = 99, 99, 208, 228 , 291, 314, 144
+Line 4 = 99, 99, 208, 25, 89, 65, 130
+Line 5 = 99, 99, 208, 65, 130, 65, 279
+Line 6 = 99, 99, 208, 187, 29, 247, 89
+Line 7 = 99, 99, 208, 247, 89, 247, 279
+Label 0 = 20, 83, 10, 10, 10, 1, LP ALPHA
+Label 1 = 91, 280, 10,10, 10, 1, LP BRAVO
+Label 2 = 46, 207, 200, 200, 200, 1, Leczna
+Label 3 = 19, 82, 99, 99, 208, 1, LP ALPHA
+Label 4 = 90, 279, 99, 99, 208, 1, LP BRAVO
+Label 5 = 47, 93, 10, 10, 10, 1, LP FOXTROT
+Label 6 = 244, 58, 10, 10, 10, 1, LP DELTA
+Label 7 = 46, 92, 99, 99, 208, 1, LP FOXTROT
+Label 8 = 243, 57, 99, 99, 208, 1, LP DELTA
+Time Out = 30
+
+[Briefing 2]
+Heading = 9, FORCES AMIES
+Map = images\mg2.pcx
+Text = 1, 1, Les forces amies relèvent de la 6e brigade de Panzer et de la 13e brigade de Panzergrenadiers. La 13e, indicatif Falcon, mènera une attaque improvisée contre les forces de poursuite russes. Un Kampfgruppe de la 6e, indicatif Stone, aménage un périmètre défensif autour de la ville de Leczna. Une unité de défense aérienne et une batterie d'artillerie sont demeurées en arrière afin de soutenir Falcon et Stone.
+Sprite 0 = images\utnkb.pcx, 71, 223, 0
+Sprite 1 = images\utnkb.pcx, 217, 280, 0 
+Sprite 2 = images\uarrownw.pcx, 197, 265, 0
+Label 0 = 46, 207, 200, 200, 200, 1, Leczna
+Label 1 = 71, 243, 10, 10, 10, 1, Stone
+Label 2 = 217, 300, 10, 10, 10, 1, Falcon
+Label 3 = 72, 244, 99, 99, 208, 1, Stone 
+Label 4 = 218, 301, 99, 99, 208, 1, Falcon
+Label 5 = 46, 207, 200, 200, 200, 1, Leczna
+Time Out = 20
+
+[Briefing 3]
+Heading = 9, FORCES ENNEMIES
+Map = images\mg2.pcx
+Text = 1, 1, Les forces ennemies engagées dans le cadre de cette opération appartiennent à la 43e DFM. Elles ont repris la poursuite de la 6e brigade de Panzer à la place de la 207e division de la garde. Elles convergent actuellement sur la ville de Leczna. Elles entreront dans votre secteur par l'est. La 106e division aérienne de la garde poursuit ses actions de harcèlement contre la 6e Panzer durant sa retraite.
+Sprite 0 = images\rifvb.pcx, 271, 207, 0
+Sprite 1 = images\rifvb.pcx, 217, 48, 0
+Sprite 2 = images\rtnkb.pcx, 263, 124, 0
+Sprite 3 = images\rarrowsw.pcx, 196, 68, 0
+Sprite 4 = images\rarrowsw.pcx, 241, 140, 0
+Sprite 5 = images\rarrowwb.pcx, 247, 209, 0
+Label 0 = 46, 207, 200, 200, 200, 1, Leczna
+Label 1 = 241, 52, 10, 10, 10, 1, 43
+Label 2 = 288, 128, 10, 10, 10, 1, 43 
+Label 3 = 295, 211, 10, 10, 10, 1, 43
+Label 4 = 240, 51, 255, 0, 0, 1, 43
+Label 5 = 287, 127, 255, 0, 0, 1, 43 
+Label 6 = 294, 210, 255, 0, 0, 1, 43
+Time Out = 20
+
+[Briefing 4]
+Heading = 9, METEO
+Map = images\mg2.pcx
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec une couche nuageuse partielle à 2.500 pieds. \n La présence de la lune devrait accroître la visibilité et la porter à 3.000, voire 4.000 m. \n Excellentes conditions thermiques permettant de voir à plus de 6 km. \n Léger vent de nord-ouest, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20

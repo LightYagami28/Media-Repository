@@ -1,0 +1,24 @@
+[WIN]
+movie = movies\extratwow.bik 
+Heading = 9, STATUS
+Map = images\rus7.pcx
+Text = 1, 1, The airfields have been destroyed. This will stop German air activity for the time being. This allows us to proceed with the next step in this campaign.
+Sprite 0 = images\rahb.pcx, 87, 13, 0
+Sprite 1 = images\rchb.pcx, 151, 13, 0
+Sprite 2 = images\rchb.pcx, 234, 27, 0
+Sprite 3 = images\robjh.pcx, 109, 159, 0
+Sprite 4 = images\robja.pcx, 49, 221, 0
+Time Out = 15
+
+[Lose]
+movie = movies\extraonew.bik 
+Heading = 9, STATUS
+Map = images\rus7.pcx 
+Text = 1, 1, The airfields were not destroyed. This has grave consequences. The first is the 5th Panzer is moving forces to intercept and hold us until a counter attack can be made. The second is that they now have operational airbases to launch close air support from. \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\rahb.pcx, 87, 13, 0
+Sprite 1 = images\rchb.pcx, 151, 13, 0
+Sprite 2 = images\rchb.pcx, 234, 27, 0
+Sprite 3 = images\robjh.pcx, 109, 159, 0
+Sprite 4 = images\robja.pcx, 49, 221, 0
+Time Out = 15
+

@@ -1,0 +1,35 @@
+[Win]
+movie = movies\extraonew.bik
+Heading = 9, STATUS
+Map = images\mus10.pcx
+Text = 1, 1, Das 13. Ukrainische Armeekorps zieht sich mit größtmöglicher Geschwindigkeit zurück. Sie werden wahrscheinlich irgendwo im Südwesten eine Verteidigungslinie aufbauen. Dies könnte die letzte Schlacht sein. \n ZIEL: \n Greifen Sie alle feindlichen Einheiten zwischen den Phasenlinien Foxtrot und Delta an, und stören Sie diese. \n Erreicht \n Suchen und zerstören Sie das feindliche Hauptquartier zwischen den Phasenlinien Echo und Delta. \n Erreicht
+Sprite 0 = images\uahb.pcx, 18, 225, 0
+Sprite 1 = images\uahb.pcx, 18, 225, 0
+Sprite 2 = images\utnkb.pcx, 6, 139, 0
+Sprite 3 = images\rtnkb.pcx, 287, 27, 0
+Sprite 4 = images\rtnkb.pcx, 292, 283, 0
+Sprite 5 = images\rhqb.pcx, 195, 89, 0
+Line 0 = 0, 0, 255, 227, 0, 227, 315
+Label 0 = 240, 256, 10, 10, 10, 1, PL ECHO
+Label 1 = 239, 255, 0, 0, 255, 1, PL ECHO
+Label 2 = 7, 162, 10, 10, 10, 1, Falcon
+Label 3 = 6, 161, 0, 0, 255, 1, Falcon
+Time Out = 15
+
+[Lose]
+movie = movies\winfivew.bik
+Heading = 9, STATUS
+Map = images\mus10.pcx
+Text = 1, 1, Die 15. Motorisierte Schützen-Division hat die 3. Armored Division überrollt. Sie kann jetzt dem Rest der 1. US Armored in die Flanke fallen. \n \n Wählen Sie "WIEDERHOLEN", um die Mission noch mal zu fliegen!
+Sprite 0 = images\uahb.pcx, 18, 225, 0
+Sprite 1 = images\uahb.pcx, 18, 225, 0
+Sprite 2 = images\utnkb.pcx, 6, 139, 0
+Sprite 3 = images\rtnkb.pcx, 287, 27, 0
+Sprite 4 = images\rtnkb.pcx, 292, 283, 0
+Sprite 5 = images\rhqb.pcx, 195, 89, 0
+Line 0 = 0, 0, 255, 227, 0, 227, 315
+Label 0 = 240, 256, 10, 10, 10, 1, PL ECHO
+Label 1 = 239, 255, 0, 0, 255, 1, PL ECHO
+Label 2 = 7, 162, 10, 10, 10, 1, Falcon
+Label 3 = 6, 161, 0, 0, 255, 1, Falcon
+Time Out = 15

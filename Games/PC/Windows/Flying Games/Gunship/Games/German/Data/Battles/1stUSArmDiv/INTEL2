@@ -1,0 +1,23 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die 7. Brigade der amerikanischen 1. Armored wurde eingekesselt, obwohl BAOR den Vormarsch der russischen Truppen scheinbar aufgehalten hat. \n Im Bereich des II. Korps setzen sich schwere Kämpfe fort. Die 5. Panzerdivision kämpft immer noch im Lublin-Sektor, obwohl die amerikanische 1. Armored eine Niederlage einstecken mußte. \n Das V. Korps setzt seine Störangriffe in der ganzen Slowakei fort.
+Sprite 0 = images\cin2.pcx, 0, 0, 0
+Sprite 1 = images\cir2.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs2.pcx
+Text = 1, 1, Die 1. Armored fällt auf die Linie Siedlce - Lukow zurück. Die 3. Brigade wurde überrannt und hat sich verstreut. Die 2. Armored ist durch Biala Podlaska zurückgefallen. \n Die 2. Armeegarde treibt die 5. Panzerdivision nach Lublin zurück. Die 13. Panzergrenadier-Brigade führt einen Gegenangriff aus. \n Die 10. Panzerdivision zieht sich weiter unter starkem Beschuss zurück. 
+Label 0 = 104, 5, 200, 200, 200, 1, Siedlce
+Label 1 = 160, 63, 200, 200, 200, 1, Lukow
+Label 2 = 182, 181, 200, 200, 200, 1, Leczna
+Label 3 = 139, 215, 200, 200, 200, 1, Lublin
+Label 4 = 171, 61, 200, 200, 200, 1, Miedzyrzec Podlaski
+Label 5 = 190, 56, 200, 200, 200, 1, Biala Podlaska 
+Sprite 0 = images\gercin2.pcx, 0, 0, 0
+Sprite 1 = images\gercir2.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 140, 44, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

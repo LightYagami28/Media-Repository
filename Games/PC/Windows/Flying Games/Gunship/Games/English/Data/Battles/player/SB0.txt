@@ -1,0 +1,179 @@
+TITLE: Ride of the Valkyries
+BATTLEFIELD: ukraine 33937 165140 0 0 6 26
+LEVEL: 6
+BLUE_ENEMIES: 75
+RED_FRIENDLIES: 35
+RUNAI: RED
+SIDE: 0
+MACHINE: 1
+PLATOON: 112 36000 168000 90 2 33500 159700 3 11
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32000 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32300 163000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 31000 167000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+PLATOON: 128 28000 162000 270 2  31000 167000 3 7
+BLUE_TARGET: 28
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32300 163000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32000 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 33500 159700 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 36000 168000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 39000 166000 
+ORDER_ASMBLY_PATROL:
+ORDER_HELO_ENGAGE:
+ORDER_PRIORITY_HELO:
+PLATOON: 64 27900 161800 90 2 31100 167000 3 12
+BLUE_TARGET: 28
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32400 163000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32100 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 33600 159700 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 36100 168000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ORDER_HELO_BYPASS:
+ADDWAYPT: 39000 166000 
+ORDER_ASMBLY_LZ:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+PLATOON: 64 27800 161700 90 2 31200 167000 3 13
+BLUE_TARGET: 28
+ORDER_MODE_WAYPT:
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32500 163000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 32200 161000
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 33700 159700 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 36200 168000 
+ORDER_ASMBLY_CHECKPT:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+ADDWAYPT: 39200 166200 
+ORDER_ASMBLY_LZ:
+ORDER_HELO_BYPASS:
+ORDER_PRIORITY_HELO:
+PLATOON: 56 33000 166000 0 2 33000 166000 3 20
+PLATOON: 72 31000 161000 270 2 31000 161000 3 22
+PLATOON: 56 28700 167100 315 8 28700 167100 3 23
+
+[Blue_Briefing 0]
+Heading = 9, MISSION
+Map = images\msb0.pcx
+Text = 1, 1, You are to slip behind the enemy defensive area and intercept an air assault unit moving to an advanced staging area. You must search the river valley and destroy any enemy helicopters you encounter.
+Sprite 0 = images\uahb.pcx, 199, 215, 0
+Sprite 1 = images\uarrownw.pcx, 180, 198, 0
+Label 1 = 168, 234, 99, 99, 208, 1, You Start Here
+Time Out = 10
+
+[Blue_Briefing 1]
+Heading = 9, FRIENDLY FORCES
+Map = images\msb0.pcx
+Text = 1, 1, There are no friendly ground forces in this mission.
+Time Out = 10
+
+[Blue_Briefing 2]
+Heading = 9, ENEMY FORCES
+Map = images\msb0.pcx
+Text = 1, 1, The 106th Guards Airborne is moving one of its units to an advanced staging area. They are being escorted by attack helicopters.
+Sprite 0 = images\rahb.pcx, 99, 205, 0
+Sprite 2 = images\rchb.pcx, 103, 178, 0
+Sprite 3 = images\rarrowsw.pcx, 105, 195, 0
+Label 1 = 116, 205, 255, 0, 0, 1, 106
+Label 2 = 119, 178, 255, 0, 0, 1, 106
+Label 3 = 99, 220, 255, 0, 0, 1, Hips
+Label 4 = 103, 193, 255, 0, 0, 1, Havocs
+Time Out = 20
+
+[Blue_Briefing 3]
+Heading = 9, WEATHER
+Map = images\msb0.pcx
+Text = 1, 1, The weather in your sector of operations is partly cloudy, with a partial cloud layer at 2500 feet. \n Sunrise is timed to occur at your forward Assembly Area. \n Visibility is limited to 1 to 2 kilometers due to an early morning mist. \n Thermal conditions are good, with ranges up to 5 kilometers. \n Winds are light out of the NW, at 1 to 2 knots.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, MISSION
+Map = images\msb0.pcx
+Text = 1, 1, The 106th Guards Airborne is moving a unit to an advanced staging area, using the river valley to hide from radar. You are to provide an escort for the move. Your orders are to search the river valley and destroy any Enemy helicopters you encounter.
+Sprite 0 = images\rahb.pcx, 41, 92, 0
+Sprite 1 = images\rchb.pcx, 27, 64, 0
+Sprite 2 = images\rchb.pcx, 50, 64, 0
+Sprite 3 = images\rwplz.pcx, 248, 168, 0
+Label 1 = 60, 94, 255, 0, 0, 1, You Start Here
+Time Out = 10
+
+[Red_Briefing 1]
+Heading = 9, FRIENDLY FORCES
+Map = images\msb0.pcx
+Text = 1, 1, There are advanced air defense units covering part of way to your target. They include two Shilka batteries and a Tor battery.
+Sprite 0 = images\rzusb.pcx, 27, 62, 0
+Sprite 0 = images\rzsub.pcx, -59, 91, 0
+Sprite 0 = images\rsam8b.pcx, -75, -100, 0
+Time Out = 10
+
+[Red_Briefing 2]
+Heading = 9, ENEMY FORCES
+Map = images\msb0.pcx
+Text = 1, 1, Intelligence believes that the German command in the area will attempt to intercept this move. The intercepting units are of an unknown number and type.
+Time Out = 20
+
+[Red_Briefing 3]
+Heading = 9, WEATHER
+Map = images\msb0.pcx
+Text = 1, 1, The weather in your sector of operations is partly cloudy, with a partial cloud layer at 2500 feet. \n Sunrise is timed to occur at your forward Assembly Area. \n Visibility is limited to 1 to 2 kilometers due to an early morning mist. \n Thermal conditions are good, with ranges up to 5 kilometers. \n Winds are light out of the NW, at 1 to 2 knots.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+
+
+

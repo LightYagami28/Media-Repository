@@ -1,0 +1,24 @@
+[Briefing 0]
+Heading = 9, MISE A JOUR DE LA CAMPAGNE
+Map = images\imap.pcx
+Text = 1, 1, Après l'échec de la tentative de s'emparer de Lublin, ainsi que face à la 7e brigade, l'assaut russe est retombé comme un soufflé. Les deux camps se sont accordé quelques jours afin de se préparer au round suivant. \n Les forces navales de l'OTAN contrôlent entièrement la Baltique. Dans le nord de la Pologne, la bataille aérienne continue au-dessus du secteur de la 7e brigade. \n Dans le secteur du Ve corps, Les combats se sont poursuivis, et le front s'est stabilisé devant Kosice. 
+Sprite 0 = images\cir4.pcx, 0, 0, 0
+Sprite 1 = images\cin4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Contre-offensive de l'OTAN \n BAOR \n La 82e division aéroportée, arrivée directement des Etats-Unis, a sauté afin de renforcer la 7e brigade blindée. \n La 1e division de Marines a débarqué près de Kaliningrad.\n Les 3e DB britannique et 1e DB américaine ont lancé une attaque terrestre massive afin de dégager la 7e brigade blindée. \n IIe Corps \n Les 1e, 5e et 10e divisions de Panzer lancent une attaque massive en direction de Chelm et Zamosc. \n Ve Corps \n La 1e division de cavalerie attaque en soutien du IIe corps. 
+Sprite 0 = images\cin4.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, SECTEUR du Ve CORPS
+Map = images\cs3.pcx
+Text = 1, 1, La 1e de cavalerie a commencé son attaque d'envergure contre la 3e armée de choc. La 3e armée de choc a entamé un repli en bon ordre en vue de consolider ses forces. La 7e de la garde a été pour l'instant retirée du front pour des raisons inconnues. La 3e d'infanterie américaine progresse avec la 1e de cavalerie, mais se fait distancer en raison de difficultés logistiques.
+Sprite 0 = images\cavcir4.pcx, 0, 0, 0
+Sprite 1 = images\cavcin4.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 123, 117, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

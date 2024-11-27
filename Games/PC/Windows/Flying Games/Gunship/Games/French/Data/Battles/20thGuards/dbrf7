@@ -1,0 +1,24 @@
+[WIN]
+movie = movies\extratwow.bik 
+Heading = 9, SITUATION
+Map = images\rus7.pcx
+Text = 1, 1, Les bases aériennes ont été détruites. Cela devrait faire cesser les activités aériennes allemandes pour un moment, et nous permet de passer à la phase suivante de la campagne.
+Sprite 0 = images\rahb.pcx, 87, 13, 0
+Sprite 1 = images\rchb.pcx, 151, 13, 0
+Sprite 2 = images\rchb.pcx, 234, 27, 0
+Sprite 3 = images\robjh.pcx, 109, 159, 0
+Sprite 4 = images\robja.pcx, 49, 221, 0
+Time Out = 15
+
+[Lose]
+movie = movies\extraonew.bik 
+Heading = 9, SITUATION
+Map = images\rus7.pcx 
+Text = 1, 1, Les bases aériennes n'ont pu être détruites, et les conséquences en sont sérieuses. La première d'entre elles est que la 5e Panzer déplace des unités pour nous intercepter et nous stopper avant de pouvoir lancer des représailles. La seconde est que les Allemands disposent maintenant de bases aériennes opérationnelles à partir desquelles ils peuvent lancer des missions de soutien aérien rapproché.\n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\rahb.pcx, 87, 13, 0
+Sprite 1 = images\rchb.pcx, 151, 13, 0
+Sprite 2 = images\rchb.pcx, 234, 27, 0
+Sprite 3 = images\robjh.pcx, 109, 159, 0
+Sprite 4 = images\robja.pcx, 49, 221, 0
+Time Out = 15
+

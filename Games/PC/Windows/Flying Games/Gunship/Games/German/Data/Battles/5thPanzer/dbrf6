@@ -1,0 +1,35 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\mg6.pcx
+Text = 1, 1, Hierdurch sollten es die Russen noch schwerer haben, unser Vordringen aufzuhalten. Die Helikopter in dieser Gegend gehen ihnen aus, wodurch es unsere Bodentruppen leichter haben.
+Label 0 = 90, 88, 200, 200, 200, 1, Zhovtnevoye
+Label 1 = 202, 174, 200, 200, 200, 1, Yablonov
+Sprite 0 = images\rsam6b.pcx, 4, 22, 0
+Sprite 1 = images\rsam6b.pcx, 33, -64, 0
+Sprite 2 = images\rsam6b.pcx, 153, -13, 0
+Sprite 3 = images\radv2b.pcx, 53, 64, 0
+Sprite 4 = images\radv2b.pcx, 124, 125, 0
+Sprite 5 = images\rifvb.pcx, 53, 89, 0
+Sprite 6 = images\rifvb.pcx, 175, 151, 0
+Sprite 7 = images\rtangb.pcx, 20, -98, 0
+Sprite 8 = images\uobja.pcx, 197, 45, 0
+Sprite 9 = images\uahb.pcx, 6, 189, 0
+Time Out = 10
+
+[Lose]
+Heading = 9, STATUS
+Map = images\mg6.pcx
+Text = 1, 1, Sie sind bei der Durchführung Ihrer Mission gescheitert. \n \n Wählen Sie "WIEDERHOLEN", um die Mission noch mal zu fliegen!
+Label 0 = 90, 88, 200, 200, 200, 1, Zhovtnevoye
+Label 1 = 202, 174, 200, 200, 200, 1, Yablonov
+Sprite 0 = images\rsam6b.pcx, 4, 22, 0
+Sprite 1 = images\rsam6b.pcx, 33, -64, 0
+Sprite 2 = images\rsam6b.pcx, 153, -13, 0
+Sprite 3 = images\radv2b.pcx, 53, 64, 0
+Sprite 4 = images\radv2b.pcx, 124, 125, 0
+Sprite 5 = images\rifvb.pcx, 53, 89, 0
+Sprite 6 = images\rifvb.pcx, 175, 151, 0
+Sprite 7 = images\rtangb.pcx, 20, -98, 0
+Sprite 8 = images\uobja.pcx, 197, 45, 0
+Sprite 9 = images\uahb.pcx, 6, 189, 0
+Time Out = 15

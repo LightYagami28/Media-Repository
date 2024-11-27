@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Das XVIII. Korps trifft im nördlichen Sektor auf verstärkten Widerstand. BAOR, II. Korps und III. Korps setzen ihren Vormarsch in Weißrussland und der Ukraine fort. In Slowakien hält das 8. Ukrainische Korps durch, obwohl der Kontakt der 3. Sturm-Armee nach Osten abgebrochen ist. \n Die Satellitenaufklärung hat neue Formationen geortet, die sich in Richtung Front bewegen und die NATO zu einem weiteren Vordrängen zwingen. Es ist kein Ende in Sicht.
+Sprite 0 = images\cin7.pcx, 0, 0, 0
+Sprite 1 = images\cir7.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES V. KORPS
+Map = images\cs4.pcx
+Text = 1, 1, Die 3. Sturm-Armee hat ihre erste Verteidigungsstellung bezogen. Die Verfolgung durch die 1. Cavalry Division wird durch ständige Luftangriffe verlangsamt.  
+Sprite 0 = images\cavcir7.pcx, 0, 0, 0
+Sprite 1 = images\gercin7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 68, 254, 0
+Time Out = 15
+GOTOBRIEFING = 1

@@ -1,0 +1,45 @@
+[win]
+Heading = 9, SITUATION
+Map = images\mus0.pcx
+Text = 1, 1, Grâce à vos efforts, l'attaque de la 24e MFD contre Biala Podlaska a pu être stoppée. La grande majorité des personnels non-indispensables a pu être évacuée, ou est prête à partir avant la prochaine attaque qui devrait débuter sous peu. \n Le prochain briefing de mission aura lieu dans deux heures. \n OBJECTIFS : \n Fournir un appui direct au 1-35e blindé, attaquer et désorganiser les forces ennemies qui approchent de la ville. Les forces ennemies ne doivent pas franchir la LP Golf.
+Sprite 0 = images\uahb.pcx, 34, 151, 0
+Sprite 1 = images\uifvp.pcx, 79, 112, 0
+Sprite 2 = images\utnkp.pcx, 68, 85, 0
+Sprite 3 = images\utnkp.pcx, 77, 149, 0
+Sprite 4 = images\usam4b.pcx, -31, 79, 0
+Sprite 5 = images\rtnkb.pcx, 245, 261, 0
+Sprite 6 = images\rtnkb.pcx, 263, 3, 0
+Sprite 7 = images\rarrowsw.pcx, 243, 26, 0
+Sprite 8 = images\rarrownw.pcx, 225, 248, 0
+Label 0 = 26, 115, 99, 99, 208, 1, Biala Podlaska
+Label 1 = 267, 261, 255, 0, 0, 1, 24e
+Label 2 = 285, 3, 255, 0, 0, 1, 24e
+Label 3 = 79, 134, 99, 99, 208, 1, Stone
+Label 4 = 68, 105, 99, 99, 208, 1, Stone
+Label 5 = 77, 169, 99, 99, 208, 1, Stone
+Label 6 = 84, 276, 99, 99, 208, 1, LP GOLF
+Line 0 = 200, 200, 200, 94, 0, 94, 315
+Time Out = 15
+[Lose]
+Heading = 9, SITUATION
+Map = images\mus0.pcx
+Text = 1, 1, Vous n'avez pas mené à bien votre mission. La 24e DFM a écrasé le 1-35e blindé qui gardait la ville de Biala Podlaska. L'ennemi contrôle désormais l'aérodrome, et peut lancer des frappes aériennes sur nos arrières. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission. 
+Sprite 0 = images\uahb.pcx, 34, 151, 0
+Sprite 1 = images\uifvp.pcx, 79, 112, 0
+Sprite 2 = images\utnkp.pcx, 68, 85, 0
+Sprite 3 = images\utnkp.pcx, 77, 149, 0
+Sprite 4 = images\usam4b.pcx, -31, 79, 0
+Sprite 5 = images\rtnkb.pcx, 245, 261, 0
+Sprite 6 = images\rtnkb.pcx, 263, 3, 0
+Sprite 7 = images\rarrowsw.pcx, 243, 26, 0
+Sprite 8 = images\rarrownw.pcx, 225, 248, 0
+Label 0 = 26, 115, 99, 99, 208, 1, Biala Podlaska
+Label 1 = 267, 261, 255, 0, 0, 1, 24e
+Label 2 = 285, 3, 255, 0, 0, 1, 24e
+Label 3 = 79, 134, 99, 99, 208, 1, Stone
+Label 4 = 68, 105, 99, 99, 208, 1, Stone
+Label 5 = 77, 169, 99, 99, 208, 1, Stone
+Label 6 = 84, 276, 99, 99, 208, 1, LP GOLF
+Line 0 = 200, 200, 200, 94, 0, 94, 315
+Time Out = 15
+

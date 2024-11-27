@@ -1,0 +1,23 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, La 20e armée de la garde doit faire mouvement au sud, en direction du centre de la Pologne. \n La 2e armée de la garde a toujours affaire à forte résistance dans la région de Lublin et ne remporte que des succès mineurs face aux Allemands. \n Le Groupe de Forces Nord continue sa poussée vers Gdansk et la Vistule, mais rencontre une moindre résistance. \n Le Groupe de Forces Sud doit lentement céder du terrain à la 1e division de cavalerie.
+Sprite 0 = images\rcin2.pcx, 0, 0, 0
+Sprite 1 = images\rcir2.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR de la 20e de la GARDE
+Map = images\cs1.pcx
+Text = 1, 1, La 2e DB de la Garde (Taman) a engagé la 1e DB américaine. La 34e DFM de la 6e armée a réussi à isoler la 20e blindée britannique et à l'engager dans une bataille rangée. La 6e armée blindée doit contenir le reste des forces britanniques au nord.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystok
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustov
+Label 3 = 183, 25, 155, 155, 155, 1, Grajevo
+Label 4 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ruscin2.pcx, 0, 0, 0
+Sprite 1 = images\ruscir2.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 139, 248, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

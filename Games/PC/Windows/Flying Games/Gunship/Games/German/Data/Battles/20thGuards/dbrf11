@@ -1,0 +1,23 @@
+[WIN]
+movie = movies\winfivew.bik 
+Heading = 9, STATUS
+Map = images\Rus11.pcx
+Text = 1, 1, Glückwunsch! Mit der Zerstörung des Konvois ist die 1. Cavalry ohne den dringend benötigten Treibstoff und ohne Munition. Sie wird nun leicht zu zerstören sein. 
+Sprite 0 = images\uahb.pcx, 176, 286, 0
+Sprite 1 = images\usupb.pcx, 165, 278, 0
+Sprite 2 = images\uarrownw.pcx, 148, 257, 0
+Sprite 3 = images\Rahb.pcx, 296, 9, 0
+Label 0 = 165, 300, 0, 0, 255, 1, Konvoi
+Time Out = 15
+
+[Lose]
+movie = movies\lossfivew.bik 
+Heading = 9, STATUS
+Map = images\rus11.pcx 
+Text = 1, 1, Damit, dass der Konvoi nun sicher ist, hat die 1. Cavalry nun genug Nachschub, dass sie sich erholen und ihre Flanke sichern kann. Wir haben die letzte Möglichkeit verpasst, die 1. Cavalry kampfuntauglich zu machen. \n \n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen. 
+Sprite 0 = images\usupb.pcx, 165, 278, 0
+Sprite 1 = images\uarrownw.pcx, 148, 257, 0
+Sprite 2 = images\Rahb.pcx, 296, 9, 0
+Label 0 = 165, 300, 0, 0, 255, 1, Konvoi
+Time Out = 15
+

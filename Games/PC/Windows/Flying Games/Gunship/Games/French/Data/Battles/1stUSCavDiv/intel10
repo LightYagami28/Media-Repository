@@ -1,0 +1,15 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le Groupe de Forces Nord tout entier est sur le point de s'effondrer tandis que la BAOR exploite sa percée en direction de Minsk, capitale du Bélarus. \n Le IIe corps a éliminé la 20e de la garde en tant qu'unité opérationnelle, et le IIIe corps entame sa propre attaque. \n Au sud, le Ve corps a franchi le Dniestr avec la 3e division, et s'enfonce dans le flanc du 1er corps ukrainien.
+Sprite 0 = images\cin11.pcx, 0, 0, 0
+Sprite 1 = images\cir11.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR de la BAOR
+Map = images\cs5.pcx
+Text = 1, 1, Au nord, la 1e DI a remporté la bataille face à la 2e DB de la garde (Taman) à Baranovichi. \n La 2e division britannique est montée en ligne entre les 1e et 3e divisions. \n La 2e division continue à attaquer vers le nord, et a encerclé le 28e corps. \n Dans le secteur de la 1e division, les Russes ont rompu le contact et se déplacent en direction de l'est.
+Sprite 0 = images\cavcin10.pcx, 0, 0, 0
+Sprite 1 = images\gercir11.pcx, 0, 0, 0
+Time Out = 15
+GOTOBRIEFING = 1

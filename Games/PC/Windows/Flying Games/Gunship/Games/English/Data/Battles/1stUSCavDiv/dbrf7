@@ -1,0 +1,24 @@
+[WIN]
+movie = movies\extraonew.bik 
+Heading = 9, STATUS
+Map = images\Muc7.pcx
+Text = 1, 1, The 106th Guards have been a thorn in our side since this campaign started. Now we have hopefully started to take the sting out of their bite. Well Done! Intelligence has identified the airfield that the 106th AG is using as a secondary airfield. Get ready, your mission leaves tomorrow morning. 
+Sprite 0 = images\uahb.pcx, 88, 276, 0
+Sprite 1 = images\uobja.pcx, 248, 39, 0
+Sprite 2 = images\rifvp1.pcx, 200, 67, 0
+Sprite 3 = images\rifvp1.pcx, 229, 120, 0
+Label 0 = 220, 103, 200, 200, 200, 1, Khel'Nitskiy
+Time Out = 15
+
+[Lose]
+movie = movies\losstwow.bik 
+Heading = 9, STATUS
+Map = images\muc7.pcx 
+Text = 1, 1, Men and equipment can not be put into the grinder. The 106th Guards have reinforced their airfield making a second attempt worthless. You have failed. \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\uahb.pcx, 88, 276, 0
+Sprite 1 = images\uobja.pcx, 248, 39, 0
+Sprite 2 = images\rifvp1.pcx, 200, 67, 0
+Sprite 3 = images\rifvp1.pcx, 229, 120, 0
+Label 0 = 220, 103, 200, 200, 200, 1, Khel'Nitskiy
+Time Out = 15
+

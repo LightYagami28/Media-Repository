@@ -1,0 +1,15 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, La 6e armée blindée et le 5e corps biélorusse ont engagé leurs cibles respectives, et les contre-attaques du 2e corps commencent à montrer des signes de désespoir. Le Groupe de Forces Sud est venu à bout du 5e corps. Ce pourrait bien être la fin de la guerre.
+Sprite 0 = images\rcin12.pcx, 0, 0, 0
+Sprite 1 = images\rcir12.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR de la 20e de la GARDE
+Map = images\cs3.pcx
+Text = 1, 1, Le 5e corps, privé de tout espace de manoeuvre, s'est réorienté et a tenté une contre-attaque sur l'ensemble de sa ligne de front. Il engage tous les équipements disponibles. Sur l'ensemble du front, la rumeur d'une fin prochaine des hostilités et de notre victoire se répand comme une traînée de poudre.
+Sprite 0 = images\cavcin3.pcx, 0, 0, 0
+Sprite 1 = images\cavcir3.pcx, 0, 0, 0
+Time Out = 15
+GOTOBRIEFING = 1

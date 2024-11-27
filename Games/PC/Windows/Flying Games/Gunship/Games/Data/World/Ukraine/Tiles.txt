@@ -1,0 +1,322 @@
+PCXDIR: textures\
+DAYPAL: textures\world1.pcx
+NIGHTPAL: textures\moon.pcx
+THERMALPAL: thermal\world1.pcx
+
+RP: grasslt0.pcx 0 0 -1 0  1 
+RP: grasslt1.pcx 0 1 -1 0  1 
+RP: grasslt2.pcx 0 2 -1 0  0 
+RP: grasslt3.pcx 0 3 -1 0  0 
+RP: grasslt4.pcx 0 4 -1 0  0 
+RP: grasslt5.pcx 0 5 -1 0  0 
+RP: grasslt6.pcx 0 6 -1 0  0 
+RP: grasslt7.pcx 0 7 -1 0  0 
+
+RP: grasslt0.pcx 1 0 -1 0  1 
+RP: grasslt1.pcx 1 1 -1 0  1 
+RP: grasslt2.pcx 1 2 -1 0  0 
+RP: grasslt3.pcx 1 3 -1 0  0 
+RP: grasslt4.pcx 1 4 -1 0  0 
+RP: grasslt5.pcx 1 5 -1 0  0 
+RP: grasslt6.pcx 1 6 -1 0  0 
+RP: grasslt7.pcx 1 7 -1 0  0 
+
+RP: grasslt0.pcx 2 0 -1 0  1 
+RP: grasslt1.pcx 2 1 -1 0  1 
+RP: grasslt2.pcx 2 2 -1 0  0 
+RP: grasslt3.pcx 2 3 -1 0  0 
+RP: grasslt4.pcx 2 4 -1 0  0 
+RP: grasslt5.pcx 2 5 -1 0  0 
+RP: grasslt6.pcx 2 6 -1 0  0 
+RP: grasslt7.pcx 2 7 -1 0  0 
+
+RP: grasslt0.pcx 3 0 -1 0  1 
+RP: grasslt1.pcx 3 1 -1 0  1 
+RP: grasslt2.pcx 3 2 -1 0  0
+RP: grasslt3.pcx 3 3 -1 0  0 
+RP: grasslt4.pcx 3 4 -1 0  0 
+RP: grasslt5.pcx 3 5 -1 0  0 
+RP: grasslt6.pcx 3 6 -1 0  0 
+RP: grasslt7.pcx 3 7 -1 0  0 
+
+RP: grasslt0.pcx 4 0 -1 0  1 
+RP: grasslt1.pcx 4 1 -1 0  1 
+RP: grasslt2.pcx 4 2 -1 0  0
+RP: grasslt3.pcx 4 3 -1 0  0 
+RP: grasslt4.pcx 4 4 -1 0  0 
+RP: grasslt5.pcx 4 5 -1 0  0 
+RP: grasslt6.pcx 4 6 -1 0  0 
+RP: grasslt7.pcx 4 7 -1 0  0 
+
+RP: grasslt0.pcx 5 0 -1 0  1 
+RP: grasslt1.pcx 5 1 -1 0  1 
+RP: grasslt2.pcx 5 2 -1 0  0
+RP: grasslt3.pcx 5 3 -1 0  0 
+RP: grasslt4.pcx 5 4 -1 0  0 
+RP: grasslt5.pcx 5 5 -1 0  0 
+RP: grasslt6.pcx 5 6 -1 0  0 
+RP: grasslt7.pcx 5 7 -1 0  0 
+
+RP: grasslt0.pcx 6 0 -1 0  0 
+RP: grasslt1.pcx 6 1 -1 0  0 
+RP: grasslt2.pcx 6 2 -1 0  0
+RP: grasslt3.pcx 6 3 -1 0  0 
+RP: grasslt4.pcx 6 4 -1 0  0 
+RP: grasslt5.pcx 6 5 -1 0  0 
+RP: grasslt6.pcx 6 6 -1 0  0 
+RP: grasslt7.pcx 6 7 -1 0  0 
+
+
+// 7=water
+RP: grasslt0.pcx 7 0 -1 0  1 
+RP: grasslt1.pcx 7 1 -1 0  1 
+RP: grasslt2.pcx 7 2 -1 0  0 
+RP: grasslt3.pcx 7 3 -1 0  0 
+RP: grasslt4.pcx 7 4 -1 0  0 
+RP: grasslt5.pcx 7 5 -1 0  0 
+RP: grasslt6.pcx 7 6 -1 0  0 
+RP: grasslt7.pcx 7 7 -1 0  0 
+
+// 8=forest edges
+RP: fortree.pcx 8 0 0 0 0
+RP: fortree.pcx 8 1 0 0 0
+RP: tree2.pcx 8 2 0 0 0
+RP: tree3.pcx 8 3 0 0 0
+RP: tree4.pcx 8 4 0 0 0
+RP: tree5.pcx 8 5 0 0 0
+RP: tree6.pcx 8 6 0 0 0
+RP: tree7.pcx 8 7 0 0 0
+
+// 9=treelines
+RP: tree0.pcx 9 0 0 0 0
+RP: tree1.pcx 9 1 0 0 0
+RP: tree2.pcx 9 2 0 0 0
+RP: tree3.pcx 9 3 0 0 0
+RP: tree4.pcx 9 4 0 0 0
+RP: tree5.pcx 9 5 0 0 0
+RP: tree6.pcx 9 6 0 0 0
+RP: tree7.pcx 9 7 0 0 0
+
+// 10=treebushground
+RP: treebase.pcx 10 0 0 0 1
+RP: treebase.pcx 10 1 0 0 1
+RP: treebase.pcx 10 2 0 0 0
+RP: 0 10 3 0 0 0
+RP: 0 10 4 0 0 0
+RP: 0 10 5 0 0 0
+RP: 0 10 6 0 0 0
+RP: 0 10 7 0 0 0
+MAPRPCLR: 10 51 78
+
+// 11=road1
+RP: road.pcx 11 0 0 0  1 
+RP: road.pcx 11 1 0 0  1 
+RP: road.pcx 11 2 0 0  1 
+RP: road.pcx 11 3 0 0  1 
+RP: road.pcx 11 4 0 0  1 
+RP: road.pcx 11 5 0 0  1 
+RP: road.pcx 11 6 0 0  1 
+RP: road.pcx 11 7 0 0  1 
+MAPRPCLR: 11 170 79
+
+// 12=road2
+RP: 0 12 0 -1 45003 1
+RP: 0 12 1 -1 44746 1
+RP: 0 12 2 -1 44489 1
+RP: 0 12 3 -1 44232 1
+RP: 0 12 4 -1 43946 1
+RP: 0 12 5 -1 43689 1
+RP: 0 12 6 -1 43432 1
+RP: 0 12 7 -1 43176 1
+MAPRPCLR: 12 170 79
+
+// 13=crater
+RP: Crater1.pcx 13 0 0 0 1
+RP: Crater1.pcx 13 1 0 0 1
+RP: Crater1.pcx 13 2 0 0 0
+RP: Crater1.pcx 13 3 0 0 0
+RP: Crater1.pcx 13 4 0 0 0
+RP: Crater1.pcx 13 5 0 0 0
+RP: 0 13 6 0 0 0
+RP: 0 13 7 0 0 0
+
+// 14= forest floor
+RP: 0 14 0 -1 28270 1
+RP: 0 14 1 -1 28013 1
+RP: 0 14 2 -1 27756 1
+RP: 0 14 3 -1 27499 1
+RP: 0 14 4 -1 27242 1
+RP: 0 14 5 -1 26985 1
+RP: 0 14 6 -1 26728 1
+RP: 0 14 7 -1 26471 1
+MAPRPCLR: 10 51 78
+
+// weather and time of day skies
+// args: skyID skyPalName shadeamount
+SKY: 0  sky0.pcx 80 sphere1.pcx
+SKY: 1  sky1.pcx 80 sphere1.pcx
+SKY: 2  sky2.pcx 80 sphere2.pcx
+SKY: 3  sky2.pcx 80 sphere2.pcx
+SKY: 4  sky2.pcx 80 sphere2.pcx
+SKY: 5  sky5.pcx 80 spheremap.pcx
+SKY: 6  sky6.pcx 80 spheremap.pcx
+SKY: 7  sky7.pcx 80 sphere2.pcx
+SKY: 8  sky7.pcx 80 sphere2.pcx
+SKY: 9  sky7.pcx 80 sphere2.pcx
+SKY: 10 sky10.pcx 80 sphere1.pcx
+SKY: 11 sky11.pcx 80 sphere11.pcx
+SKY: 12 sky12.pcx 80 sphere12.pcx
+SKY: 13 sky12.pcx 80 sphere12.pcx
+SKY: 14 sky12.pcx 80 sphere12.pcx
+SKY: 15 sky15.pcx 80 sphere15.pcx
+SKY: 16 sky16.pcx 80 sphere15.pcx
+SKY: 17 sky17.pcx 80 sphere17.pcx
+SKY: 18 sky17.pcx 80 sphere17.pcx
+SKY: 19 sky17.pcx 80 sphere17.pcx
+SKY: 20 sky20.pcx 80 sphere20.pcx
+SKY: 21 sky21.pcx 80 sphere21.pcx
+SKY: 22 sky22.pcx 80 sphere21.pcx
+SKY: 23 sky22.pcx 80 sphere21.pcx
+SKY: 24 sky22.pcx 80 sphere21.pcx
+
+// ground
+// args: skyID DayPalname blendamount blendnear blendfar
+GROUND: 0  grnd0.pcx 210 1000 4000
+GROUND: 1  grnd0.pcx 210 1000 4000
+GROUND: 2  grnd0.pcx 210 1000 4000
+GROUND: 3  grnd0.pcx 210 1000 4000
+GROUND: 4  grnd0.pcx 210 1000 4000
+GROUND: 5  grnd0.pcx 210 1000 4000
+GROUND: 6  grnd0.pcx 210 1000 4000
+GROUND: 7  grnd0.pcx 210 1000 4000
+GROUND: 8  grnd0.pcx 210 1000 4000
+GROUND: 9  grnd0.pcx 210 1000 4000
+GROUND: 10 grnd0.pcx 210 1000 4000
+GROUND: 11 grnd0.pcx 210 1000 4000
+GROUND: 12 grnd0.pcx 210 1000 4000
+GROUND: 14 grnd0.pcx 210 1000 4000
+GROUND: 15 grnd0.pcx 210 1000 4000
+GROUND: 16 grnd0.pcx 210 1000 4000
+GROUND: 17 grnd0.pcx 210 1000 4000
+GROUND: 18 grnd0.pcx 210 1000 4000
+GROUND: 19 grnd0.pcx 210 1000 4000
+GROUND: 20 grnd0.pcx 210 1000 4000
+GROUND: 21 grnd0.pcx 210 1000 4000
+GROUND: 22 grnd0.pcx 210 1000 4000
+GROUND: 23 grnd0.pcx 210 1000 4000
+GROUND: 24 grnd0.pcx 210 1000 4000
+
+// lighting variables
+// args: skyID sunAngle sunR sunG sunB ambR ambG ambB
+LIGHT:  0 175 255 132 18 77 77 77
+LIGHT:  1 170 255 132 18 77 77 77
+LIGHT:  2 90 33 33 33 99 99 99
+LIGHT:  3 90 33 33 33 99 99 99
+LIGHT:  4 90 33 33 33 99 99 99
+LIGHT:  5 55 200 200 200 127 127 127
+LIGHT:  6 55 160 160 160 127 127 127
+LIGHT:  7 90 77 77 77 127 127 127
+LIGHT:  8 90 44 45 47 122 122 122
+LIGHT:  9 90 77 77 77 127 127 127
+LIGHT: 10 11 255 132 18 79 77 77
+LIGHT: 11 3 255 132 18 120 120 120
+LIGHT: 12 90 77 77 99 36 36 40
+LIGHT: 13 90 77 77 99 36 36 40
+LIGHT: 14 90 77 77 99 36 36 40
+LIGHT: 15 40 77 77 111 33 33 37
+LIGHT: 16 52 77 77 111 33 33 37
+LIGHT: 17 90 66 66 99 33 33 37
+LIGHT: 18 90 66 66 99 33 33 37
+LIGHT: 19 90 66 66 99 33 33 37
+LIGHT: 20 33 66 66 85 22 24 44
+LIGHT: 21 47 66 66 85 22 24 44
+LIGHT: 22 90 44 44 66 33 33 55
+LIGHT: 23 90 44 44 66 33 33 55
+LIGHT: 24 90 44 44 66 33 33 55
+
+//Palettes
+PAL: 0  grnd0.pcx  grnd3wh.pcx grnd3bh.pcx sky0pal.pcx sky0wh.pcx sky0bh.pcx
+PAL: 1  grnd1.pcx  grnd3wh.pcx grnd3bh.pcx sky1pal.pcx sky1wh.pcx sky1bh.pcx
+PAL: 2  grnd2.pcx  grnd3wh.pcx grnd3bh.pcx sky2pal.pcx sky2wh.pcx sky2bh.pcx
+PAL: 3  grnd3.pcx  grnd3wh.pcx grnd3bh.pcx sky2pal.pcx sky2wh.pcx sky2bh.pcx
+PAL: 4  grnd4.pcx  grnd3wh.pcx grnd3bh.pcx sky2pal.pcx sky2wh.pcx sky2bh.pcx
+PAL: 5  grnd5.pcx  grnd0wh.pcx grnd0bh.pcx sky5pal.pcx sky5wh.pcx sky5bh.pcx 
+PAL: 6  grnd6.pcx  grnd0wh.pcx grnd0bh.pcx sky6pal.pcx sky6wh.pcx sky6bh.pcx
+PAL: 7  grnd7.pcx  grnd0wh.pcx grnd0bh.pcx sky7pal.pcx sky7wh.pcx sky7bh.pcx
+PAL: 8  grnd8.pcx  grnd3wh.pcx grnd3bh.pcx sky7pal.pcx sky7wh.pcx sky7bh.pcx
+PAL: 9  grnd9.pcx  grnd3wh.pcx grnd3bh.pcx sky7pal.pcx sky7wh.pcx sky7bh.pcx
+PAL: 10 grnd10.pcx grnd0wh.pcx grnd0bh.pcx sky10pal.pcx sky10wh.pcx sky10bh.pcx
+PAL: 11 grnd11.pcx grnd0wh.pcx grnd0bh.pcx sky11pal.pcx sky11wh.pcx sky11bh.pcx
+PAL: 12 grnd12.pcx grnd0wh.pcx grnd0bh.pcx sky12pal.pcx sky12wh.pcx sky12bh.pcx
+PAL: 13 grnd13.pcx grnd3wh.pcx grnd3bh.pcx sky12pal.pcx sky12wh.pcx sky12bh.pcx
+PAL: 14 grnd14.pcx grnd3wh.pcx grnd3bh.pcx sky12pal.pcx sky12wh.pcx sky12bh.pcx
+PAL: 15 grnd15.pcx grnd0wh.pcx grnd0bh.pcx sky15pal.pcx sky15wh.pcx sky15bh.pcx
+PAL: 16 grnd16.pcx grnd0wh.pcx grnd0bh.pcx sky16pal.pcx sky16wh.pcx sky16bh.pcx
+PAL: 17 grnd17.pcx grnd0wh.pcx grnd0bh.pcx sky17pal.pcx sky17wh.pcx sky17bh.pcx
+PAL: 18 grnd18.pcx grnd3wh.pcx grnd3bh.pcx sky17pal.pcx sky17wh.pcx sky17bh.pcx
+PAL: 19 grnd19.pcx grnd3wh.pcx grnd3bh.pcx sky17pal.pcx sky17wh.pcx sky17bh.pcx
+PAL: 20 grnd20.pcx grnd0wh.pcx grnd0bh.pcx sky20pal.pcx sky20wh.pcx sky20bh.pcx
+PAL: 21 grnd21.pcx grnd0wh.pcx grnd0bh.pcx sky21pal.pcx sky21wh.pcx sky21bh.pcx
+PAL: 22 grnd22.pcx grnd0wh.pcx grnd0bh.pcx sky22pal.pcx sky22wh.pcx sky22bh.pcx
+PAL: 23 grnd23.pcx grnd3wh.pcx grnd3bh.pcx sky22pal.pcx sky22wh.pcx sky22bh.pcx
+PAL: 24 grnd24.pcx grnd3wh.pcx grnd3bh.pcx sky22pal.pcx sky22wh.pcx sky22bh.pcx
+
+// fog variables
+// args: skyID DayFog (R,G,B, near, far) ThermalBlackFog (R,G,B, near, far) ThermalWhiteFog (R,G,B, near, far)
+FOG: 0   182 128 95 111 555     31 161 25 111 666   3 72 5 111 666   
+FOG: 1   182 128 95 111 555     23 156 21 111 666   3 76 5 111 666   
+FOG: 2   82 82 82 0 111       22 151 18 22 222    3 76 5 22 222  
+FOG: 3   82 82 82 0 111       22 151 18 22 222    3 76 5 22 222 
+FOG: 4   82 82 82 0 111       22 151 18 22 222    3 76 5 22 222    
+FOG: 5   146 152 161 66 777   44 178 34 111 666   13 75 14 111 666
+FOG: 6   156 173 200 111 666  17 144 15 111 666   3 75 5 111 666
+FOG: 7   99 99 99 22 222      18 148 15 111 666   3 72 5 111 666  
+FOG: 8   99 99 99 0 144       18 148 15 22 222    3 72 5 22 222  
+FOG: 9   99 99 99 0 144       18 148 15 22 222    3 72 5 22 222   
+FOG: 10  125 110 103 0 250    18 148 15 111 666   3 72 5 111 666  
+FOG: 11  74 74 82 11 666      18 152 20 111 666   3 69 4 111 666
+FOG: 12  67 67 76 22 200      18 148 15 111 666   3 72 5 111 666   
+FOG: 13  67 67 76 22 200      18 148 15 22 222    3 72 5 22 222   
+FOG: 14  67 67 76 22 200      18 148 15 22 222    3 72 5 22 222  
+FOG: 15  50 43 68 0 250       18 148 15 111 666   3 72 5 111 666
+FOG: 16  61 60 84 22 222      18 152 20 111 666   3 72 5 111 666 
+FOG: 17  37 35 69 0 250       26 154 24 111 666   3 72 5 111 666
+FOG: 18  37 35 69 0 250       26 154 24 22 222   2 67 2 22 222
+FOG: 19  37 35 69 0 250       26 154 24 22 222   2 67 2 22 222
+FOG: 20  18 18 40 11 666      26 154 24 111 666   3 69 5 111 666
+FOG: 21  20 19 38 11 666      18 148 15 111 666   3 69 5 111 666
+FOG: 22  21 19 45 22 222      19 149 16 22 222   3 66 4 22 222
+FOG: 23  21 19 45 22 222      18 148 15 22 222   3 66 4 22 222
+FOG: 24  21 19 45 22 222      19 148 15 22 222   3 66 4 22 222
+  
+
+// weather variables
+// args skyID weather flareName sunStatus shadowIntensity cloudAltitude cloudColor (R G B) rainColor (R,G,B)
+WEATHER: 0 CLEAR         lenz_1.pca  2  64  2500  255 255 255  140 128 128
+WEATHER: 1 PARTLYCLOUDY  lenz_1.pca  2  64  2500  170 133 102  170 133 102
+WEATHER: 2 CLEAR         lenz_1.pca  1  64  2500  255 255 255  140 128 128
+WEATHER: 3 RAINING       lenz_1.pca  0  22  1500  93 99 105  77 77 77
+WEATHER: 4 STORMY        lenz_1.pca  0  22  1200  93 99 105  77 77 77
+WEATHER: 5 CLEAR         lenz_2.pca  2  77  2500  255 255 255  140 128 128
+WEATHER: 6 PARTLYCLOUDY  lenz_2.pca  2  77  2500  255 255 255  140 128 128
+WEATHER: 7 CLEAR         lenz_1.pca  1  64  2500  255 255 255  88 88 88
+WEATHER: 8 RAINING       lenz_1.pca  0  22  1500  110 115 120  88 88 88
+WEATHER: 9 STORMY        lenz_1.pca  0  22  1200  110 115 120  88 88 88
+WEATHER: 10 CLEAR        lenz_1.pca  2  64  2500  255 255 255  140 128 128
+WEATHER: 11 PARTLYCLOUDY lenz_1.pca  2  64  2500  175 144 122  140 128 128
+WEATHER: 12 CLEAR        lenz_1.pca  0  64  2500  255 255 255  140 128 128
+WEATHER: 13 RAINING      lenz_1.pca  0  22  1500  81 83 99  55 55 55
+WEATHER: 14 STORMY       lenz_1.pca  0  22  1200  81 83 99  55 55 55
+WEATHER: 15 CLEAR        lenz_15.pca  2  64  2500  255 255 255  140 128 128
+WEATHER: 16 PARTLYCLOUDY lenz_m.pca  2  64  2500  60 60 88  140 128 128
+WEATHER: 17 CLEAR        lenz_1.pca  1  64  2500  255 255 255  140 128 128
+WEATHER: 18 RAINING      lenz_1.pca  0  22  1500  59 55 99  44 44 55
+WEATHER: 19 STORMY       lenz_1.pca  0  22  1200  59 55 99  44 44 55
+WEATHER: 20 CLEAR        lenz_15.pca  1  64  2500  255 255 255  140 128 128
+WEATHER: 21 PARTLYCLOUDY lenz_m.pca  1  64  2500  33 33 64     140 128 128
+WEATHER: 22 CLEAR        lenz_1.pca  0  64  2500  255 255 255  140 128 128
+WEATHER: 23 RAINING      lenz_1.pca  0  22  1500  33 33 64  33 33 33
+WEATHER: 24 STORMY       lenz_1.pca  0  22  1200  33 33 64  33 33 33
+
+
+SHADE: shade.pcx

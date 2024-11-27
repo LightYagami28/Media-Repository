@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, the entire Northern Group of Forces is on the verge of collapse, as BAOR breaks through and is driving on Minsk, the Belarus capital. \n II Corps has destroyed 20th Guards as a fighting force, while III Corps begins its own attack. \n In the south, V Corps has crossed the Dnister valley with 3rd division and is driving into the flank of 1st Ukrainian corps.
+Sprite 0 = images\cin11.pcx, 0, 0, 0
+Sprite 1 = images\cir11.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, III Corps SECTOR
+Map = images\cs4.pcx
+Text = 1, 1, III Corps has broken through into the Russian rear, 1st US armored and the 10th Panzer are trying to destroy the 13Ukraian Division. \n 1st and 5th Panzer have are driving on Gorodok and have crippled 2nd Guards Army and 1st Ukrainian Corps. \n 3rd Shock Army has finally broken and is retreating toward Kiev. \n All along the front, the Russians appear to be breaking. Record numbers of prisoners are being taken throughout the Corps area.
+Sprite 0 = images\gercir11.pcx, 0, 0, 0
+Sprite 1 = images\gercin11.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 219, 41, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

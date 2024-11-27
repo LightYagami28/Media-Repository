@@ -1,0 +1,156 @@
+TITLE: Dans la vallée (Multijoueurs)
+BATTLEFIELD: UKRAINE 78750 165000 0 0 1 25
+OBJECTIVE: BLUE THREEKRADIUS 78750 164950 16
+OBJECTIVE: RED THREEKRADIUS 78700 165000 16
+BLUE_ENEMIES: 80 
+RED_ENEMIES: 80 
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+
+PLATOON: 112 85250 167500 90 0 78650 164950 0 501
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_PATROL:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+
+PLATOON: 112 80150 158000 90 0 78750 165050 0 602
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_PATROL:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+
+PLATOON: 62 72850 169800 270 0 78750 164950 0 703
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_PATROL:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+
+PLATOON: 62 71850 161200 270 0 78850 165000 0 404
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_PATROL:
+ORDER_FORM_CONTOUR:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_FAST:
+
+PLATOON: 115 85850 166750 90 0 85850 166750 0 2205
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+PLATOON: 115 85150 162750 90 0 85150 162750 2 2106
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+PLATOON: 115 77900 158000 90 0 77900 158000 2 1407
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+PLATOON: 115 81450 158600 90 0 81450 158600 2 1608
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+PLATOON: 55 73400 168600 270 0 73400 168600 1 1909
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+PLATOON: 55 74150 171900 270 0 74150 171900 0 2310
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+PLATOON: 55 73500 159450 270 0 73500 159450 0 1711
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+PLATOON: 55 71800 162300 270 0 71800 162300 0 1812
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_FORM_LINE:
+ORDER_TRVL_ASSAULT:
+ORDER_ASMBLY_NORTH:
+ORDER_ADV_SLOW:
+
+[Blue_Briefing 0]
+Heading = 9, OPERATIONS
+Text = 1, 1, Cette mission est une lutte à mort entre hélicos allemands et russes dans la vallée du Dniestr.  Vous chasserez et détruirez le plus grand nombre d'aéronefs ennemis possible, mais prendrez garde aux unités de défense aérienne qui se trouvent au sommet des collines. \n \n INDICATIFS : \n Patrouille n°1  Saber \n Patrouille n°2  Sword
+Sprite 0 = images\uahb.pcx, 280, 200, 0
+Sprite 1 = images\uahb.pcx, 178, 10, 0
+Sprite 2 =images\uwppa.pcx, 313, 118, 0
+Sprite 3 = images\uadvp.pcx, 275, 103, 0
+Sprite 4 = images\uadvp.pcx, 289, 180, 0
+Sprite 3 = images\uadvp.pcx, 201, 20, 0
+Sprite 4 = images\uadvp.pcx, 130, 8, 0
+Label 0 = 273, 219, 10, 10, 10, 1, Saber 
+Label 1 = 272, 218, 99, 99, 208, 1, Saber 
+Label 2 = 175, 32, 10, 10, 10, 1, Sword 
+Label 3 = 174, 31, 99, 99, 208, 1, Sword 
+Time Out = 10
+
+[Blue_Briefing 1]
+Heading = 9, METEO
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec couche nuageuse partielle à 2.500 pieds. \n Le soleil devrait se coucher pendant que vous trouverez sur votre zone de rassemblement avancée. \n Visibilité inférieure à 2 km. \n Bonnes conditions thermiques permettant de voir à plus de 5 km. \n Vent faible de nord-ouest, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+[Red_Briefing 0]
+Heading = 9, OPERATIONS
+Text = 1, 1, Cette mission est une lutte à mort entre hélicos russes et allemands dans la vallée du Dniestr.  Vous chasserez et détruirez le plus grand nombre d'aéronefs ennemis possible, mais prendrez garde aux unités de défense aérienne qui se trouvent au sommet des collines. \n \n INDICATIFS : \n Patrouille n°1  Reaper \n  Patrouille n°2  Specter 
+Sprite 0 = images\rahb.pcx, 32, 246, 0
+Sprite 1 = images\rahb.pcx, 12, 74, 0
+Sprite 2 =images\rwppa.pcx, 313, 118, 0
+Sprite 3 = images\radvp.pcx, 55, 286, 0
+Sprite 4 = images\radvp.pcx, 40, 220, 0
+Sprite 3 = images\radvp.pcx, 8, 94, 0
+Sprite 4 = images\radvp.pcx, 42, 37, 0
+Label 0 = 27, 265, 10, 10, 10, 1, Reaper 
+Label 1 = 26, 264, 255, 0, 0, 1, Reaper 
+Label 2 = 5, 66, 10, 10, 10, 1, Specter 
+Label 3 = 4, 65, 255, 0, 0, 1, Specter 
+Time Out = 10
+
+[Red_Briefing 1]
+Heading = 9, METEO
+Text = 1, 1, Temps partiellement couvert dans votre secteur, avec couche nuageuse partielle à 2.500 pieds. \n Le soleil devrait se coucher pendant que vous trouverez sur votre zone de rassemblement avancée. \n Visibilité inférieure à 2 km. \n Bonnes conditions thermiques permettant de voir à plus de 5 km. \n Vent faible de nord-ouest, 1 à 2 noeuds.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+
+
+ 

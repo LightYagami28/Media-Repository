@@ -1,0 +1,47 @@
+[WIN]
+movie = movies\campend3.bik, movies\campend2.bik
+sound = speech\RussianVictory.wav, CampaignDefeat.wav
+Heading = 9, STATUS
+Map = images\Muc3.pcx
+Text = 1, 1, The defending units were smashed to pieces. 7th Guards tank army has paused only slightly to reorder themselves for a new attack, but they will begin their assault within the next hour or two. The 1st Cavalry is in open rout. The 3rd Guards Shock Army will now turn to engage 10th Panzer and 3rd Infantry Divisons.
+Sprite 0 = images\rtnkb.pcx, 291, 90, 0
+Sprite 1 = images\rtnkb.pcx, 238, 33, 0
+Sprite 2 = images\rarrowsw.pcx, 213, 48, 0
+Sprite 3 = images\rarrowsw.pcx, 266, 107, 0
+Sprite 4 = images\uifvp.pcx, 147, 187, 0
+Sprite 5 = images\uifvp.pcx, 94, 174, 0
+Sprite 6 = images\uifvp.pcx, 178, 203, 0
+Sprite 7 = images\uifvp.pcx, 101, 131, 0
+Sprite 8 = images\Rahb.pcx, 236, 7, 
+Label 0 = 101, 152, 0, 0, 255, 1, 3-8 Cav
+Label 1 = 94, 194, 0, 0, 255, 1, 3-8 Cav
+Label 2 = 147, 207, 0, 0, 255, 1, 3-8 Cav
+Label 3 = 178, 224, 0, 0, 255, 1, 3-8 Cav 
+Label 4 = 89, 197, 200, 200, 200, 1, Perechin
+Label 5 = 89, 197, 200, 200, 200, 1, Perechin
+Label 6 = 239, 56, 255, 0, 0, 1, 7GT
+Label 7 = 291, 112, 255, 0, 0, 1, 7GT 
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc3.pcx 
+Text = 1, 1, What was to be the final victory against the 1st Cavalry has failed. They are now able to regroup and reorganize. This has turned into a waiting and maneuvering war. It will be a long hard winter ahead....
+Sprite 0 = images\rtnkb.pcx, 291, 90, 0
+Sprite 1 = images\rtnkb.pcx, 238, 33, 0
+Sprite 2 = images\rarrowsw.pcx, 213, 48, 0
+Sprite 3 = images\rarrowsw.pcx, 266, 107, 0
+Sprite 4 = images\uifvp.pcx, 147, 187, 0
+Sprite 5 = images\uifvp.pcx, 94, 174, 0
+Sprite 6 = images\uifvp.pcx, 178, 203, 0
+Sprite 7 = images\uifvp.pcx, 101, 131, 0
+Sprite 8 = images\Rahb.pcx, 236, 7, 
+Label 0 = 101, 152, 0, 0, 255, 1, 3-8 Cav
+Label 1 = 94, 194, 0, 0, 255, 1, 3-8 Cav
+Label 2 = 147, 207, 0, 0, 255, 1, 3-8 Cav
+Label 3 = 178, 224, 0, 0, 255, 1, 3-8 Cav 
+Label 4 = 89, 197, 200, 200, 200, 1, Perechin
+Label 5 = 89, 197, 200, 200, 200, 1, Perechin
+Label 6 = 239, 56, 255, 0, 0, 1, 7GT
+Label 7 = 291, 112, 255, 0, 0, 1, 7GT 
+Time Out = 15

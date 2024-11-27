@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Au nord, le XVIIIe corps et la BAOR ont lancé une offensive destinée à encercler le 28e corps biélorusse. \n L'attaque des IIe et IIIe corps a été stoppée par une contre-attaque majeure du Groupe de Forces Centre. \n Au sud, la 1e division de cavalerie est engagée dans d'âpres combats face à la 3e armée de choc, tandis que le 8e corps d'armée ukrainien s'est rendu aujourd'hui à midi.
+Sprite 0 = images\cin9.pcx, 0, 0, 0
+Sprite 1 = images\cir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR DE LA BAOR
+Map = images\cs5.pcx
+Text = 1, 1, La 3e DB a entamé une poussée vers le nord-est afin d'isoler la 6e armée blindée dans le secteur du XVIIIe corps. \n La 20e de la garde a lancé une attaque afin d'enfoncer un coin entre la BAOR et le IIIe corps. Les 4e et 20e brigades tiennent notre front, tandis qu'un groupement tactique de la 7e brigade attaque le flanc de l'axe d'attaque principal de la 20e de la garde.
+Sprite 0 = images\ukcir9.pcx, 0, 0, 0
+Sprite 1 = images\ukcin9.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 64, 248, 0
+Label 0 = 280, 147, 155, 155, 155, 1, Minsk
+Time Out = 15
+GOTOBRIEFING = 1

@@ -1,0 +1,52 @@
+[WIN]
+movie = movies\campend1.bik, movies\campend2.bik
+sound = speech\CampaignVictory.wav, CampaignDefeat.wav
+Heading = 9, STATUS
+Map = images\MUK11.pcx
+Text = 1, 1,  Sie haben es geschafft. Es hat sich herausgestellt, dass die hohen Tiere Besucher aus dem russischen Oberkommando waren, die über den Einsatz von Nuklearwaffen entscheiden wollten. \n Offensichtlich hatte man die weißrussische Regierung nicht darüber informiert. Daher hat sie um separate Friedensverhandlungen gebeten. \n GLÜCKWUNSCH, SIE HABEN GEWONNEN!
+Sprite 0 = images\usfp.pcx, 124, 109, 0
+Sprite 1 = images\rsam6b.pcx, 56, -89, 0
+Sprite 2 = images\rsam6b.pcx, 147, -17, 0
+Sprite 3 = images\rsam8b.pcx, -10, -134, 0
+Sprite 4 = images\rtangb.pcx, 53, -68, 0
+Sprite 5 = images\rtangb.pcx, 62, -68, 0
+Sprite 6 = images\rsrbmb.pcx, 250, 108, 0
+Sprite 7 = images\r20hqb.pcx, 217, 102, 0
+Sprite 8 = images\uahb.pcx, 79, 285, 0
+Sprite 9 = images\uchb.pcx, 21, 285, 0
+Sprite 10 = images\uwplz.pcx, 119, 66, 0
+Label 0 = 120, 89, 10, 10, 10, 1, Shield
+Label 1 = 119, 88, 99, 99, 208, 1, Shield
+Label 2 = 70, 300, 10, 10, 10, 1, Reaper
+Label 3 = 69, 299, 99, 99, 208, 1, Reaper
+Label 4 = 12, 300, 10, 10, 10, 1, Raider
+Label 5 = 11, 299, 99, 99, 208, 1, Raider
+Label 6 = 124, 129, 10, 10, 10, 1, Eagle
+Label 7 = 123, 128, 99, 99, 208, 1, Eagle
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\MUK11.pcx
+Text = 1, 1, Sie haben Ihr Missionsziel nicht erreicht. Der Krieg tritt in eine neue, höchstwahrscheinlich nukleare Phase, und ein Ende scheint nicht in Sicht zu sein. Sie werden wohl mit diesem Ergebnis leben müssen - wenn Sie das überhaupt können. \n \n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen.
+Sprite 0 = images\usfp.pcx, 124, 109, 0
+Sprite 1 = images\rsam6b.pcx, 56, -89, 0
+Sprite 2 = images\rsam6b.pcx, 147, -17, 0
+Sprite 3 = images\rsam8b.pcx, -10, -134, 0
+Sprite 4 = images\rtangb.pcx, 53, -68, 0
+Sprite 5 = images\rtangb.pcx, 62, -68, 0
+Sprite 6 = images\rsrbmb.pcx, 250, 108, 0
+Sprite 7 = images\r20hqb.pcx, 217, 102, 0
+Sprite 8 = images\uahb.pcx, 79, 285, 0
+Sprite 9 = images\uchb.pcx, 21, 285, 0
+Sprite 10 = images\uwplz.pcx, 119, 66, 0
+Label 0 = 120, 89, 10, 10, 10, 1, Shield
+Label 1 = 119, 88, 99, 99, 208, 1, Shield
+Label 2 = 70, 300, 10, 10, 10, 1, Reaper
+Label 3 = 69, 299, 99, 99, 208, 1, Reaper
+Label 4 = 12, 300, 10, 10, 10, 1, Raider
+Label 5 = 11, 299, 99, 99, 208, 1, Raider
+Label 6 = 124, 129, 10, 10, 10, 1, Eagle
+Label 7 = 123, 128, 99, 99, 208, 1, Eagle
+Time Out = 15
+

@@ -1,0 +1,64 @@
+TITLE: Raketen-Schießstand
+BATTLEFIELD: NPOLAND 129000 15750 0 0 5 24
+RUNAI: RED
+RUNAI: BLUE
+SIDE: 0
+
+PLATOON: 142 122750 22400 270 0 124900 20900 2 101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+
+PLATOON: 103 124800 12800 225 0 124800 12800 0 1902
+BLUE_TARGET: 25
+PLATOON: 141 133850 15150 90 0 133850 15150 0 1903
+BLUE_TARGET: 25
+PLATOON: 103 132950 10300 180 0 132950 10300 1 1904
+BLUE_TARGET: 25
+
+[Title]
+TITLE = RAKETEN- SCHIESSST.
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\Tmap2.pcx
+Text = 1, 1, Willkommen auf dem Schießstand für ATGM-Raketen. Ihre heutige Mission besteht darin, die Verwendung der Hellfire-ATGM zu üben. Auf dem Gelände befinden sich zwei Panzer- und ein BMP-Platoon. Alle drei Platoons werden auf der linken Karte angezeigt. Es handelt sich dabei um Ziele, die nicht zurückfeuern. Nähern Sie sich den Platoons unter Ausnutzung aller Deckungen und zerstören Sie alle Fahrzeuge mit Ihren Hellfire-ATGMs. 
+Sprite 0 = images\rtnkp.pcx, 67, 92, 0
+Sprite 1 = images\rtnkp.pcx, 230, 42, 0
+Sprite 2 = images\uahb.pcx, 25, 283, 0
+Sprite 3 = images\rifvp1.pcx, 248, 139, 0
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, Ziele
+Map = images\Tmap2.pcx
+Text = 1, 1, Suchen und zerstören Sie zuerst die Panzer- Platoons. Nachdem diese zerstört wurden, befassen Sie sich mit dem BMP-Platoon. Sie verfügen nicht über genügend Hellfires, um alle Fahrzeuge zu zerstören. Setzen Sie das Bordgeschütz ein, nachdem Sie die Hellfires verbraucht haben. Dies ist eine gute Gelegenheit um zu lernen, wie man den Hubschrauber von der Position des Bordschützen aus steuert. Versuchen Sie, wenigstens ein Platoon von der Position des Bordschützen aus anzugreifen.
+Sprite 0 = images\rtnkp.pcx, 67, 92, 0
+Sprite 1 = images\rtnkp.pcx, 230, 42, 0
+Sprite 2 = images\uahb.pcx, 25, 283, 0
+Sprite 3 = images\rifvp1.pcx, 248, 139, 0
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, WETTER
+Map = images\Tmap2.pcx
+Text = 1, 1, Die Tageszeit ist Mittag. Das Wetter in Ihrem Operationssektor ist wolkenlos. \n Die Sichtweite ist unbegrenzt. \n Thermale Bedingungen sind mit Bereichen über 6 km gut. \n Es ist windstill.
+Movie = movies\clear.bik, 0, 0, 315, 315
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, NICHT BENUTZT
+Map = images\Tmap2.pcx
+Text = 1, 1, 
+Time Out = 1
+
+[Briefing 4]
+Heading = 9, NICHT BENUTZT
+Map = images\Tmap2.pcx
+Text = 1, 1, 
+Time Out = 1
+Execute = 1

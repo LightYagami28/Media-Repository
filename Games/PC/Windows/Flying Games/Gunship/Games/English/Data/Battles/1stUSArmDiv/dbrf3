@@ -1,0 +1,18 @@
+[Win]
+movie = movies\winonew.bik
+Heading = 9, STATUS
+Map = images\mus3.pcx
+Text = 1, 1, Good Work. Without the units to reinforce their successes, the 13th Ukrainian Corp advance has stopped giving us time to regroup. \n  1st armored is now turning north to assist the British 1st Armoured division 
+Sprite 0 = images\uahb.pcx, 2, 282, 0
+Sprite 1 = images\rtnkb.pcx, 192, 89, 0
+Time Out = 15
+
+[Lose]
+movie = movies\lossonew.bik
+Heading = 9, STATUS
+Map = images\mus3.pcx
+Text 1, 1, Since the reinforcements where not stopped the 13th Ukrainian attacked the north flank of the 1st Armored battalion and scattered the battalion completely. \n \n Select "Fly Again" to refly this mission. 
+Sprite 0 = images\uahb.pcx, 2, 282, 0
+Sprite 1 = images\rtnkb.pcx, 192, 89, 0
+Time Out = 15
+

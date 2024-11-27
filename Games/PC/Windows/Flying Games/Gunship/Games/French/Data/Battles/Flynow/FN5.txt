@@ -1,0 +1,94 @@
+TITLE: Les armes du Havoc - II
+BATTLEFIELD: belarus 110000 32000 0 0 6 27
+ENGAGEMENT: BLUE MISSION_BLUE_DELIBERATE 0 0 90
+ENGAGEMENT: RED MISSION_RED_DEFEND_INDEPTH 0 0 270
+RED_ENEMIES: 80
+RUNAI: RED
+SIDE: 1
+MACHINE: 1
+PLATOON: 62 112900 31900 90 2 109500 32300 3 6
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 106150 28900
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 480
+PLATOON: 10 109500 33000 270 0 111500 33200 3 7
+ORDER_MODE_WAYPT:
+PLATOON: 34 108700 32300 270 7 111600 33200 0 8
+ORDER_MODE_WAYPT:
+PLATOON: 140 111700 33000 270 4 112700 31600 0 9
+ORDER_MODE_WAYPT:
+PLATOON: 33 108000 31000 270 2 109051 32046 0 10
+ORDER_MODE_WAYPT:
+PLATOON: 115 107000 31000 270 2 108900 32400 0 11
+ORDER_MODE_WAYPT:
+SUPPORT: 82 109400 31500 270 6 109400 31500 0 12
+ORDER_MODE_WAYPT:
+PLATOON: 115 108500 32300 270 2 108500 32300 0 13
+ORDER_MODE_WAYPT:
+PLATOON: 123 108600 31600 270 6 108600 31600 0 14
+ORDER_MODE_WAYPT:
+PLATOON: 112 108600 35600 270 6 110500 33000 0 14
+ORDER_ASMBLY_BATTLEPOS:
+PLATOON: 115 108007 30641 180 6 108007 30641 1 4
+PLATOON: 29 108200 31100 270 6 108200 31100 1 4
+ 
+ [Briefing 0]
+Heading = 9, OPERATIONS
+Map = images\Mfn5.pcx
+Text = 1, 1, Durant cette mission, vous piloterez un Mil-28 Havoc. \n Volez en direction des points tournants et détruisez toutes les unités que vous découvrirez. \n Sélectionnez le point tournant souhaité et volez en direction du chevron affiché sur l'IHADSS. \n CLIQUEZ SUR "DECOLLER" POUR LANCER LA PARTIE.
+Sprite 0 = images\rahb.pcx, 204, 142, 0
+Sprite 1 = images\rwpbp.pcx, 137, 157, 0
+Sprite 2 = images\rwpbp.pcx, 73, 84, 0
+Label 0 = 229, 132, 10, 10, 10, 1, Point de départ 
+Label 1 = 228, 131, 255, 0, 0, 1, Point de départ 
+Label 2 = 127, 183, 10, 10, 10, 1, Pt tourn. n°1
+Label 3 = 126, 182, 255, 0, 0, 1, Pt tourn. n°1
+Label 4 = 64, 72, 10, 10, 10, 1, Pt tourn. n°2
+Label 5 = 63, 71, 255, 0, 0, 1, Pt tourn. n°2
+Time Out = 15
+[Briefing 1]
+Heading = 9, FORCES ENNEMIES
+Map = images\Mfn5.pcx
+Text = 1, 1, La position générale et le type de toutes les forces ennemies sont indiqués sur la carte. Rappelez-vous que ces unités peuvent se déplacer. \n Employez à chaque fois l'arme la plus adaptée à la cible. Ils ne s'y attendront pas. \n Amusez-vous bien.
+Sprite 0 = images\uifvps.pcx, 130, 201, 0
+Sprite 1 = images\uifvps.pcx, 100, 165, 0
+Sprite 2 = images\ucavp.pcx, 216, 201, 0
+Sprite 3 = images\utnkps.pcx, 72, 122, 0
+Sprite 4 = images\utnkbs.pcx, 29, 116, 0
+Sprite 5 = images\uspgb.pcx, 127, 136, 0
+Sprite 6 = images\usam4b.pcx, 18, 106, 0
+Sprite 7 = images\uadv2b.pcx, 58, 145, 0
+Sprite 8 = images\uahb.pcx, 94, 285, 0
+Sprite 9 = images\uadv2b.pcx, 41, 66, 0
+Sprite 10 = images\rahb.pcx, 258, 143, 0
+Label 0 = 72, 115, 10, 10, 10, 1, Avenger 
+Label 1 = 71, 114, 99, 99, 208, 1, Avenger 
+Label 2 = 129, 217, 10, 10, 10, 1, LAV
+Label 3 = 128, 216, 99, 99, 208, 1, LAV
+Label 4 = 98, 181, 10, 10, 10, 1, BFV
+Label 5 = 97, 180, 99, 99, 208, 1, BFV
+Label 6 = 211, 217, 10, 10, 10, 1, HMMV
+Label 7 = 210, 216, 99, 99, 208, 1, HMMV
+Label 8 = 69, 138, 10, 10, 10, 1, M1
+Label 9 = 68, 137, 99, 99, 208, 1, M1
+Label 10 = 25, 141, 10, 10, 10, 1, M1hq
+Label 11 = 24, 140, 99, 99, 208, 1, M1hq
+Label 12 = 126, 150, 10, 10, 10, 1, SPG
+Label 13 = 125, 149, 99, 99, 208, 1, SPG
+Label 14 = 79, 194, 10, 10, 10, 1, LAVADV
+Label 15 = 78, 193, 99, 99, 208, 1, LAVADV 
+Label 16 = 87, 303, 10, 10, 10, 1, AH64
+Label 17 = 86, 302, 99, 99, 208, 1, AH64
+ Time Out = 20
+Execute = 1

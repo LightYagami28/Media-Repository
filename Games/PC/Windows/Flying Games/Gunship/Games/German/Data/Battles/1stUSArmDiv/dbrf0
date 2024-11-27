@@ -1,0 +1,45 @@
+[win]
+Heading = 9, STATUS
+Map = images\mus0.pcx
+Text = 1, 1, Der Angriff der 24. Motorisierten Schützen-Division auf Biala Podlaska konnte dank Ihrer Anstrengungen gestoppt werden. Der Großteil des nicht essentiellen Personals wurde evakuiert oder ist bereit, die Stadt vor der nächsten Angriffswelle zu verlassen. \n Die nächste Einsatzbesprechung findet in 2 Stunden statt. \n ZIELE: \n Leisten Sie dem 1-35. Armored direkte Luftunterstützung und stören Sie feindliche Einheiten, die zur Stadt aufschließen. Feindliche Streitkräfte dürfen die Phasenlinie Golf nicht überqueren.
+Sprite 0 = images\uahb.pcx, 34, 151, 0
+Sprite 1 = images\uifvp.pcx, 79, 112, 0
+Sprite 2 = images\utnkp.pcx, 68, 85, 0
+Sprite 3 = images\utnkp.pcx, 77, 149, 0
+Sprite 4 = images\usam4b.pcx, -31, 79, 0
+Sprite 5 = images\rtnkb.pcx, 245, 261, 0
+Sprite 6 = images\rtnkb.pcx, 263, 3, 0
+Sprite 7 = images\rarrowsw.pcx, 243, 26, 0
+Sprite 8 = images\rarrownw.pcx, 225, 248, 0
+Label 0 = 26, 115, 99, 99, 208, 1, Biala Podlaska
+Label 1 = 267, 261, 255, 0, 0, 1, 24.
+Label 2 = 285, 3, 255, 0, 0, 1, 24.
+Label 3 = 79, 134, 99, 99, 208, 1, Stone
+Label 4 = 68, 105, 99, 99, 208, 1, Stone
+Label 5 = 77, 169, 99, 99, 208, 1, Stone
+Label 6 = 84, 276, 99, 99, 208, 1, PL GOLF
+Line 0 = 200, 200, 200, 94, 0, 94, 315
+Time Out = 15
+[Lose]
+Heading = 9, STATUS
+Map = images\mus0.pcx
+Text = 1, 1, Sie sind bei der Durchführung Ihrer Mission gescheitert. Die 24. Motorisierte Schützen-Division hat das 1-35. Armored, welches die Stadt Biala Podlanska verteidigte, überrannt. Sie kontrollieren jetzt den Flugplatz und können Luftüberfälle in unseren Rücken durchführen. \n \n Wählen Sie "WIEDERHOLEN", um die Mission noch mal zu fliegen!
+Sprite 0 = images\uahb.pcx, 34, 151, 0
+Sprite 1 = images\uifvp.pcx, 79, 112, 0
+Sprite 2 = images\utnkp.pcx, 68, 85, 0
+Sprite 3 = images\utnkp.pcx, 77, 149, 0
+Sprite 4 = images\usam4b.pcx, -31, 79, 0
+Sprite 5 = images\rtnkb.pcx, 245, 261, 0
+Sprite 6 = images\rtnkb.pcx, 263, 3, 0
+Sprite 7 = images\rarrowsw.pcx, 243, 26, 0
+Sprite 8 = images\rarrownw.pcx, 225, 248, 0
+Label 0 = 26, 115, 99, 99, 208, 1, Biala Podlaska
+Label 1 = 267, 261, 255, 0, 0, 1, 24.
+Label 2 = 285, 3, 255, 0, 0, 1, 24.
+Label 3 = 79, 134, 99, 99, 208, 1, Stone
+Label 4 = 68, 105, 99, 99, 208, 1, Stone
+Label 5 = 77, 169, 99, 99, 208, 1, Stone
+Label 6 = 84, 276, 99, 99, 208, 1, PL GOLF
+Line 0 = 200, 200, 200, 94, 0, 94, 315
+Time Out = 15
+

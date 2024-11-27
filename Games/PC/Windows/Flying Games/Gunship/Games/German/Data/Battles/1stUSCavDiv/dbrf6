@@ -1,0 +1,18 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\Muc6.pcx
+Text = 1, 1, Die 2-5. hat Kontakt mit der Hauptgruppe der 47. Panzergarde hergestellt. Wir haben sie so sehr in Atem gehalten, dass sie keine ordentliche Verteidigung aufbauen konnte. Ruhen Sie sich aus, Ihr nächster Einsatz startet in zwei Stunden. 
+Sprite 0 = images\uahb.pcx, 231, 275, 0
+Sprite 1 = images\utnkb.pcx, 273, 171,
+Label 0 = 273, 196, 0, 0, 200, 1, Stone 
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc6.pcx 
+Text = 1, 1, Das Kampfteam der 2-5. wurde so schwer beschädigt, dass es den Kontakt mit der 47. Panzergarde nicht aufrechterhalten konnte. Sie haben sich außerhalb unserer Sichtweite hinter ihre Verteidigungslinen zurückgezogen und werden sich erst dann wieder auf ernste Kämpfe einlassen, wenn Verstärkungen eingetroffen sind. \n\n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen.
+Sprite 0 = images\uahb.pcx, 231, 275, 0
+Sprite 1 = images\utnkb.pcx, 273, 171,
+Label 0 = 273, 196, 0, 0, 200, 1, Stone
+Time Out = 15
+

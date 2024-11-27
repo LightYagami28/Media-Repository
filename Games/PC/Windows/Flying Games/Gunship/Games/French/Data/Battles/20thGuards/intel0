@@ -1,0 +1,33 @@
+[Briefing 0]
+Heading = 9, FORCES DE L'OTAN
+Map = images\imap.pcx
+Text = 1, 1, Le secteur nord est tenu par la British Army of the Rhine (BAOR) avec les 1e et 3e divisions blindées britanniques et la 24e division d'infanterie américaine. \n Le secteur central est tenu par le IIe corps allemand à la tête des 10e et 5e divisions de Panzer et de la 1e division blindée US. \n Le secteur sud est tenu par le Ve corps américain composé de la 1e division de cavalerie, de la 2e division d'infanterie et de la 1e division de Panzer allemande.
+Sprite 0 = images\cin4a.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, FORCES RUSSES
+Map = images\imap.pcx
+Text = 1, 1, Le Groupe de Forces Nord commande les 28e et 5e corps biélorusses, avec le 65e biélorusse en réserve. \n  Le Groupe de Forces Centre est composé de la 2e armée de la garde, de la 6e armée blindée et des 1er et 13e corps ukrainiens, avec la 20e armée blindée de la garde en réserve. \n Le Groupe de Forces Sud est constitué du 8e corps ukrainien et de la 3e armée de choc, avec le 32e corps ukrainien en réserve.
+Sprite 0 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, C'est la troisième journée d'opérations et d'intenses combats se poursuivent sur l'ensemble du front. La 7e brigade blindée britannique a été encerclée, et le Groupe de Forces Centre a décidé d'engager la 20e armée de la garde pour l'achever. \n La 2e armée de la garde affronte une résistance croissante dans le secteur de Lublin. \n Le Groupe de Forces Nord effectue une poussée en direction de Gdansk et de la Vistule. \n Le Groupe de Forces Sud mène une bataille d'attrition en Slovaquie.
+Sprite 0 = images\cin4a.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 3]
+Heading = 9, SECTEUR de la 20e de la GARDE
+Map = images\cs1.pcx
+Text = 1, 1, La 6e armée blindée a isolé la 7e brigade blindée du reste de la 1e DB. \n Le plan de l'armée consiste à faire agrandir le périmètre par les 35e et 13e DFM, et de confier le rôle de premier échelon d'assaut aux 4e (Kantemir) et 2e (Taman) DB de la garde. La 32e blindée de la garde est conservée en réserve par l'état-major d'armée.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystok
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustov
+Label 3 = 183, 25, 155, 155, 155, 1, Grajevo
+Label 4 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ukcin6.pcx, 0, 0, 0
+Sprite 1 = images\ukcir6.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 153, 202, 0
+Time Out = 15
+GOTOBRIEFING = 1

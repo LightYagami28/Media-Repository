@@ -1,0 +1,30 @@
+[Briefing 0]
+Heading = 9, FELDZUG- INFORMATIONEN
+Map = images\imap.pcx
+Text = 1, 1, Nachdem beim Hauptdurchbruch drei Divisionen der 6. Panzerarmee zerstört wurden, setzt die NATO ihren Vorstoß fort. \n Die britische 1. Armoured Division wurde von der Front gezogen, um einige Tage Zeit zur Erholung und zur Reorganisation der schwer angeschlagenen 7. Brigade zu haben. \n Inzwischen geht die 1. Armoured wieder in Stellung, um das Vorrücken der NATO in Richtung Minsk zu unterstützen. 
+Sprite 0 = images\cir8.pcx, 0, 0, 0
+Sprite 1 = images\cin8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, NATO
+Map = images\imap.pcx
+Text = 1, 1, Das amerikanische XVIII. Korps kommandiert nun 1. Marine, 24. Infantry und 82. Airborne Divisions. \n Der Rheinarmee sind die britischen 1. und 3. Armoured Divisions unterstellt, während die 2. Division aus England geschickt wird. \n Das amerikanische III. Korps befehligt die amerikanischen 1. Armored und 1. Infantry Divisions. \n Das deutsche II. Korps besteht aus der 1., 5. und 10. Panzerdivision. \n Das amerikanische V. Korps befehligt die 1. Cav, 3. Infantry, 5. Alpine sowie die soeben eingetroffene 10. Mountain Division.
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die Front vor dem XVIII. Korps festigt sich. Sowohl Rheinarmee als auch II. und III. Korps setzen ihre Vorstöße nach Weißrussland und Ukraine fort. Im Süden hat die 1. Cavalry Division den Kontakt mit einer verstärkten 3. Sturm-Armee wieder hergestellt, während das 8. Ukrainische Armeekorps weiter durchhält. 
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Sprite 1 = images\cir8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 3]
+Heading = 9, BAOR-SEKTOR
+Map = images\cs5.pcx
+Text = 1, 1, Die Russen konnten verhindern, dass ihr Rückzug ungeordnet verläuft. Der Widerstand hat sich etwas verstärkt, seitdem sich unsere Truppen der weißrussischen Hauptstadt Minsk nähern. \n Die 20. Garde hat weniger Verluste hinnehmen müssen als alle anderen Einheiten und hält zwei ihrer besten Divisionen in Reserve. Rechnen Sie also nicht mit leichten Siegen. 
+Sprite 0 = images\ukcir8.pcx, 0, 0, 0
+Sprite 1 = images\ukcin8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 59, 165, 0
+Label 0 = 280, 147, 155, 155, 155, 1, Minsk
+Time Out = 15
+GOTOBRIEFING = 1

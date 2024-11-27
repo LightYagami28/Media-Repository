@@ -1,0 +1,103 @@
+TITLE: Übungsangriff
+BATTLEFIELD: UKRAINE 92250 85500 0 0 20 24
+RUNAI: RED
+SIDE: 0
+BLUE_ENEMIES: 30
+PLATOON: 142 98650 91850 270 0 98650 91850 2 401
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_SLOW:
+
+PLATOON: 62 85800 79250 90 0 87800 79250 1 302
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HELOS:
+ORDER_ADV_MED:
+ADDWAYPT: 90050 78800
+ADDWAYPT: 92050 78750
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_ASSMBLY:
+ADDWAYPT: 93900 79250
+ORDER_WPT_SETDELAYTIME: 120
+ORDER_ASMBLY_BATTLEPOS:
+ADDWAYPT: 93200 81950
+ORDER_WPT_SETDELAYTIME: 30
+ADDWAYPT: 87500 85100
+ORDER_WPT_SETDELAYTIME: 120
+
+PLATOON: 103 91850 84050 90 0 91850 84050 2 1803
+PLATOON: 141 91750 80650 90 0 91750 80650 0 1804
+PLATOON: 141 95050 80750 90 0 95050 80750 2 1805
+PLATOON: 103 90500 83400 90 0 90500 83400 0 1806
+SUPPORT: 77 86500 84650 90 0 86500 84650 2 287
+BLUE_TARGET2:
+SUPPORT: 77 85750 86050 90 0 85750 86050 1 288
+BLUE_TARGET2:
+PLATOON: 78 87050 85800 90 0 87050 85800 2 2009
+BLUE_TARGET2:
+PLATOON: 105 89509 81272 0 0 89509 81272 2 1810
+BLUE_TARGET: 36
+PLATOON: 70 89920 81068 35 8 89920 81068 1 1811
+BLUE_TARGET: 36
+PLATOON: 120 89277 81720 135 2 89277 81720 2 1812
+BLUE_TARGET: 36
+PLATOON: 124 89586 81376 270 6 89586 81376 0 1813
+BLUE_TARGET: 36
+PLATOON: 125 89433 81068 90 6 89433 81068 0 1814
+BLUE_TARGET: 36
+
+[Title]
+TITLE = ÜBUNGS- ANGRIFF
+
+[Briefing 0]
+Heading = 9, MISSIONS- PLANUNG
+Map = images\Tmap4.pcx
+Text = 1, 1, Die Planung der Mission bleibt Ihnen überlassen. Sobald die Mission begonnen hat, schalten Sie mit der Taste N auf Ihren Kartenbildschirm. Legen Sie die Wegpunkte fest, um zu Ihren Missionszielen zu gelangen. Auch die Wahl der Waffen bleibt Ihnen überlassen. Es ist egal, wie Sie die Ziele zerstören, aber zerstören Sie alle. Denken Sie daran, die optimale Waffe für das jeweilige Ziel auszuwählen.
+Sprite 0 = images\uahb.pcx, 278, 277, 0
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, 1. ZIEL
+Map = images\Tmap4.pcx
+Text = 1, 1, Diese Mission ist ein simulierter Angriff auf einen Flugplatz und eine Artillerie-Stellung. Alle Waffen, inklusive der des Feindes, sind scharf, also seien Sie vorsichtig. Die Verteidigungseinrichtungen des Flugplatzes werden auf der linke Karte angezeigt. Der Flugplatz wird von einer festen SA-6-SAM-Stellung, einem befestigten Flugabwehrgeschütz und drei Bunkern verteidigt. Verwenden Sie Hellfire- oder HE-Raketen für die Bunker. Zerstören Sie alle Verteidigungseinrichtungen des Flugplatzes sowie die Hubschrauber am Boden.
+Sprite 0 = images\rsam6b.pcx, -12, -63, 0
+Sprite 1 = images\rinfp.pcx, 79, 74, 0
+Sprite 2 = images\uahb.pcx, 278, 277, 0
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, 2. ZIEL
+Map = images\Tmap4.pcx
+Text = 1, 1, Als Nächstes steht eine Artillerie-Stellung auf der Zielliste. Sie besteht aus zwei Artillerie- Platoons und dem zugehörigen Hauptquartier. Sie verfügen über eine eingeschränkte Luftabwehr, aber seien Sie bei der Annäherung trotzdem vorsichtig. Weitere Informationen finden Sie auf der Karte links.
+Sprite 0 = images\rspgp.pcx, 36, 134, 0
+Sprite 1 = images\rspgp.pcx, 21, 162, 0
+Sprite 2 = images\rhqb.pcx, 43, 156, 0
+Sprite 3 = images\uahb.pcx, 278, 277, 0
+Time Out = 15
+
+[Briefing 3]
+Heading = 9, WARNUNG
+Map = images\Tmap4.pcx
+Text = 1, 1, In diesem Gebiet befindet sich auch eine Staffel Havocs. Sie fliegt eine Routinepatrouille im Bereich ihres Heimatflughafens. Um Ihnen die Überraschung nicht zu verderben, bleibt ihre genaue Position geheim. In dem Bereich befinden sich auch zahlreiche Zielfahrzeuge. Zerstören Sie mindestens 30 Prozent davon. Viel Glück.
+Sprite 0 = images\uahb.pcx, 278, 277, 0
+Sprite 1 = images\rtnkp.pcx, 143, 122, 0
+Sprite 2 = images\rifvp1.pcx, 148, 61, 0
+Sprite 3 = images\rifvp1.pcx, 207, 56, 0
+Sprite 4 = images\rtnkp.pcx, 116, 109, 0
+Time Out = 15
+
+[Briefing 4]
+Heading = 9, WETTER
+Map = images\Tmap4.pcx
+Text = 1, 1, Dies ist eine Nachtmission. Das Wetter in Ihrem Operationssektor ist wolkenlos. \n Die Sichtweite wird durch helles Mondlicht verbessert und beträgt zwischen 3 und 4 km. \n Thermale Bedingungen sind mit Bereichen bis zu 8 km hervorragend. \n Es ist windstill.
+Movie = movies\clear.bik, 0, 0, 315, 315
+Time Out = 15
+
+Execute = 1

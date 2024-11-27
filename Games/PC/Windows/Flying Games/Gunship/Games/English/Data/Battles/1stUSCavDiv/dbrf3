@@ -1,0 +1,40 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\Muc3.pcx
+Text = 1, 1, The units of the 3-8th managed to pull out in good order with minimal loses. The 7th has had its nose bloodied and is slowly pulling back. The 1-12th is now ready to begin its first offensive against the Russians. Get some sleep; we're supporting them.
+Sprite 0 = images\uahb.pcx, 21, 262, 0
+Sprite 1 = images\uifvp.pcx, 147, 187, 0
+Sprite 2 = images\uifvp.pcx, 94, 174, 0
+Sprite 3 = images\uifvp.pcx, 178, 203, 0
+Sprite 4 = images\uifvp.pcx, 101, 131, 0
+Sprite 5 = images\rtnkb.pcx, 291, 90, 0
+Sprite 6 = images\rtnkb.pcx, 238, 33, 0
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Label 1 = 178, 224, 0, 0, 200, 1, Forward
+Label 2 = 94, 194, 0, 0, 200, 1, Forward
+Label 3 = 147, 208, 0, 0, 200, 1, Forward
+Label 4 = 101, 152, 0, 0, 200, 1, Forward
+Label 5 = 262, 38, 200, 0, 0, 1, 7GT
+Label 6 = 291, 114, 200, 0, 0, 1, 7GT 
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc3.pcx 
+Text = 1, 1, The 3-8th was smashed to pieces. 7th Guards Tank Army has paused slightly to reorder themselves for a new attack, but they will begin their assault within the next hour or two. \n \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\uahb.pcx, 21, 262, 0
+Sprite 1 = images\uifvp.pcx, 147, 187, 0
+Sprite 2 = images\uifvp.pcx, 94, 174, 0
+Sprite 3 = images\uifvp.pcx, 178, 203, 0
+Sprite 4 = images\uifvp.pcx, 101, 131, 0
+Sprite 5 = images\rtnkb.pcx, 291, 90, 0
+Sprite 6 = images\rtnkb.pcx, 238, 33, 0
+Label 0 = 89, 197, 200, 200, 200, 1, Perechin
+Label 1 = 178, 224, 0, 0, 200, 1, Forward
+Label 2 = 94, 194, 0, 0, 200, 1, Forward
+Label 3 = 147, 208, 0, 0, 200, 1, Forward
+Label 4 = 101, 152, 0, 0, 200, 1, Forward
+Label 5 = 262, 38, 200, 0, 0, 1, 7GT
+Label 6 = 291, 114, 200, 0, 0, 1, 7GT 
+Time Out = 15
+

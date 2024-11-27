@@ -1,0 +1,21 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, A 23 heures, la nuit dernière, les forces russes ont attaqué sur les frontières polonaise, roumaine et slovaque. Les forces de l'OTAN mènent des actions d'arrière-garde sur l'ensemble du front afin de ralentir la progression russe. Au nord, les éléments de la British Army of the Rhine se retirent en franchissant la Vistule afin d'éviter d'être encerclés par les attaques venant de l'est et du nord. Le IIe corps se replie lentement en direction de Lublin. Le Ve corps bat en retraite dans les régions montagneuses de Slovaquie.
+Sprite 0 = images\cin0.pcx, 0, 0, 0
+Sprite 1 = images\cir0.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR DE LA BAOR
+Map = images\cs1.pcx
+Text = 1, 1, La 24e division d'infanterie américaine est repoussée au sud de Kaliningrad, et le 28e corps menace de percer. \n La 3e division blindée se replie de sa position de Suvalki, très exposée. \n La 1e division blindée mène un lent combat d'arrière-garde, alors même que les 34e et 69e divisions de fusiliers motorisés ont peut-être déjà percé sur Bialystok. \n Votre zone d'opérations actuelle est affichée en surbrillance.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystok
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 222, 150, 155, 155, 155, 1, Suvalki
+Label 3 = 231, 193, 155, 155, 155, 1, Augustov
+Sprite 0 = images\ukcin1.pcx, 0, 0, 0
+Sprite 1 = images\ukcir1.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 205, 190, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

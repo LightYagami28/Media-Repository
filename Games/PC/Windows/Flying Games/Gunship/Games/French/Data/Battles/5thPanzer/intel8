@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le front se solidifie en face du XVIIIe Corps. La BAOR, le IIe et le IIIe corps poursuivent leur avance en Bélarus et en Ukraine. Au sud, la 1e division de cavalerie a repris le contact avec une 3e armée de choc renforcée, tandis que le 8e corps d'armée ukrainien tient bon.
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Sprite 1 = images\cir8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du IIe CORPS
+Map = images\cs4.pcx
+Text = 1, 1, Le Rens. a perdu le contact avec le 1er corps ukrainien. Certains éléments laissent penser qu'il s'est rapproché du front au cours des dernières 24 heures. \n La 5e Panzer lance une attaque en vue de franchir le terrain difficile qui se trouve devant elle. La 1e Panzer continue son attaque au nord. \n Ces deux divisions avancent en tentant de reprendre contact avec l'ennemi. Les éléments dont nous disposons à propos des unités qui se trouvent devant le corps sont toujours très fragmentaires.
+Sprite 0 = images\gercir8.pcx, 0, 0, 0
+Sprite 1 = images\gercin8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 65, 159, 0
+Time Out = 15
+GOTOBRIEFING = 1

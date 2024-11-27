@@ -1,0 +1,28 @@
+[WIN]
+movie = movies\lossthreew.bik 
+Heading = 9, STATUS
+Map = images\rus1.pcx
+Text = 1, 1, Well done! Their raid was stopped well short of its intended target, the Taman Guards Tank Park. The British 1st Armoured and American 1st Armored will meet a full strength Battalion tomorrow. 
+Sprite 0 = images\rahb.pcx, 253, 29, 0
+Sprite 1 = images\uahb.pcx, 98, 257, 0
+Sprite 2 = images\uahb.pcx, 227, 272, 0
+Sprite 3 = images\uahb.pcx, -3, 219, 0
+Label 0 = 14, 219, 200, 200, 200, 1, Approximate 
+Label 1 = 115, 257, 200, 200, 200, 1, Approximate 
+Label 2 = 227, 290, 200, 200, 200, 1, Approximate 
+Time Out = 15
+
+[Lose]
+movie = movies\wintwow.bik 
+Heading = 9, STATUS
+Map = images\rus1.pcx 
+Text = 1, 1, The enemy Apaches managed to get by our defenses and wreck havoc on our forces while they were bivouacked for the night. Our timetable is now destroyed and this setback will allow the British and American to reinforce their positions and possibly mount offensive operations against us. \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\rahb.pcx, 253, 29, 0
+Sprite 1 = images\uahb.pcx, 98, 257, 0
+Sprite 2 = images\uahb.pcx, 227, 272, 0
+Sprite 3 = images\uahb.pcx, -3, 219, 0
+Label 0 = 14, 219, 200, 200, 200, 1, Approximate 
+Label 1 = 115, 257, 200, 200, 200, 1, Approximate 
+Label 2 = 227, 290, 200, 200, 200, 1, Approximate 
+Time Out = 15
+

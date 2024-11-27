@@ -1,0 +1,21 @@
+[Briefing 0]
+Heading = 9, NATO
+Map = images\imap.pcx
+Text = 1, 1, Das amerikanische XVIII. Korps kommandiert nun 1. Marine, 24. Infantry und 82. Airborne Divisions. \n Der Rheinarmee sind die britischen 1. und 3. Armoured Divisions unterstellt, während die 2. Division aus England geschickt wird. \n Das amerikanische III. Korps befehligt die amerikanischen 1. Armored und 1. Infantry Divisions. \n Das deutsche II. Korps besteht aus der 1., 5. und 10. Panzerdivision. \n Das amerikanische V. Korps befehligt die 1. Cav., 3. Infantry, 5. Alpine sowie die soeben eingetroffene 10. Mountain Division.
+Sprite 0 = images\cin6.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Entlang der gesamten polnischen Front haben die NATO-Kräfte die russische Grenze erreicht. In Slowakien wurde das das 8. Ukrainische Korps abgeschnitten, während die Überreste der 3. Sturm-Armee einen Durchbruch dorthin versuchen. \n Allgemein versuchen die russischen Streitkräfte, durch Geländeverluste Zeit für die Reorganisation und Erneuerung der Truppen zu gewinnen.
+Sprite 0 = images\cin6.pcx, 0, 0, 0
+Sprite 1 = images\cir6.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, SEKTOR DES III. KORPS
+Map = images\cs3.pcx
+Text = 1, 1, Die 1. Cavalry rückt so schnell wie möglich vor, um Kontakt zur 3. Sturm-Armee aufrecht zu erhalten. Die 3. Sturm-Armee ist wenig kampfbereit und kehrt in heimische Regionen zurück. Die amerikanische 3. Infantry  wurde bei der Deckung der Flanke der 1. Cavalry schwer mitgenommen und leidet unter der kritischen Versorgungslage. Sie wird ihren Vormarsch abbrechen und sich erholen.
+Sprite 0 = images\cavcin6.pcx, 0, 0, 0
+Sprite 1 = images\cavcir6.pcx, 0, 0, 0
+Time Out = 15
+GOTOBRIEFING = 1

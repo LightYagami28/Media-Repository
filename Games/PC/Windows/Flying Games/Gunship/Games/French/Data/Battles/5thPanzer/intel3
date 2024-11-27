@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, La 7e brigade de la 1e DB britannique est toujours encerclée, mais la BAOR tient l'est de la Vistule. \n Les combats sont intenses dans la zone du IIe corps. L'assaut sur Lublin a commencé, et la majeure partie du IIe corps lutte pour éviter de nouvelles percées. \n En Slovaquie, la situation est devenue une guerre de mouvement très fluide, aucun des deux camps ne semblant prendre l'avantage. \n Les forces russes ont subi des pertes colossales, et certaines unités ont été retirées du front.
+Sprite 0 = images\cin3.pcx, 0, 0, 0
+Sprite 1 = images\cir3.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du IIe CORPS
+Map = images\cs2.pcx
+Text = 1, 1, La 1e blindée a stabilisé la situation sur une ligne de défense finale devant Varsovie, et le 13e corps ukrainien a été saigné à blanc. La 3e brigade se reforme près de Sobolew. \n La 16e blindée de la garde a été affectée à l'assaut de Lublin. Mais le reste de la 2e armée de la garde semble en train de se regrouper. \n La 10e Panzer s'est repliée sur la Vistule dans de bonnes conditions, et se prépare à contre-attaquer.
+Sprite 0 = images\gercin3.pcx, 0, 0, 0
+Sprite 1 = images\gercir3.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 145, 199, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

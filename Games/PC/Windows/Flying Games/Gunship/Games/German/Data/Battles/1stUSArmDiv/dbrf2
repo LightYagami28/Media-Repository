@@ -1,0 +1,31 @@
+[Win]
+Heading = 9, STATUS
+Map = images\mus2.pcx
+Text = 1, 1, Die 13. Motorisierte Schützen-Division wurde in den Startlöchern gestoppt. Die Verteidigungslinien sind für den Moment stabilisiert. Einsatzbesprechung in 2 Stunden. \n ZIELE: \n Greifen Sie alle Einheiten, die sich Phasenlinie Hotel nähern an, und stören Sie diese.  \n Erreicht \n Leisten Sie den Bodeneinheiten in Ihrem Gebiet Luftdeckung. \n Erreicht 
+Sprite 0 = images\uahb.pcx, 33, 262, 0
+Sprite 1 = images\utnkb.pcx, 141, 269, 0
+Sprite 2 = images\rtnkb.pcx, 90, -1, 0
+Sprite 3 = images\rtnkb.pcx, 208, 38, 0
+Sprite 4 = images\rinfb.pcx, 269, 105, 0
+Line 0 = 99, 99, 208, 0, 222, 315, 222
+Line 1 = 99, 99, 208, 0, 40, 315, 40
+Label 0 = 71, 214, 99, 99, 208, 1, PL GOLF
+Label 1 = 71, 48, 99, 99, 208, 1, PL HOTEL
+Label 2 = 141, 293, 99, 99, 208, 1, Stone
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\mus2.pcx
+Text = 1, 1, Die 13. Motorisierte Schützen-Division hat unsere Streitkräfte vernichtet, die ausgesandt wurden, um ihr Vordringen zu verzögern. Die 13. hat jetzt eine offene Angriffsfläche auf unsere Flanke. \n \n Wählen Sie "WIEDERHOLEN", um die Mission noch mal zu fliegen!  
+Sprite 0 = images\uahb.pcx, 33, 262, 0
+Sprite 1 = images\utnkb.pcx, 141, 269, 0
+Sprite 2 = images\rtnkb.pcx, 90, -1, 0
+Sprite 3 = images\rtnkb.pcx, 208, 38, 0
+Sprite 4 = images\rinfb.pcx, 269, 105, 0
+Line 0 = 99, 99, 208, 0, 222, 315, 222
+Line 1 = 99, 99, 208, 0, 40, 315, 40
+Label 0 = 71, 214, 99, 99, 208, 1, PL GOLF
+Label 1 = 71, 48, 99, 99, 208, 1, PL HOTEL
+Label 2 = 141, 293, 99, 99, 208, 1, Stone
+Time Out = 15

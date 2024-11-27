@@ -1,0 +1,22 @@
+[WIN]
+movie = movies\lossfivew.bik
+Heading = 9, STATUS
+Map = images\Muc5.pcx
+Text = 1, 1, Gut gemacht! Da der Konvoi überlebt hat, können wir nun die 3. Sturm-Armee in die Ukraine verfolgen. Ruhen Sie sich etwas aus, Ihre nächste Mission startet erst in einigen Tagen. 
+Sprite 0 = images\uahb.pcx, 176, 286, 0
+Sprite 1 = images\usupb.pcx, 165, 278, 0
+Sprite 2 = images\uarrownw.pcx, 148, 257, 0
+Label 0 = 165, 290, 0, 0, 200, 1, Shield
+Time Out = 15
+
+[Lose]
+movie = movies\winfivew.bik
+Heading = 9, STATUS
+Map = images\muc5.pcx 
+Text = 1, 1, Sie haben Ihr Missionsziel nicht erreicht. Ohne diesen Missions-kritischen Nachschub sind wir zu einem Schneckentempo gezwungen, das es der 3. Sturm-Armee erlaubt, sich einzugraben. Dieser Konflikt hat einen Punkt erreicht, bei dem sogar der Einsatz von Nuklearwaffen möglich wird. \n \n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen.
+Sprite 0 = images\uahb.pcx, 176, 286, 0
+Sprite 1 = images\usupb.pcx, 165, 278, 0
+Sprite 2 = images\uarrownw.pcx, 148, 257, 0
+Label 0 = 165, 290, 0, 0, 200, 1, Shield 
+Time Out = 15
+

@@ -1,0 +1,37 @@
+[Win]
+Heading = 9, SITUATION
+Map = images\RUS10.PCX
+Text = 1, 1, La 1e division de cavalerie s'est repliée en Slovaquie. Nous allons la poursuivre, mais la 3e armée de choc doit se réorganiser avant de faire mouvement. 
+Sprite 0 = images\rahb.pcx, 290, 13, 0
+Sprite 1 = images\rifvb.pcx, 288, 224, 0
+Sprite 2 = images\rarrownw.pcx, 257, 217, 0
+Sprite 3 = images\uifvb.pcx, 167, 184, 0
+Sprite 4 = images\uarrownw.pcx, 141, 176, 0
+Label 0 = 167, 209, 0, 0, 255, 1, 3ACR 
+Label 1 = 288, 246, 200, 0, 0, 1, 7BG
+Label 2 = 245, 121, 10, 10, 10, 1, LP FOXTROT
+Label 3 = 244, 120, 200, 0, 0, 1, LP FOXTROT
+Label 4 = 37, 121, 10, 10, 10, 1, LP GOLF
+Label 5 = 36, 120, 200, 0, 0, 1, LP GOLF
+Line 0 = 200, 0, 0, 34, 12, 34, 310
+Line 1 = 200, 0, 0, 242, 12, 242, 310
+Time Out = 15
+
+[Lose]
+Heading = 9, SITUATION
+Map = images\RUS10.PCX
+Text = 1, 1, Le 3e ACR a fait volte-face et nous a frappé. La 7e a stoppé et commencé à se réorganiser. La 1e de cavalerie a mis à profit cette victoire pour se retourner et attaquer immédiatement, avant que la 7e blindée de la garde ait pu préparer ses défenses. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\rahb.pcx, 290, 13, 0
+Sprite 1 = images\rifvb.pcx, 288, 224, 0
+Sprite 2 = images\rarrownw.pcx, 257, 217, 0
+Sprite 3 = images\uifvb.pcx, 167, 184, 0
+Sprite 4 = images\uarrownw.pcx, 141, 176, 0
+Label 0 = 167, 209, 0, 0, 255, 1, 3ACR 
+Label 1 = 288, 246, 200, 0, 0, 1, 7BG
+Label 2 = 245, 121, 10, 10, 10, 1, LP FOXTROT
+Label 3 = 244, 120, 200, 0, 0, 1, LP FOXTROT
+Label 4 = 37, 121, 10, 10, 10, 1, LP GOLF
+Label 5 = 36, 120, 200, 0, 0, 1, LP GOLF
+Line 0 = 200, 0, 0, 34, 12, 34, 310
+Line 1 = 200, 0, 0, 242, 12, 242, 310
+Time Out = 15

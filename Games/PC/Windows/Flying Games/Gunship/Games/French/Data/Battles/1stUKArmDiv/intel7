@@ -1,0 +1,20 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, BAOR \n La 82e division aéroportée, arrivée directement des Etats-Unis, a sauté afin de renforcer la 7e brigade blindée. \n La 1e division de Marines a débarqué près de Kaliningrad. \n La 3e DB (UK) et la 24e DI (US) ont lancé une attaque terrestre massive afin de prendre la 6e armée blindée au piège. \n IIe Corps \n Les 1e, 5e et 10e divisions de Panzer ont lancé une frappe massive en direction de Chelm et Zamosc. \n Ve Corps \n La 1e division de cavalerie a attaqué afin de soutenir le IIe corps. 
+Sprite 0 = images\cin4.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR DE LA BAOR
+Map = images\cs1.pcx
+Text = 1, 1, Le corps a lancé une attaque en deux parties. Au nord, la 24e DI américaine et la 1e division de Marines doivent repousser les 28e et 5e corps biélorusses à l'est de Kaliningrad. \n Au centre, les 1e et 3e DB britanniques ont lancé leur attaque. Utilisant la 7e brigade et les 1e DB et 82e aéroportée américaines comme enclume, cette attaque vise à piéger au moins trois divisions de la 6e armée blindée.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystok
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 122, 226, 155, 155, 155, 1, Pisz
+Sprite 0 = images\ukcir7.pcx, 0, 0, 0
+Sprite 1 = images\ukcin7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 130, 183, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

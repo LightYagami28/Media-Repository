@@ -1,0 +1,18 @@
+[Win]
+movie = movies\winonew.bik
+Heading = 9, STATUS
+Map = images\mus3.pcx
+Text = 1, 1, Gute Arbeit! Ohne die Einheiten, die ihre erfolgreichen Streitkräfte an der Front verstärken, kam die Offensive des 13. Ukrainischen Armeekorps zum Stillstand und wir haben Zeit, uns neu zu gruppieren. Die 1. Armored wendet sich jetzt nach Norden, um die britische 1. Armored Division zu unterstützen. \n \n ZIELE: \n Finden und zerstören Sie die Armor-Kompanie. Sie wird bald abziehen, Sie haben also wenig Zeit. Halten Sie Verluste auf eigener Seite minimal. \n Erreicht
+Sprite 0 = images\uahb.pcx, 2, 282, 0
+Sprite 1 = images\rtnkb.pcx, 192, 89, 0
+Time Out = 15
+
+[Lose]
+movie = movies\lossonew.bik
+Heading = 9, STATUS
+Map = images\mus3.pcx
+Text 1, 1, Da die Verstärkungen nicht gestoppt wurden, hat das 13. Ukrainische Armeekorps im Norden die Flanke des 1. Armored Bataillon angegriffen und das Bataillon komplett auseinandergetrieben. \n \n Wählen Sie "WIEDERHOLEN", um die Mission noch mal zu fliegen! 
+Sprite 0 = images\uahb.pcx, 2, 282, 0
+Sprite 1 = images\rtnkb.pcx, 192, 89, 0
+Time Out = 15
+

@@ -1,0 +1,22 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, At 2300 last night, Russian forces attacked across the border into Poland, Romania and Slovakia. NATO forces are fighting rear guard actions across the front to slow the Russian advance. In the North, British Army of the Rhine is withdrawing across the Vistula to avoid being surrounded by attacks from the East and North. II Corps is pulling slowly back toward Lublin. The V Corps is falling back into the mountainous areas of Slovakia.
+Sprite 0 = images\cin0.pcx, 0, 0, 0
+Sprite 1 = images\cir0.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR SECTOR
+Map = images\cs1.pcx
+Text = 1, 1, The US 24th Infantry is being pushed back south of Kaliningrad, with the 28th corps threatening to break through. \n The 3rd Armoured is pulling back from the exposed position at Suwalki. \n 1st Armoured is fighting a slow rear guard, although the 34th and 69 Motor rifle Divisions may have broken through to Bialystok. \n Your current operations area is Highlighted.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 222, 150, 155, 155, 155, 1, Suwalki
+Label 3 = 231, 193, 155, 155, 155, 1, Augustow
+Sprite 0 = images\ukcin1.pcx, 0, 0, 0
+Sprite 1 = images\ukcir1.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 205, 190, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

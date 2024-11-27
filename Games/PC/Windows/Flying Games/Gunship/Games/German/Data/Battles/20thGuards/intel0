@@ -1,0 +1,34 @@
+[Briefing 0]
+Heading = 9, NATO-KRÄFTE
+Map = images\imap.pcx
+Text = 1, 1, Das nördliche Gebiet wird von der britischen Rheinarmee (BAOR), der 3. British Armoured, und der 24. US Infantry Division gehalten. \n Das zentrale Gebiet gehört dem deutschen II. Korps, das die deutsche 10., die 5. Panzer und die amerikanische 1. Armored Division kommandiert. \n Das Gebiet im Süden wird vom 5. US Korps besetzt, das die 1. Cavalry, die 3. Infantry und die deutsche 1. Panzer-Division umfasst. 
+Sprite 0 = images\cin4a.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, RUSSISCHE KRÄFTE
+Map = images\imap.pcx
+Text = 1, 1, Die nördliche Gruppe kommandiert das 28. und 5. Belorussische Korps, mit der 65. Belorussischen in Reserve. \n Die zentrale Streitkräfte-Gruppe beinhaltet die 2. Armeegarde, die 6. Panzer-Armee, sowie das 1. und das 13. Ukrainische Korps, mit der 20. Panzer Armeegarde in Reserve. \n Die südliche Streitkräfte-Gruppe umfasst das 8. Ukrainische Korps und die 3. Sturm-Armee, mit dem 32. Ukrainischen Korps in Reserve.
+Sprite 0 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Es ist der dritte Operations-Tag, und an der gesamten Front herrscht heftiger Kampf. Die britische 7. Armoured Brigade wurde eingekreist und die Zentralgruppe der Streitkräfte hat entschieden, die 20. Armeegarde zu entsenden, um die Briten zu vernichten. \n Die 2. Armeegarde ist im Lublin-Sektor auf harten Widerstand gestoßen. \n Die nördliche Streitkräfte-Gruppe stößt gegen Danzig und Weichsel vor. \n Die Südgruppe kämpft in einer Zermürbungs-Schlacht in Slowakien. 
+Sprite 0 = images\cin4a.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 3]
+Heading = 9, SEKTOR DER 20. GARDE
+Map = images\cs1.pcx
+Text = 1, 1, Die 6. Panzerarmee hat die 7. Brigade vom Rest der 1. Armoured Division isoliert. \n Der Plan sieht vor, die 35. und 13. Motorisierte Schützendivision einzusetzen, um die Front voranzutreiben, und die 4. Kantemir und 2. Tamanische Armeegarde zu einem ersten Angriffskeil zu formieren. Die 32. Panzer Armeegarde wird in der Reserve gehalten.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustow
+Label 3 = 183, 25, 155, 155, 155, 1, Grajewo
+Label 4 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ukcin6.pcx, 0, 0, 0
+Sprite 1 = images\ukcir6.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 153, 202, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

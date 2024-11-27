@@ -1,0 +1,18 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\Muc6.pcx
+Text = 1, 1, 2-5th made contact with the main body of the 47th Guards Tank. They are locked tight with us and have been unable to prepare adequate defenses in time. Rest up next mission in 2 hours.
+Sprite 0 = images\uahb.pcx, 231, 275, 0
+Sprite 1 = images\utnkb.pcx, 273, 171,
+Label 0 = 273, 196, 0, 0, 200, 1, Stone 
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\muc6.pcx 
+Text = 1, 1, 2-5th's combat team was damaged beyond its ability to maintain contact with the 47th Guards Tank. They have pulled out of our sight behind their main defensive line and will not commit to any serious battle for now until they have been reinforced. \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\uahb.pcx, 231, 275, 0
+Sprite 1 = images\utnkb.pcx, 273, 171,
+Label 0 = 273, 196, 0, 0, 200, 1, Stone
+Time Out = 15
+

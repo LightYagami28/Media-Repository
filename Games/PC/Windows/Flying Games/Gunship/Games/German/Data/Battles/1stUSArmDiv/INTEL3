@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die 7. Brigade der britischen 1. Armored ist immer noch eingekesselt, aber BAOR hält sich östlich der Weichsel. \n Im Bereich des II. Korps gehen die schweren Gefechte weiter. Der Angriff auf Lublin hat begonnen, als der Großteil des II. Korps damit kämpft, weitere Durchbrüche zu verhindern. \n In der Slowakei hat sich die Situation zu einem fließenden Kampf entwickelt, bei dem keine der beiden Seiten einen klaren Vorteil erringen kann. \n Die russischen Streitkräfte mussten erhebliche Verluste hinnehmen und viele Einheiten wurden aus dem Kampfgeschehen zurückgezogen.
+Sprite 0 = images\cin3.pcx, 0, 0, 0
+Sprite 1 = images\cir3.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs2.pcx
+Text = 1, 1, Die 1. Armored hat ihre endgültige Verteidigungslinie vor Warschau stabilisiert, und sie lässt jetzt das 13. Ukrainische Armeekorps  ausbluten. Die 3. Brigade gruppiert sich in der Nähe von Sobolew neu. \n Die 16. Panzergarde wurde für den Angriff auf Lublin abgestellt. Der Rest der 2. Armeegarde scheint sich jedoch neu zu formieren. \n Die 10. Panzerdivision ließ sich in guter Verfassung zur Weichsel zurückfallen und bereitet sich auf einen Gegenschlag vor.
+Sprite 0 = images\gercin3.pcx, 0, 0, 0
+Sprite 1 = images\gercir3.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 167, 8, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

@@ -1,0 +1,21 @@
+[Briefing 0]
+Heading = 9, SITUATION
+ Map = images\imap.pcx
+Text = 1, 1, La 7e brigade de la 1e DB britannique est toujours encerclée, mais la BAOR tient l'est de la Vistule. \n Les combats sont intenses dans la zone du IIe corps. L'assaut sur Lublin a commencé, et la majeure partie du IIe corps lutte pour éviter de nouvelles percées. \n En Slovaquie, la situation est devenue une guerre de mouvement très fluide, aucun des deux camps ne semblant prendre l'avantage. \n Les forces russes ont subi des pertes colossales, et certaines unités ont été retirées du front.
+Sprite 0 = images\cin3.pcx, 0, 0, 0
+Sprite 1 = images\cir3.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR DE LA BAOR
+Map = images\cs1.pcx
+Text = 1, 1, Les Rats du Désert continuent à tenir face aux virulentes attaques de la 20e armée de la garde, qui jette toutes ses divisions dans la bataille. \n Dans le reste du secteur du corps, le front s'est stabilisé, en partie du fait des lourdes pertes subies par les Russes lors de leur attaque initiale. \n La 1e DB américaine a commencé à faire mouvement afin de rejoindre la 7e brigade ; elle a atteint Lomza et contraint la 6e armée blindée à se redéployer.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystok
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 166, 290, 155, 155, 155, 1, Lomza
+Label 3 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ukcin5.pcx, 0, 0, 0
+Sprite 1 = images\ukcir5.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 153, 202, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

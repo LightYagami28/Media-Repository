@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le XVIIIe corps affronte une résistance croissante dans le secteur nord. La BAOR et les IIe et IIIe corps poursuivent leur avance en Bélarus et en Ukraine. En Slovaquie, Le 8e corps d'armée ukrainien continue à tenir, malgré le fait que la 3e armée de choc ait rompu le contact à l'est. \n Le renseignement satellitaire a repéré l'approche de nouvelles formations en direction du front, ce qui oblige l'OTAN à continuer à progresser le plus vite possible. Aucune fin en vue.
+Sprite 0 = images\cin7.pcx, 0, 0, 0
+Sprite 1 = images\cir7.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du Ve CORPS
+Map = images\cs4.pcx
+Text = 1, 1, La 3e armée de choc a fait mouvement vers sa première position défensive. Les raids aériens continuent à pleuvoir sur la 1e division de cavalerie, ralentissant sa poursuite de la 3e de choc.
+Sprite 0 = images\cavcir7.pcx, 0, 0, 0
+Sprite 1 = images\gercin7.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 68, 254, 0
+Time Out = 15
+GOTOBRIEFING = 1

@@ -1,0 +1,214 @@
+TITLE: armor 10
+BATTLEFIELD: UKRAINE 113625 29125 0 0 21 24
+ENGAGEMENT: BLUE MISSION_BLUE_HASTY_ATTACK_RAID 0 0 0
+ENGAGEMENT: RED MISSION_RED_DEFENSE 0 0 180
+OBJECTIVE: BLUE FORWARD_LINE 117075 21225 117075 36975 2
+BLUE_ENEMIES: 80
+BLUE_FRIENDLIES: 40
+RED_FRIENDLIES: 80
+RUNAI: BLUE
+RUNAI: RED
+SIDE: 0
+MACHINE: 0
+/* SetupFriendlyHastyAttackRaid */
+PLATOON: 18 106550 32150 90 8 108475 31675 2 701
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 480
+ADDWAYPT: 112625 23825
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 117175 23675
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HQ:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 117275 28825
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HQ:
+ORDER_WPT_SETDELAYTIME: 420
+ADDWAYPT: 117375 34775
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_HQ:
+ORDER_WPT_SETDELAYTIME: 300
+/* setupairsupport */
+PLATOON: 63 110625 39375 90 8 117000 39375 3 302
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_CHKPT:
+ORDER_ADV_FAST:
+ORDER_FORM_CRUISE:
+ORDER_ASMBLY_HELO_BYPASS:
+ORDER_PRIORITY_AIRDEF:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 120425 36325
+ORDER_ASMBLY_ASSMBLY:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 420
+ADDWAYPT: 118325 34025
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_HELOS:
+ORDER_WPT_SETDELAYTIME: 300
+ADDWAYPT: 116125 32875
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 540
+ADDWAYPT: 113575 32025
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_ENGAGE:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 420
+ADDWAYPT: 111575 29575
+ORDER_ASMBLY_PATROL:
+ORDER_ADV_MED:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 300
+/* setupenemydefend */
+PLATOON: 120 116200 29100 90 7 116200 29100 3 2203
+PLATOON: 120 117500 31650 90 7 117500 31650 3 2204
+PLATOON: 120 117500 23850 135 7 117500 23850 3 2205
+/* setupenemymove */
+PLATOON: 57 118650 33900 90 1 106150 27250 3 1906
+LOGIC: LOGIC_RECON
+PLATOON: 57 120150 23550 90 1 105950 30250 3 1907
+LOGIC: LOGIC_RECON
+PLATOON: 45 120650 21550 90 6 107950 27650 2 1908
+LOGIC: LOGIC_MECH_ASSAULT 
+PLATOON: 37 120400 21050 90 6 108450 27400 2 1909
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 37 120400 22050 90 6 107450 27400 2 1910
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 45 120650 21050 90 6 108450 27650 2 1911
+LOGIC: LOGIC MECH_ASSAULT
+PLATOON: 45 120400 35200 45 6 107600 31100 2 1912
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 37 119900 35450 45 6 107350 30600 2 1913
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 37 120900 35450 45 6 107350 31600 2 1914
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 45 120400 34700 45 6 108100 31100 2 1915
+LOGIC: LOGIC_TANK_ASSAULT
+/* setupenemyairdefense */
+PLATOON: 70 120400 32700 90 8 120400 32700 2 2116
+PLATOON: 70 118700 27050 90 8 118700 27050 2 2117
+/* setupfriendlyattack */
+PLATOON: 1 105950 27550 270 6 119750 28000 2 1518
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 1 105950 29550 270 6 119750 30000 2 1519
+LOGIC: LOGIC_TANK_ASSAULT
+PLATOON: 2 105950 26550 270 6 119750 27000 2 1520
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 2 105950 30750 270 6 119750 31000 2 1521
+LOGIC: LOGIC_MECH_ASSAULT
+PLATOON: 79 105950 28550 270 6 119750 29000 2 1522
+LOGIC: LOGIC_TANK_ASSAULT 
+/* setupsupportfriendly */
+SUPPORT: 82 90000 28000 270 7 90000 28000 1 2823
+/* setupenemyhq */
+PLATOON: 66 118400 28550 270 2 118400 28550 2 2024
+BLUE_TARGET: 23
+PLATOON: 78 118200 28550 90 2 118200 28550 2 2025
+BLUE_TARGET: 23
+PLATOON: 122 118300 28550 90 8 118300 28550 1 2026
+BLUE_TARGET: 23
+
+[Briefing 0]
+Heading = 9, MISSION
+Map = images\Mus10.pcx
+Text = 1, 1, Intelligence reports that the 15th MRD is massing for another attack. 2-13th Armored is sending a reinforced company, Team Falcon to intercept them. As a secondary mission, intelligence reports that a division HQ is somewhere in the area. Find and destroy it. \n CALLSIGN: \n Flight #1   Reaper \n OBJECTIVES: \n Attack to disrupt any enemy units between PL Foxtrot and Delta. \n Search and destroy the enemy HQ between PL Echo and Delta. \n Minimize casualties to friendly units. 
+Sprite 0 = images\uahb.pcx, 18, 225, 0
+Sprite 1 = images\uwpaa.pcx, 57, 201, 0
+Sprite 2 = images\uwpbp.pcx, 140, 44, 0
+Sprite 3 = images\uwppa.pcx, 231, 41, 0
+Sprite 4 = images\uwppa.pcx, 233, 144, 0
+Sprite 5 = images\uwppa.pcx, 235, 263, 0
+Line 0 = 200, 200, 200, 26, 233, 65, 224
+Line 1 = 200, 200, 200, 65, 224, 148, 67
+Line 2 = 200, 200, 200, 148, 67, 239, 64
+Line 3 = 200, 200, 200, 239, 64, 241, 167
+Line 4 = 200, 200, 200, 241, 167, 243, 286
+Line 5 = 0, 0, 255, 14, 0, 14, 315
+Line 6 = 0, 0, 255, 301, 0, 301, 315
+Line 7 = 0, 0, 255, 227, 0, 227, 315
+Label 0 = 265, 67, 10, 10, 10, 1, PL ECHO
+Label 1 = 23, 251, 10, 10, 10, 1, PL FOXTROT 
+Label 2 = 266, 68, 0, 0, 255, 1, PL ECHO
+Label 3 = 22, 250, 0, 0, 255, 1, PL FOXTROT
+Label 4 = 183, 230, 10, 10, 10, 1, PL DELTA
+Label 5 = 184, 230, 0, 0, 255, 1, PL DELTA
+Time Out = 20
+
+[Briefing 1]
+Heading = 9, OPERATIONS
+Map = images\mus10.pcx
+Text = 1, 1, You will be operating in a sector between Phase Lines Alpha and Bravo. These phase lines should not be crossed in any circumstances. \n  Since contact with the 13th has been lost all aircraft outside of there operational sectors will be considered hostile. \n \n AIR DEFENSE: \n  Intelligence warns that some fixed SAM emplacements may still be operational in this area.
+Sprite 0 = images\rsam6b.pcx, 183, 124, 0
+Sprite 1 = images\rsam6b.pcx, 149, 11, 0
+Line 0 = 0, 0, 255, 0, 25, 315, 25
+Line 1 = 0, 0, 255, 0, 290, 315, 290
+Label 0 = 35, 27, 10, 10, 10, 1, PL ALPHA
+Label 1 = 35, 275, 10, 10, 10, 1, PL BRAVO
+Label 2 = 35, 28, 0, 0, 255, 1, PL ALPHA
+Label 3 = 35, 276, 0, 0, 255, 1, PL BRAVO 
+Time Out = 15
+
+[Briefing 2]
+Heading = 9, FRIENDLY FORCES
+Map = images\mus10.pcx
+Text = 1, 1, A reinforced Company Team from the 2-13th Armored, Team Falcon, will be moving into your sector in an attempt to destroy or force a withdrawal of the enemy forces in the operational area. 
+Sprite 0 = images\utnkb.pcx, 6, 139, 0
+Sprite 1 = images\uarrowe.pcx, 37, 140, 0
+Label 0 = 7, 162, 10, 10, 10, 1, Falcon
+Label 1 = 6, 161, 0, 0, 255, 1, Falcon
+Time Out = 20
+
+[Briefing 3]
+Heading = 9, ENEMY FORCES
+Map = images\mus10.pcx
+Text = 1, 1,At least two companies of armor from the 15th MRD division are currently moving into this area in preparation for a new attack sometime later today. In addition to this, a divisional HQ unit is reported to be somewhere in the area as well. Air support will probably not be present in the coming attack.
+Sprite 0 = images\rtnkb.pcx, 252, 27, 0
+Sprite 1 = images\rtnkb.pcx, 257, 263, 0
+Sprite 2 = images\rarrowsw.pcx, 220, 49, 0
+Sprite 3 = images\rarrownw.pcx, 239, 230, 0
+Sprite 4 = images\rhqb.pcx, 175, 89, 0
+Label 0 = 252, 50, 255, 0, 0, 1, 15th MRD
+Label 1 = 257, 287, 255, 0, 0, 1, 15th MRD
+Time Out = 10
+
+[Briefing 4]
+Heading = 9, WEATHER
+Map = images\mus10.pcx
+Text = 1, 1, The weather in your sector of operations is partly cloudy, with a partial cloud layer at 2500 feet. \n Visibility should be helped by bright moonlight, and should be between 3 and 4 kilometers. \n Thermal conditions are excellent, with ranges in excess of 6 kilometers. \n Winds are light out of the NW, at 1 to 2 knots.
+Movie = movies\pcloudy.bik, 0, 0, 315, 315
+Time Out = 20
+

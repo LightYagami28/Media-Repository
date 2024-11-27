@@ -1,0 +1,24 @@
+[Win]
+movie = movies\wintwow.bik
+Heading = 9, STATUS
+Map = images\mus6.pcx
+Text = 1, 1, Der Angriff des 1. Ukrainischen Armeekorps auf unsere Flanken konnte gestoppt werden. Die britische 1. Armored hat jetzt wieder etwas Handlungsspielraum. Die 82. Luftlandedivision und die Marines haben ihren Zielort pünktlich erreicht. Die amerikanische 1. Armored zieht jetzt in die Ukraine, um den Kontakt zum 13. Ukrainischen Armeekorps wiederherzustellen. \n ZIELE: \n Greifen Sie alle feindlichen Einheiten zwischen den Phasenlinien Foxtrot und Delta an und zerstören Sie diese. \n Erreicht \n Leisten Sie Team "Falcon" Luftunterstützung. \n Erreicht
+Sprite 0 = images\uahb.pcx, 184, 272, 0
+Sprite 1 = images\rtnkb.pcx, 144, 87, 0
+Sprite 2 = images\utnkb.pcx, 150, 274, 0
+Line 0 = 0, 0, 255, 0, 290, 315, 290
+Label 0 = 230, 277, 10, 10, 10, 1, PL FOXTROT 
+Label 1 = 231, 278, 0, 0, 255, 1, PL FOXTROT
+Time Out = 15
+[Lose]
+movie = movies\winthreew.bik
+Heading = 9, STATUS
+Map = images\mus6.pcx
+Text = 1, 1, Wir konnten den Angriff der Streitkräfte auf unsere Flanken nicht stoppen. Die rechte Flanke der 1. Armored ist komplett eingebrochen und die 82. Luftlandedivision und die Marines konnten nicht landen. \n \n Wählen Sie "WIEDERHOLEN", um die Mission noch mal zu fliegen!
+Sprite 0 = images\uahb.pcx, 184, 272, 0
+Sprite 1 = images\rtnkb.pcx, 144, 87, 0
+Sprite 2 = images\utnkb.pcx, 150, 274, 0
+Line 0 = 0, 0, 255, 0, 290, 315, 290
+Label 0 = 230, 277, 10, 10, 10, 1, PL FOXTROT 
+Label 1 = 231, 278, 0, 0, 255, 1, PL FOXTROT
+Time Out = 15

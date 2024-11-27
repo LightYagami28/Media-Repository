@@ -1,0 +1,24 @@
+[Win]
+Heading = 9, SITUATION
+Map = images\RUS2.PCX
+Text = 1, 1, La 1e DB britannique s'est effondrée. Le 1e ukrainien a complètement annihilé la formation britannique. Le haut commandement s'attend à recevoir la reddition des Anglais dans la semaine. Nous sommes affectés à un nouveau commandement afin de nous occuper maintenant de la 1e DB américaine, plus au sud.
+Sprite 0 = images\Rahb.pcx, 290, 8, 0
+Sprite 1 = images\rtnkb.pcx, 144, 87, 0
+Sprite 2 = images\rarrownw.pcx, 119, 60, 0
+Sprite 3 = images\utnkb.pcx, 150, 274, 0
+Sprite 4 = images\uarrown.pcx, 151, 252, 0
+Label 0 = 144, 111, 255, 0, 0, 1, 1 DFM(U)
+Label 1 = 150, 296, 0, 0, 255, 1, 2-13
+Time Out = 15
+[Lose]
+Heading = 9, SITUATION
+Map = images\RUS2.PCX
+Text = 1, 1, La force d'attaque de flanc du 1e ukrainien a été stoppée. La 1e DB britannique dispose maintenant de davantage d'espace. La 82e et les Marines sont également arrivés à temps. La 1e DB américaine avance maintenant en Ukraine afin de rétablir le contact avec le 13e ukrainien. \n \n Sélectionnez " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\Rahb.pcx, 290, 8, 0
+Sprite 1 = images\rtnkb.pcx, 144, 87, 0
+Sprite 2 = images\rarrownw.pcx, 119, 60, 0
+Sprite 3 = images\utnkb.pcx, 150, 274, 0
+Sprite 4 = images\uarrown.pcx, 151, 252, 0
+Label 0 = 144, 111, 255, 0, 0, 1, 1 DFM(U)
+Label 1 = 150, 296, 0, 0, 255, 1, 2-13
+Time Out = 15

@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, The Northern Group of Forces has collapsed, leaving XVIII Corps facing only scattered resistance. BAOR continues to drive on Minsk, as the Belarus government asks for a cease-fire. \n II and III Corps are still facing heavy resistance, but major units of the enemy are retreating or surrendering. \n V Corps is driving behind the remaining Russian and Ukrainian units and is moving on Kiev.
+Sprite 0 = images\cin12.pcx, 0, 0, 0
+Sprite 1 = images\cir12.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, V Corps SECTOR
+Map = images\cs4.pcx
+Text = 1, 1, The situation is extremely fluid. Most of the divisions facing V Corps have ceased to exist as a combat unit. The exception is the 10th Guards Tank. 1st and 3rd Cavalry are forming a pocket which should trap most of the Central Group of Forces, or those that are left. 3rd US Infantry is responsible for squeezing the pocket tight.
+Sprite 0 = images\cavcir11.pcx, 0, 0, 0
+Sprite 1 = images\gercin12.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 236, 151, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

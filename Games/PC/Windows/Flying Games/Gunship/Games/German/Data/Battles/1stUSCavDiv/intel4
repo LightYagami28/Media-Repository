@@ -1,0 +1,24 @@
+[Briefing 0]
+Heading = 9, FELDZUG- INFORMATIONEN
+Map = images\imap.pcx
+Text = 1, 1, Nachdem die Einnahme Lublins fehlschlug und die 7. Brigade aufgerieben wurde, verlief der russische Angriff im Sand. Beide Seiten bewahrten einige Tage Waffenruhe, um sich auf die nächste Runde vorzubereiten. \n Marineeinheiten der NATO haben die komplette Kontrolle über das Baltikum errungen. Im Norden Polens geht der Luftkampf über dem Gebiet der 7. Brigade weiter. \n Im Bereich des V. Korps gingen die Gefechte weiter, die Kampflinie stabilisiert sich außerhalb von Kosice. 
+Sprite 0 = images\cir4.pcx, 0, 0, 0
+Sprite 1 = images\cin4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, NATO-Gegenangriff \n BAOR \n Die 82. Luftlandedivision kommt direkt aus den USA, um die 7. Armoured zu verstärken. \n Die 1. Marine-Division landet nahe Kaliningrad. \n Die britische 3. Armoured Division und die amerikanische 1. Armoured Division starten einen massiven Bodenangriff, um die 7. Armoured zu befreien. \n Das V. Korps und die 1. Cavalry Division attackieren als Unterstützung des II. Korps.
+Sprite 0 = images\cin4.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, SEKTOR DES V. KORPS
+Map = images\cs3.pcx
+Text = 1, 1, Die 1. Cavalry hat eine große Offensive gegen die 3. Sturm-Armee unternommen. Die 3. Sturm-Armee hat mit einem geordneten Rückzug begonnen, um ihre Truppen zu konsolidieren. Die 7. Garde wurde aus bislang unbekannten Gründen vom Kampf abgezogen. Die amerikanische 3. Infantry rückt zusammen mit der 1. Cavalry vor, muss aber wegen Nachschubproblemen zurückfallen.
+Sprite 0 = images\cavcir4.pcx, 0, 0, 0
+Sprite 1 = images\cavcin4.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 123, 117, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

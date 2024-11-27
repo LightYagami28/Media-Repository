@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le XVIIIe corps et la BAOR sont parvenus à encercler le 28e corps biélorusse, et poursuivent leur progression en Bélarus. \n La contre-attaque russe a été stoppée par le IIe corps, tandis que le IIIe corps continue à se replier lentement face à l'axe principal d'offensive. \n Au sud, le reste du Ve monte en ligne afin de soutenir la 1e division de cavalerie.
+Sprite 0 = images\cin10.pcx, 0, 0, 0
+Sprite 1 = images\cir10.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR DE LA BAOR
+Map = images\cs5.pcx
+Text = 1, 1, Au sud de nos positions, la 1e division d'infanterie américaine a pris l'avantage dans le combat qui l'oppose à la 2e division Taman de la garde à Baranovichi. \n La 2e division britannique est montée en ligne entre les 1e et 3e divisions. \n La 3e division continue à attaquer vers le nord, et a encerclé le 28e corps. \n Dans le secteur de la 1e division, les Russes ont rompu le contact et font mouvement vers l'est.
+Sprite 0 = images\ukcir10.pcx, 0, 0, 0
+Sprite 1 = images\ukcin10.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 145, 202, 0
+Label 0 = 280, 147, 155, 155, 155, 1, Minsk
+Time Out = 15
+GOTOBRIEFING = 1

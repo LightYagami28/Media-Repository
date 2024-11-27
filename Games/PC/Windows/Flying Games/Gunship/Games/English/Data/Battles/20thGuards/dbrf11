@@ -1,0 +1,24 @@
+[WIN]
+movie = movies\winfivew.bik 
+Heading = 9, STATUS
+Map = images\Rus11.pcx
+Text = 1, 1, Congratulations, With the destruction of the convoy the 1st Cavalry division is without much needed fuel and ammunition. They will now be easy to surround and destroy.
+Sprite 0 = images\uahb.pcx, 176, 286, 0
+Sprite 1 = images\usupb.pcx, 165, 278, 0
+Sprite 2 = images\uarrownw.pcx, 148, 257, 0
+Sprite 3 = images\Rahb.pcx, 296, 9, 0
+Label 0 = 165, 300, 0, 0, 255, 1, Convoy 
+
+Time Out = 15
+
+[Lose]
+movie = movies\lossfivew.bik 
+Heading = 9, STATUS
+Map = images\rus11.pcx 
+Text = 1, 1, With the convoy safe the 1st Cav has enough supplies to allow the 3rd Infantry to recover and begin supporting its flank again. We have lost the last opportunity to render the 1st Cavalry combat ineffective. \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\usupb.pcx, 165, 278, 0
+Sprite 1 = images\uarrownw.pcx, 148, 257, 0
+Sprite 2 = images\Rahb.pcx, 296, 9, 0
+Label 0 = 165, 300, 0, 0, 255, 1, Convoy 
+Time Out = 15
+

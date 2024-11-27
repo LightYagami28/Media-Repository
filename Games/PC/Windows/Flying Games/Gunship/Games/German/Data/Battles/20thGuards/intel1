@@ -1,0 +1,22 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Schwere Gefechte an der gesamten Front. Die britische 7. Armored Brigade wurde zerstört und die 20. Armeegarde bewegt sich nach Zentral-Polen. \n Die 2. Armeegarde stemmt sich gegen harten Widerstand im Lublin-Sektor und erzielt nur kleine Gewinne. \n Die Nordgruppe rückt auf Danzig und Weichsel vor. \n Die Südgruppe kämpft einen Zermürbungskrieg in Slowakien, wobei die SGF etwas Boden verliert.
+Sprite 0 = images\rcin1.pcx, 0, 0, 0
+Sprite 1 = images\rcir1.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DER 20. WACHGARDE
+Map = images\cs1.pcx
+Text = 1, 1, Die 20. Garde wendet sich nach Süden, um die 1. US Armored Division anzugreifen, die sich bemüht, der 1. British Unterstützung zu leisten. Die 6. Panzerarmee versucht, die Amerikaner daran zu hindern, sich mit den Briten zu verbünden.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustow
+Label 3 = 183, 25, 155, 155, 155, 1, Grajewo
+Label 4 = 179, 193, 155, 155, 155, 1, Elk
+Sprite 0 = images\ruscin1.pcx, 0, 0, 0
+Sprite 1 = images\ruscir1.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 105, 228, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

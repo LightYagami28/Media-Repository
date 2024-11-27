@@ -1,0 +1,25 @@
+[Briefing 0]
+Heading = 9, CAMPAIGN UPDATE
+Map = images\imap.pcx
+Text = 1, 1, After the failure to take Lublin, or the 7th Brigade, the Russian assault petered out. Both sides have taken a few days to prepare for the next round. \n NATO Naval forces have gained complete control of the Baltic. In Northern Poland, the air battle continues over the 7th Brigades area. \n In V Corps area, fighting has continued with the line stabilizing outside Kosice. 
+Sprite 0 = images\cir4.pcx, 0, 0, 0
+Sprite 1 = images\cin4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, NATO Counter Offensive \n BAOR \n 82nd Airborne drops direct from the US to reinforce 7th Armoured. \n 1st Marine division lands near Kaliningrad. \n 3rd AD (UK) and 1st AD (US) launch a massive ground attack to relieve 7th Armoured. \n II Corps \n 1st, 5th and 10th Panzer divisions launch a massive blow aimed at Chelm and Zamosc. \n V Corps \n 1st Cavalry division attacks in support of II Corps. 
+Sprite 0 = images\cin4.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, V Corps SECTOR
+Map = images\cs3.pcx
+Text = 1, 1, 1st Cavalry has begun full offensive operations against the 3rd Shock Army. The 3rd SA has begun an orderly withdraw to consolidate it's forces. The 7th Guards has been pulled out of action for the time being for unknown reasons. The 3rd US Infantry is moving forward with the 1st Cavalry but due to supply shortages is dropping behind.
+Sprite 0 = images\cavcir4.pcx, 0, 0, 0
+Sprite 1 = images\cavcin4.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 123, 117, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

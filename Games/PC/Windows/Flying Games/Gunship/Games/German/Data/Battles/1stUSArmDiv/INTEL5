@@ -1,0 +1,20 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Entlang der gesamten Front starten die NATO-Streitkräfte eine Gegenoffensive. \n Die 24. Infantry und die 3. Armored beginnen Angriffe auf den Norden, um das 28. und 5. Korps festzunageln. Die amerikanischen und britischen 1. Armored Divisionen führen ihre Angriffe fort, um die 7. Brigade freizukämpfen. \n Die Desert Rats starten kleine Angriffe, um die Route für Nachschubeinheiten offen zu halten.
+Sprite 0 = images\cin4a.pcx, 0, 0, 0
+Sprite 1 = images\cir4.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR-SEKTOR
+Map = images\cs1.pcx
+Text = 1, 1, Die amerikanische 1. Armored führt ihre Überfälle in den Rücken des Feindes fort. \n Die Aufklärung meldet, dass sich die 69. Division aus dem Kampfgeschehen zurückzieht. \n Die 3. Armored hat ihr Einsatzgebiet für den Hauptangriff erreicht. \n Wenn heute alles klar läuft, landen die amerikanische 1. Marinedivision und die 82. Luftlandebrigade in der Nähe von Kaliningrad, um die 7. Brigade zu verstärken.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystock
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 122, 226, 155, 155, 155, 1, Pisz
+Sprite 0 = images\ukcin6.pcx, 0, 0, 0
+Sprite 1 = images\ukcir6.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 131, 248, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

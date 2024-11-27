@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Im Norden haben XVIII. Korps und BAOR eine Offensive gestartet, mit der die 6. Panzerarmee eingekreist werden soll. Der Angriff des II. und III. Korps kam angesichts einer Gegenoffensive durch die zentralen Streitkräfte zum Stillstand. Im Süden ist die 1. Cavalry Division in erbitterte Kämpfe mit der 3. Sturm-Armee verwickelt, während sich das 8. Ukrainische Korps heute Mittag ergeben hat.
+Sprite 0 = images\cin9.pcx, 0, 0, 0
+Sprite 1 = images\cir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES V. KORPS
+Map = images\cs4.pcx
+Text = 1, 1, Nördlich von uns wird die 5. Panzer von einem relativ frischen 1. Ukrainischen Korps angegriffen. Die 3. Sturm-Armee hat aus unbekanntem Grund begonnen, sich zurückzuziehen. Die Aufklärung berichtet, dass sich die russische Kampfmoral auf einem Tiefststand befindet. Die 1. Cavalry rückt vor, um die 3. Sturm-Armee zu stellen, bevor sie sich noch weiter zurückziehen kann. \n Das 32. Ukrainische Korps wurde aus dem Kampf genommen.
+Sprite 0 = images\cavcir9.pcx, 0, 0, 0
+Sprite 1 = images\gercin9.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 123, 260, 0
+Time Out = 15
+GOTOBRIEFING = 1

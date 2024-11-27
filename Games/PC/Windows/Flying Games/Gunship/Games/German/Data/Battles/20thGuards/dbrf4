@@ -1,0 +1,29 @@
+[WIN]
+Heading = 9, STATUS
+Map = images\rus4.pcx
+Text = 1, 1, Die Kommando-Struktur der 1. Amored liegt in Trümmern. Wir haben noch ein Missionsziel zu erreichen, bevor wir direkt auf sie treffen. Melden Sie sich sofort zur Missionsplanung. 
+Sprite 0 = images\uhqb.pcx, 84, 79, 0
+Sprite 1 = images\uhqb.pcx, 98, 208, 0
+Sprite 2 = images\usam4b.pcx, 48, -10, 0
+Sprite 3 = images\usam4b.pcx, 65, 120, 0
+Sprite 4 = images\rahb.pcx, 263, 20, 0
+Label 0 = 106, 226, 0, 0, 255, 1, Annähernd
+Label 1 = 89, 99, 0, 0, 255, 1, Annähernd
+Label 2 = 108, 80, 0, 0, 255, 1, 1. Pz
+Label 3 = 122, 208, 0, 0, 255, 1, 1. Pz
+Time Out = 15
+
+[Lose]
+Heading = 9, STATUS
+Map = images\rus4.pcx 
+Text = 1, 1, Da die Kommando-Struktur der 1. Armored noch intakt ist, werden sie sich unserem Vormarsch nach Süden entgegenstemmen können. Einheiten bewegen sich bereits in neue Positionen. Wir können uns nicht mehr mit der 1. Ukrainischen verbinden, die bereits einen Rückzug plant. \n \n Wählen Sie "WIEDERHOLEN", um die Mission nochmals durchzuspielen. 
+Sprite 0 = images\uhqb.pcx, 84, 79, 0
+Sprite 1 = images\uhqb.pcx, 98, 208, 0
+Sprite 2 = images\usam4b.pcx, 48, -10, 0
+Sprite 3 = images\usam4b.pcx, 65, 120, 0
+Sprite 4 = images\rahb.pcx, 263, 20, 0
+Label 0 = 106, 226, 0, 0, 255, 1, Annähernd
+Label 1 = 89, 99, 0, 0, 255, 1, Annähernd
+Label 2 = 108, 80, 0, 0, 255, 1, 1. Pz
+Label 3 = 122, 208, 0, 0, 255, 1, 1. Pz
+Time Out = 15

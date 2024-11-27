@@ -1,0 +1,60 @@
+TITLE: Flug-Grundlagen
+
+BATTLEFIELD: czech 118085 23622 0 0 5 24
+OBJECTIVE: BLUE ONEKRADIUS 118085 23622 14 
+SIDE: 0
+MACHINE: 1
+PLATOON: 142  118085 23622 90 2 118085 19500 3 501
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_HALT
+ORDER_ASMBLY_CHKPT
+ADDWAYPT: 118085 23622 
+ORDER_ASMBLY_ASSMBLY
+
+[Title]
+TITLE = FLUG- GRUNDLAGEN
+
+[Sounds]
+InGame = speech\T111.wav, speech\T112.wav, speech\t113.wav, speech\t114.wav, speech\t115.wav, speech\t116.wav, speech\t117.wav, speech\t118.wav, speech\t119.wav 
+
+[Briefing 0]
+Heading = 9, ZYKLISCHE STEUERUNG
+Map = images\back.pcx
+Text = 1, 1, Flug-Tipps: \n Im Allgemeinen bringt ein Vordrücken des Sticks den Helikopter nicht dazu zu sinken. Wenn Sie ihn ganz vordrücken und halten, sinken Sie nur, wenn Sie maximale Power erreichen. Sie erlangen zusätzlich Geschwindigkeit. \n Wenn Sie den Stick zurückziehen, werden Sie ebenfalls nicht steigen. Ein verbreiteter Fehler ist, dies zu tun, wenn Höhe gewonnen werden soll. Es endet darin, dass Sie rückwärts fliegen!
+Sound = speech\T101.wav
+Movie = movies\train1.bik, 0, 0, 315, 315
+Time Out = 38
+
+[Briefing 1]
+Heading = 9, KOLLEKTIV
+Map = images\back.pcx
+Text = 1, 1, Das Kollektiv benötigt ein oder zwei Sekunden um zu reagieren. Wenn Sie sinken, sollten Sie ein wenig Aufwärts- Kollektiv zufügen, bevor Sie die gewünschte Höhe erreicht haben, und dann das Kollektiv zentrieren. \n \n [A] - Höhe halten - Autopilot. \n [ß] und [´] - die aktuelle Höhe korrigieren. \n Durch nochmaliges Drücken der Taste [A] wird der Autopilot wieder ausgeschaltet \n \n [H] - Schweben & halten. \n Kann nur bei geringen Geschwindigkeiten eingesetzt werden. Ausschalten durch abermaliges Drücken von [H] oder durch eine deutliche Bewegung der zyklischen Steuerung.  
+Sound = speech\T102.wav
+Movie = movies\train2.bik, 0, 0, 315, 315
+Time Out = 25
+
+[Briefing 2]
+Heading = 9, HECKROTOR
+Map = images\back.pcx
+Text = 1, 1, Flug-Tipps: \n \n Der Heckrotor kann Ihre Flugrichtung nicht beeinflussen - nur Ihre Blickrichtung. Um Ihre Flugrichtung zu ändern, müssen Sie die zyklische Steuerung nach vorn drücken. Nun fliegen Sie in Blickrichtung. \n \n Benutzen Sie die zyklische Steuerung allein oder in Verbindung mit dem Heckrotor, wenn Sie in der Art eines Flugzeugs Kurven fliegen wollen. 
+Sound = speech\T103.wav
+Movie = movies\train3.bik, 0, 0, 315, 315
+Time Out = 28
+
+[Briefing 3]
+Heading = 9, IHADSS
+Map = images\back.pcx
+Text = 1, 1, IHADSS steht für Integrated Helmet And Display Sight System (Helm-integriertes Anzeige- und Sicht-System). \n Es zeigt wichtige Flug- und Waffen-Informationen, während Sie zugleich aus dem Cockpit schauen können. \n \n WEGPUNKTE WÄHLEN: \n Drücken Sie die TAB-Taste, um das Kommunikations-Menü zu öffnen. Wählen Sie Flug #1, dann die Wegpunkt-Nummer und zuletzt die Nummer des Wegpunkts, den Sie zum aktuellen machen möchten. Drücken Sie die TAB-Taste, um aus der Kommunikation wieder auszusteigen.
+Sound = speech\T104.wav
+Movie = movies\train4.bik, 0, 0, 315, 315
+Time Out = 51
+
+[Briefing 4]
+Heading = 9, EINWEISUNG
+Map = images\tmap0.pcx
+Text = 1, 1, In dieser Mission sollten Sie sich mit dem Vereinfachten Flugmodus bekannt machen. Die Mission beginnt auf Ihrem Flugplatz. Der Helikopter steht, zum Abflug bereit, auf dem Startplatz. \n Wählen Sie: [F1] um aus der Cockpit/Piloten-Sicht, oder [F4] um aus der 'Verfolger-Kamera'-Sicht zu fliegen. Drücken Sie die gewählte Taste einmal und das Spiel beginnt. \n Sollten Sie sich verfliegen, können Sie zum Flugplatz zurückkehren, indem Sie dem Winkel unter Ihrer Kompass-Anzeige hinterherfliegen.
+Sound = speech\T105.wav
+Time Out = 26
+
+Execute = 1

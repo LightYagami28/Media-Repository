@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE 
+Map = images\imap.pcx
+Text = 1, 1, Die gesamte nördliche Gruppe der Streitkräfte ist am Rande des Zusammenbruches, als BAOR durchbricht und sich nach Minsk in Marsch setzt, die Hauptstadt von Weißrussland. \n Das II. Korps hat die 20. Armeegarde, eine Kampfeinheit zerstört, während das III. Korps seine eigenen Gefechte beginnt. \n Im Süden hat das V. Korps zusammen mit der 3. Division das Dnister-Tal überquert und stürzt sich in die Flanke des 1. Ukrainischen Armeekorps.
+Sprite 0 = images\cin11.pcx, 0, 0, 0
+Sprite 1 = images\cir11.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs4.pcx
+Text = 1, 1, Im Norden ist das II. Korps durchgebrochen, steht nun im Rücken der Russen und vernichtet verschiedene Divisionen. \n Die 1. und 5. Panzer Division fahren auf Gorodok zu und haben die 2. Armeegarde und das 1. Ukrainische Armeekorps stark unter Beschuss genommen. \n Die 3. Sturm-Armee ist letztendlich zusammengebrochen und zieht sich nach Kiew zurück. \n An der gesamten Front scheint die russische Streitmacht zu brechen. Es wird von rekordverdächtigen Zahlen an Gefangennahmen im gesamten Gebiet der Korps berichtet.
+Sprite 0 = images\gercir11.pcx, 0, 0, 0
+Sprite 1 = images\gercin11.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 75, 164, 0
+Time Out = 15
+GOTOBRIEFING = 1

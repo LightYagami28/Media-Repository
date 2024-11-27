@@ -1,0 +1,18 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die gesamte nördliche Gruppe der Streitkräfte steht vor dem Zusammenbruch, während die Rheinarmee den Durchbruch schafft und in Richtung der weißrussischen Hauptstadt Minsk zieht. \n Das II. Korps hat die 20. Garde als Streitmacht zerschlagen, während das III. Korps mit seinem Angriff beginnt. \n Im Süden hat das V. Korps das Dnister-Tal mit der 3. Division durchquert und greift die Flanke des 1. Ukrainischen Korps an.
+Sprite 0 = images\cin11.pcx, 0, 0, 0
+Sprite 1 = images\cir11.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES II. KORPS
+Map = images\cs5.pcx
+Text = 1, 1, Nördlich von uns haben die 3. Armoured und das XVIII. Korps das 28. Korps eingekreist. \n Die amerikanische 1. Infantry hat die Tamanischen Garden besiegt und rückt nach Osten vor.  \n An der gesamten Front scheint der russische Widerstand zu brechen. Aus dem gesamten Gebiet des Korps wird von zahllosen Gefangenen berichtet. \n Der Feind scheint sich auf die entscheidende Verteidigung von Minsk einzurichten.
+Sprite 0 = images\ukcir11.pcx, 0, 0, 0
+Sprite 1 = images\ukcin11.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 210, 126, 0
+Label 0 = 280, 147, 155, 155, 155, 1, Minsk
+Time Out = 15
+
+GOTOBRIEFING = 1

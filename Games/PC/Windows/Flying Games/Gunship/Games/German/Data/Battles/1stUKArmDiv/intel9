@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Im Norden haben das XVIII. Korps und die Rheinarmee eine Offensive gestartet, mit der das 28. belarussische Korps eingekreist werden soll.  \n Die Angriffe des II. und III. Korps sind angesichts eines großen Gegenangriffs durch die zentralen Streitkräfte zum Erliegen gekommen. \n Im Süden ist die 1. Cavalry Division in schwere Kämpfe mit der 3. Sturm-Armee verwickelt, während sich das 8. Ukrainische Armeekorps heute Mittag ergeben hat.
+Sprite 0 = images\cin9.pcx, 0, 0, 0
+Sprite 1 = images\cir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR-SEKTOR
+Map = images\cs5.pcx
+Text = 1, 1, Die 3. Armoured hat einen Vorstoß nach Nordosten begonnen, um die 6. Panzerarmee im Bereich des XVIII. Korps abzuschneiden. \n Die 20. Garde hat mit einem Angriff begonnen, der einen Keil zwischen die Rheinarmee und das III. Korps treiben soll. Die 4. und 20. Brigade halten unsere Front, während eine Kampftruppe der 7. Brigade die Flanken der 20. Garde angreift.
+Sprite 0 = images\ukcir9.pcx, 0, 0, 0
+Sprite 1 = images\ukcin9.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 64, 248, 0
+Label 0 = 280, 147, 155, 155, 155, 1, Minsk
+Time Out = 15
+GOTOBRIEFING = 1

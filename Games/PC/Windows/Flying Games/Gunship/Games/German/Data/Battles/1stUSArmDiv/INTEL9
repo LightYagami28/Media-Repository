@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Dem XVIII. Korps und BAOR ist es gelungen, die 6. Panzerarmee einzukesseln und die beiden Armeen ziehen jetzt weiter nach Weißrussland. \n Der russische Gegenangriff kam vor dem II. Korps zum Stillstand, während das III. Korps immer noch langsam vor der Hauptstreitmacht zurückfällt. \n Im Süden zieht das V. Korps in Linie mit der 1. Cavalry Division.
+Sprite 0 = images\cin10.pcx, 0, 0, 0
+Sprite 1 = images\cir10.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES III. KORPS
+Map = images\cs4.pcx
+Text = 1, 1,  Das III. Korps hat das Kommando über die 10. Panzerdivision erhalten. Die amerikanische 1. Armored konnte den Angriff des 13. und 65. Armeekorps in den Startlöchern aufhalten. \n Die 1. und 5. Panzerdivisionen sind einige Meilen zurückgefallen, um die Verteidigungslinie zu festigen. \n Die 5. Alpine Division wurde dem II. Korps untergegliedert und zieht aus der Slowakei herauf. \n Die Russen ließen zu, dass sich eine Spalte hinter dem 1. Armeekorps bildet, die wir versuchen werden auszunutzen.
+Sprite 0 = images\gercir10.pcx, 0, 0, 0
+Sprite 1 = images\gercin10 .pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 149, 29, 0
+Time Out = 15
+GOTOBRIEFING = 1

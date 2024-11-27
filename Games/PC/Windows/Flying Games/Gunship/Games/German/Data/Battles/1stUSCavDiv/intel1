@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die russischen Streitkräfte setzen ihre Offensive entlang der Front fort. Im Norden ist die 6. Panzerarmee durchgebrochen und droht, die britische 1. Armoured zu umzingeln. \n Die schweren Kämpfe im Bereich des II. Korps dauern an, die 2. Garde-Armee bedroht Lublin. \n Das V. Korps hat den Vormarsch der Russen in die Gebirgsregionen von Slowakien verlangsamt.
+Sprite 0 = images\cin1.pcx, 0, 0, 0
+Sprite 1 = images\cir1.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES III. KORPS
+Map = images\cs3.pcx
+Text = 1, 1, Die 1. Cavalry Division zieht sich tiefer in die slowakische Wildnis zurück, um eine Umflankung durch durch die 7. und 10. Panzergarde-Divisionen zu verhindern. Die amerikanische 3. US Infantry hat mit Operationen gegen die 27. Motorschützen-Division begonnen. Allerdings ist sie kämpfend auf dem Rückzug.
+Sprite 0 = images\cavcin1.pcx, 0, 0, 0
+Sprite 1 = images\cavcir1.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 99, 169, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

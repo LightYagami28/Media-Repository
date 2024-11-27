@@ -1,0 +1,97 @@
+TITLE: Les armes de l'Apache
+BATTLEFIELD: poland 105000 32000 0 0 5 24
+ENGAGEMENT: BLUE MISSION_BLUE_DELIBERATE 0 0 90
+ENGAGEMENT: RED MISSION_RED_DEFEND_INDEPTH 0 0 270
+BLUE_ENEMIES: 80
+RUNAI: RED
+SIDE: 0
+MACHINE: 1
+PLATOON: 21 107700 31600 90 2 104300 32850 3 6
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 420
+ADDWAYPT: 101250 29300
+ORDER_ASMBLY_BATTLEPOS:
+ORDER_ADV_SLOW:
+ORDER_FORM_NOE:
+ORDER_ASMBLY_HELO_S_AND_D:
+ORDER_PRIORITY_ARMOR:
+ORDER_WPT_SETDELAYTIME: 360
+PLATOON: 51 104500 33000 270 0 106500 33200 3 1903
+ORDER_MODE_WAYPT:
+PLATOON: 45 103700 32300 270 7 106600 33200 0 1904
+ORDER_MODE_WAYPT:
+PLATOON: 60 106700 33000 270 4 107700 31600 0 1905
+ORDER_MODE_WAYPT:
+PLATOON: 37 103000 31000 270 2 104051 32046 0 1906
+ORDER_MODE_WAYPT:
+PLATOON: 38 102000 31000 270 2 103900 32400 0 1907
+ORDER_MODE_WAYPT:
+SUPPORT: 92 104400 31500 270 6 104400 31500 0 1908
+ORDER_MODE_WAYPT:
+PLATOON: 56 103500 32300 270 2 103500 32300 0 1909
+ORDER_MODE_WAYPT:
+PLATOON: 122 103600 31600 270 6 103600 31600 0 1910
+ORDER_MODE_WAYPT:
+PLATOON: 62 103600 35600 270 6 105500 33000 0 711
+ORDER_ASMBLY_BATTLEPOS:
+PLATOON: 105 103007 30641 180 6 103007 30641 1 1912
+PLATOON: 105 103007 30342 180 6 103007 30342 1 1913
+PLATOON: 105 103007 30181 180 6 103007 30181 1 1914
+PLATOON: 69 103200 31100 270 6 103200 31100 1 1915
+ 
+ [Briefing 0]
+Heading = 9, MISSION
+Map = images\MFN1.pcx
+Text = 1, 1, Dans le cadre de cette mission, vous piloterez un AH-64D Apache. \n Volez en direction des points tournants et éliminez tous les ennemis que vous rencontrerez. \n Le point tournant n°1 se trouve dans la ville. \n Le point tournant n°2 se trouve au dessus de l'aérodrome. \n Sélectionnez le point tournant souhaité, et volez en direction du chevron de l'IHADSS. \nCLIQUEZ SUR " DECOLLER " POUR LANCER LA PARTIE. 
+Sprite 0 = images\uahb.pcx, 204, 142, 0
+Sprite 1 = images\uwpbp.pcx, 137, 157, 0
+Sprite 2 = images\uwpbp.pcx, 73, 84, 0
+Label 0 = 165, 131, 10, 10, 10, 1, Point de départ
+Label 1 = 164, 130, 99, 99, 208, 1, Point de départ 
+Label 2 = 127, 183, 10, 10, 10, 1, Pt tourn. n°1
+Label 3 = 126, 182, 99, 99, 208, 1, Pt tourn. n°1
+Label 4 = 64, 72, 10, 10, 10, 1, Pt tourn. n°2
+Label 5 = 63, 71, 99, 99, 208, 1, Pt tourn. n°2
+Time Out = 15
+[Briefing 1]
+Heading = 9, FORCES ENNEMIES
+Map = images\MFN1.pcx
+Text = 1, 1, La position générale et le type de toutes les forces ennemies sont indiqués sur la carte. Rappelez-vous que ces unités peuvent se déplacer. \n Employez à chaque fois l'arme la plus adaptée à la cible. Ils ne s'y attendront pas. \n Amusez-vous bien.
+Sprite 0 = images\rifvp1.pcx, 130, 201, 0
+Sprite 1 = images\rifvp1.pcx, 100, 165, 0
+Sprite 2 = images\rcavp.pcx, 216, 201, 0
+Sprite 3 = images\rtnkp.pcx, 72, 122, 0
+Sprite 4 = images\rtnkb.pcx, 29, 116, 0
+Sprite 5 = images\rspgb.pcx, 127, 136, 0
+Sprite 6 = images\rsam4b.pcx, 18, 106, 0
+Sprite 7 = images\radv2b.pcx, 58, 145, 0
+Sprite 8 = images\rahb.pcx, 94, 285, 0
+Sprite 9 = images\radv2b.pcx, 41, 66, 0
+Sprite 10 = images\uahb.pcx, 258, 143, 0
+Label 0 = 72, 115, 10, 10, 10, 1, ZPU
+Label 1 = 71, 114, 255, 0, 0, 1, ZPU
+Label 2 = 129, 217, 10, 10, 10, 1, BTR
+Label 3 = 128, 216, 255, 0, 0, 1, BTR
+Label 4 = 98, 181, 10, 10, 10, 1, BMP
+Label 5 = 97, 180, 255, 0, 0, 1, BMP
+Label 6 = 211, 217, 10, 10, 10, 1, BRDM
+Label 7 = 210, 216, 255, 0, 0, 1, BRDM
+Label 8 = 69, 138, 10, 10, 10, 1, T80
+Label 9 = 68, 137, 255, 0, 0, 1, T80
+Label 10 = 25, 141, 10, 10, 10, 1, T80hq
+Label 11 = 24, 140, 255, 0, 0, 1, T80hq
+Label 12 = 126, 150, 10, 10, 10, 1, SPG
+Label 13 = 125, 149, 255, 0, 0, 1, SPG
+Label 14 = 79, 194, 10, 10, 10, 1, ZSU/SA13
+Label 15 = 78, 193, 255, 0, 0, 1, ZSU/SA13
+Label 16 = 87, 303, 10, 10, 10, 1, Havoc
+Label 17 = 86, 302, 255, 0, 0, 1, Havoc
+Time Out = 20
+Execute = 1
+

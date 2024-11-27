@@ -1,0 +1,18 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, 7th brigade, 1st Armoured (UK) is still surrounded, as BAOR holds east of the Vistula. \n Heavy fighting continues in II Corps area. The Assault on Lublin has begun, as most of II Corps struggles to prevent further breakthroughs. \n In Slovakia, the situation has become a large fluid running battle, with neither side gaining a clear advantage. \n Russian forces have taken tremendous casualties, and some units are rotating out of the battle.
+Sprite 0 = images\cin3.pcx, 0, 0, 0
+Sprite 1 = images\cir3.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, II Corps SECTOR
+Map = images\cs2.pcx
+Text = 1, 1, 1st Armored has stabilized on the final defensive line in front of Warsaw, and the 13th Ukrainian Corps has been bled white. The 3rd Brigade is reforming near Sobolew. \n The 16th Guards Tank has been committed to the assault on Lublin. However, the rest of 2nd Guards army appears to be regrouping. \n 10th Panzer has fallen back to the Vistula in good condition, and is preparing for a counter thrust. 
+Sprite 0 = images\gercin3.pcx, 0, 0, 0
+Sprite 1 = images\gercir3.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 167, 8, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+

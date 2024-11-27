@@ -1,0 +1,22 @@
+[Briefing 0]
+Heading = 9, NATO ORGANIZATION
+Map = images\imap.pcx
+Text = 1, 1, The US XVIII Corps is now in control of the 1st Marine, 24th Infantry and 82nd Airborne divisions. \n BAOR has the British 1st and 3rd Armoured divisions. \n US III Corps has command of the US 1st Armored and 1st Infantry Divisions. \n German II Corps has the 1st 5th and 10th Panzer divisions. \n US V Corps commands the 1st Cav, 3rd Infantry, 5th Alpine, and the newly arrived US 10th Mountain division.
+Sprite 0 = images\cin6.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Along the entire Polish front, the NATO forces have reached the Russian Border. In Slovakia, the 8th Ukrainian Army Corps has been cut off, while the remnants of 3rd Shock army attempt to break through to them. \n In general, Russian forces are attempting to trade space for time to reorganize and bring up fresh forces.
+Sprite 0 = images\cin6.pcx, 0, 0, 0
+Sprite 1 = images\cir6.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, II Corps SECTOR
+Map = images\imap.pcx
+Text = 1, 1, 1st and 10th Panzer divisions are advancing past the Russian boarder. 5th Panzer has been pulled out of the line for a brief refit period, although its aviation units are being used for deep strike missions. 
+Sprite 0 = images\cin6.pcx, 0, 0, 0
+Sprite 1 = images\cir6.pcx, 0, 0, 0
+Time Out = 15
+GOTOBRIEFING = 1
+

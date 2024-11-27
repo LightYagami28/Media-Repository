@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1,North Group of Forces has begun Surrender proceedings with BOAR. Central Group of Forces is continuing the Attack on 5th Panzer Division. South Group of Forces has been mildly reinforced and re-supplied and is beginning its counter attack.
+Sprite 0 = images\rcin9.pcx, 0, 0, 0
+Sprite 1 = images\rcir9.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, GUARDS SECTOR
+Map = images\cs4.pcx
+Text = 1, 1, We have been transferred to support the 3rd Shock Army in its counterattack against the US 1st Cavalry. In the south the 8th Ukrainian is attacking the 5th German Infantry and the 32nd MRD is attacking the 3rd US Infantry. 
+Sprite 0 = images\ruscin9.pcx, 0, 0, 0
+Sprite 1 = images\ruscir9.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 74, 276
+Time Out = 15
+GOTOBRIEFING = 1
+

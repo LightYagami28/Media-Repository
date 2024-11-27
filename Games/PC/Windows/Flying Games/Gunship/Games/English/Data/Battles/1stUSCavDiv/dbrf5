@@ -1,0 +1,22 @@
+[WIN]
+movie = movies\lossfivew.bik
+Heading = 9, STATUS
+Map = images\Muc5.pcx
+Text = 1, 1, Well done! With the survival of the convoy, we may now continue our pursuit of the 3rd Shock Army into the Ukraine. Rest up, your next mission won't be for a couple of days. 
+Sprite 0 = images\uahb.pcx, 176, 286, 0
+Sprite 1 = images\usupb.pcx, 165, 278, 0
+Sprite 2 = images\uarrownw.pcx, 148, 257, 0
+Label 0 = 165, 290, 0, 0, 200, 1, Shield
+Time Out = 15
+
+[Lose]
+movie = movies\winfivew.bik
+Heading = 9, STATUS
+Map = images\muc5.pcx 
+Text = 1, 1, You have failed to accomplish your mission. Without those mission critical supplies we are slowed to a snail's pace allowing the 3rd Shock Army to dig in. This conflict has just become open to the possibility of nuclear release. \n \n Select "Fly Again" to refly this mission.
+Sprite 0 = images\uahb.pcx, 176, 286, 0
+Sprite 1 = images\usupb.pcx, 165, 278, 0
+Sprite 2 = images\uarrownw.pcx, 148, 257, 0
+Label 0 = 165, 290, 0, 0, 200, 1, Shield 
+Time Out = 15
+

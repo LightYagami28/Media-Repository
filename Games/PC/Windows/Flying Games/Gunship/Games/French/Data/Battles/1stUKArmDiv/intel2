@@ -1,0 +1,21 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Les forces russes poursuivent leur offensive sur tout le front. Au nord, la 6e armée blindée a percé, faisant courir à la 1e DB britannique le risque d'être encerclée. \n D'intenses combats se poursuivent dans le secteur du IIe corps, et la 2e de la garde menace Lublin. \n Le Ve corps a ralenti la progression du GFS russe dans les régions montagneuses de Slovaquie.
+Sprite 0 = images\cin1.pcx, 0, 0, 0
+Sprite 1 = images\cir1.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR DE LA BAOR
+Map = images\cs1.pcx
+Text = 1, 1, Le corps a perdu le contact avec la 24e d'infanterie, qui tentait de stabiliser le front à l'ouest de la Vistule. \n  La 3e DB a entamé un repli majeur afin de reprendre contact avec la 24e et d'éviter une percée du 5e corps. \n Dans le secteur de la 1e DB, les 7e et 4e brigades tiennent le choc, mais la 6e armée blindée a percé les positions de la 20e brigade dans la région de Bialystok.
+Label 0 = 271, 296, 155, 155, 155, 1, Bialystok
+Label 1 = 1, 22, 155, 155, 155, 1, Kaliningrad
+Label 2 = 231, 193, 155, 155, 155, 1, Augustov
+Label 3 = 183, 25, 155, 155, 155, 1, Grajevo
+Sprite 0 = images\ukcin2.pcx, 0, 0, 0
+Sprite 1 = images\ukcir2.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 183, 206, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

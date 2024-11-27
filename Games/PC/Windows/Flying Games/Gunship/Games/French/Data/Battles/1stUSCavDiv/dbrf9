@@ -1,0 +1,20 @@
+[WIN]
+Heading = 9, SITUATION
+Map = images\Muc9.pcx
+Text = 1, 1, Les pilotes vous ont envoyé une caisse de bière pour vous remercier. Bien joué !
+Sprite 0 = images\uahb.pcx, 8, 186, 0
+Sprite 1 = images\uobjs.pcx, 176, 28, 0
+Sprite 2 = images\rinfp.pcx, 281, 67, 0
+Sprite 3 = images\rinfp.pcx, 252, 218, 0
+Time Out = 15
+
+[Lose]
+Heading = 9, SITUATION
+Map = images\muc9.pcx 
+Text = 1, 1, Une mission vitale a été annulée pour que vous puissiez effectuer celle-ci, et vous avez échoué. L'issue de cette mission est inacceptable. \n\n\n Sélectionner " REJOUER " pour effectuer de nouveau cette mission.
+Sprite 0 = images\uahb.pcx, 8, 186, 0
+Sprite 1 = images\uobjs.pcx, 176, 28, 0
+Sprite 2 = images\rinfp.pcx, 281, 67, 0
+Sprite 3 = images\rinfp.pcx, 252, 218, 0
+Time Out = 15
+

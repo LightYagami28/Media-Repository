@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die 7. Brigade der britischen 1. Armoured ist umzingelt, obwohl die Britische Rheinarmee insgesamt den russischen Vormarsch offensichtlich aufhalten kann. \n Die schweren Kämpfe im Bereich des II. Korps dauern an, die 5. Panzer kämpft immer noch in der Gegend von Lublin und und die amerikanische 1. Armored muss Verluste hinnehmen. \n Das V. Korps setzt seinen Zermürbungskampf in Slowakien fort.
+Sprite 0 = images\cin2.pcx, 0, 0, 0
+Sprite 1 = images\cir2.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SEKTOR DES III. KORPS
+Map = images\cs3.pcx
+Text = 1, 1, Die 1. Cavlary hat ihre erste Offensive gegen die Russen gestartet. Diese Linie wird sich hoffentlich lang genug stabilisieren, um fortgesetzte Offensiven gegen die 3. Sturm-Armee starten zu können. Gleichzeitig bewegt sich die 1. Cavalry nach Norden, um nicht von den 7. und 10. Garden umflankt zu werden, wodurch die 3. Infantry allein gegen die 47. Panzergarden und 27. Motorschützen-Division steht. 
+Sprite 0 = images\cavcin2.pcx, 0, 0, 0
+Sprite 1 = images\cavcir2.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 115, 179, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

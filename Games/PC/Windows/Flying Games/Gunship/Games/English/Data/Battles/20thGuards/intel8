@@ -1,0 +1,21 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, 20th Guards is engaging the 5th Panzer. Central Group of Forces is still Pushing the entire Front Back. South Group of Forces stopped and is holding the 1st 5th Corp in place. 32nd Ukrainian MRD is preparing to counterattack. North Group of Forces is still holding BOAR in place.
+Sprite 0 = images\rcin7.pcx, 0, 0, 0
+Sprite 1 = images\rcir7.pcx, 0, 0, 0
+Time Out = 15
+
+[Briefing 1]
+Heading = 9, GUARDS SECTOR
+Map = images\cs2.pcx
+Text = 1, 1, 1st infantry is still holding out against both 20th GA and 13th Ukrainian. 2nd Taman Guards and the 13th MRD are engaging 5th Panzer Division. 2nd Guards Army is being held at bay for the time being. 10th Panzer is still falling back to protect its northern flank from attack and 1st Ukrainian has followed up.
+Sprite 0 = images\ruscin8.pcx, 0, 0, 0
+Sprite 1 = images\ruscir8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 58, 136, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+
+
+

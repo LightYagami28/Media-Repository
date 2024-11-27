@@ -1,0 +1,17 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Les forces russes reculent sur l'ensemble du front. Le Rens. confirme que leurs pertes ont été d'un niveau catastrophique dans de nombreuses unités. On ignore encore combien de temps cette situation va durer. 
+Sprite 0 = images\cin5.pcx, 0, 0, 0
+Sprite 1 = images\cir5.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du Ve CORPS
+Map = images\cs3.pcx
+Text = 1, 1, La 3e armée de choc se replie en ce moment à toute vitesse en direction de l'Ukraine. La 72e blindée de la garde demeure afin de couvrir le reste des unités du nord. La 1e de cavalerie a commencé sa poursuite, mais souffre de problèmes de logistique, de raids sur ses arrières et aurait besoin de se réorganiser et de remplacer les équipements détruits. 
+Sprite 0 = images\cavcir5.pcx, 0, 0, 0
+Sprite 1 = images\cavcin5.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 91, 142, 0
+Time Out = 15
+
+GOTOBRIEFING = 1

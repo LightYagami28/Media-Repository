@@ -1,0 +1,30 @@
+[Briefing 0]
+Heading = 9, MISE A JOUR DE LA CAMPAGNE
+Map = images\imap.pcx
+Text = 1, 1, Après la destruction, lors de la percée principale, de trois divisions de la 6e armée blindée, l'OTAN a poursuivi sa progression. \n La 1e DB britannique a quitté le front pour quelques jours de repos afin de reconstituer la 7e brigade, qui a subi de lourdes pertes pendant son encerclement. \n La 1e DB regagne les lignes en ce moment, afin de continuer l'avance de l'OTAN sur Minsk. 
+Sprite 0 = images\cir8.pcx, 0, 0, 0
+Sprite 1 = images\cin8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, ORGANISATION DE L'OTAN
+Map = images\imap.pcx
+Text = 1, 1, Le XVIIIe corps américain commande désormais la 1e division de Marines et les 24e et 82e divisions. \n La BAOR comprend les 1e et 3e DB tandis que la 2e DB fait route depuis la Grande-Bretagne. \n Le IIIe corps US dirige les 1e DB et 1e DI. \n Le IIe corps allemand comprend les 1e, 5e et 10e divisions de Panzer. \n Le Ve corps US dirige la 1e division de cavalerie, la 3e DI, la 5e division alpine et la 10e division de montagne américaine récemment arrivée.
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 2]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le front se solidifie en face du XVIIIe Corps. La BAOR, le IIe et le IIIe corps poursuivent leur avance en Bélarus et en Ukraine. Au sud, la 1e division de cavalerie a repris le contact avec une 3e armée de choc renforcée, tandis que le 8e corps d'armée ukrainien tient bon.
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Sprite 1 = images\cir8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 3]
+Heading = 9, SECTEUR DE LA BAOR
+Map = images\cs5.pcx
+Text = 1, 1, Les Russes ont réussi à éviter que leur retraite se transforme en déroute. La résistance a commencé à s'affermir un peu au moment où nos troupes sont arrivées à portée de Minsk, la capitale du Bélarus. \n La 20e armée de la garde a subi des pertes moins lourdes que la majorité des autres unités, et conserve ses deux meilleures divisions en réserve. Nous ne pouvons plus, désormais, espérer progresser rapidement.
+Sprite 0 = images\ukcir8.pcx, 0, 0, 0
+Sprite 1 = images\ukcin8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 59, 165, 0
+Label 0 = 280, 147, 155, 155, 155, 1, Minsk
+Time Out = 15
+GOTOBRIEFING = 1

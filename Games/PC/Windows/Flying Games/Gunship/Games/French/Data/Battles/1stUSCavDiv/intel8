@@ -1,0 +1,16 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, Le front se solidifie en face du XVIIIe Corps. La BAOR, le IIe et le IIIe corps poursuivent leur avance en Bélarus et en Ukraine. Au sud, la 1e division de cavalerie a repris le contact avec une 3e armée de choc renforcée, tandis que le 8e corps d'armée ukrainien tient bon.
+Sprite 0 = images\cin8.pcx, 0, 0, 0
+Sprite 1 = images\cir8.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, SECTEUR du Ve CORPS
+Map = images\cs4.pcx
+Text = 1, 1,La 1e division de cavalerie poursuit sa campagne contre les aérodromes de la 106e division aérienne de la garde, qui gêne ses opérations terrestres depuis le premier jour. La 3e armée de choc a pris position en vue d'entamer une nouvelle offensive qui devrait probablement débuter durant les prochaines 24 heures.
+Sprite 0 = images\gercir8.pcx, 0, 0, 0
+Sprite 1 = images\cavcin8.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 107, 251, 0
+Time Out = 15
+GOTOBRIEFING = 1

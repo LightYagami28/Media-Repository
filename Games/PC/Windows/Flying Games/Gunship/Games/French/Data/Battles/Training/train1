@@ -1,0 +1,109 @@
+TITLE: Armements
+BATTLEFIELD: czech 118085 23622 0 0 5 24
+OBJECTIVE: BLUE ONEKRADIUS 118085 23622 14 
+BLUE_ENEMIES: 100
+SIDE: 0
+MACHINE: 1
+PLATOON: 142 118085 23622 90 2 113500 24603 101
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_ASMBLY_BATTLEPOS
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_PRIORITY_HQ:
+ADDWAYPT: 114900 20500
+ORDER_ASMBLY_BATTLEPOS
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_PRIORITY_HQ:
+ADDWAYPT: 119200 25700
+ORDER_ASMBLY_BATTLEPOS
+ORDER_WPT_SETDELAYTIME: 180
+ORDER_PRIORITY_ARMOR:
+ADDWAYPT: 118085 23622
+ORDER_ASMBLY_LZ
+PLATOON: 141 112500 23902 270 6 112500 23902 3 1902
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 141 112300 23902 270 6 112300 23902 3 1907
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 68 115000 18000 180 6 115000 18000 3 1903
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 122 115050 18050 90 8 115050 18050 3 1904
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 103 120085 28622 0 7 120085 28622 3 1905
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+PLATOON: 103 119085 29622 0 7 119085 26622 3 1906
+ORDER_MODE_WAYPT:
+ORDER_WPT_CURRENT: 1
+ORDER_WPT_SETDELAYTIME: 1200
+ 
+[Title]
+TITLE = ARMEMENTS
+
+[Sounds]
+InGame = speech\T211.wav, speech\T212.wav, speech\T213.wav, speech\T214.wav, speech\T215.wav, speech\t116.wav, speech\t117.wav, speech\t119.wav 
+
+[Briefing 0]
+Heading = 9, SELECTION DES ARMEMENTS
+Map = images\back.pcx
+Text = 1, 1, Touches de sélection : \n \n [F5] - Canon \n [F6] - Roquettes \n [F7] - Missiles antichar \n [F8] - Missiles air-air \n \n [F6] fait défiler les trois zones de roquettes A, B et C. Chaque zone peut emporter un type de roquettes spécifique. \n \n [F7] fait défiler les différents types de missiles antichar embarqués. Dans la plupart des missions, vous n'emporterez qu'un seul type de missile.
+Sound = speech\T201.wav
+Movie = movies\train21.bik, 0, 0, 315, 315
+Time Out = 46
+
+[Briefing 1]
+Heading = 9, SYMBOLES IHADSS
+Map = images\back.pcx
+Text = 1, 1, En mode LOS, le réticule du canon et des roquettes apparaît au centre de l'IHADSS et suit votre regard. \n En mode TADS, le réticule suit les recherches du tireur, et est affiché dans la case de cible verrouillée. \n \n Si l'arme actuellement sélectionnée peut tirer, le réticule sera affiché en traits pleins. Dans le cas contraire, il apparaîtra en pointillés. Vous verrez également la mention " CONTRAINTE ". Cela signifie que l'arme est hors de son arc d'acquisition/tir.
+Movie = movies\train22.bik, 0, 0, 315, 315
+Sound = speech\T202.wav
+Time Out = 49
+
+[Briefing 2]
+Heading = 9, MODE LOS
+Map = images\back.pcx
+Text = 1, 1, Touches du mode LOS : \n \n  Le chapeau chinois vous permet d'orienter le regard pendant que vous pilotez. \n \n Maintenir le bouton 2 du joystick enfoncé vous permet de faire de même en déplaçant le manche. \n \n [B] Mode armement. \n [I] Modes IHADSS. \n [T] Vision thermique. \n [W] Zoom avant. \n [X] Zoom arrière. \n \n [F5] - Canon \n [F6] - Roquettes \n [F7] - Missiles antichar \n [F8] - Missiles air-air
+Sound = speech\T203.wav
+Movie = movies\train23.bik, 0, 0, 315, 315
+Time Out = 61
+
+[Briefing 3]
+Heading = 9, MODE TADS 
+Map = images\back.pcx
+Text = 1, 1, Touches du mode TADS : \n \n [B] Mode armement. \n [L] Verrouiller la cible. \n [J] Cible précédente. \n [K] Cible suivante. \n \n [F5] - Canon \n [F6] - Roquettes \n [F7] - Missiles antichar \n [F8] - Missiles air-air
+Sound = speech\T204.wav
+Movie = movies\train24.bik, 0, 0, 315, 315
+Time Out = 38
+
+[Briefing 4]
+Heading = 9, BRIEFING
+Map = images\tmap1.pcx
+Text = 1, 1, La position de combat n°1 présente deux pelotons de BMP à l'ouest et au sud-ouest. \n La position de combat n°2 présente plusieurs camions et tentes logistiques au nord. \n La position de combat n°3 permet de voir 2 pelotons de chars situés à 4 km au sud. \n Appuyez sur Maj Q pour quitter la partie.
+Sound = speech\T105.wav
+Sprite 0 = images\uahb.pcx, 154, 157, 0
+Sprite 1 = images\uwpbp.pcx, 93, 82, 0
+Sprite 2 = images\uwpbp.pcx, 70, 172, 0
+Sprite 3 = images\uwpbp.pcx, 187, 188, 0
+Sprite 4 = images\rtnkp.pcx, 199, 275, 0
+Sprite 5 = images\rtnkp.pcx, 177, 286, 0
+Sprite 6 = images\rifvp1.pcx, 46, 179, 0
+Sprite 7 = images\rsupb.pcx, 103, 44, 0
+Line 0 = 155, 155, 155, 162, 166, 78, 195
+Line 1 = 155, 155, 155, 78, 195, 101, 105
+Line 2 = 155, 155, 155, 101, 105, 194, 211
+Label 0 = 89, 176, 10, 10, 10, 1, n°1
+Label 1 = 88, 175, 99, 99, 208, 1, n°1
+Label 2 = 112, 86, 10, 10, 10, 1, n°2
+Label 3 = 111, 85, 99, 99, 208, 1, n°2
+Label 4 = 206, 192, 10, 10, 10, 1, n°3
+Label 5 = 205, 191, 99, 99, 208, 1, n°3
+Time Out = 25
+Execute = 1

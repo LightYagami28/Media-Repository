@@ -1,0 +1,15 @@
+[Briefing 0]
+Heading = 9, LAGE
+Map = images\imap.pcx
+Text = 1, 1, Die gesamte nördliche Gruppe steht nach dem Durchbruch der BAOR in Richtung Minsk vor dem Zusammenbruch. \n Das II. Korps hat die 20. Garde als kämpfende Einheit zerstört, während das III. Korps mit seinem eigenen Angriff beginnt. \n Im Süden hat das V. Korps das Dnister-Tal mit der 3. Division überquert und greift nun die Flanke des 1. Ukrainischen Korps an.
+Sprite 0 = images\cin11.pcx, 0, 0, 0
+Sprite 1 = images\cir11.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, BAOR-SEKTOR
+Map = images\cs5.pcx
+Text = 1, 1, Nördlich von uns hat die amerikanische 1. Infantry Division den Kampf gegen die 2. Tamanische Garde in Baranovichi übernommen. \n Die britische 2. Division ist zwischen der 1. und 3. Division in Stellung gegangen. \n Die 3rd Division setzt die Angriffe nach Norden fort und hat das 28. Korps eingekreist. \n Im Abschnitt der 1. Division haben die Russen den Kontakt abgebrochen und ziehen nun nach Osten.
+Sprite 0 = images\cavcin10.pcx, 0, 0, 0
+Sprite 1 = images\gercir11.pcx, 0, 0, 0
+Time Out = 15
+GOTOBRIEFING = 1

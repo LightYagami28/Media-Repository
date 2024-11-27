@@ -1,0 +1,18 @@
+[Briefing 0]
+Heading = 9, SITUATION
+Map = images\imap.pcx
+Text = 1, 1, All along the front, Russian forces are falling back. Intelligence now confirms that their casualties have been nearly catastrophic in many units. It is unknown how long this situation will last. 
+Sprite 0 = images\cin5.pcx, 0, 0, 0
+Sprite 1 = images\cir5.pcx, 0, 0, 0
+Time Out = 15
+[Briefing 1]
+Heading = 9, V Corps SECTOR
+Map = images\cs3.pcx
+Text = 1, 1, The 3rd shock army is now withdrawing towards the Ukraine at top speed. The 72nd Guards Tank is remaining to provide a covering force for the rest of the northern units. 1st Cavalry has started pursuit but is suffering from low supplies, rear area raids and needs a chance to reorganize and replace lost equipment. 
+Sprite 0 = images\cavcir5.pcx, 0, 0, 0
+Sprite 1 = images\cavcin5.pcx, 0, 0, 0
+Sprite 2 = images\opsarea.pcx, 91, 142, 0
+Time Out = 15
+
+GOTOBRIEFING = 1
+
